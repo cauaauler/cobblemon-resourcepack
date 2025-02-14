@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ashrowlet",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ashrowlet",
+      "model": "cobblemon:ashrowlet.geo",
+      "texture": "cobblemon:textures/pokemon/ashrowlet/ashrowlet.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ashrowlet/ashrowlet.png"
+    }
+  ]
+}

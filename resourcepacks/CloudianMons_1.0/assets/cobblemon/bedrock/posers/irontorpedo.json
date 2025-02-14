@@ -1,0 +1,100 @@
+{
+  "head": "head",
+  "portraitScale": 1.97,
+  "portraitTranslation": [-0.6, -1.46, 0 ],
+  "profileScale": 0.9,
+  "profileTranslation": [ 0, 0.3, 0 ],
+  "cry":  "bedrock(irontorpedo, cry)",
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 3,
+      "poseTypes": [ "STAND" ],
+      "isBattle": true,
+      "animations": [
+		"bedrock(irontorpedo, battle_idle)"
+		],
+	  "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(irontorpedo, blink)"
+          ]
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 5,
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "look",
+        "bedrock(irontorpedo, ground_idle)"
+      ],
+	  "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(irontorpedo, blink)"
+          ]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ "look",
+                      "bedrock(irontorpedo, ground_walk)" ],
+                      "quirks": [
+                          {
+                            "name": "blink",
+                            "animations": [
+                              "bedrock(irontorpedo, blink)"
+                            ]
+                          }
+                        ]
+    },
+	"swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": [ "SWIM" ],
+      "animations": [ "look",
+                      "bedrock(irontorpedo, water_swim)" ],
+                      "quirks": [
+                          {
+                            "name": "blink",
+                            "animations": [
+                              "bedrock(irontorpedo, blink)"
+                            ]
+                          }
+                        ]
+    },
+	"floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": [ "FLOAT" ],
+      "animations": [ "look",
+                      "bedrock(irontorpedo, water_idle)" ],
+	  "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(irontorpedo, blink)"
+          ]
+        }
+      ]
+    },
+	"sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [ "SLEEP" ],
+      "animations": [ "bedrock(irontorpedo, sleep)" ]
+    }
+  }
+}

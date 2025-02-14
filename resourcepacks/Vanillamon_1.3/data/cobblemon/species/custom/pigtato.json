@@ -1,0 +1,105 @@
+{  
+"implemented": true,
+"name": "pigtato",
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.pigtato.desc1"
+],
+"height": 1.3,
+"weight": 16,
+"shoulderMountable": false,
+"primaryType": "ground",
+"baseStats": {
+  "hp": 45,
+  "attack": 25,
+  "defence": 60,
+  "special_attack": 15,
+  "special_defence": 45,
+  "speed": 30
+},
+"catchRate": 255,
+"maleRatio": 0.5,
+"baseExperienceYield": 48,
+"experienceGroup": "medium_fast",
+"eggCycles": 20,
+"eggGroups": [
+  "field"
+],
+"baseFriendship": 35,
+"evYield": {
+  "defence": 1
+},
+"moves": [
+  "1:mudslap",
+  "1:mudsport",
+  "6:poisonpowder",
+  "9:nastyplot",
+  "12:rocksmash",
+  "17:knockoff",
+  "21:ingrain",
+  "23:stealthrock",
+  "28:snarl",
+  "34:mudshot",
+  "36:dig",
+  "38:bulkup",
+  "40:taunt"
+],
+"abilities": [
+  "stench",
+  "thickfat",
+  "h:heavymetal"
+],
+"evolutions": [
+    {
+        "id": "pigtato_tunnaboar_lvl",
+        "variant": "level_up",
+        "result": "tunnaboar",
+        "consumeHeldItem": false,
+        "learnableMoves": ["belch"],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 42
+          }
+        ]
+      }
+    ],
+    "baseScale": 0.85,
+    "hitbox": {
+      "width": 1,
+      "height": 0.6,
+      "fixed": false
+    },
+    "drops": {
+    "amount": "1",
+      "entries": [
+        {
+          "item": "minecraft:porkchop",
+          "quantityRange": "1-2",
+          "percentage": 75
+        }, 
+        {
+            "item": "minecraft:mud",
+            "quantityRange": "1-2",
+            "percentage": 20
+         }
+      ]
+    },
+    "behaviour": {
+      "moving": {
+        "canLook": true,
+        "fly": {
+          "canFly": false
+        },          
+        "swim": {
+          "swimSpeed": 0.2,
+          "canSwimInWater": false,
+          "canBreatheUnderwater": false
+        }
+      }
+    }
+  
+
+
+
+}

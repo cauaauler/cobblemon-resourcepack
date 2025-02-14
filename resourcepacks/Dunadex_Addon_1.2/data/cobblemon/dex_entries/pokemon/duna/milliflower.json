@@ -1,0 +1,15 @@
+{
+	"id": "cobblemon:milliflower",
+	"speciesId": "cobblemon:milliflower",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": [
+				"Normal"
+			]
+		}
+	],
+	"variations": []
+}

@@ -1,0 +1,27 @@
+{
+  "cobblemon.starterselection.category.kanto": "kanto",
+  "cobblemon.starterselection.category.johto": "johto",
+  "cobblemon.starterselection.category.hoenn": "hoenn",
+  "cobblemon.starterselection.category.sinnoh": "sinnoh",
+  "cobblemon.starterselection.category.unova": "unova",
+  "cobblemon.starterselection.category.kalos": "kalos",
+  "cobblemon.starterselection.category.alola": "alola",
+  "cobblemon.starterselection.category.galar": "galar",
+  "cobblemon.starterselection.category.paldea": "paldea",
+  "cobblemon.starterselection.category.cloudian": "cloudian",
+
+
+  "cobblemon.entity.pokemon": "pokemon",
+
+  "cobblemon.species.jellynit.name":"Jellynit",
+  "cobblemon.species.jellynit.desc": "Een jonge Pokémon die bij het meer aan zee leeft, houdt van zwemmen en kan lopen, maar als ze te lang uit het water blijven, worden ze zwak.",
+  "cobblemon.species.medutox.name":"medutox",
+  "cobblemon.species.medutox.desc": "Groeiende voorpoten, in staat om op het land te bewegen en hoewel langzamer, in staat om zeer snel in het water te bewegen.",
+  "cobblemon.species.abyssringe.name":"Abyssringe",
+  "cobblemon.species.abyssringe.desc": "1",
+  "cobblemon.species.cariolus.name": "Cariolus",
+  "cobblemon.species.pumett.desc1": "1",
+  "cobblemon.species.snijumrat.name": "Snijurat",
+  "cobblemon.species..desc1": "1"
+
+}

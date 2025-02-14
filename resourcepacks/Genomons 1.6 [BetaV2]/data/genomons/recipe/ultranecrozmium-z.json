@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MGS",
+    "GNG",
+    "SGM"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "M": {
+      "item": "cobblemon:moon_stone_block"
+    },
+    "S": {
+      "item": "cobblemon:sun_stone_block"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "id": "minecraft:feather",
+    "components": {
+      "minecraft:custom_model_data": 8003,
+      "minecraft:custom_name": "\"Ultranecrozmium-Z\"",
+      "minecraft:lore": [
+        "\"A Crystal that can unleash all of necrozmas power\""
+      ],
+      "minecraft:rarity": "uncommon"
+    },
+    "count": 1
+  }
+}

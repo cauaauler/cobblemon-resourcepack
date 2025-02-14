@@ -1,0 +1,39 @@
+{
+  "portraitScale": 2.15,
+  "portraitTranslation": [-0.05, 2.55, 0],
+  "profileScale": 0.59,
+  "profileTranslation": [0, 1.19, 0],
+  "rootBone": "polteageist_coterian",
+  "animations": {
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "FLOAT", "PORTRAIT", "PROFILE", "NONE"],
+      "animations": ["q.bedrock('polteageist_coterian', 'ground_idle')"],
+     "quirks": [ "q.bedrock_quirk('polteageist_coterian', 'blink')"]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('polteageist_coterian', 'battle_idle')"
+      ],
+     "quirks": [ "q.bedrock_quirk('polteageist_coterian', q.array('blink', 'b'))"]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.bedrock('polteageist_coterian', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('polteageist_coterian', 'blink')"]
+    },
+    
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('polteageist_coterian', 'sleep')"]
+    }
+  }
+}

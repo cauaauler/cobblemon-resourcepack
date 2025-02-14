@@ -1,0 +1,92 @@
+{
+  "head": "head",
+  "portraitScale": 1.8,
+  "portraitTranslation": [ 0, 0, 0 ],
+  "profileScale": 0.8,
+  "profileTranslation": [ 0, 0.4, 0 ],
+  "faint": "bedrock(petrillop, faint)",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 5,
+      "poseTypes": [ "STAND", "NONE", "PORTRAIT", "PROFILE" ],
+      "animations": [ "look", "bedrock(petrillop, ground_idle)" ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [ "bedrock(petrillop, blink)" ]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 5,
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "look",
+        "bedrock(petrillop, ground_walk)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [ "bedrock(petrillop, blink)" ]
+        }
+      ]
+    },
+    "hover": {
+      "poseName": "hover",
+      "transformTicks": 5,
+      "poseTypes": [ "HOVER", "FLOAT" ],
+      "animations": [
+        "look",
+        "bedrock(petrillop, air_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [ "bedrock(petrillop, blink)" ]
+        }
+      ]
+    },
+    "fly": {
+      "poseName": "fly",
+      "transformTicks": 5,
+      "poseTypes": [ "FLY", "SWIM" ],
+      "animations": [
+        "look",
+        "bedrock(petrillop, air_fly)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [ "bedrock(petrillop, blink)" ]
+        }
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 5,
+      "poseTypes": [ "FLOAT" ],
+      "animations": [
+        "look",
+        "bedrock(petrillop, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [ "bedrock(petrillop, blink)" ]
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "bedrock(petrillop, sleep)"
+      ]
+    }
+  }
+}

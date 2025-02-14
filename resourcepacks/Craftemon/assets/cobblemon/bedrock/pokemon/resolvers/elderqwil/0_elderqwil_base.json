@@ -1,0 +1,20 @@
+{
+ "species": "cobblemon:elderqwil",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:elderqwil",
+     "model": "cobblemon:elderqwil.geo",
+     "texture": "cobblemon:textures/pokemon/elderqwil/elderqwil.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/elderqwil/elderqwil_shiny.png",
+	  "layers": []
+   }
+ ]
+}

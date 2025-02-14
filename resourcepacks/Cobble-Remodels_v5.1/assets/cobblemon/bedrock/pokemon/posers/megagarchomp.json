@@ -1,0 +1,134 @@
+{
+  "head": "head",
+  "portraitScale": 1.15,
+  "portraitTranslation": [ -0.2, 0.8, 0 ],
+  "profileScale": 0.6,
+  "profileTranslation": [ 0, 0.8, 0 ],
+  "cry":  "bedrock(megagarchomp, cry)",
+  "poses": {
+  "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": [ "STAND" ],
+      "isBattle": true,
+	  "isTouchingWater": false,
+      "animations": [
+        "look",
+		"bedrock(megagarchomp, battle_idle)"
+	  ],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(megagarchomp, blink)"]
+        },
+        {
+          "name": "stomp",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 40,
+          "maxSecondsBetweenOccurrences": 80,
+          "animations": ["bedrock(megagarchomp, stomp_quirk)"]
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+      "STAND",
+      "NONE",
+      "PORTRAIT",
+      "PROFILE"
+      ],
+      "isBattle": false,	  
+      "isTouchingWater": false,
+      "animations": [
+        "look",
+        "bedrock(megagarchomp, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(megagarchomp, blink)"]
+        },
+        {
+          "name": "stomp",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 40,
+          "maxSecondsBetweenOccurrences": 80,
+          "animations": ["bedrock(megagarchomp, stomp_quirk)"]
+        }
+      ]
+    },
+  "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "bedrock(megagarchomp, ground_walk)"
+      ],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(megagarchomp, blink)"]
+        }
+		]
+   },
+    "hovering": {
+      "poseName": "hovering",
+      "transformTicks": 10,
+      "poseTypes": [ "HOVER" ],
+      "animations": [   
+        "bedrock(megagarchomp, air_idle)" ],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(megagarchomp, blink)"]
+        }
+		]
+    },
+    "flying": {
+      "poseName": "flying",
+      "transformTicks": 10,
+      "poseTypes": [ "FLY" ],
+      "animations": [   
+        "bedrock(megagarchomp, air_idle)" ],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(megagarchomp, blink)"]
+        }
+		]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": [ "FLOAT" ],
+      "animations": [   
+        "bedrock(megagarchomp, air_idle)" ],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(megagarchomp, blink)"]
+        }
+		]
+    }
+  }
+}

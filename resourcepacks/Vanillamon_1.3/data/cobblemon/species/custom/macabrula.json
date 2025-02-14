@@ -1,0 +1,94 @@
+{
+    
+"implemented": true,
+"name": "macabrula",
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.macabrula.desc1"
+],
+"height": 4,
+"weight": 87,
+"preEvolution": "stringlett",
+"shoulderMountable": false,
+"shoulderEffects": [ "slow_fall" ],
+"primaryType": "bug",
+"secondaryType": "dark",
+"baseStats": {
+  "hp": 85,
+  "attack": 85,
+  "defence": 70,
+  "special_attack": 70,
+  "special_defence": 145,
+  "speed": 35
+},
+"catchRate": 100,
+"maleRatio": 0.5,
+"baseExperienceYield": 150,
+"experienceGroup": "fluctuating",
+"eggCycles": 25,
+"eggGroups": [
+  "bug"
+],
+"baseFriendship": 35,
+"evYield": {
+  "special_defence": 2
+},
+"moves": [
+    "32:spiderweb",
+    "34:nastyplot",
+    "36:ragepowder",
+    "40:assurance",
+    "41:punishment",
+    "46:shadowsneak",
+    "52:crunch",
+    "60:feintattack",
+    "67:nightslash",
+    "77:bittermalice",
+    "80:shadowball",
+    "89:pursuit",
+    "95:foulplay",
+    "100:ceaselessedge"
+],
+"abilities": [
+  "compoundeyes",
+  "intimidate",
+  "h:merciless"
+],
+"baseScale": 1.7,
+"hitbox": {
+  "width": 2,
+  "height": 2,
+  "fixed": false
+},
+"drops": {
+"amount": "2",
+  "entries": [
+    {
+      "item": "minecraft:spider_eye",
+      "quantityRange": "1-4",
+      "percentage": 50
+    },
+    {
+        "item": "minecraft:string",
+        "quantityRange": "2-8",
+        "percentage": 70
+      }
+  ]
+},
+"behaviour": {
+  "moving": {
+    "canLook": true,
+    "fly": {
+      "canFly": false
+    },          
+    "swim": {
+      "swimSpeed": 0,
+      "canSwimInWater": true,
+      "canBreatheUnderwater": false
+    }
+  },
+  "walk":{
+    "walkSpeed":0.25
+  }
+  }
+}

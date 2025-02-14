@@ -1,0 +1,163 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "jacturne-1",
+           "pokemon": "jacturne",
+           "presets": [
+               "pumpkin_patch"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "rare",
+           "level": "24-40",
+           "weight": 7.0,
+           "condition": {
+               "canSeeSky": true,
+                "timeRange": "night",
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+           }
+		  
+       },
+       {
+           "id": "jacturne-2",
+           "pokemon": "jacturne",
+           "presets": [
+               "pumpkin_patch"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "uncommon",
+           "level": "24-40",
+           "weight": 7.0,
+           "condition": {
+               "canSeeSky": true,
+                "timeRange": "night",
+				"moonPhase": "0",
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+           }
+		  
+       },
+        {
+            "id": "jacturne-3",
+            "pokemon": "jacturne",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "18-34",
+            "weight": 13.0,
+            "condition": {
+                "canSeeSky": true,
+				"neededNearbyBlocks": [
+				"minecraft:pumpkin",
+				"minecraft:carved_pumpkin",
+				"minecraft:jack_o_lantern"
+				]
+            },
+            "anticondition": {
+                "timeRange": "day",
+				"neededNearbyBlocks": [
+				"minecraft:farmland"
+				]
+            }
+				
+        },
+       {
+           "id": "jacturne-4",
+           "pokemon": "jacturne",
+           "presets": [
+               "pumpkin_patch"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "uncommon",
+           "level": "18-34",
+           "weight": 26.0,
+           "condition": {
+               "canSeeSky": true,
+				"neededNearbyBlocks": [
+				"minecraft:pumpkin",
+				"minecraft:carved_pumpkin",
+				"minecraft:jack_o_lantern"
+				],
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+           },
+           "anticondition": {
+                "timeRange": "day",
+				"neededNearbyBlocks": [
+				"minecraft:farmland"
+				]
+           }
+       },
+        {
+            "id": "jacturne-5",
+            "pokemon": "jacturne",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-34",
+            "weight": 13.0,
+            "condition": {
+                "canSeeSky": true,
+				"moonPhase": "0",
+				"neededNearbyBlocks": [
+				"minecraft:pumpkin",
+				"minecraft:carved_pumpkin",
+				"minecraft:jack_o_lantern"
+				]
+            },
+            "anticondition": {
+                "timeRange": "day",
+				"neededNearbyBlocks": [
+				"minecraft:farmland"
+				]
+            }
+				
+        },
+        {
+            "id": "jacturne-6",
+            "pokemon": "jacturne",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-34",
+            "weight": 26.0,
+            "condition": {
+                "canSeeSky": true,
+				"moonPhase": "0",
+				"neededNearbyBlocks": [
+				"minecraft:pumpkin",
+				"minecraft:carved_pumpkin",
+				"minecraft:jack_o_lantern"
+				],
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            },
+            "anticondition": {
+                "timeRange": "day",
+				"neededNearbyBlocks": [
+				"minecraft:farmland"
+				]
+            }
+				
+        }
+   ]
+}

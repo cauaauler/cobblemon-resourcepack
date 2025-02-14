@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:slowpoke",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:slowpoke",
+      "model": "cobblemon:slowpoke2.geo",
+      "texture": "cobblemon:textures/pokemon/0079_slowpoke/slowpoke.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0079_slowpoke/slowpoke_shiny.png"
+    }
+  ]
+}

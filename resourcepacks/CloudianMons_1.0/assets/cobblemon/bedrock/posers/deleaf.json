@@ -1,0 +1,52 @@
+{
+  "portraitScale": 1.94,
+  "portraitTranslation": [-0.09,-0.08,0],
+  "profileScale": 0.8,
+  "profileTranslation": [0.01,0.59,0],
+  "animations": {
+    "cry": "q.bedrock_stateful('deleaf', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deleaf', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deleaf', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deleaf', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deleaf', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deleaf', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deleaf', 'blink')"
+      ]
+    }
+  }
+}

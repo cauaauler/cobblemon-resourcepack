@@ -1,0 +1,45 @@
+{
+  "portraitScale": 1.49,
+  "portraitTranslation": [-0.68,1.18,0],
+  "profileScale": 0.54,
+  "profileTranslation": [-0.03,0.91,0],
+  "rootBone": "wildburning",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('wildburning', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('wildburning', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('wildburning', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('wildburning', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('wildburning', 'sleep')"
+      ]
+    }
+  }
+}

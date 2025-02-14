@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:gorochu_scrappedmons",
+  "speciesId": "cobblemon:gorochu_scrappedmons",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

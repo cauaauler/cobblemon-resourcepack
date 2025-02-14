@@ -1,0 +1,121 @@
+{
+    "head": "head",
+      "portraitScale": 2,
+      "portraitTranslation": [-0.1, -0.25, 0],
+      "profileScale": 0.8,
+      "profileTranslation": [0, 0.6, 0],
+      "animations": {
+        "cry": "q.bedrock_stateful('citrillume', 'cry')",
+        "faint": "q.bedrock_primary('citrillume', 'faint', q.curve('one'))",
+        "recoil": "q.bedrock_stateful('citrillume', 'recoil')",
+        "physical": "q.bedrock_primary('citrillume', 'physical', q.curve('symmetrical_wide'))",
+        "special": "q.bedrock_primary('citrillume', 'special', q.curve('symmetrical_wide'))",
+        "status": "q.bedrock_primary('citrillume', 'status', q.curve('symmetrical_wide'))"
+      },
+      "poses":{
+        "battle-idle": {
+          "poseName": "battle-idle",
+          "transformTicks": 10,
+          "poseTypes": ["STAND"],
+          "isBattle": true,
+          "isTouchingWater": false,
+          "animations": [
+            "look",
+            "bedrock(citrillume, battle_idle)"],
+          "quirks": [
+            {
+              "name": "blink",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(citrillume, blink)"]
+            },
+            {
+                "name": "quirk",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 20,
+                "maxSecondsBetweenOccurrences": 40,
+                "animations": ["bedrock(citrillume, quirk)"]
+              }
+          ]
+        },
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+            "STAND",
+            "NONE",
+            "PORTRAIT",
+            "PROFILE"
+            ],
+            "animations": [
+              "look",
+            "bedrock(citrillume, ground_idle)"
+            ],
+            "quirks": [
+              {
+                "name": "blink",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 8,
+                "maxSecondsBetweenOccurrences": 20,
+                "animations": ["bedrock(citrillume, blink)"]
+              },
+              {
+                "name": "quirk",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 20,
+                "maxSecondsBetweenOccurrences": 40,
+                "animations": ["bedrock(citrillume, quirk)"]
+              }
+                  ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [ "WALK" ],
+            "animations": [
+              "look",
+               "bedrock(citrillume, ground_walk)" ]
+        },
+        "hovering": {
+          "poseName": "hovering",
+          "transformTicks": 10,
+          "poseTypes": [ "HOVER" ],
+          "animations": [ 
+        "look",  
+      "bedrock(citrillume, ground_idle)" ],
+          "quirks": [
+              {
+                "name": "blink",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 8,
+                "maxSecondsBetweenOccurrences": 20,
+                "animations": ["bedrock(citrillume, blink)"]
+              },
+              {
+                "name": "quirk",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 20,
+                "maxSecondsBetweenOccurrences": 40,
+                "animations": ["bedrock(citrillume, quirk)"]
+              }
+                  ]
+      },
+      "flying": {
+          "poseName": "flying",
+          "transformTicks": 10,
+          "poseTypes": [ "FLY" ],
+          "animations": [
+        "look",
+        "bedrock(citrillume, ground_walk)" ]
+          },
+        
+        "sleeping": {
+            "poseName": "sleeping",
+            "transformTicks": 10,
+            "poseTypes": [ "SLEEP" ],
+            "animations": [
+              "bedrock(citrillume, sleep)"]
+        }
+      }
+    }

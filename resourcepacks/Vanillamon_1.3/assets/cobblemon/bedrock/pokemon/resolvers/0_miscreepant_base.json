@@ -1,0 +1,30 @@
+
+{
+    "species": "cobblemon:miscreepant",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:miscreepant",
+        "model": "cobblemon:miscreepant.geo",
+        "texture": "cobblemon:textures/pokemon/miscreepant/miscreepant.png",
+        "layers": [{
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/miscreepant/miscreepant_emissive.png",
+          "translucent": true
+    }]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/miscreepant/miscreepant_shiny.png",
+        "layers": [{
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/miscreepant/miscreepant_emissive_shiny.png",
+          "translucent": true
+    }]
+      }
+    ]
+  }
+  

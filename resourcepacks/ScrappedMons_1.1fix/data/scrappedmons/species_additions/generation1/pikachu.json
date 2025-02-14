@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:pikachu",
+    "evolutions": [
+      {
+      "id": "pikachu_gorochu_scrappedmons",
+      "variant": "item_interact",
+      "result": "gorochu_scrappedmons",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "firepunch"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone"
+      }
+    ]
+   }

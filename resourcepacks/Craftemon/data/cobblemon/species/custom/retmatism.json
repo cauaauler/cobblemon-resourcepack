@@ -1,0 +1,98 @@
+{
+  "implemented": true,
+  "name": "retmatism",
+  "nationalPokedexNumber": 9999,
+  "primaryType": "electric",
+  "secondaryType": "poison",
+  "abilities": [
+    "beastboost"
+  ],
+  "baseStats": {
+    "hp": 107,
+    "attack": 90,
+    "defence": 80,
+    "special_attack": 139,
+    "special_defence": 80,
+    "speed": 79
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "4-15",
+      "willSleepOnBed": false,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 10,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 1000,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 25,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:bite",
+    "1:poisonsting",
+    "8:roar",
+    "10:thundershock",
+    "15:headbutt",
+    "21:acidspray",
+    "28:agility",
+    "30:toxicspikes",
+    "38:headlongrush",
+    "44:acidarmor",
+    "34:thunderbolt",
+    "48:sludgebomb",
+    "48:zapcannon",
+    "55:electricterrain"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.retmatism.desc1",
+    "cobblemon.species.retmatism.desc2"
+  ],
+  "baseScale": 2,
+  "hitbox": {
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 3000,
+  "evolutions": []
+}

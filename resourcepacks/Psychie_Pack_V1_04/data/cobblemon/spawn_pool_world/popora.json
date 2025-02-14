@@ -1,0 +1,79 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "popora-1",
+      "pokemon": "popora",
+      "presets": [
+        "underground",
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "10-36",
+      "weight": 5.0,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [
+          "minecraft:lush_caves",
+          "terralith:cave/fungal_caves",
+          "minecraft:deep_dark"
+        ]
+      }
+    },
+    {
+      "id": "popora-2",
+      "pokemon": "popora",
+      "presets": [
+        "stronghold"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "10-38",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    },
+    {
+      "id": "popora-3",
+      "pokemon": "popora",
+      "presets": [
+        "pillager_outpost"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "10-38",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    },
+    {
+      "id": "popora-4",
+      "pokemon": "popora",
+      "presets": [
+        "trail_ruins"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "10-38",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "pokemon.wurmple.ambient": {
+    "sounds": [ "cobblemon:pokemon/wurmple/wurmple_ambient" ]
+  },
+  "pokemon.wurmple.cry": {
+    "sounds": [ "cobblemon:pokemon/wurmple/wurmple_cry" ]
+  },
+  "pokemon.dustox.ambient": {
+    "sounds": [ "cobblemon:pokemon/dustox/dustox_ambient" ]
+  },
+  "pokemon.dustox.cry": {
+    "sounds": [ "cobblemon:pokemon/dustox/dustox_cry" ]
+  },
+  "pokemon.beautifly.ambient": {
+    "sounds": [ "cobblemon:pokemon/beautifly/beautifly_ambient" ]
+  },
+  "pokemon.beautifly.cry": {
+    "sounds": [ "cobblemon:pokemon/beautifly/beautifly_cry" ]
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:hivee",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:hivee",
+        "model": "cobblemon:hivee.geo",
+        "texture": "cobblemon:textures/pokemon/hivee/hivee_smile.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/hivee/hivee_smile_shiny.png"
+      }
+    ]
+  }
+  

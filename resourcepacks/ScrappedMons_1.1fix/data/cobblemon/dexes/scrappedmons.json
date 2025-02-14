@@ -1,0 +1,16 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:scrappedmons",
+  "sortOrder": 66,
+  "entries": [
+    "cobblemon:gorochu_scrappedmons",
+    "cobblemon:scuta",
+    "cobblemon:mantiverous",
+    "cobblemon:tumbell",
+    "cobblemon:sproutopod",
+    "cobblemon:feistling",
+    "cobblemon:cassowrath",
+    "cobblemon:tentango",
+    "cobblemon:umamirage"
+  ]
+}

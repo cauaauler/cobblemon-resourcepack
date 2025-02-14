@@ -1,0 +1,79 @@
+{
+    "species": "cobblemon:hacnealit",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [
+                "carved-face-rude"
+            ],
+            "poser": "cobblemon:hacnea_rude",
+            "model": "cobblemon:hacnea_rude.geo",
+            "texture": "cobblemon:textures/pokemon/hacnea/hacnea_lit.png",
+            "layers": [
+                {
+                    "name": "candleflutter",
+                    "texture": {
+                        "frames": [
+                            "cobblemon:textures/pokemon/hacnea/animation/face_01.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_02.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_03.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_04.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_05.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_06.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_07.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_08.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_09.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_10.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_11.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_12.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_13.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_14.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_15.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/face_16.png"
+                        ],
+                        "fps": 10,
+                        "loop": true
+                    },
+                    "emissive": true,
+                    "translucent": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "shiny",
+                "carved-face-rude"
+            ],
+            "texture": "cobblemon:textures/pokemon/hacnea/hacnea_shiny.png",
+            "layers": [
+                {
+                    "name": "candleflutter",
+                    "texture": {
+                        "frames": [
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_01.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_02.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_03.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_04.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_05.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_06.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_07.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_08.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_09.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_10.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_11.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_12.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_13.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_14.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_15.png",
+                            "cobblemon:textures/pokemon/hacnea/animation/shiny_face_16.png"
+                        ],
+                        "fps": 10,
+                        "loop": true
+                    },
+                    "emissive": true,
+                    "translucent": true
+                }
+            ]
+        }
+    ]
+}

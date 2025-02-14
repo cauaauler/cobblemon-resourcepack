@@ -1,0 +1,22 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "shulkle-1",
+     "pokemon": "shulkle",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "uncommon",
+     "level": "20-45",
+     "weight": 6,
+     "condition": {
+	   "structures": [
+			"minecraft:end_city"
+	   ]
+     }
+   }
+ ]
+}

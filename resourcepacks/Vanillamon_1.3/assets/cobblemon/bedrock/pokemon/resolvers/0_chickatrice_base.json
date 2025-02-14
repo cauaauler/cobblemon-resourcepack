@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:chickatrice",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:chickatrice",
+        "model": "cobblemon:chickatrice.geo",
+        "texture": "cobblemon:textures/pokemon/chickatrice/chickatrice.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/chickatrice/chickatrice_shiny.png"
+      }
+    ]
+  }
+  

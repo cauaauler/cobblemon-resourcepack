@@ -1,0 +1,74 @@
+{
+  "species": "cobblemon:jacturne",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "female"
+      ],
+      "model": "cobblemon:jacturne_female.geo",
+      "layers": [
+		{
+			"name": "candleflutter",
+			"texture": {
+			"frames": [
+				"cobblemon:textures/pokemon/jacturne/animation/face_01.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_02.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_03.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_04.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_05.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_06.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_07.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_08.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_09.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_10.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_11.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_12.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_13.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_14.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_15.png",
+				"cobblemon:textures/pokemon/jacturne/animation/face_16.png"
+				],
+			"fps": 10,
+			"loop": true
+			},
+          "emissive": true,
+          "translucent": true
+		}
+	  ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/jacturne/jacturne_shiny.png",
+	  "layers": [
+			{
+			"name": "candleflutter",
+			"texture": {
+			"frames": [
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_01.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_02.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_03.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_04.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_05.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_06.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_07.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_08.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_09.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_10.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_11.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_12.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_13.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_14.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_15.png",
+				"cobblemon:textures/pokemon/jacturne/animation/shiny_face_16.png"
+				],
+			"fps": 10,
+			"loop": true
+			},
+          "emissive": true,
+          "translucent": true
+		}
+	  ]
+    }
+  ]
+}

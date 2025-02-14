@@ -1,0 +1,27 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	
+	"spawns": [
+		{
+			"id": "vulamb-1",
+			"pokemon": "vulamb",
+			"presets": ["natural"],
+			"type": "pokemon",
+			"context": "grounded",
+			"bucket": "ultra-rare",
+			"level": "16-40",
+			"weight": 0.9,
+			"condition": {
+				"minSkyLight": 8,
+                "maxSkyLight": 15,
+				"isRaining": false,
+				"biomes": [
+					"#cobblemon:is_thermal",
+					"#cobblemon:is_volcano"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:sinistea-coterian",
+    "speciesId": "cobblemon:sinistea",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Coterian",
+        "unlockForms": [
+          "Coterian"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

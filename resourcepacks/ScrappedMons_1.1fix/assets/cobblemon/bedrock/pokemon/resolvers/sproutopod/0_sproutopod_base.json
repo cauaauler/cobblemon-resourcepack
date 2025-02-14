@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:sproutopod",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sproutopod",
+      "model": "cobblemon:sproutopod.geo",
+      "texture": "cobblemon:textures/pokemon/sproutopod/sproutopod.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/sproutopod/sproutopod_shiny.png"
+    }
+  ]
+}

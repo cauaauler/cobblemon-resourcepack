@@ -1,0 +1,72 @@
+{
+    "head": "head",
+      "portraitScale": 2.2,
+      "portraitTranslation": [ -0.65, 0.4, 0],
+      "profileScale": 0.8,
+      "profileTranslation": [ 0, 0.67, 0 ],
+      "animations": {
+    "cry": "q.bedrock_stateful('ostrike', 'cry')",
+    "faint": "q.bedrock_primary('ostrike', 'faint', q.curve('one'))",
+    "recoil": "q.bedrock_stateful('ostrike', 'recoil')"
+      },
+      "poses": {
+        "battle-idle": {
+            "poseName": "battle-idle",
+            "transformTicks": 10,
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "isTouchingWater": false,
+            "animations": [
+              "look",
+              "bedrock(ostrike, battle_idle)"],
+            "quirks": [
+              {
+                "name": "blink",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 8,
+                "maxSecondsBetweenOccurrences": 20,
+                "animations": ["bedrock(ostrike, blink)"]
+              }
+            ]
+          },
+      "standing": {
+          "poseName": "standing",
+          "transformTicks": 10,
+          "poseTypes": [
+          "STAND",
+          "NONE",
+          "PROFILE"
+          ],
+          "isBattle": false,
+          "animations": [
+            "look",
+          "bedrock(ostrike, ground_idle)"
+          ],
+          "quirks": [
+              {
+                "name": "blink",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 8,
+                "maxSecondsBetweenOccurrences": 20,
+                "animations": ["bedrock(ostrike, blink)"]
+              }
+      ]
+      },
+      "walking": {
+          "poseName": "walking",
+          "transformTicks": 10,
+          "poseTypes": [ "WALK",
+          "PORTRAIT" ],
+          "animations": [  "look",
+          "bedrock(ostrike, ground_walk)" ]
+      },
+      
+      "sleeping": {
+          "poseName": "sleeping",
+          "transformTicks": 10,
+          "poseTypes": [ "SLEEP" ],
+          "animations": [ "bedrock(ostrike, sleep)"]
+      }
+    }
+  }
+  

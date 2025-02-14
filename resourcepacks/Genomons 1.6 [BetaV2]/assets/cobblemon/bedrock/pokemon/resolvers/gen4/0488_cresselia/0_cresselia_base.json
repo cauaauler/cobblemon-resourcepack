@@ -1,0 +1,33 @@
+{
+	"species": "cobblemon:cresselia",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "genomons:cresselia",
+			"model": "genomons:cresselia.geo",
+			"texture": "genomons:textures/pokemon/0488_cresselia/cresselia.png",
+			"layers": [
+				{
+					"name": "emissive",
+          "emissive": true,
+					"texture": "genomons:textures/pokemon/0488_cresselia/cresselia_emissive.png",
+          "translucent": true
+				  }
+			]
+		},
+		{
+			"aspects": [ 
+				"shiny" ],
+			"texture": "genomons:textures/pokemon/0485_heatran/heatran_shiny.png",
+			"layers": [
+				{
+					"name": "emissive",
+          "emissive": true,
+					"texture": "genomons:textures/pokemon/0488_cresselia/cresselia_emissive.png",
+          "translucent": true
+				  }
+			]
+		}
+	]
+}

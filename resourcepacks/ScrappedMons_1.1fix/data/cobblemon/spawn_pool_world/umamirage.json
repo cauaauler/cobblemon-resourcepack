@@ -1,0 +1,40 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "umamirage-1",
+            "pokemon": "umamirage",
+            "presets": ["water"],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "rare",
+            "level": "35-50",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+              "biomes": ["#cobblemon:is_deep_ocean"]
+            }
+        },
+        {
+            "id": "umamirage-2",
+            "pokemon": "umamirage",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "35-50",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_beach",
+                    "#cobblemon:is_coast"
+                ]
+            }
+        }
+    ]
+}

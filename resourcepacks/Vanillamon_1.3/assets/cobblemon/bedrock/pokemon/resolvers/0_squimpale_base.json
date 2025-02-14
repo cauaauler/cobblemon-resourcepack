@@ -1,0 +1,30 @@
+
+{
+    "species": "cobblemon:squimpale",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:squimpale",
+        "model": "cobblemon:squimpale.geo",
+        "texture": "cobblemon:textures/pokemon/squimpale/squimpale.png",
+        "layers": [{
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/squimpale/squimpale_emissive.png",
+          "translucent": true}
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/squimpale/squimpale_shiny.png",
+        "layers": [{
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/squimpale/squimpale_emissive_shiny.png",
+          "translucent": true}
+        ]
+      }
+    ]
+  }
+  

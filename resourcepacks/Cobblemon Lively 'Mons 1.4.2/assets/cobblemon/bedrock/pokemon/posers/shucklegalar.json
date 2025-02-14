@@ -1,0 +1,71 @@
+{
+  "head": "head",
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.7, 0.1, 0.0],
+  "profileScale": 0.6,
+  "profileTranslation": [0.0, 0.8, 0.0],
+  "animations": {
+    "cry": "q.bedrock_stateful('shucklegalar', 'cry')",
+    "faint": "q.bedrock_primary('shucklegalar', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "PROFILE"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "animations": [ "look",
+      "bedrock(shucklegalar, battle_idle)"],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(shucklegalar, blink)"]
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [ "SLEEP" ],
+      "animations": [ "bedrock(shucklegalar, sleep)"]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT" ],
+      "isBattle": false,
+
+      "animations": [
+        "look",
+        "bedrock(shucklegalar, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(shucklegalar, blink)"]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformedParts": [
+      ],
+      "animations": [
+        "look",
+        "bedrock(shucklegalar, ground_walk)",
+        "bedrock(shucklegalar, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(shucklegalar, blink)"]
+        }
+      ]
+    }
+  }
+ }

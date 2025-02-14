@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:raichu-coterian",
+    "speciesId": "cobblemon:raichu",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Coterian",
+        "unlockForms": [
+          "Coterian"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

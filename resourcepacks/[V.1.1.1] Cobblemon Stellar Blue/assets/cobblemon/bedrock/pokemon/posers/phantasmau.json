@@ -1,0 +1,87 @@
+{
+  "portraitScale": 2.0,
+  "portraitTranslation": [-0.5, 0.2, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.68, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('phantasmau', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('phantasmau', 'ground_idle')"
+      ],
+        "quirks": [
+          "q.bedrock_quirk('phantasmau', 'blink')","q.bedrock_quirk('phantasmau', 'quirk', 10, 30, 1)"
+        ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('phantasmau', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('phantasmau', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('phantasmau', 'ground_run')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('phantasmau', 'blink')"
+      ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('phantasmau', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('phantasmau', 'blink')"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('phantasmau', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('phantasmau', 'blink')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('phantasmau', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('phantasmau', 'blink')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('phantasmau', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('phantasmau', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('phantasmau', 'sleep')"]
+    }
+  }
+ }

@@ -1,0 +1,172 @@
+{
+  "implemented": true,
+  "name": "dreadline",
+  "nationalPokedexNumber": 9997,
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "abilities": [
+    "steelworker",
+    "competitive",
+    "h:weakarmor"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 80,
+    "defence": 50,
+    "special_attack": 110,
+    "special_defence": 100,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "13-15",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.25,
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 50
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "eggCycles": 30,
+  "eggGroups": [
+    "water_1",
+    "mineral"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:glass",
+        "quantityRange": "1-2",
+        "percentage": 69
+      },
+      {
+        "item": "minecraft:dye",
+        "quantityRange": "1-2",
+        "percentage": 36
+      }
+    ]
+  },
+  "moves": [
+    "1:watergun",
+    "1:harden",
+    "1:taunt",
+    "4:pursuit",
+    "6:leer",
+    "9:bubblebeam",
+    "12:metalclaw",
+    "16:smokescreen",
+    "18:assurance",
+    "21:waterpulse",
+    "24:acidarmor",
+    "26:knockoff",
+    "30:shellsmash",
+    "34:foulplay",
+    "36:ironhead",
+    "40:scald",
+    "42:partingshot",
+    "44:darkpulse",
+    "46:flashcannon",
+    "55:hydropump",
+    "32:powergem",
+    "tm:scaryface",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:waterpulse",
+    "tm:acidspray",
+    "tm:confuseray",
+    "tm:thief",
+    "tm:pounce",
+    "tm:chillingwater",
+    "tm:facade",
+    "tm:aerialace",
+    "tm:hex",
+    "tm:snarl",
+    "tm:metalclaw",
+    "tm:icywind",
+    "tm:mudshot",
+    "tm:lowsweep",
+    "tm:nightshade",
+    "tm:venoshock",
+    "tm:endure",
+    "tm:raindance",
+    "tm:smartstrike",
+    "22:smartstrike",
+    "tm:brickbreak",
+    "tm:shadowclaw",
+    "tm:airslash",
+    "tm:sleeptalk",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:taunt",
+    "tm:swordsdance",
+    "tm:flashcannon",
+    "tm:darkpulse",
+    "tm:ironhead",
+    "tm:powergem",
+    "tm:gunkshot",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:xscissor",
+    "tm:liquidation",
+    "tm:stealthrock",
+    "tm:surf",
+    "tm:icespinner",
+    "tm:reversal",
+    "tm:nastyplot",
+    "tm:hydropump",
+    "tm:sludgebomb",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:steelbeam",
+    "tm:knockoff",
+    "tm:lashout"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.dreadline.desc1",
+    "cobblemon.species.dreadline.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.2,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 600,
+  "evolutions": []
+}

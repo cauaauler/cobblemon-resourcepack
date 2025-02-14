@@ -1,0 +1,82 @@
+{
+    "head": "head",
+      "portraitScale": 2.2,
+      "portraitTranslation": [ -0.2, -1.65, 0],
+      "profileScale": 1,
+      "profileTranslation": [ 0, 0.25, 0 ],
+      "animations": {
+    "cry": "q.bedrock_stateful('krillcracker', 'cry')",
+    "faint": "q.bedrock_primary('krillcracker', 'faint', q.curve('one'))"
+      },
+      "poses": {
+      "standing": {
+          "poseName": "standing",
+          "transformTicks": 10,
+          "poseTypes": [
+          "STAND",
+          "NONE",
+          "PORTRAIT",
+          "PROFILE"
+          ],
+          "animations": [
+            "look",
+          "bedrock(krillcracker, ground_idle)"
+          ],
+          "quirks": [
+              {
+                "name": "blink",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 8,
+                "maxSecondsBetweenOccurrences": 20,
+                "animations": ["bedrock(krillcracker, blink)"]
+              }
+      ]
+      },
+      "walking": {
+          "poseName": "walking",
+          "transformTicks": 10,
+          "poseTypes": [ "WALK" ],
+          "animations": [ "bedrock(krillcracker, ground_walk)",
+          "look"        ]
+      },
+
+      "floating": {
+        "poseName": "floating",
+        "transformTicks": 10,
+        "poseTypes": [ "FLOAT" ],
+        "animations": [ "look", "bedrock(krillcracker, ground_idle)" ],
+        "quirks": [
+            {
+              "name": "blink",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(krillcracker, blink)"]
+            }
+          ]
+    },
+    "swimming": {
+        "poseName": "swimming",
+        "transformTicks": 10,
+        "poseTypes": [ "SWIM" ],
+        "animations": [ "look", "bedrock(krillcracker, ground_walk)" ],
+        "quirks": [
+            {
+              "name": "blink",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(krillcracker, blink)"]
+            }
+          ]
+        },
+      
+      "sleeping": {
+          "poseName": "sleeping",
+          "transformTicks": 10,
+          "poseTypes": [ "SLEEP" ],
+          "animations": [ "bedrock(krillcracker, sleep)"]
+      }
+    }
+  }
+  

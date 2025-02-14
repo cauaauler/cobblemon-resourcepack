@@ -1,0 +1,15 @@
+{
+	"id": "cobblemon:terrorshell",
+	"speciesId": "cobblemon:terrorshell",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": [
+				"Normal"
+			]
+		}
+	],
+	"variations": []
+}

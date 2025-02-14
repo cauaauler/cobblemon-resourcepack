@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:butterfree-coterian",
+    "speciesId": "cobblemon:butterfree",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Coterian",
+        "unlockForms": [
+          "Coterian"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

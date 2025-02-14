@@ -1,0 +1,22 @@
+
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "egglett-1",
+        "pokemon": "egglett",
+        "presets": [ "natural" ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "uncommon",
+        "level": "1-25",
+        "weight": 9.0,
+        "condition": {
+            "biomes":["#cobblemon:is_jungle"],
+            "timeRange":"day"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,127 @@
+{
+  "head": "head",
+  "portraitScale": 1.15,
+  "portraitTranslation": [ -0.2, 0.8, 0 ],
+  "profileScale": 0.6,
+  "profileTranslation": [ 0, 0.8, 0 ],
+  "cry":  "bedrock(gliscor, cry)",
+  "poses": {
+  "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": [ "STAND" ],
+      "isBattle": true,
+	  "isTouchingWater": false,
+      "animations": [
+        "look",
+		"bedrock(gliscor, battle_idle)"
+	  ],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(gliscor, blink)"]
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+      "STAND",
+      "NONE",
+      "PORTRAIT",
+      "PROFILE"
+      ],
+      "isBattle": false,	  
+      "isTouchingWater": false,
+      "animations": [
+        "look",
+        "bedrock(gliscor, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(gliscor, blink)"]
+        },
+        {
+          "name": "tongue",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 40,
+          "maxSecondsBetweenOccurrences": 80,
+          "animations": ["bedrock(gliscor, tongue_quirk)"]
+        }
+      ]
+    },
+  "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "bedrock(gliscor, ground_walk)"
+      ],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(gliscor, blink)"]
+        }
+		]
+   },
+    "hovering": {
+      "poseName": "hovering",
+      "transformTicks": 10,
+      "poseTypes": [ "HOVER" ],
+      "animations": [   
+        "bedrock(gliscor, air_idle)" ],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(gliscor, blink)"]
+        }
+		]
+    },
+    "flying": {
+      "poseName": "flying",
+      "transformTicks": 10,
+      "poseTypes": [ "FLY" ],
+      "animations": [   
+        "bedrock(gliscor, air_fly)" ],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(gliscor, blink)"]
+        }
+		]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": [ "FLOAT" ],
+      "animations": [   
+        "bedrock(gliscor, air_fly)" ],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(gliscor, blink)"]
+        }
+		]
+    }
+  }
+}

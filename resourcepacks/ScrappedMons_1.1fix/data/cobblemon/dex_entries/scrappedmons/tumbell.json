@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:tumbell",
+  "speciesId": "cobblemon:tumbell",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

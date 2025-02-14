@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:lucario_space",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lucariospace",
+      "model": "cobblemon:lucariospace.geo",
+      "texture": "cobblemon:textures/pokemon/lucariospace/lucariospace.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/lucariospace/lucariospace_shiny.png"
+    }
+  ]
+}

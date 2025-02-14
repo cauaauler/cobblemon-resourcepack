@@ -1,0 +1,15 @@
+{
+	"id": "cobblemon:learva",
+	"speciesId": "cobblemon:learva",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": [
+				"Normal"
+			]
+		}
+	],
+	"variations": []
+}

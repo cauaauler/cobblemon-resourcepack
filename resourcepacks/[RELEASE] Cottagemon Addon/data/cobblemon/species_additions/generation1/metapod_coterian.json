@@ -1,0 +1,52 @@
+{
+    "target": "cobblemon:metapod",
+    "features": ["region_bias_cotere"],
+    "forms": [
+    {"implemented": true,
+      "name": "region_bias_cotere",
+      "preEvolution": "caterpie",
+      "maleRatio": 0.5,
+      "labels": [
+        "region_bias_cotere"
+      ],
+      "aspects": [
+        "region_bias_cotere"
+      ],
+      "evolutions": [
+        {
+          "id": "cotere_metapod_butterfree",
+          "variant": "level_up",
+          "result": "butterfree coterian=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "ember"
+          ],
+          "requirements": [
+            {
+              "variant": "biome",
+              "biomeCondition": "#minecraft:is_taiga",
+              "minLevel": 10
+            }
+          ]
+        },
+        {
+          "id": "coterian_metapod_coterian_butterfree",
+          "variant": "level_up",
+          "result": "butterfree coterian",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "ember"
+          ],
+          "requirements": [        
+            {
+            "variant": "level",
+            "minLevel": 10
+          }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+  

@@ -1,0 +1,15 @@
+{
+	"id": "cobblemon:vulamb",
+	"speciesId": "cobblemon:vulamb",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": [
+				"Normal"
+			]
+		}
+	],
+	"variations": []
+}

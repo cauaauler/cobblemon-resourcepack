@@ -1,0 +1,136 @@
+{
+  "target": "cobblemon:ralts",
+  "features": ["cloudian"],
+  "forms": [
+    {
+     "name": "cloudian",
+     "aspects": ["cloudian"],
+     "nationalPokedexNumber": 280,
+     "primaryType": "Ghost",
+     "secondaryType": "Fire",
+     "abilities": [
+         "Synchronize",
+         "CursedBody",
+         "h:ShadowTag"
+      ],
+      "baseStats": {
+        "hp": 28,
+        "attack": 25,
+        "defence": 25,
+        "special_attack": 45,
+        "special_defence": 35,
+        "speed": 40
+      },
+      "behaviour": {
+        "resting": {
+          "canSleep": false,
+          "depth": "normal",
+          "light": "0-4",
+          "willSleepOnBed": false
+        },
+        "moving": {
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.3,
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false
+          },
+          "fly": {
+            "canFly": false,
+            "flySpeedHorizontal": 0.3
+          }
+        }
+      },
+      "catchRate": 235,
+      "maleRatio": 0.5,
+      "experienceGroup": "slow",
+      "shoulderMountable": false,
+      "baseExperienceYield": 40,
+      "eggCycles": 20,
+      "eggGroups": [
+        "human_like",
+        "amorphous"
+      ],
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:dawn_stone",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:twisted_spoon",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 2.5
+      }
+    ]
+      },
+      "moves": [
+    "1:Pound",
+    "1:Tackle",
+    "1:Growl",
+    "1:Sing",
+    "9:TakeDown",
+    "12:FirePunch",
+    "14:Disable",
+    "15:Hypnosis",
+    "17:ConfuseRay",
+    "18:Reflect",
+    "23:Encore",
+    "28:Moonlight",
+    "33:ShadowBall",
+    "43:WillOwisp"
+      ],
+      "labels": [
+        "Cloudian_Region"
+      ],
+      "pokedex": [
+        "cobblemon.species.ralts_cloud.desc1",
+        "cobblemon.species.ralts_cloud.desc2"
+      ],
+      "baseScale": 0.8,
+      "hitbox": {
+        "width": 0.5,
+        "height": 0.9,
+        "fixed": false
+      },
+      "baseFriendship": 35,
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 4,
+      "weight": 66,
+      "evolutions": [
+        {
+          "id": "ralts_cloud_kirlia",
+          "variant": "level_up",
+          "result": "kirlia cloud",
+          "consumeHeldItem": true,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "20"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

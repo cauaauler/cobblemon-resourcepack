@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:riolu_pmd",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:riolupmd",
+      "model": "cobblemon:riolupmd.geo",
+      "texture": "cobblemon:textures/pokemon/riolupmd/riolupmd.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/riolupmd/riolupmd_shiny.png"
+    }
+  ]
+}

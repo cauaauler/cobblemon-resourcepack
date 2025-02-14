@@ -1,0 +1,217 @@
+{
+    "target": "cobblemon:mareep",
+  "forms":[
+        {
+            "implemented": true,
+            "name": "Coterian",
+            "nationalPokedexNumber": 179,
+            "primaryType": "normal",
+            "abilities": [
+              "cottondown",
+              "h:scrappy"
+            ],
+            "baseStats": {
+              "hp": 60,
+              "attack": 65,
+              "defence": 40,
+              "special_attack": 40,
+              "special_defence": 45,
+              "speed": 30
+            },
+            "catchRate": 235,
+            "maleRatio": 0.5,
+            "shoulderMountable": false,
+            "baseExperienceYield": 56,
+            "experienceGroup": "medium_slow",
+            "eggCycles": 20,
+            "features": [
+              "sheared"
+            ],
+            "eggGroups": [
+              "monster",
+              "field"
+            ],
+            "behaviour": {
+              "moving": {
+                "walk": {
+                  "walkSpeed": 0.2
+                }
+              },
+              "resting": {
+                "canSleep": true,
+                "depth": "normal",
+                "light": "0-4"
+              }
+            },          
+            "moves": [
+    "1:growl",
+    "1:tackle",
+    "4:harden",
+    "8:headbutt",
+    "11:cottonspore",
+    "15:metalsound",
+    "18:takedown",
+    "22:gyroball",
+    "25:confuseray",
+    "29:doubleedge",
+    "32:flashcannon",
+    "36:irondefense",
+    "39:zenheadbutt",
+    "39:skullbash",
+    "43:headlongrush",
+    "46:gigaimpact",
+    "egg:afteryou",
+    "egg:agility",
+    "egg:bodyslam",
+    "egg:charge",
+    "egg:eerieimpulse",
+    "egg:electricterrain",
+    "egg:electroweb",
+    "egg:flatter",
+    "egg:irontail",
+    "egg:odorsleuth",
+    "egg:reflect",
+    "egg:safeguard",
+    "egg:sandattack",
+    "egg:screech",
+    "egg:takedown",
+    "tm:agility",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:captivate",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:echoedvoice",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:frustration",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:naturalgift",
+    "tm:powergem",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:secretpower",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:afteryou",
+    "tutor:attract",
+    "tutor:bodyslam",
+    "tutor:cottonspore",
+    "tutor:curse",
+    "tutor:defensecurl",
+    "tutor:doubleedge",
+    "tutor:doubleteam",
+    "tutor:electroweb",
+    "tutor:endure",
+    "tutor:flash",
+    "tutor:frustration",
+    "tutor:growl",
+    "tutor:headbutt",
+    "tutor:healbell",
+    "tutor:hiddenpower",
+    "tutor:holdback",
+    "tutor:irontail",
+    "tutor:lightscreen",
+    "tutor:magnetrise",
+    "tutor:mimic",
+    "tutor:protect",
+    "tutor:raindance",
+    "tutor:reflect",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:safeguard",
+    "tutor:screech",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:substitute",
+    "tutor:swagger",
+    "tutor:swift",
+    "tutor:tackle",
+    "tutor:takedown",
+    "tutor:thunder",
+    "tutor:thunderbolt",
+    "tutor:thundershock",
+    "tutor:thunderwave",
+    "tutor:toxic",
+    "tutor:zapcannon"
+            ],
+            "labels": [
+              "gen2",
+              "coterian"
+            ],
+            "pokedex": [
+              "cobblemon.species.mareep_coterian.desc"
+            ],
+            "aspects": [
+              "coterian"
+            ],
+            "evolutions": [
+              {
+                "id": "mareep_flaaffy_coterian",
+                "variant": "level_up",
+                "result": "flaaffy form=coterian",
+                "consumeHeldItem": false,
+                "learnableMoves": [],
+                "requirements": [
+                  {
+                    "variant": "level",
+                    "minLevel": 15
+                  }
+                ]
+              }
+            ],
+            "baseScale": 1.1,
+            "hitbox": {
+              "width": 0.75,
+              "height": 0.79,
+              "fixed": false
+            },
+            "baseFriendship": 70,
+            "evYield": {
+              "hp": 0,
+              "attack": 0,
+              "defence": 0,
+              "special_attack": 1,
+              "special_defence": 0,
+              "speed": 0
+            },
+            "height": 6,
+            "weight": 78,
+            "cannotDynamax": false
+          }
+  ]
+  }

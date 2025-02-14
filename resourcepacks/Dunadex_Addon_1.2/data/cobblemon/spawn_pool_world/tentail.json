@@ -1,0 +1,30 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	
+	"spawns": [
+		{
+			"id": "tentail-1",
+			"pokemon": "tentail",
+			"presets": ["water"],
+			"type": "pokemon",
+			"context": "seafloor",
+			"bucket": "ultra-rare",
+			"level": "16-40",
+			"weight": 0.9,
+			"condition": {
+				"timeRange": "night",
+				"biomes": [
+					"#cobblemon:is_warm_ocean",
+					"#cobblemon:is_coast"
+				]
+			},
+			"anticondition": {
+				"biomes": [
+					"#cobblemon:is_frozen"
+				]
+			}
+		}
+	]
+}

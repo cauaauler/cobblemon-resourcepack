@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:metapod",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["region_bias_cotere"],
+      "model": "cobblemon:metapod_cotere_bias.geo",
+      "texture": "cobblemon:textures/pokemon/0011_metapod/metapod_cotere_bias.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "region_bias_cotere","shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0011_metapod/metapod_cotere_bias_shiny.png"
+    }
+  ]
+}

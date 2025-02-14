@@ -1,0 +1,30 @@
+
+{
+    "species": "cobblemon:profector",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:profector",
+        "model": "cobblemon:profector.geo",
+        "texture": "cobblemon:textures/pokemon/profector/profector.png",
+        "layers": [ {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/profector/profector_emissive.png",
+          "translucent": true
+        }]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/profector/profector_shiny.png",
+        "layers": [ {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/profector/profector_emissive_shiny.png",
+          "translucent": true
+        }]
+      }
+    ]
+  }
+  

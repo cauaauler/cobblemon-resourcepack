@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "articuno",
+            "pokemon": "articuno",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 0.5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:ice_spikes",
+                    "minecraft:snowy_slopes",
+                    "minecraft:frozen_river",
+                    "minecraft:snowy_beach",
+                    "minecraft:snowy_plains"
+                        ],
+                "isRaining": true
+            }
+        },
+        {
+            "id": "articuno-galarian",
+            "pokemon": "articuno galarian",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 0.5,
+            "condition": {
+                "structures": [
+                    "genomons:dyna_tree_hill"
+                ]
+            }
+        }
+    ]
+}

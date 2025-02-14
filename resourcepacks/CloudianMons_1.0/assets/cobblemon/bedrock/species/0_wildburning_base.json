@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:wildburning",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:wildburning",
+      "model": "cobblemon:wildburning.geo",
+      "texture": "cobblemon:textures/pokemon/wildburning/wildburning.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/wildburning/wildburning_shiny.png"
+    }
+  ]
+}

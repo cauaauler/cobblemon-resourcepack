@@ -1,0 +1,91 @@
+{
+"implemented": true,
+"name": "legallus",
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.legallus.desc1"
+],
+"height": 4,
+"weight": 130,
+"preEvolution": "weenut",
+"shoulderMountable": false,
+
+"primaryType": "grass",
+"secondaryType": "dragon",
+"baseStats": {
+  "hp": 95,
+  "attack": 70,
+  "defence": 95,
+  "special_attack": 140,
+  "special_defence": 110,
+  "speed": 80
+},
+"catchRate": 30,
+"maleRatio": 0.75,
+"baseExperienceYield": 270,
+"experienceGroup": "medium_fast",
+"eggCycles": 25,
+"eggGroups": [
+  "grass"
+],
+"baseFriendship": 35,
+"evYield": {
+  "defence": 2,
+  "special_attack": 1
+},
+
+"moves": [
+    "25:bulletseed",
+    "30:drainingkiss",
+    "32:dragoncheer",
+    "38:headcharge",
+    "45:flowertrick",
+    "47:flowergift",
+    "56:petalblizzard",
+    "62:flowershield",
+    "62:solarbeam",
+    "70:gigadrain",
+    "78:dragonrush",
+    "82:dragonpulse",
+    "86:seedbomb",
+    "90:dragonbreath",
+    "100:dragonclaw"
+  ],
+  "abilities": [
+    "shellarmor",
+    "sturdy",
+    "h:flowergift"
+  ],
+
+  
+  "baseScale": 1.2,
+  "hitbox": {
+    "width": 1,
+    "height": 2.2,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:wheat_seeds",
+        "quantityRange": "3-4",
+        "percentage": 66
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": false
+      },          
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+
+}

@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:emberam",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:emberam",
+        "model": "cobblemon:emberam.geo",
+        "texture": "cobblemon:textures/pokemon/emberam/emberam.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/emberam/emberam_shiny.png"
+      }
+    ]
+   }

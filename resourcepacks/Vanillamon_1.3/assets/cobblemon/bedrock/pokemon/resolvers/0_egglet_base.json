@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:egglet",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:egglet",
+        "model": "cobblemon:egglet.geo",
+        "texture": "cobblemon:textures/pokemon/egglet/egglet.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/egglet/egglet_shiny.png"
+      }
+    ]
+  }
+  

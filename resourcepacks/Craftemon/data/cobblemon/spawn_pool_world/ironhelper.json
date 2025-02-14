@@ -1,0 +1,29 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "ironhelper-1",
+     "pokemon": "ironhelper",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "ultra-rare",
+     "level": "30-50",
+     "weight": 5,
+     "condition": {
+	   "structures": [ 
+	    "minecraft:pillager_outpost"
+	 ],
+	 "minY": 62,
+	"neededBaseBlocks": [
+		"minecraft:iron_block"
+	
+		
+		]
+	   
+     }
+   }
+ ]
+}

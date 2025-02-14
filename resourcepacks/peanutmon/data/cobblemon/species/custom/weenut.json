@@ -1,0 +1,92 @@
+{
+    "implemented": true,
+    "name": "weenut",
+    "labels": [ "custom" ],
+    "pokedex": [
+      "cobblemon.species.weenut.desc1"
+    ],
+    "height": 2.1,
+    "weight": 14.2,
+    "shoulderMountable": false,
+    
+  "primaryType": "grass",
+  "baseStats": {
+    "hp": 45,
+    "attack": 25,
+    "defence": 95,
+    "special_attack": 35,
+    "special_defence": 50,
+    "speed": 25
+  },
+  "catchRate": 50,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 90,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 25,
+  "eggGroups": [
+    "grass"
+  ],
+  "baseFriendship": 35,
+  "evYield": {
+    "defence": 2
+  },
+  
+  "moves": [
+    "1:pound",
+    "5:worryseed",
+    "6:leechseed",
+    "9:headbutt",
+    "12:babydolleyes",
+    "14:megadrain",
+    "20:bulletseed",
+    "40:synthesis"
+  ],
+  "abilities": [
+    "shellarmor",
+    "sturdy",
+    "h:flowergift"
+  ],
+  
+  "evolutions": [
+    {
+      "id":"weenut_legallus_sunstone",
+      "variant":"item_interact",
+      "result":"legallus",
+      "consumeHeldItem":false,
+      "learnableMoves":["clangingscales"],
+      "requirements":[],
+      "requiredContext":"cobblemon:sun_stone"
+    }
+],
+    
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.6,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:wheat_seeds",
+        "quantityRange": "1-2",
+        "percentage": 75
+      }
+    ]
+  },
+  
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "fly": {
+        "canFly": false
+      },          
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:angleel",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:angleel",
+			"model": "cobblemon:angleel.geo",
+			"texture": "cobblemon:textures/pokemon/angleel/angleel.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/angleel/angleel_shiny.png"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:inklett",
+    "speciesId": "cobblemon:inklett",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

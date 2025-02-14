@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:deleaf",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:deleaf",
+      "model": "cobblemon:deleaf.geo",
+      "texture": "cobblemon:textures/pokemon/deleaf/deleaf.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/deleaf/deleaf_shiny.png"
+    }
+  ]
+}

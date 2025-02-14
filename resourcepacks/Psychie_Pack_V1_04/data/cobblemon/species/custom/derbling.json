@@ -1,0 +1,162 @@
+{
+  "implemented": true,
+  "name": "derbling",
+  "nationalPokedexNumber": 9999,
+  "primaryType": "normal",
+  "secondaryType": "fairy",
+  "abilities": [
+    "speedboost",
+    "speedboost",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 85,
+    "defence": 70,
+    "special_attack": 105,
+    "special_defence": 70,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.15,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 50
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "eggCycles": 15,
+  "eggGroups": [
+    "fairy",
+    "human_like"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:wool",
+        "quantityRange": "1",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:copycat",
+    "4:playnice",
+    "7:disarmingvoice",
+    "9:encore",
+    "16:metronome",
+    "20:takedown",
+    "12:doubleslap",
+    "24:drainingkiss",
+    "26:fakeout",
+    "28:trick",
+    "28:fling",
+    "30:batonpass",
+    "33:return",
+    "36:dazzlinggleam",
+    "40:shiftgear",
+    "44:playrough",
+    "46:doubleedge",
+    "50:hypervoice",
+    "56:healingwish",
+    "tm:takedown",
+    "tm:charm",
+    "tm:faketears",
+    "tm:protect",
+    "tm:thief",
+    "tm:disarmingvoice",
+    "tm:chargebeam",
+    "tm:facade",
+    "tm:swift",
+    "tm:magicalleaf",
+    "tm:icywind",
+    "tm:drainingkiss",
+    "tm:storedpower",
+    "tm:fling",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:psyshock",
+    "tm:zenheadbutt",
+    "50:bodyslam",
+    "tm:firepunch",
+    "tm:icepunch",
+    "tm:thunderpunch",
+    "tm:sleeptalk",
+    "tm:rest",
+    "tm:drainpunch",
+    "tm:falseswipe",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:dazzlinggleam",
+    "tm:metronome",
+    "tm:grassknot",
+    "tm:thunderwave",
+    "tm:skillswap",
+    "tm:substitute",
+    "tm:trick",
+    "tm:shadowball",
+    "tm:hypervoice",
+    "tm:psychic",
+    "tm:encore",
+    "tm:thunderbolt",
+    "tm:playrough",
+    "tm:amnesia",
+    "tm:calmmind",
+    "tm:helpinghand",
+    "tm:mistyterrain",
+    "tm:thunder",
+    "tm:solarbeam",
+    "tm:terablast",
+    "tm:knockoff",
+    "tm:uproar",
+    "tm:mistyexplosion"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.derbling.desc1",
+    "cobblemon.species.derbling.desc2"
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "speed": 2
+  },
+  "height": 10,
+  "weight": 95,
+  "evolutions": []
+}

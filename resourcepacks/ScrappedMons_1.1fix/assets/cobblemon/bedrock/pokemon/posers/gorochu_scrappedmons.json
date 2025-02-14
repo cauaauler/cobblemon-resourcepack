@@ -1,0 +1,66 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [ -0.1, 0.4, 0 ],
+  "profileScale": 0.7,
+  "profileTranslation": [ 0, 0.8, 0 ],
+  "animations": {
+    "faint": "q.bedrock_stateful('gorochu', 'faint')",
+    "cry": "q.bedrock_stateful('gorochu', 'cry')",
+    "physical": "q.bedrock_primary('gorochu', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('gorochu', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('gorochu', 'status', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('gorochu', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gorochu', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('gorochu', 'blink')",
+                 "q.bedrock_quirk('gorochu', 'quirk_smirk')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gorochu', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('gorochu', 'blink')",
+        "q.bedrock_quirk('gorochu', 'quirk_smirk')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gorochu', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('gorochu', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gorochu', 'surfacewater_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('gorochu', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gorochu', 'surfacewater_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('gorochu', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('gorochu', 'ground_sleep')"]
+    }
+  }
+ }

@@ -1,0 +1,34 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "butterfree-coterian-1",
+            "pokemon": "butterfree coterian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-40",
+            "weight": 0.5,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "isRaining": false,
+                "biomes": [
+                    "#cobblemon:is_taiga"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_snowy",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_snowy_taiga"
+                ]
+            }
+        }
+    ]
+}

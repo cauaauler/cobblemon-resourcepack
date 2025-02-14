@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:tadborb",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tadborb",
+      "model": "cobblemon:tadborb.geo",
+      "texture": "cobblemon:textures/pokemon/tadborb/tadborb.png"
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/tadborb/tadborb_shiny.png"
+    }
+  ]
+}

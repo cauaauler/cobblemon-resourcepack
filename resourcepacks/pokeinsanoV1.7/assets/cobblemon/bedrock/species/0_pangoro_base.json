@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:pangoro",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pangoro",
+      "model": "cobblemon:pangoro.geo",
+      "texture": "cobblemon:textures/pokemon/pangoro/pangoro.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "poser": "cobblemon:pangoro",
+      "model": "cobblemon:pangoro.geo",
+      "texture": "cobblemon:textures/pokemon/pangoro/pangoro.png",
+      "layers": []
+    }
+  ]
+}

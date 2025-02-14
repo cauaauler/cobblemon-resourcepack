@@ -1,0 +1,22 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "creeperator-1",
+     "pokemon": "creeperator",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "rare",
+     "level": "25-80",
+     "weight": 5.0,
+     "condition": {
+       "biomes": [ "#cobblemon:is_forest" ],
+	   "minLight": 0,
+	   "maxlight": 8 
+     }
+   }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:whipcealot",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:whipcealot",
+			"model": "cobblemon:whipcealot.geo",
+			"texture": "cobblemon:textures/pokemon/whipcealot/whipcealot.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/whipcealot/whipcealot_shiny.png"
+		}
+	]
+}

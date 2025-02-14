@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:hoppiny",
+    "speciesId": "cobblemon:hoppiny",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+ 

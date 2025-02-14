@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": ["carved_face"],
+  "default": "random",
+  "choices": [
+    "polite",
+    "rude",
+    "shy",
+    "smug"
+  ],
+  "isAspect": true,
+  "aspectFormat": "carved-face-{{choice}}"
+}

@@ -1,0 +1,161 @@
+{
+  "implemented": true,
+  "name": "petrillop",
+  "nationalPokedexNumber": 9993,
+  "primaryType": "rock",
+  "secondaryType": "flying",
+  "abilities": [
+    "wimpout",
+    "solidrock",
+    "h:noguard"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 94,
+    "defence": 119,
+    "special_attack": 60,
+    "special_defence": 60,
+    "speed": 102
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "4-15",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 50
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "eggCycles": 30,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:stone",
+        "quantityRange": "1",
+        "percentage": 70
+      },
+      {
+        "item": "minecraft:pointed_dripstone",
+        "quantityRange": "1",
+        "percentage": 30
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:harden",
+    "6:quickattack",
+    "9:rockthrow",
+    "11:rockpolish",
+    "16:wingattack",
+    "19:doublekick",
+    "22:smackdown",
+    "13:hornattack",
+    "26:glare",
+    "29:drillrun",
+    "32:accelerock",
+    "35:dualwingbeat",
+    "38:jumpkick",
+    "43:rockslide",
+    "48:bravebird",
+    "54:megahorn",
+    "58:stoneedge",
+    "tm:takedown",
+    "tm:agility",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:acrobatics",
+    "tm:trailblaze",
+    "tm:pounce",
+    "tm:facade",
+    "tm:metalclaw",
+    "tm:mudshot",
+    "tm:rocktomb",
+    "tm:aircutter",
+    "tm:fling",
+    "tm:endure",
+    "tm:sandstorm",
+    "tm:smartstrike",
+    "tm:dig",
+    "tm:falseswipe",
+    "tm:zenheadbutt",
+    "tm:uturn",
+    "tm:shadowclaw",
+    "tm:airslash",
+    "tm:sleeptalk",
+    "tm:rockblast",
+    "tm:stompingtantrum",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:swordsdance",
+    "tm:spikes",
+    "tm:fly",
+    "tm:ironhead",
+    "tm:powergem",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:bodypress",
+    "tm:drillrun",
+    "tm:crunch",
+    "tm:tailwind",
+    "tm:stealthrock",
+    "tm:reversal",
+    "tm:wildcharge",
+    "tm:stoneedge",
+    "tm:gigaimpact",
+    "tm:bravebird",
+    "tm:superfang",
+    "tm:dualwingbeat"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.petrillop.desc1",
+    "cobblemon.species.petrillop.desc2"
+  ],
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.6,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 315,
+  "evolutions": []
+}

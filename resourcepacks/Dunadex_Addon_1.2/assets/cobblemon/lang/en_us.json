@@ -1,0 +1,51 @@
+{
+	"cobblemon.ui.pokedex.region.duna": Duna,
+	"cobblemon.starterselection.category.duna": Duna,
+	
+	"cobblemon.species.learva.name": "Learva",
+	"cobblemon.species.learva.desc": "This canopy-dwelling Pokémon fashions armor out of leaves and special silk. When their numbers grow too large for a single tree to sustain, a part of the group will march in single-file towards a new tree.",
+	"cobblemon.species.milliflower.name": "Milliflower",
+	"cobblemon.species.milliflower.desc": "The flower on the head of this Pokémon produces a very flammable pollen. It is able to expel this pollen to tremendous distances, using it to face foes and catch prey alike.",
+	"cobblemon.species.trunpleora.name": "Trunpleora",
+	"cobblemon.species.trunpleora.desc": "The formidable armor of Trunpleora makes it heavy, lumbering, and nearly unstoppable. In territorial disputes it is normally seen leading the charge with platoons of Learva at its side.",
+	
+	"cobblemon.species.blazheep.name": "Blazheep",
+	"cobblemon.species.blazheep.desc": "Blazheep can be found grazing on grass that grows on the black soil around volcanoes. If threatened, it will spit hot embers and soot at the offender.",
+	"cobblemon.species.vulamb.name": "Vulamb",
+	"cobblemon.species.vulamb.desc": "Heat accumulates inside the body of this Pokémon, making it spill forth molten rock. The heat will also makes it irritable, leading to infighting inside the herd.",
+	"cobblemon.species.thermoat.name": "Thermoat",
+	"cobblemon.species.thermoat.desc": "Thermoat are ponderous and slow, slacking off at hot springs and tending to the hardened basalt of their fleece all day. When riled into a battle, however, it will display the ferocity and heat it had during its youth.",
+	
+	"cobblemon.species.swetnail.name": "Swetnail",
+	"cobblemon.species.swetnail.desc": "This Pokémon feeds on bad dreams. Trainers that have one in their team will sometimes awake to see their Swetnail has sneaked out of the Pokéball to eat their nightmares.",
+	"cobblemon.species.tentail.name": "Tentail",
+	"cobblemon.species.tentail.desc": "After eating enough nightmares, Tentail is infused with their shadowy energy. While this Pokémon may seem scary, it is very cheery and still has a night terror based diet.",
+	"cobblemon.species.terrorshell.name": "Terrorshell",
+	"cobblemon.species.terrorshell.desc": "The mandibles of Terrorshell are so strong they can break solid steel beams in one bite. It is a very caring Pokémon, that will go out of its way to protect children who are afraid of the dark.",
+	
+	"cobblemon.species.whipcealot.name": "Whipcealot",
+	"cobblemon.species.whipcealot.desc": "This Pokémon is a highly talented, albeit cruel, hunter that uses their whip-like tail to toy with their prey. Whipcealots will normally eat any small Pokémon, but their favorite food are Preanee.",
+	
+	"cobblemon.species.driftbug.name": "Driftbug",
+	"cobblemon.species.driftbug.desc": "This Pokémon slowly drifts over the surface of small lakes like a leaf. When spooked, it will swim away really quickly.",
+	"cobblemon.species.paddlesect.name": "Paddlesect",
+	"cobblemon.species.paddlesect.desc": "Paddlesect dives deep into the water to graze on algea and other aquatic plants. The beating of its paddle can move large volumes of water at once.",
+	
+	"cobblemon.species.lurefin.name": "Lurefin",
+	"cobblemon.species.lurefin.desc": "This Pokémon is favored by fishermen due to its similarity to a lure. There are records of Lurefin helping their human counterparts with capturing large species of Water-type Pokémon.",
+	"cobblemon.species.angleel.name": "Angleel",
+	"cobblemon.species.angleel.desc": "Angleel are seen going out of water to fish using their hooked tails. It is believed ancient humans used the hooks shed by this Pokémon to fish.",
+	
+	"cobblemon.move.pollencannon": "Pollen Cannon",
+	"cobblemon.move.pollencannon.desc": "The user launches a powerful blast of flammable pollen that reaches foes high in the sky.",
+	"cobblemon.move.pyroclasticflow": "Pyroclastic Flow",
+	"cobblemon.move.pyroclasticflow.desc": "The user lobs a large mass of volcanic ash and pyroclasts at a foe. The onslaught can bring the hardiest foe to a stop, as well as burn them with stray lava.",
+	"cobblemon.move.dreamtide": "Dream Tide",
+	"cobblemon.move.dreamtide.desc": "The user conjures soothing mineral water and soaks the foe with it. It is such a relaxing sensation that the foe falls asleep while sopping wet.",
+	"cobblemon.move.slowburn": "Slow Burn",
+	"cobblemon.move.slowburn.desc": "The user projects slow burning gases from their body. If the foe is Burned, the gasses will feed the fire.",
+	"cobblemon.move.belltoll": "Bell Toll",
+	"cobblemon.move.belltoll.desc": "The user produces a sound akin to a tolling bell. The foe may become spooked and hesitate.",
+	"cobblemon.move.deathknell": "Death Knell",
+	"cobblemon.move.deathknell.desc": "The user coalesces their finality and shoots it as a concentrated beam at the foe."
+}

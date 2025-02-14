@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:moobloom",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:moobloom",
+        "model": "cobblemon:moobloom.geo",
+        "texture": "cobblemon:textures/pokemon/moobloom/moobloom.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/moobloom/moobloom_shiny.png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:nesten",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:nesten",
+        "model": "cobblemon:nesten.geo",
+        "texture": "cobblemon:textures/pokemon/nesten/nesten.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/nesten/nesten_shiny.png"
+      }
+    ]
+  }
+  

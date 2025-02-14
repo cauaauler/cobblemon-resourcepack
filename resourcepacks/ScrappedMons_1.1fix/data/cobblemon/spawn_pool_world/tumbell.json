@@ -1,0 +1,48 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tumbell-1",
+            "pokemon": "tumbell",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "11-36",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+              "biomes": ["#cobblemon:is_cold"]
+            }
+        },
+        {
+            "id": "tumbell-2",
+            "pokemon": "tumbell",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "11-36",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "expandeddelight:wild_peanuts"
+                ]
+            },
+            "anticondition": {
+              "biomes": ["#cobblemon:is_cold"]
+            }
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+  "implemented": true,
+  "name": "hoppiny",
+  "nationalPokedexNumber": 5032,
+  "primaryType": "ground",
+  "secondaryType": "fighting",
+  "abilities": [
+    "cutecharm",
+    "quickfeet",
+    "h:pickpocket"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 65,
+    "defence": 15,
+    "special_attack": 5,
+    "special_defence": 5,
+    "speed": 30
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 80,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2"
+      },
+      {
+        "item": "cobblemon:black_tumblestone",
+        "percentage": 5
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.25
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+      "light": "0-3"
+    }
+  },
+  "moves": [
+    "1:growl",
+    "1:tackle",
+    "1:eggbomb",
+    "4:present",
+    "7:sandattack",
+    "10:bide",
+    "12:softboiled",
+    "15:armthrust",
+    "19:lowkick",
+    "21:dig",
+    "24:bulldoze",
+    "27:seismic_toss",
+    "30:reversal",
+    "33:rockslide",
+    "36:earthquake",
+    "40:superpower",
+    "egg:aromatherapy",
+    "egg:gravity",
+    "egg:healbell",
+    "tm:strength",
+    "tm:earthquake",
+    "tm:rockslide",
+    "tm:bullrush",
+    "tm:toxic",
+    "tm:happyhour",
+    "tm:superpower",
+    "tm:rest",
+    "tm:focusblast",
+    "tm:stoneedge",
+    "tm:terablast"
+  ],
+  "labels": [
+    "cotere",
+    "baby"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoppiny.desc"
+  ],
+  "standingEyeHeight": 0.5,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.9,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0.6,
+  "weight": 12,
+  "evolutions": [
+    {
+      "id": "hoppiny_hoppsey",
+      "variant": "level_up",
+      "result": "hoppsey",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:black_tumblestone"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "head": "head",
+  "portraitScale": 1.47,
+  "portraitTranslation": [ -0.02, 0.84, 0 ],
+  "profileScale": 0.6,
+  "profileTranslation": [ 0, 0.9, 0 ],
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["bedrock(snijumrat, battle_idle)"],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(snijumrat, blink)"]
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "bedrock(snijumrat, ground_idle)"],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(snijumrat, blink)"]
+          }
+        ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ 
+        "bedrock(snijumrat, ground_walk)" ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(snijumrat, blink)"]
+        }
+      ]
+    },
+      "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": [
+          "SLEEP"
+        ],
+        "animations": [
+          "bedrock(snijumrat, sleep)"
+        ]
+     }
+  }
+}

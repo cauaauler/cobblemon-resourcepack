@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:weenut",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:weenut",
+        "model": "cobblemon:weenut.geo",
+        "texture": "cobblemon:textures/pokemon/weenut/weenut.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/weenut/weenut_shiny.png"
+      }
+    ]
+  }
+  

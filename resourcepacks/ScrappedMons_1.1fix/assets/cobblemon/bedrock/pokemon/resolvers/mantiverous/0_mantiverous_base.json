@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:mantiverous",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mantiverous",
+      "model": "cobblemon:mantiverous.geo",
+      "texture": "cobblemon:textures/pokemon/mantiverous/mantiverous.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/mantiverous/mantiverous_shiny.png"
+    }
+  ]
+}

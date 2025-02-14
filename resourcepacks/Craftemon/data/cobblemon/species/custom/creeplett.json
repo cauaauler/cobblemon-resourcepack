@@ -1,0 +1,118 @@
+{
+  "implemented": true,
+  "name": "creeplett",
+  "nationalPokedexNumber": 2001,
+  "primaryType": "grass",
+  "secondaryType": "electric",
+  "abilities": [
+    "unnerve",
+    "h:angerpoint"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 40,
+    "defence": 40,
+    "special_attack": 90,
+    "special_defence": 90,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "5-15",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 145,
+  "eggCycles": 25,
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:gunpowder",
+        "quantityRange": "1-2",
+        "percentage": 71
+      }
+    ]
+  },
+  "moves": [
+    "0:selfdestruct",
+    "0:leer",
+    "4:spore",
+    "8:thunderwave",
+    "12:spark",
+    "18:smokescreen",
+    "27:scaryface",
+    "30:electroball",
+    "33:razorleaf",
+    "40:thunderbolt",
+    "50:electricterrain"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.creeplett.desc1",
+    "cobblemon.species.creeplett.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 2,
+  "evolutions": [
+    {
+      "id": "creeplett-Creeperator-level_up",
+      "variant": "level_up",
+      "result": "Creeperator",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "explosion"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

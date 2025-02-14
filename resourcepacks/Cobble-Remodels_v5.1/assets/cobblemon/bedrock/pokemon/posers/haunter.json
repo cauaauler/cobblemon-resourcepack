@@ -1,0 +1,78 @@
+{
+  "head": "head",
+  "portraitScale": 0.95,
+  "portraitTranslation": [ 0, 0.8, 0 ],
+  "profileScale": 0.6,
+  "profileTranslation": [ 0, 1, 0 ],
+  "cry":  "bedrock(haunter, cry)",
+  "poses": {
+  "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+      "STAND",
+      "NONE",
+      "PORTRAIT",
+      "PROFILE",
+      "FLOAT",
+	  "HOVER"
+      ],
+      "animations": [
+        "look",
+        "bedrock(haunter, ground_idle)"
+      ],
+	  "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(haunter, blink)"]
+        }
+      ],
+	  "transformedParts": [
+         {
+           "part": "body",
+           "position": [0, -12, 0],
+           "isVisible": true
+         }
+        ]
+  },
+    "flying": {
+      "poseName": "flying",
+      "transformTicks": 10,
+      "poseTypes": [ 
+	  "WALK",
+	  "FLY" 
+	  ],
+      "animations": [   
+        "look",
+        "bedrock(haunter, ground_walk)"
+		],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(haunter, blink)"]
+        }
+		],
+		"transformedParts": [
+         {
+           "part": "body",
+           "position": [0, -12, 0],
+           "isVisible": true
+         }
+        ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [ "SLEEP" ],
+      "animations": [   
+        "bedrock(haunter, sleep)" 
+		]
+    }
+  }
+}

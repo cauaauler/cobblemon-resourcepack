@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:buckid",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:buckid",
+        "model": "cobblemon:buckid.geo",
+        "texture": "cobblemon:textures/pokemon/buckid/buckid.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/buckid/buckid_shiny.png"
+      }
+    ]
+  }
+  

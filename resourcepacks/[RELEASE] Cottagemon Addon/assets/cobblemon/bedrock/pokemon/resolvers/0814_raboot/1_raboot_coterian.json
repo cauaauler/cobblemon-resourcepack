@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:raboot",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["coterian"],
+        "poser": "cobblemon:raboot",
+        "model": "cobblemon:raboot_coterian.geo",
+        "texture": "cobblemon:textures/pokemon/0814_raboot/raboot_coterian.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny","coterian"
+        ],
+        "texture": "cobblemon:textures/pokemon/0814_raboot/raboot_coterian_shiny.png"
+      }
+    ]
+   }

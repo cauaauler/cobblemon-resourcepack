@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:snailistea",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:snailistea",
+      "model": "cobblemon:snailistea.geo",
+      "texture": "cobblemon:textures/pokemon/snailistea/snailistea.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/snailistea/snailistea_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "portraitScale": 2.4,
+  "portraitTranslation": [ -0.2, -2.2, 0 ],
+  "profileScale": 1.4,
+  "profileTranslation": [ 0.1, -0.6, 0 ],
+  "animations": {
+    "faint": "q.bedrock_stateful('scuta', 'faint')",
+    "cry": "q.bedrock_stateful('scuta', 'cry')",
+    "physical": "q.bedrock_primary('scuta', 'physical_attack', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('scuta', 'special_attack', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('scuta', 'status_attack', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('scuta', 'recoil', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('scuta', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('scuta', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head', 1, 1, 20, -10, 10, -10)",
+        "q.bedrock('scuta', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('scuta', 'blink')",
+        "q.bedrock_quirk('scuta', 'ground_quirk_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head', 1, 1, 20, -10, 10, -10)",
+        "q.bedrock('scuta', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('scuta', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head', 1, 1, 20, -10, 10, -10)",
+        "q.bedrock('scuta', 'water_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('scuta', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head', 1, 1, 20, -10, 10, -10)",
+        "q.bedrock('scuta', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('scuta', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('scuta', 'sleep')"]
+    },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head', 1, 1, 20, -10, 10, -10)",
+        "q.bedrock('scuta', 'shoulder_left')"
+      ],
+      "quirks": ["q.bedrock_quirk('scuta', 'blink')"]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head', 1, 1, 20, -10, 10, -10)",
+        "q.bedrock('scuta', 'shoulder_right')"
+      ],
+      "quirks": ["q.bedrock_quirk('scuta', 'blink')"]
+    }
+  }
+ }

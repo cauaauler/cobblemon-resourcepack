@@ -1,0 +1,14 @@
+{
+   "pokemon.houndour.cry": {
+       "sounds": ["cobblemon:pokemon/houndour/houndour_cry"]
+   },
+      "pokemon.houndoom.cry": {
+       "sounds": ["cobblemon:pokemon/houndoom/houndoom_cry"]
+   },
+         "pokemon.swanna.cry": {
+       "sounds": ["cobblemon:pokemon/swanna/swanna_cry"]
+   },
+          "pokemon.ducklett.cry": {
+       "sounds": ["cobblemon:pokemon/ducklett/ducklett_cry"]
+   }
+}

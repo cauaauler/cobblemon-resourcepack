@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "medutox-1",
+            "pokemon": "medutox",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "18-30",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "terralith:desert_oasis"
+                ]
+            }
+        },
+        {
+            "id": "medutox-2",
+            "pokemon": "medutox",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "19-33",
+            "weight": 8.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        }
+    ]
+}

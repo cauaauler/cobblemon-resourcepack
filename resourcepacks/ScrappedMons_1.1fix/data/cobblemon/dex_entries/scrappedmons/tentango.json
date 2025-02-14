@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:tentango",
+  "speciesId": "cobblemon:tentango",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

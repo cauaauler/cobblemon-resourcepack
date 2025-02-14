@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:beelder",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:beelder",
+        "model": "cobblemon:beelder.geo",
+        "texture": "cobblemon:textures/pokemon/beelder/beelder.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/beelder/beelder_shiny.png"
+      }
+    ]
+  }
+  

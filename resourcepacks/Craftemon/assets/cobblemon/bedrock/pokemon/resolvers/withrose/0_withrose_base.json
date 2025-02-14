@@ -1,0 +1,20 @@
+{
+ "species": "cobblemon:withrose",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:withrose",
+     "model": "cobblemon:withrose.geo",
+     "texture": "cobblemon:textures/pokemon/withrose/withrose.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/withrose/withrose_shiny.png",
+	 "layers": []
+	}
+ ]
+}

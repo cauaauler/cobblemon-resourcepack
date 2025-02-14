@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "legendary:regidrago_cave",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 409684838,
+    "spacing": 90,
+    "separation": 30
+  }
+}

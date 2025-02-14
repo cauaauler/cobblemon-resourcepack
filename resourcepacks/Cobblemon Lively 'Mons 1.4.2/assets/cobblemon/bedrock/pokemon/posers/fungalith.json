@@ -1,0 +1,68 @@
+{
+  "portraitScale": 0.7,
+  "portraitTranslation": [-0.3, 0.8, 0],
+  "profileScale": 0.34,
+  "profileTranslation": [0, 1.2, -1],
+  "rootBone": "fungalith",
+  "animations": {
+    "faint": "q.bedrock_primary('fungalith', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('fungalith', 'cry')",
+    "recoil": "q.bedrock_stateful('fungalith', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('fungalith', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fungalith', 'blink')",
+        "q.bedrock_quirk('fungalith', 'brow_raise_quirk')"
+              ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isStandingOnSand": false,
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('fungalith', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fungalith', 'blink')",
+        "q.bedrock_quirk('fungalith', 'brow_raise_quirk')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "isStandingOnSand": false,
+      "animations": [
+        "q.bedrock('fungalith', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('fungalith', 'blink')",
+      "q.bedrock_quirk('fungalith', 'brow_raise_quirk')"]
+    },
+    "sand-standing": {
+      "poseTypes": ["STAND"],
+      "isStandingOnSand": true,
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('fungalith', 'sand_idle')"
+      ],
+      "quirks": []
+    },
+    "sand-swimming": {
+      "poseTypes": ["WALK"],
+      "isStandingOnSand": true,
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('fungalith', 'sand_swim')"
+      ],
+      "quirks": []
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('fungalith', 'sleep')"]
+    }
+  }
+}

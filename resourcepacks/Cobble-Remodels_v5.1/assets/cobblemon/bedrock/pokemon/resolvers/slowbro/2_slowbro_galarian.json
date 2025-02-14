@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:slowbro",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["galarian"],
+      "poser": "cobblemon:slowbro_galar",
+      "model": "cobblemon:slowbro_galar2.geo",
+      "texture": "cobblemon:textures/pokemon/0080_slowbro/slowbro_galarian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+		"galarian",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0080_slowbro/slowbro_galarian_shiny.png"
+    }
+  ]
+}

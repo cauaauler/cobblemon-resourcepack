@@ -1,0 +1,59 @@
+
+{
+    "portraitScale": 1.4,
+    "portraitTranslation": [ 0, -0.3, 0 ],
+    "profileScale": 0.8,
+    "profileTranslation": [ 0, 0.4, 0 ],
+    "faint": "bedrock(peakaboom, faint)",
+    "poses": {
+    "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+        ],
+        "isBattle": false,
+        "animations": [
+        "bedrock(peakaboom, ground_idle)"
+        ]
+    },
+    "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": [ "WALK" ],
+        "animations": [ "bedrock(peakaboom, ground_walk)" ]
+    },
+    "battle-standing": {
+        "poseName": "battle-standing",
+        "transformTicks": 10,
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [ "bedrock(peakaboom, battle_idle)" ]
+    },
+    "shoulder_left": {
+      "poseName": "shoulder_left",
+      "transformTicks": 10,
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations":["bedrock(peakaboom, left_shoulder)"]
+    },
+    "shoulder_right": {
+        "poseName": "shoulder_right",
+        "transformTicks": 10,
+        "poseTypes": ["SHOULDER_RIGHT"],
+        "animations":["bedrock(peakaboom, right_shoulder)"]
+    },
+      "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": [
+          "SLEEP"
+        ],
+        "animations": [
+          "bedrock(peakaboom, sleep)"
+        ]
+      }
+}
+}

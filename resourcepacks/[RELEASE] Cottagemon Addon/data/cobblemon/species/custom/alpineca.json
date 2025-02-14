@@ -1,0 +1,175 @@
+{
+  "implemented": true,
+  "name": "alpineca",
+  "nationalPokedexNumber": 5072,
+  "primaryType": "ice",
+  "abilities": [
+	"snowwarning",
+	"snowcloak",
+	"h:cudchew"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 70,
+	"defence": 60,
+	"special_attack": 110,
+	"special_defence": 85,
+	"speed": 85
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-15",
+	  "times": "night"
+	},
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.3
+      }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 15,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:white_wool",
+        "quantityRange": "1-5"
+      },
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 5
+      },
+	  {
+		"item": "cobblemon:never_melt_ice",
+		"percentage": 5
+	  }
+    ]
+  },
+ "moves": [
+    "1:growl",
+	"1:stomp",
+    "1:tackle",
+    "1:powdersnow",
+    "1:focusenergy",
+    "1:avalanche",
+    "15:icywind",
+    "19:amnesia",
+    "22:aurorabeam",
+    "26:icebeam",
+    "29:curse",
+    "31:takedown",
+	"35:rockclimb",
+    "37:yawn",
+    "40:freezedry",
+    "43:blizzard",
+    "47:doubleedge",
+    "egg:ancientpower",
+    "egg:bodyslam",
+    "egg:defensecurl",
+    "egg:endure",
+    "egg:growth",
+    "egg:heavyslam",
+    "egg:ironhead",
+    "egg:mudbomb",
+    "egg:rollout",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+	"egg:sheercold",
+    "tm:amnesia",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:captivate",
+    "tm:charm",
+    "tm:confide",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:icebeam",
+    "tm:icespinner",
+    "tm:iciclecrash",
+    "tm:icywind",
+	"tm:haze",
+    "tm:flashcannon",
+    "tm:frustration",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:ironhead",
+    "tm:lashout",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:protect",
+	"tm:powergem",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:snowscape",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:zenheadbutt"
+  ],
+  "labels": [
+    "cotere"
+  ],
+  "pokedex": [
+    "cobblemon.species.alpineca.desc"
+  ],
+  "preEvolution": "numel",
+  "standingEyeHeight": 0.9,
+  "baseScale": 0.65,
+  "hitbox": {
+    "width": 1.6,
+    "height": 4,
+    "fixed": false
+  },
+
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 2.3,
+  "weight": 1900,
+  "evolutions": []
+}

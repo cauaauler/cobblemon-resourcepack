@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:zygarde",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["10percent"],
+      "poser": "genomons:zygarde_10percent",
+      "model": "genomons:zygarde_10percent.geo",
+      "texture": "genomons:textures/pokemon/0718_zygarde/10percent/zygarde_10percent.png",
+      "layers": [
+        {
+					"name": "emissive",
+          "emissive": true,
+					"texture": "genomons:textures/pokemon/0718_zygarde/10percent/zygarde_10percent_emissive.png"
+				  }
+      ]
+    },
+    {
+      "aspects": ["10percent", "shiny"],
+      "texture": "genomons:textures/pokemon/0718_zygarde/10percent/zygarde_10percent_shiny.png",
+      "layers": [
+        {
+					"name": "emissive",
+          "emissive": true,
+					"texture": "genomons:textures/pokemon/0718_zygarde/10percent/zygarde_10percent_shiny_emissive.png"
+				  }
+      ]
+    },
+    {
+      "aspects": ["10percent", "blue"],
+      "texture": "genomons:textures/pokemon/0718_zygarde/10percent/zygarde_10percent_b.png"
+    },
+    {
+      "aspects": ["10percent", "blue", "shiny"],
+      "texture": "genomons:textures/pokemon/0718_zygarde/10percent/zygarde_10percent_b_shiny.png"
+    },
+    {
+      "aspects": ["10percent", "green"],
+      "texture": "genomons:textures/pokemon/0718_zygarde/10percent/zygarde_10percent_g.png"
+    },
+    {
+      "aspects": ["10percent", "green", "shiny"],
+      "texture": "genomons:textures/pokemon/0718_zygarde/10percent/zygarde_10percent_g_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "raikou-1",
+            "pokemon": "raikou",
+            "presets": [],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 33.0,
+            "condition": {
+                "structures": [
+                    "genomons:burned_tower"
+                ]
+            }
+        }
+    ]
+}

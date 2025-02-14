@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:greninjaz",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:greninjaz",
+      "model": "cobblemon:greninjaz.geo",
+      "texture": "cobblemon:textures/pokemon/greninja/wanderergreninja.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/greninja/wanderergreninja_shiny.png"
+    }
+  ]
+}

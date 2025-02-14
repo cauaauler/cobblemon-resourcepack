@@ -1,0 +1,131 @@
+{
+    "implemented": true,
+    "name": "Tadborb",
+    "nationalPokedexNumber": 5013,
+    "primaryType": "flying",
+    "abilities": [
+      "owntempo",
+      "gluttony",
+      "h:bigpecks"
+    ],
+    "baseStats": {
+      "hp": 41,
+      "attack": 59,
+      "defence": 40,
+      "special_attack": 31,
+      "special_defence": 35,
+      "speed": 56
+    },
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "depth": "normal",
+        "light": "0-4",
+        "willSleepOnBed": true
+      },
+      "moving": {
+      "walk": {
+        "walkSpeed": 0.35,
+        "swim": {
+          "canSwimInWater": false
+        }
+      },
+      "fly": {
+        "canFly": true
+        }
+    }
+  },
+    "catchRate": 190,
+    "maleRatio": 0.5,
+    "shoulderMountable": true,
+    "baseExperienceYield": 54,
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 1,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+      "flying"
+    ],
+    "moves": [
+      "1:sandattack",
+      "1:tackle",
+      "7:peck",
+      "11:bulletseed",
+      "17:bide",
+      "21:pluck",
+      "24:sandtomb",
+      "25:bodyslam",
+      "32:drillpeck",
+      "36:bounce",
+      "40:sandstorm",
+      "45:suckerpunch",
+      "50:bravebird",
+      "egg:counter",
+      "egg:featherdance",
+      "egg:recycle",
+      "egg:yawn",
+      "tm:protect",
+      "tm:rest",
+      "tm:sleeptalk",
+      "tm:snore",
+      "tm:fly",
+      "tm:terablast",
+      "tm:substitute",
+      "tm:bulkup",
+      "tm:airslash",
+      "tm:charm",
+      "tm:takedown",
+      "tm:dualwingbeat",
+      "tm:cut",
+      "tm:bravebird",
+      "tm:dig"
+    ],
+    "labels": [
+      "cotere"
+    ],
+    "aspects": [],
+    "height": 1,
+    "weight": 5,
+    "evolutions": [
+      {
+        "id": "tadborb_belliborb",
+        "variant": "item_interact",
+        "result": "belliborb",
+        "consumeHeldItem": false,
+        "learnableMoves": ["wideguard"],
+        "requirements": [],
+        "requiredContext": "cobblemon:shiny_stone"
+      }
+    ],
+    "cannotDynamax": false,
+    "pokedex": [
+      "cobblemon.species.tadborb.desc"
+    ],
+    "drops": {
+      "amount": 2,
+      "entries": [
+        {
+          "item": "minecraft:feather",
+          "percentage": 2.5
+        },
+        {
+          "item": "cobblemon:wepear_berry",
+          "percentage": 2.5
+        }
+      ]
+    }
+  }
+  

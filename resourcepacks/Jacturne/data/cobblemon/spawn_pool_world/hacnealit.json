@@ -1,0 +1,179 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "hacnealit-1",
+            "pokemon": "hacnealit",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "6-14",
+            "weight": 7,
+            "condition": {
+                "canSeeSky": true,
+                "timeRange": "night",
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        },
+        {
+            "id": "hacnealit-2",
+            "pokemon": "hacnealit",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "9-17",
+            "weight": 7,
+            "condition": {
+                "canSeeSky": true,
+                "timeRange": "night",
+                "moonPhase": "0",
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        },
+        {
+            "id": "hacnealit-3",
+            "pokemon": "hacnealit",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "6-12",
+            "weight": 13,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern"
+                ]
+            },
+            "anticondition": {
+                "timeRange": "day",
+                "neededNearbyBlocks": [
+                    "minecraft:farmland"
+                ]
+            }
+        },
+        {
+            "id": "hacnealit-4",
+            "pokemon": "hacnealit",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "6-12",
+            "weight": 26,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern"
+                ],
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            },
+            "anticondition": {
+                "timeRange": "day",
+                "neededNearbyBlocks": [
+                    "minecraft:farmland"
+                ]
+            }
+        },
+        {
+            "id": "hacnealit-5",
+            "pokemon": "hacnealit",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "9-16",
+            "weight": 13,
+            "condition": {
+                "canSeeSky": true,
+                "moonPhase": "0",
+                "neededNearbyBlocks": [
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern"
+                ]
+            },
+            "anticondition": {
+                "timeRange": "day",
+                "neededNearbyBlocks": [
+                    "minecraft:farmland"
+                ]
+            }
+        },
+        {
+            "id": "hacnealit-6",
+            "pokemon": "hacnealit",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-18",
+            "weight": 26,
+            "condition": {
+                "canSeeSky": true,
+                "moonPhase": "0",
+                "neededNearbyBlocks": [
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern"
+                ],
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            },
+            "anticondition": {
+                "timeRange": "day",
+                "neededNearbyBlocks": [
+                    "minecraft:farmland"
+                ]
+            }
+        },
+        {
+            "id": "hacnealit_7",
+            "pokemon": "hacnealit",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "6-13",
+            "weight": 4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:plains"
+                ]
+            },
+            "anticondition": {
+                "timeRange": "day"
+            }
+        }
+    ]
+}

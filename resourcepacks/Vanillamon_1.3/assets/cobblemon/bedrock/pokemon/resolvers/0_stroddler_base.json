@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:stroddler",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:stroddler",
+        "model": "cobblemon:stroddler.geo",
+        "texture": "cobblemon:textures/pokemon/stroddler/stroddler.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/stroddler/stroddler_shiny.png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,48 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "inkay-1",
+            "pokemon": "inkay",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-25",
+            "weight": 30.0,
+            "condition": {
+                "canSeeSky": false,
+                "maxY": 40,
+                "neededBaseBlocks": [
+                    "minecraft:stone_bricks"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:cracked_stone_bricks"
+                ],
+				                "biomes": [
+                    "#minecraft:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "minecraft:grass_block"
+                ]
+            }
+        },
+        {
+            "id": "inkay-2",
+            "pokemon": "inkay",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        }
+    ]
+}

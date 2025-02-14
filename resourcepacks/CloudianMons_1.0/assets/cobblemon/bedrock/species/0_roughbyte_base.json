@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:roughbyte",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:roughbyte",
+      "model": "cobblemon:roughbyte.geo",
+      "texture": "cobblemon:textures/pokemon/roughbyte/roughbyte.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/roughbyte/roughbyte_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:raboot-coterian",
+  "speciesId": "cobblemon:raboot",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Coterian",
+      "unlockForms": [
+        "Coterian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:belliborb",
+    "speciesId": "cobblemon:belliborb",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

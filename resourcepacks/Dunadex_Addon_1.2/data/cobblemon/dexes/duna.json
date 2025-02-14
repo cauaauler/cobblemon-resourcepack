@@ -1,0 +1,19 @@
+{
+	"type": "cobblemon:simple_pokedex_def",
+	"id": "cobblemon:duna",
+	"sortOrder": 15,
+	"entries": [
+		"cobblemon:learva",
+		"cobblemon:milliflower",
+		"cobblemon:trunpleora",
+		"cobblemon:blazheep",
+		"cobblemon:vulamb",
+		"cobblemon:thermoat",
+		"cobblemon:swetnail",
+		"cobblemon:tentail",
+		"cobblemon:terrorshell",
+		"cobblemon:whipcealot",
+		"cobblemon:lurefin",
+		"cobblemon:angleel"
+	]
+}

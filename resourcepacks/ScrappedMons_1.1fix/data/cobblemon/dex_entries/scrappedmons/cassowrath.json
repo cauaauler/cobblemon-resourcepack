@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:cassowrath",
+  "speciesId": "cobblemon:cassowrath",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

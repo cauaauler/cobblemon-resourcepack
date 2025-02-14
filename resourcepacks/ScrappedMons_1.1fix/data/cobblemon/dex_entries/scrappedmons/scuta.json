@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:scuta",
+  "speciesId": "cobblemon:scuta",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

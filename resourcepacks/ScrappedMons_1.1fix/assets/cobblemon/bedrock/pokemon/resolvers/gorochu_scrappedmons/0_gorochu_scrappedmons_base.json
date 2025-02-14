@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:gorochu_scrappedmons",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:gorochu_scrappedmons",
+      "model": "cobblemon:gorochu_scrappedmons.geo",
+      "texture": "cobblemon:textures/pokemon/gorochu_scrappedmons/gorochu.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/gorochu_scrappedmons/gorochu_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:umamirage",
+  "speciesId": "cobblemon:umamirage",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

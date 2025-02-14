@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:petrillop",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:petrillop",
+      "model": "cobblemon:petrillop.geo",
+      "texture": "cobblemon:textures/pokemon/petrillop/petrillop.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/petrillop/petrillop_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/petrillop/petrillop_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/petrillop/petrillop_emissive_shiny.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+    "head": "head",
+      "portraitScale": 0.45,
+      "portraitTranslation": [ -0.38, 1.4, 0],
+      "profileScale": 0.25,
+      "profileTranslation": [ 0, 1.2, 0 ],
+      "animations": {
+    "cry": "q.bedrock_stateful('levilord', 'cry')",
+    "faint": "q.bedrock_primary('levilord', 'faint', q.curve('one'))"
+      },
+      "poses": {
+        "battle-idle": {
+            "poseName": "battle-idle",
+            "transformTicks": 10,
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "isTouchingWater": false,
+            "animations": ["bedrock(levilord, battle_idle)"],
+            "quirks": [
+              {
+                "name": "blink",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 8,
+                "maxSecondsBetweenOccurrences": 20,
+                "animations": ["bedrock(levilord, blink)"]
+              },
+                {
+                    "name": "brow_raise",
+                    "loopTimes": 1,
+                    "minSecondsBetweenOccurrences": 12,
+                    "maxSecondsBetweenOccurrences": 25,
+                    "animations": ["bedrock(levilord, brow_raise)"]
+                  }
+            ]
+          },
+      "standing": {
+          "poseName": "standing",
+          "transformTicks": 10,
+          "poseTypes": [
+          "STAND",
+          "NONE",
+          "PORTRAIT",
+          "PROFILE"
+          ],
+          "isBattle": false,
+          "animations": [
+          "bedrock(levilord, air_idle)"
+          ],
+          "quirks": [
+            {
+              "name": "blink",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(levilord, blink)"]
+            },
+              {
+                  "name": "brow_raise",
+                  "loopTimes": 1,
+                  "minSecondsBetweenOccurrences": 12,
+                  "maxSecondsBetweenOccurrences": 25,
+                  "animations": ["bedrock(levilord, brow_raise)"]
+                }
+                ]
+      },
+      "walking": {
+          "poseName": "walking",
+          "transformTicks": 10,
+          "poseTypes": [ "WALK" ],
+          "animations": [ "bedrock(levilord, air_fly)" ]
+      },
+      "hovering": {
+		"poseName": "hovering",
+		"transformTicks": 10,
+		"poseTypes": [ "HOVER" ],
+		"animations": [ "bedrock(levilord, air_idle)" ],
+        "quirks": [
+            {
+              "name": "blink",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(levilord, blink)"]
+            },
+              {
+                  "name": "brow_raise",
+                  "loopTimes": 1,
+                  "minSecondsBetweenOccurrences": 12,
+                  "maxSecondsBetweenOccurrences": 25,
+                  "animations": ["bedrock(levilord, brow_raise)"]
+                }
+                ]
+	},
+	"flying": {
+		"poseName": "flying",
+		"transformTicks": 10,
+		"poseTypes": [ "FLY" ],
+		"animations": [ "bedrock(levilord, air_fly)" ]
+		},
+      
+      "sleeping": {
+          "poseName": "sleeping",
+          "transformTicks": 10,
+          "poseTypes": [ "SLEEP" ],
+          "animations": [ "bedrock(levilord, sleep)"]
+      }
+    }
+  }
+  

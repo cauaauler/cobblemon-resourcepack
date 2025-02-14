@@ -1,0 +1,62 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "numel-coterian-1",
+            "pokemon": "numel coterian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+					"isRaining": true
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+					"#cobblemon:is_glacial"
+                ]
+            }
+        },
+        {
+            "id": "numel-coterian-2",
+            "pokemon": "numel coterian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 5.4,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+					"isRaining": true
+                }
+            },
+            "condition": {
+				"labelMode": "ALL",
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_peak",
+					"#cobblemon:is_snowy"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+					"#cobblemon:is_glacial"
+                ]
+            }
+        }
+    ]
+}

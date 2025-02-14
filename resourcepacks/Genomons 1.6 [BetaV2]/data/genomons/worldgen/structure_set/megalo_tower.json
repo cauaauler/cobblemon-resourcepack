@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "genomons:megalo_tower",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "salt": 1903,
+        "spacing": 80,
+        "separation": 40,
+        "type": "random_spread"
+    }
+}

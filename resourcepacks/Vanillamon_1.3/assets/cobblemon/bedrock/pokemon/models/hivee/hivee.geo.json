@@ -1,0 +1,111 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "whole",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "hivee",
+					"parent": "whole",
+					"pivot": [0, 21, 0]
+				},
+				{
+					"name": "body",
+					"parent": "hivee",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 6, -5], "size": [10, 12, 10], "inflate": 0.4, "uv": [0, 39]},
+						{"origin": [-5, 6, -5], "size": [10, 12, 10], "inflate": 0.3, "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "ridges",
+					"parent": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 6.5, -6], "size": [12, 3, 12], "uv": [0, 0]},
+						{"origin": [-6, 10.5, -6], "size": [12, 2, 12], "uv": [36, 3]},
+						{"origin": [-6, 15.5, -6], "size": [12, 2, 12], "uv": [28, 25]}
+					]
+				},
+				{
+					"name": "tippy",
+					"parent": "body",
+					"pivot": [0, 0, -0.25],
+					"cubes": [
+						{"origin": [-1, 18, -1.25], "size": [2, 3, 2], "pivot": [0, 18.5, -0.25], "rotation": [-15, 0, 0], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "pupils",
+					"parent": "body",
+					"pivot": [0, 14, -3]
+				},
+				{
+					"name": "right",
+					"parent": "pupils",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3.7, 13.1, -5.35], "size": [2, 2, 0], "uv": [10, 25]}
+					]
+				},
+				{
+					"name": "left",
+					"parent": "pupils",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [1.7, 13.1, -5.35], "size": [2, 2, 0], "uv": [10, 25], "mirror": true}
+					]
+				},
+				{
+					"name": "honey",
+					"parent": "hivee",
+					"pivot": [0, -0.25, -0.5]
+				},
+				{
+					"name": "front",
+					"parent": "honey",
+					"pivot": [0, 5.75, -2.6],
+					"cubes": [
+						{"origin": [-3, 2.75, -2.6], "size": [6, 3, 0], "uv": [30, 17]}
+					]
+				},
+				{
+					"name": "back",
+					"parent": "honey",
+					"pivot": [0, 5.75, 2.4],
+					"cubes": [
+						{"origin": [-3, 2.75, 2.4], "size": [6, 3, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "left2",
+					"parent": "honey",
+					"pivot": [3, 5.75, -0.1],
+					"cubes": [
+						{"origin": [3, 2.75, -2.6], "size": [0, 3, 5], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "right2",
+					"parent": "honey",
+					"pivot": [-3, 5.75, -0.1],
+					"cubes": [
+						{"origin": [-3, 2.75, -2.6], "size": [0, 3, 5], "uv": [0, 3]}
+					]
+				}
+			]
+		}
+	]
+}

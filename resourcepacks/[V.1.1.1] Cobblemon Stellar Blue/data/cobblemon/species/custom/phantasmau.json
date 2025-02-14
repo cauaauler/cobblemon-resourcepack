@@ -1,0 +1,162 @@
+{
+  "implemented": true,
+  "name": "Phantasmau",
+  "nationalPokedexNumber": 4014,
+  "primaryType": "normal",
+  "secondaryType": "ghost",
+  "abilities": [
+    "superluck",
+    "cursedbody",
+    "h:reckless"
+  ],
+  "baseStats": {
+    "hp": 88,
+    "attack": 108,
+    "defence": 68,
+    "special_attack": 58,
+    "special_defence": 94,
+    "speed": 111
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "2-15",
+      "willSleepOnBed": true,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 15,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "3-5",
+        "percentage": 100
+      },
+      {
+        "item": "cobblemon:soothe_bell",
+        "quantityRange": "1-1",
+        "percentage": 30
+      },
+      {
+        "item": "cobblemon:spell_tag",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "1:return",
+    "1:scratch",
+    "1:leer",
+    "1:willowisp",
+    "1:shadowclaw",
+    "1:playrough",
+    "4:astonish",
+    "8:quickattack",
+    "12:bite",
+    "16:endure",
+    "20:takedown",
+    "24:charm",
+    "28:metronome",
+    "32:slash",
+    "36:healbell",
+    "40:doubleedge",
+    "44:destinybond",
+    "48:recover",
+    "52:phantomforce",
+    "54:nightslash",
+    "58:gigaimpact",
+    "62:poltergeist",
+    "66:lastrespects",
+    "egg:healingwish",
+    "egg:spite",
+    "egg:shadowsneak",
+    "egg:fakeout",
+    "egg:lastrespects",
+    "tm:takedown",
+    "tm:charm",
+    "tm:rest",
+    "tm:protect",
+    "tm:sleeptalk",
+    "tm:sleeptalk",
+    "tm:facade",
+    "tm:cut",
+    "tm:thunderwave",
+    "tm:wildcharge",
+    "tm:trailblaze",
+    "tm:firefang",
+    "tm:icefang",
+    "tm:thunderfang",
+    "tm:metronome",
+    "tm:playrough",
+    "tm:mistyterrain",
+    "tm:icywind",
+    "tm:phantomforce",
+    "tm:shadowball",
+    "tm:nastyplot",
+    "tm:workup",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:psychic",
+    "tm:hex",
+    "tm:darkpulse",
+    "tm:psyshock",
+    "tm:dig",
+    "tm:return",
+    "tm:terablast",
+    "tm:uturn",
+    "tm:willowisp",
+    "tutor:painsplit",
+    "tutor:confuseray"
+  ],
+  "labels": [
+    "lumora"
+  ],
+  "pokedex": [
+    "cobblemon.species.phantasmau.desc1"
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 0,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 8,
+  "weight": 164
+}

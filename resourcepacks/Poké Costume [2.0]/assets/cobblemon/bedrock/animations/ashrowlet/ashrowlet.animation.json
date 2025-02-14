@@ -1,0 +1,243 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ashrowlet.ground_idle": {
+			"loop": true,
+			"bones": {
+				"wing_right_main": {
+					"rotation": [90, 0, "-85+math.sin(q.anim_time*90*-1.5-120)*2"]
+				},
+				"wing_right1": {
+					"rotation": [0, 0, -5]
+				},
+				"wing_right2": {
+					"rotation": [0, 0, -2.5]
+				},
+				"wing_right3": {
+					"rotation": [0, 0, 2.5]
+				},
+				"wing_left_main": {
+					"rotation": [90, 0, "85+math.sin(q.anim_time*90*1.5+120)*2"],
+					"position": [-0.075, 0, 0]
+				},
+				"wing_left1": {
+					"rotation": [0, 0, 5]
+				},
+				"wing_left2": {
+					"rotation": [0, 0, 2.5]
+				},
+				"wing_left3": {
+					"rotation": [0, 0, -2.5]
+				},
+				"torso": {
+					"rotation": ["0+math.sin(q.anim_time*90*1.5-60)*1", 0, 0],
+					"position": [0, "math.sin(q.anim_time*90*1.5+30)*0.25", 0]
+				},
+				"feather": {
+					"rotation": ["math.sin(q.anim_time*90*1.5+120)*5", 0, 0]
+				},
+				"head_feather2": {
+					"rotation": ["math.sin(q.anim_time*90*1.5+120)*5-8", 0, 0]
+				},
+				"right_upper_coat": {
+					"rotation": [0, 0, "0+math.sin(q.anim_time*90*-1.5-120)*2"]
+				},
+				"back_upper_cloak": {
+					"rotation": ["-4.25+math.sin(q.anim_time*90*-1.5-120)*2", 0, 0],
+					"position": [0, 0.075, 0]
+				},
+				"left_upper_coat": {
+					"rotation": [0, 0, "0+math.sin(q.anim_time*90*1.5+120)*2"]
+				}
+			}
+		},
+		"animation.ashrowlet.air_fly": {
+			"loop": true,
+			"bones": {
+				"all": {
+					"rotation": [15, 0, 0]
+				},
+				"tail": {
+					"rotation": [30, 0, 0],
+					"position": [0, 0, -0.825]
+				},
+				"wing_right_main": {
+					"rotation": ["75+Math.cos((query.anim_time-0.2)*720)*8", 15, "15-Math.sin((q.anim_time)*90*15)*40"],
+					"position": [0.475, 0, 0]
+				},
+				"wing_left_main": {
+					"rotation": ["75+Math.cos((query.anim_time-0.2)*720)*8", -15, "-15+Math.sin((q.anim_time)*90*15)*40"],
+					"position": [-0.475, 0, 0]
+				},
+				"foot_right": {
+					"rotation": ["5+1*Math.cos((query.anim_time-3) * 90 * 5) * 5", 0, 0],
+					"position": [-0.225, 0, -0.1]
+				},
+				"toe_front_right1": {
+					"rotation": [30, 0, 0]
+				},
+				"toe_front_right2": {
+					"rotation": [30, 0, 0]
+				},
+				"toe_back_right": {
+					"rotation": [-30, 0, 0]
+				},
+				"foot_left": {
+					"rotation": ["2.5+1*Math.cos((query.anim_time-3) * 90 * 5) * 5", 0, 0]
+				},
+				"toe_front_left1": {
+					"rotation": [30, 0, 0]
+				},
+				"toe_front_left2": {
+					"rotation": [30, 0, 0]
+				},
+				"toe_back_left": {
+					"rotation": [-30, 0, 0]
+				},
+				"rowlet": {
+					"rotation": ["0+(math.cos(q.anim_time*90*2+180)*3)*0.6", 0, 0],
+					"position": [0, "0+(math.cos(q.anim_time*50*8+100)*2)*0.6", 0]
+				},
+				"feather": {
+					"rotation": ["2.5+1*Math.cos((query.anim_time-3)*50*8+100) * 5", 0, 0]
+				},
+				"head_feather2": {
+					"rotation": ["math.sin(q.anim_time*90*1.5+120)*5-20", 0, 0]
+				},
+				"back_upper_cloak": {
+					"rotation": ["0+1*Math.cos((query.anim_time-3) * 90 * 5) * 5", 0, 0]
+				}
+			}
+		},
+		"animation.ashrowlet.blink": {
+			"animation_length": 0.16667,
+			"bones": {
+				"eyelid_left": {
+					"position": {
+						"0.0": [0, 0, -0.1],
+						"0.125": [0, 0, -0.1],
+						"0.1667": [0, 0, 0]
+					}
+				},
+				"eyelid_right": {
+					"position": {
+						"0.0": [0, 0, -0.1],
+						"0.125": [0, 0, -0.1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.ashrowlet.air_idle": {
+			"loop": true,
+			"bones": {
+				"all": {
+					"rotation": [15, 0, 0]
+				},
+				"tail": {
+					"rotation": [30, 0, 0],
+					"position": [0, 0, -0.825]
+				},
+				"wing_right_main": {
+					"rotation": ["75+Math.cos((query.anim_time-0.2)*720)*8", 15, "15-Math.sin((q.anim_time)*90*15)*40"],
+					"position": [0.475, 0, 0]
+				},
+				"wing_left_main": {
+					"rotation": ["75+Math.cos((query.anim_time-0.2)*720)*8", -15, "-15+Math.sin((q.anim_time)*90*15)*40"],
+					"position": [-0.475, 0, 0]
+				},
+				"foot_right": {
+					"rotation": ["5+1*Math.cos((query.anim_time-3)*50*3+100)*2", 0, 0],
+					"position": [-0.225, 0, -0.1]
+				},
+				"toe_front_right1": {
+					"rotation": [30, 0, 0]
+				},
+				"toe_front_right2": {
+					"rotation": [30, 0, 0]
+				},
+				"toe_back_right": {
+					"rotation": [-30, 0, 0]
+				},
+				"foot_left": {
+					"rotation": ["2.5+1*Math.cos((query.anim_time-3)*50*3+100)*2", 0, 0]
+				},
+				"toe_front_left1": {
+					"rotation": [30, 0, 0]
+				},
+				"toe_front_left2": {
+					"rotation": [30, 0, 0]
+				},
+				"toe_back_left": {
+					"rotation": [-30, 0, 0]
+				},
+				"rowlet": {
+					"rotation": ["0+(math.cos(q.anim_time*90*2+180)*3)*0.6", 0, 0],
+					"position": [0, "0+(math.cos(q.anim_time*50*3+180)*2)*0.6", 0]
+				},
+				"feather": {
+					"rotation": ["2.5+1*Math.cos((query.anim_time-3)*50*3+100)*2", 0, 0]
+				},
+				"head_feather2": {
+					"rotation": ["math.sin(q.anim_time*90*1.5+120)*5-20", 0, 0]
+				},
+				"back_upper_cloak": {
+					"rotation": ["0+1*Math.cos((query.anim_time-3) * 90 * 3) * 5", 0, 0]
+				}
+			}
+		},
+		"animation.ashrowlet.shoulder_left": {
+			"loop": true,
+			"bones": {
+				"wing_right_main": {
+					"rotation": [90, 0, "-85+math.sin(q.anim_time*90*-1.5-120)*2"]
+				},
+				"wing_right1": {
+					"rotation": [0, 0, -5]
+				},
+				"wing_right2": {
+					"rotation": [0, 0, -2.5]
+				},
+				"wing_right3": {
+					"rotation": [0, 0, 2.5]
+				},
+				"wing_left_main": {
+					"rotation": [90, 0, "85+math.sin(q.anim_time*90*1.5+120)*2"],
+					"position": [-0.075, 0, 0]
+				},
+				"wing_left1": {
+					"rotation": [0, 0, 5]
+				},
+				"wing_left2": {
+					"rotation": [0, 0, 2.5]
+				},
+				"wing_left3": {
+					"rotation": [0, 0, -2.5]
+				},
+				"torso": {
+					"rotation": ["0+math.sin(q.anim_time*90*1.5-60)*1", 0, 0],
+					"position": [0, "math.sin(q.anim_time*90*1.5+30)*0.25", 0]
+				},
+				"feather": {
+					"rotation": ["math.sin(q.anim_time*90*1.5+120)*5", 0, 0]
+				},
+				"head_feather2": {
+					"rotation": ["math.sin(q.anim_time*90*1.5+120)*5-8", 0, 0]
+				},
+				"right_upper_coat": {
+					"rotation": [0, 0, "0+math.sin(q.anim_time*90*-1.5-120)*2"]
+				},
+				"back_upper_cloak": {
+					"rotation": ["-4.25+math.sin(q.anim_time*90*-1.5-120)*2", 0, 0],
+					"position": [0, 0.075, 0]
+				},
+				"left_upper_coat": {
+					"rotation": [0, 0, "0+math.sin(q.anim_time*90*1.5+120)*2"]
+				},
+				"rowlet": {
+					"position": [-10.2, 11.525, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,114 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [-0.5, 0, 0 ],
+  "profileScale": 0.6,
+  "profileTranslation": [ 0, 0.8, 0 ],
+  "cry":  "bedrock(megagengar, cry)",
+  "poses": {
+  "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+      "STAND",
+      "NONE",
+      "PORTRAIT",
+      "FLOAT"
+      ],
+      "animations": [
+        "bedrock(megagengar, ground_idle)"
+      ],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(megagengar, blink)"]
+        },
+        {
+          "name": "laugh",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 40,
+          "maxSecondsBetweenOccurrences": 80,
+          "animations": ["bedrock(megagengar, laugh_quirk)"]
+        }
+		]
+  },
+  "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "bedrock(megagengar, ground_walk)"
+      ],
+	  "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(megagengar, blink)"]
+        }
+      ]
+   },
+    "hovering": {
+      "poseName": "hovering",
+      "transformTicks": 10,
+      "poseTypes": [ 
+		"HOVER",
+		"PROFILE", 
+		],
+      "animations": [   
+        "bedrock(megagengar, air_idle)" ],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(megagengar, blink)"]
+        }
+      ]
+    },
+    "flying": {
+      "poseName": "flying",
+      "transformTicks": 10,
+      "poseTypes": [ "FLY" ],
+      "animations": [   
+        "bedrock(megagengar, ground_walk)" ],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(megagengar, blink)"]
+        }
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": [ "FLOAT" ],
+      "animations": [   
+        "bedrock(megagengar, ground_walk)" ],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(megagengar, blink)"]
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [ "SLEEP" ],
+      "animations": [   
+        "bedrock(megagengar, sleep)" 
+		]
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+    
+"implemented": true,
+"name": "profector",
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.profector.desc1"
+],
+"height": 9,
+"weight": 450,
+"preEvolution": "copptomaton",
+
+"shoulderMountable": false,
+"shoulderEffects": [ "slow_fall" ],
+
+"primaryType": "steel",
+"secondaryType": "fighting",
+"baseStats": {
+  "hp": 70,
+  "attack": 150,
+  "defence": 120,
+  "special_attack": 55,
+  "special_defence": 80,
+  "speed": 30
+},
+"catchRate": 90,
+"maleRatio": -1,
+"baseExperienceYield": 170,
+"experienceGroup": "medium_fast",
+"eggCycles": 25,
+"eggGroups": [
+  "mineral"
+],
+"baseFriendship": 35,
+"evYield": {
+  "attack": 2
+},
+
+"moves": [
+    "45:heavyslam",
+    "50:seismictoss",
+    "52:megapunch",
+    "64:upperhand",
+    "67:doubleironbash",
+    "69:metalsound",
+    "74:shiftgear",
+    "78:shockwave",
+    "82:superpower",
+    "86:chargebeam",
+    "93:vitalthrow",
+    "95:focusblast",
+    "97:steelbeam",
+    "100:mirrorshot"
+  ],
+  "abilities": [
+    "bulletproof",
+    "h:bigpecks",
+    "sturdy"
+  ],
+  
+  "baseScale": 1.2,
+  "hitbox": {
+    "width": 2.8,
+    "height": 3,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:iron_ingot",
+        "quantityRange": "1-3",
+        "percentage": 60
+      },
+      {
+        "item": "minecraft:iron_block",
+        "quantityRange": "1",
+        "percentage": 15
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": false
+      },          
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+
+}

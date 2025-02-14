@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:tigriff",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:tigriff",
+        "model": "cobblemon:tigriff.geo",
+        "texture": "cobblemon:textures/pokemon/tigriff/tigriff.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/tigriff/tigriff_shiny.png"
+      }
+    ]
+   }

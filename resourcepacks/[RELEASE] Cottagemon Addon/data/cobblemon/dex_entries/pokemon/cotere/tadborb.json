@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:tadborb",
+    "speciesId": "cobblemon:tadborb",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

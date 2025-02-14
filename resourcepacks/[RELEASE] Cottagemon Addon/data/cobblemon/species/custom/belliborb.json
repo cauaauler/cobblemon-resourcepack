@@ -1,0 +1,147 @@
+{
+    "implemented": true,
+    "name": "Belliborb",
+    "nationalPokedexNumber": 5014,
+    "primaryType": "flying",
+    "secondaryType": "ground",
+    "abilities": [
+      "thickfat",
+      "gluttony",
+      "h:bigpecks"
+    ],
+    "baseStats": {
+      "hp": 109,
+      "attack": 103,
+      "defence": 90,
+      "special_attack": 64,
+      "special_defence": 83,
+      "speed": 46
+    },
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1.1,
+    "height": 1.5,
+    "fixed": false
+  },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "depth": "normal",
+        "light": "0-4",
+        "willSleepOnBed": false
+      },
+      "moving": {
+      "walk": {
+        "walkSpeed": 0.15,
+        "swim": {
+          "canSwimInWater": false
+        }
+      }
+    }
+  },
+    "catchRate": 50,
+    "maleRatio": 0.5,
+    "baseExperienceYield": 173,
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 2,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+      "flying"
+    ],
+    "moves": [
+        "1:sandattack",
+        "1:tackle",
+        "1:softboiled",
+        "1:followme",
+        "1:bulldoze",
+        "7:peck",
+        "11:bulletseed",
+        "17:bide",
+        "21:pluck",
+        "24:sandtomb",
+        "25:bodyslam",
+        "32:drillpeck",
+        "36:bounce",
+        "40:sandstorm",
+        "45:suckerpunch",
+        "50:bravebird",
+        "55:eggbomb",
+        "57:earthquake",
+        "60:bellydrum",
+        "67:headlongrush",
+        "egg:counter",
+        "egg:featherdance",
+        "egg:recycle",
+        "egg:yawn",
+        "tm:protect",
+        "tm:rest",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:fly",
+        "tm:terablast",
+        "tm:substitute",
+        "tm:bulkup",
+        "tm:airslash",
+        "tm:superpower",
+        "tm:bulldoze",
+        "tm:charm",
+        "tm:takedown",
+        "tm:megakick",
+        "tm:dualwingbeat",
+        "tm:rocksmash",
+        "tm:cut",
+        "tm:bravebird",
+        "tm:earthquake",
+        "tm:scorchingsands",
+        "tm:highhorsepower",
+        "tm:trailblaze",
+        "tm:bulletseed",
+        "tm:icespinner",
+        "tm:heatcrash",
+        "tm:dig",
+        "tm:bodypress",
+        "tm:stealthrocks"
+    ],
+    "labels": [
+      "cotere"
+    ],
+    "aspects": [],
+    "height": 19,
+    "weight": 1020,
+    "preEvolution": "tadborb",
+    "evolutions": [],
+    "cannotDynamax": false,
+    "pokedex": [
+      "cobblemon.species.belliborb.desc"
+    ],
+    "drops": {
+      "amount": 2,
+      "entries": [
+        {
+          "item": "minecraft:feather",
+          "percentage": 5.0
+        },
+        {
+          "item": "minecraft:egg",
+          "percentage": 5.0
+        },
+        {
+          "item": "cobblemon:wepear_berry",
+          "percentage": 5.0
+        },
+        {
+          "item": "cobblemon:shiny_stone",
+          "percentage": 5.0
+        }
+      ]
+    }
+  }
+  

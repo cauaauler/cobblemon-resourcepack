@@ -1,0 +1,120 @@
+{
+  "implemented": true,
+  "name": "elderqwil",
+  "nationalPokedexNumber": 2012,
+  "primaryType": "rock",
+  "secondaryType": "poison",
+  "abilities": [
+    "intimidate",
+    "swiftswim",
+    "h:ironbarbs"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 115,
+    "defence": 95,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "eggCycles": 30,
+  "eggGroups": [
+    "water_1",
+    "monster"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:heart_of_the_sea",
+        "quantityRange": "1-1",
+        "percentage": 16
+      }
+    ]
+  },
+  "moves": [
+    "1:poisonsting",
+    "1:tackle",
+    "4:harden",
+    "8:watergun",
+    "12:fellstinger",
+    "16:minimize",
+    "20:spikes",
+    "24:brine",
+    "28:revenge",
+    "32:pinmissile",
+    "36:toxicspikes",
+    "40:poisonjab",
+    "44:stockpile",
+    "44:spitup",
+    "48:takedown",
+    "52:toxic",
+    "56:aquatail",
+    "60:acupressure",
+    "66:destinybond",
+    "50:stealthrock",
+    "50:rockpolish",
+    "9:rockthrow",
+    "70:stoneedge",
+    "26:darkpulse",
+    "15:barbbarrage",
+    "47:doubleedge",
+    "57:selfdestruct",
+    "77:amnesia",
+    "37:earthquake"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.elderqwil.desc1",
+    "cobblemon.species.elderqwil.desc2"
+  ],
+  "baseScale": 2,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 500,
+  "evolutions": []
+}

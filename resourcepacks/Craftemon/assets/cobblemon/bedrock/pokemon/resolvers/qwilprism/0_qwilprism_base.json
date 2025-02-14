@@ -1,0 +1,20 @@
+{
+ "species": "cobblemon:qwilprism",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:qwilprism",
+     "model": "cobblemon:qwilprism.geo",
+     "texture": "cobblemon:textures/pokemon/qwilprism/qwilprism.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/qwilprism/qwilprism_shiny.png",
+	  "layers": []
+   }
+ ]
+}

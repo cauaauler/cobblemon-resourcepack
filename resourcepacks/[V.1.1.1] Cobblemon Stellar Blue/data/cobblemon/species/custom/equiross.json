@@ -1,0 +1,151 @@
+{
+    "implemented": true,
+    "name": "Equiross",
+    "nationalPokedexNumber": 4008,
+    "primaryType": "water",
+    "abilities": [
+        "torrent",
+        "h:anticipation"
+    ],
+    "baseStats": {
+        "hp": 65,
+        "attack": 58,
+        "defence": 45,
+        "special_attack": 92,
+        "special_defence": 80,
+        "speed": 75
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 140,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "water_1",
+        "dragon"
+    ],
+    "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-4"
+        },
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.3
+          },
+          "swim": {
+            "swimSpeed": 0.5,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+          }
+        }
+      },
+    "drops": {
+        "amount": "2",
+        "entries": [
+            {
+                "item": "minecraft:kelp",
+                "quantityRange": "1-2",
+                "percentage": 33
+            },
+            {
+                "item": "cobblemon:mystic_water",
+                "percentage": 10.0
+            }
+        ]
+    },
+    "moves": [
+        "1:stomp",
+        "1:pound",
+        "1:tailwhip",
+        "1:watergun",
+        "6:twister",
+        "10:aquajet",
+        "12:mist",
+        "15:bubblebeam",
+        "20:dragontail",
+        "26:aquatail",
+        "29:highhorsepower",
+        "36:agility",
+        "40:hydropump",
+        "44:lifedew",
+        "egg:magnetrise",
+        "egg:haze",
+        "egg:extrasensory",
+        "egg:dragonrage",
+        "egg:extremespeed",
+        "egg:dragonbreath",
+        "egg:aquaring",
+        "tm:takedown",
+        "tm:agility",
+        "tm:protect",
+        "tm:waterpulse",
+        "tm:confuseray",
+        "tm:disarmingvoice",
+        "tm:chillingwater",
+        "tm:facade",
+        "tm:swift",
+        "tm:icywind",
+        "tm:raindance",
+        "tm:psyshock",
+        "tm:sleeptalk",
+        "tm:waterfall",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:substitute",
+        "tm:tailwind",
+        "tm:surf",
+        "tm:helpinghand",
+        "tm:hydropump",
+        "tm:waterpledge",
+        "tm:terablast",
+        "tm:dive",
+        "tm:round",
+        "tm:tailslap",
+        "tm:hiddenpower",
+        "tm:frustration",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:flipturn",
+        "tm:defog",
+        "tm:doubleedge"
+    ],
+    "labels": [ "lumora"
+    ],
+    "pokedex": [
+        "cobblemon.species.equiross.desc1"
+    ],
+    "evolutions": [
+    {
+      "id": "equiross_equirin",
+      "variant": "level_up",
+      "result": "equirin",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "dragonpulse"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+    "baseScale": 0.7,
+    "hitbox": {
+        "width": 1.1,
+        "height": 1.6,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "special_attack": 2
+    },
+    "height": 8,
+    "weight": 280
+}

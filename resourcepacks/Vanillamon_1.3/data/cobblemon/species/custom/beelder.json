@@ -1,0 +1,95 @@
+{
+    
+"implemented": true,
+"name": "beelder",
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.beelder.desc1"
+],
+"height": 1.2,
+"weight": 5,
+"shoulderMountable": true,
+"primaryType": "bug",
+"baseStats": {
+  "hp": 30,
+  "attack": 20,
+  "defence": 30,
+  "special_attack": 40,
+  "special_defence": 60,
+  "speed": 20
+},
+"catchRate": 250,
+"maleRatio": 0.1,
+"baseExperienceYield": 35,
+"experienceGroup": "medium_fast",
+"eggCycles": 15,
+"eggGroups": [
+  "bug"
+],
+"baseFriendship": 35,
+"evYield": {
+  "special_defence": 1
+},
+"moves": [
+    "1:poisonsting",
+    "3:bugbite",
+    "5:nuzzle",
+    "7:leechlife",
+    "10:sweetkiss"
+  ],
+  "abilities": [
+    "honeygather",
+    "cutecharm",
+    "h:friendguard"
+  ],
+  
+  "evolutions": [
+    {
+      "id": "beelder_hivee_level",
+      "variant": "level_up",
+      "result": "hivee",
+      "consumeHeldItem": false,
+      "learnableMoves": [ "protect" ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "12"
+        }
+      ]
+    }
+  ],
+  
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.2,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:honey_bottle",
+        "quantityRange": "1",
+        "percentage": 15
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "fly": {
+        "canFly": true
+      },          
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+      
+    }
+  }
+
+
+
+}

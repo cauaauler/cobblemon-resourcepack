@@ -1,0 +1,31 @@
+{
+	"portraitScale": 2,
+	"portraitTranslation": [ -0.1, -1.2, 0 ],
+	"profileScale": 1,
+	"profileTranslation": [ 0, 0.25, 0 ],
+	
+	"animations": {
+		"cry": "q.bedrock_primary('learva', 'cry', q.curve('symmetric'))"
+	},
+	
+	"poses": {
+		"standing": {
+			"poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+			"animations": [
+				"q.bedrock('learva', 'ground_idle')"
+			],
+			"quirks": [
+				"q.bedrock_quirk('learva', 'blink')"
+			]
+		},
+		"walking": {
+			"poseTypes": ["WALK"],
+			"animations": [
+				"q.bedrock('learva', 'ground_walk')"
+			],
+			"quirks": [
+				"q.bedrock_quirk('learva', 'blink')"
+			]
+		}
+	}
+}

@@ -1,0 +1,150 @@
+{
+	"implemented": true,
+	"name": "vulamb",
+	"nationalPokedexNumber": 5,
+	"labels": ["custom", "duna_regional"],
+	"pokedex": [
+		"cobblemon.species.vulamb.desc"
+	],
+	"height": 14,
+	"weight": 250,
+	"shoulderMountable": false,
+	
+	"primaryType": "fire",
+	"secondaryType": "ground",
+	"baseStats": {
+		"hp": 60,
+		"attack": 74,
+		"defence": 62,
+		"special_attack": 70,
+		"special_defence": 62,
+		"speed": 77
+	},
+	"catchRate": 45,
+	"maleRation": 0.875,
+	"baseExperienceYield": 142,
+	"experienceGroup": "medium_slow",
+	"eggCycles": 20,
+	"eggGroups": [
+		"field",
+		"mineral"
+	],
+	"baseFriendship": 50,
+	"evYield": {
+		"hp": 0,
+		"attack": 0,
+		"defence": 1,
+		"special_attack": 0,
+		"special_defence": 2,
+		"speed": 0
+	},
+	
+	"moves": [
+		"1:tackle",
+		"1:smokescreen",
+		"4:ember",
+		"6:smog",
+		"7:mudslap",
+		"9:babydolleyes",
+		"12:magnitude",
+		"15:sunnyday",
+		"16:clearsmog",
+		"18:willowisp",
+		"20:amnesia",
+		"21:flamewheel",
+		"22:headbutt",
+		"24:flamethrower",
+		"25:sandstorm",
+		"28:bulkup",
+		"28:calmmind",
+		"27:irondefense",
+		"29:earthpower",
+		"30:ironhead",
+		"32:zenheadbutt",
+		"34:lavaplume",
+		"37:healbell",
+		"39:earthquake",
+		"40:eruption",
+		"tm:highhorsepower",
+		"tm:steelbeam",
+		"tm:rockpolish",
+		"tm:rocktomb",
+		"tm:naturepower",
+		"tm:stealthrock",
+		"tm:avalanche",
+		"tm:rest",
+		"tm:bodypress",
+		"tm:payback",
+		"tm:strength",
+		"tm:rocksmash",
+		"tm:protect",
+		"tutor:blastburn",
+		"tutor:fissure",
+		"tutor:hornleech",
+		"tutor:faketears",
+		"tutor:powertrip",
+		"egg:yawn",
+		"egg:rototiller",
+		"egg:acidspray",
+		"egg:mist",
+		"egg:taunt"
+	],
+	"abilities": [
+		"blaze",
+		"h:flashfire"
+	],
+	
+	"evolutions": [
+		{
+			"id": "vulamb_thermoat",
+			"variant": "level_up",
+			"result": "thermoat",
+			"consumeHeldItem": false,
+			"learnableMoves": [],
+			"requirements": [
+				{
+					"variant": "level",
+					"minLevel": 32
+				}
+			]
+		}
+	],
+	
+	"baseScale": 1.2,
+	"hitbox": {
+		"width": 1,
+		"height": 1,
+		"fixed": false
+	},
+	"drops": {
+		"amount": 3,
+		"entries": [
+			{
+				"item": "minecraft:mutton",
+				"quantityRange": "1-2"
+			},
+			{
+				"item": "minecraft:magma_block",
+				"percentage": 40
+			},
+			{
+				"item": "cobblemon:charcoal_stick",
+				"percentage": 10
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"walk": {
+				"walkSpeed": 0.29
+			},
+			"resting": {
+				"canSleep": true,
+				"willSleepOnBed": true,
+				"depth": "normal",
+				"light": "0-4"
+			}
+		}
+	}
+}

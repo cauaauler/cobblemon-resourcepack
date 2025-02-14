@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "wildburning",
+  "nationalPokedexNumber": 6666,
+  "primaryType": "fire",
+  "secondaryType": "Dragon",
+  "abilities": [
+    "Protosynthesis"
+  ],
+  "baseStats": {
+    "hp": 88,
+    "attack": 120,
+    "defence": 70,
+    "special_attack": 90,
+    "special_defence": 82,
+    "speed": 120
+  },
+  "catchRate": 30,
+  "maleRatio": -1,
+  "baseExperienceYield": 285,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+     "light": "0-4"
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.25
+      }
+    }
+  },
+  "moves": [
+    "1:DragonDance",
+    "1:FireFang",
+    "1:ScaleShot",
+    "1:ExtremeSpeed",
+    "5:Flamethrower",
+    "14:PlayRough",
+    "21:FireFang",
+    "21:ThunderFang",
+    "21:IceFang",
+    "28:FlareBlitz",
+    "35:Howl",
+    "38:Reversal",
+    "42:Retaliate",
+    "49:Reversal",
+    "53:Roar",
+    "56:FlameWheel",
+    "63:Outrage",
+    "66:linjiaren",
+    "70:DragonRush",
+    "tm:Earthquake",
+    "tm:DragonClaw",
+    "tm:DualChop",
+    "tm:BreakingSwipe",
+    "tm:DragonCheer",
+    "tm:Uturn",
+    "tm:SandAttack",
+    "tm:Bounce",
+    "tm:Submission",
+    "tm:dig",
+    "tm:Toxic",
+    "tm:WillOWisp",
+    "tm:FireBlast",
+    "tm:Bide",
+    "tm:TripleKick",
+    "tm:Spikes",
+    "tm:SuckerPunch",
+    "tm:Detect",
+    "tm:Sandstorm",
+    "tm:SunnyDay",
+    "tm:Swagger",
+    "tm:UpperHand",
+    "tm:TeraBlast",
+    "tm:HighHorsepower"
+  ],
+  "labels": [
+    "custom",
+    "paradox"
+  ],
+  "pokedex": [
+    "cobblemon.species.wildburning.desc"
+  ],
+  "evolutions": [],
+  "baseScale": 1.5,
+  "hitbox": {
+    "width": 1.7,
+    "height": 2.2,
+    "fixed": false
+  },
+  "baseFriendship": 0,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 1550,
+  "aspects": [],
+  "cannotDynamax": false
+}

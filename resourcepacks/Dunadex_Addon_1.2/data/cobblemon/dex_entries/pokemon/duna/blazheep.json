@@ -1,0 +1,15 @@
+{
+	"id": "cobblemon:blazheep",
+	"speciesId": "cobblemon:blazheep",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": [
+				"Normal"
+			]
+		}
+	],
+	"variations": []
+}

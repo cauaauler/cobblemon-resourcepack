@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:swagtle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:swagtle",
+      "model": "cobblemon:swagtle.geo",
+      "texture": "cobblemon:textures/pokemon/swagtle/swagtle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/swagtle/swagtle.png"
+    }
+  ]
+}

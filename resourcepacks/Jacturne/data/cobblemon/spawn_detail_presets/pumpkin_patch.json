@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "neededBaseBlocks": [
+	  "minecraft:moss_block",
+	  "minecraft:moss_carpet",
+	  "minecraft:snow_block",
+	  "minecraft:snow",
+	  "minecraft:pumpkin",
+	  "minecraft:jack_o_lantern",
+	  "minecraft:carved_pumpkin",
+	  "#minecraft:animals_spawnable_on",
+	  "#minecraft:dirt",
+	  "#minecraft:dirt_like",
+	  "#minecraft:grass",
+	  "#minecraft:snow",
+	  "#c:dirt"
+    ]
+  },
+  "anticondition": {
+	  "neededBaseBlocks": [
+      "minecraft:farmland"
+	  ]
+  }
+}
+

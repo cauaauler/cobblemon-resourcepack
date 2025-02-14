@@ -1,0 +1,13 @@
+{
+  "species": "cobblemon:mimikyu",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "female",
+		"hk"
+      ],
+      "model": "cobblemon:mimikyu_female_hk.geo"
+    }
+  ]
+}

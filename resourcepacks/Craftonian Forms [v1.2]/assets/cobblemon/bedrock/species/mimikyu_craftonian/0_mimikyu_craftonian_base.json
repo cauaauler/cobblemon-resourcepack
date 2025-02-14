@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mimikyu_craftonian",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mimikyu_craftonian",
+      "model": "cobblemon:mimikyu_craftonian.geo",
+      "texture": "cobblemon:textures/pokemon/mimikyu/mimikyu_craftonian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+		"shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mimikyu/mimikyu_craftonian.png"
+    }
+  ]
+}

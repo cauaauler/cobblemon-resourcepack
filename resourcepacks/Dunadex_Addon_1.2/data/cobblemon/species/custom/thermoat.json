@@ -1,0 +1,137 @@
+{
+	"implemented": true,
+	"name": "thermoat",
+	"nationalPokedexNumber": 6,
+	"labels": ["custom", "duna_regional"],
+	"pokedex": [
+		"cobblemon.species.thermoat.desc"
+	],
+	"height": 18,
+	"weight": 1000,
+	"shoulderMountable": false,
+	
+	"primaryType": "fire",
+	"secondaryType": "ground",
+	"baseStats": {
+		"hp": 80,
+		"attack": 102,
+		"defence": 83,
+		"special_attack": 96,
+		"special_defence": 83,
+		"speed": 91
+	},
+	"catchRate": 45,
+	"maleRation": 0.875,
+	"baseExperienceYield": 263,
+	"experienceGroup": "medium_slow",
+	"eggCycles": 20,
+	"eggGroups": [
+		"field",
+		"mineral"
+	],
+	"baseFriendship": 50,
+	"evYield": {
+		"hp": 0,
+		"attack": 0,
+		"defence": 1,
+		"special_attack": 0,
+		"special_defence": 2,
+		"speed": 0
+	},
+	
+	"moves": [
+		"1:tackle",
+		"1:smokescreen",
+		"4:ember",
+		"6:smog",
+		"7:mudslap",
+		"9:babydolleyes",
+		"12:magnitude",
+		"15:sunnyday",
+		"16:clearsmog",
+		"18:willowisp",
+		"20:amnesia",
+		"21:flamewheel",
+		"22:headbutt",
+		"24:flamethrower",
+		"25:sandstorm",
+		"28:bulkup",
+		"28:calmmind",
+		"27:irondefense",
+		"29:earthpower",
+		"30:ironhead",
+		"32:zenheadbutt",
+		"34:lavaplume",
+		"37:healbell",
+		"40:earthquake",
+		"43:eruption",
+		"45:stompingtantrum",
+		"48:headsmash",
+		"50:solarbeam",
+		"tm:highhorsepower",
+		"tm:steelbeam",
+		"tm:rockpolish",
+		"tm:rocktomb",
+		"tm:naturepower",
+		"tm:stealthrock",
+		"tm:avalanche",
+		"tm:rest",
+		"tm:bodypress",
+		"tm:payback",
+		"tm:strength",
+		"tm:rocksmash",
+		"tm:protect",
+		"tutor:blastburn",
+		"tutor:fissure",
+		"tutor:hornleech",
+		"tutor:faketears",
+		"tutor:powertrip",
+		"egg:yawn",
+		"egg:rototiller",
+		"egg:acidspray",
+		"egg:mist",
+		"egg:taunt"
+	],
+	"abilities": [
+		"blaze",
+		"h:flashfire"
+	],
+	
+	"baseScale": 1.6,
+	"hitbox": {
+		"width": 1,
+		"height": 1,
+		"fixed": false
+	},
+	"drops": {
+		"amount": 3,
+		"entries": [
+			{
+				"item": "minecraft:mutton",
+				"quantityRange": "1-2"
+			},
+			{
+				"item": "minecraft:magma_block",
+				"percentage": 60
+			},
+			{
+				"item": "cobblemon:charcoal_stick",
+				"percentage": 25
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"walk": {
+				"walkSpeed": 0.27
+			},
+			"resting": {
+				"canSleep": true,
+				"willSleepOnBed": true,
+				"depth": "normal",
+				"light": "0-4"
+			}
+		}
+	}
+}

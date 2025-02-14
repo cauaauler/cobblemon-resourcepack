@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:lurefin",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:lurefin",
+			"model": "cobblemon:lurefin.geo",
+			"texture": "cobblemon:textures/pokemon/lurefin/lurefin.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/lurefin/lurefin_shiny.png"
+		}
+	]
+}

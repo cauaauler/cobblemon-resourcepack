@@ -1,0 +1,110 @@
+{
+	"implemented": true,
+	"name": "woohorn",
+	"labels": [ "custom" ],
+	"pokedex": [
+		"cobblemon.species.woohorn.desc1",
+		"cobblemon.species.woohorn.desc2"
+	],
+	"height": 20,
+	"weight": 3000,
+	"preEvolution": "leug",
+	"shoulderMountable": false,
+ 
+	"primaryType": "bug",
+	"secondaryType": "grass",
+	"baseStats": {
+		"hp": 115,
+		"attack": 155,
+		"defence": 150,
+		"special_attack": 40,
+		"special_defence": 60,
+		"speed": 40
+	},
+	
+	"catchRate": 10,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 100,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 17,
+	"eggGroups": [
+		"bug",
+		"grass"
+	],
+	"baseFriendship": 50,
+		"evYield": {
+		"speed": 1
+	},
+	"moves": [
+		"1:stringshot",
+		"1:strugglebug",
+		"1:scratch",
+		"1:absorb",
+		"6:bugbite",
+		"7:growth",
+		"8:pinmissile",
+		"12:brickbreak",
+		"14:grassyterrain",
+		"17:synthesis",
+		"18:seedbomb",
+		"22:hornleech",
+		"25:trailblaze",
+		"35:firstimpression",
+		"38:bulkup",	
+		"44:woodhammer",
+		"55:megahorn",
+		"tm:swordsdance",
+		"tm:rockslide",
+		"tm:earthquake",
+		"tm:bulkup",	
+		"tm:rest",
+		"tm:synthesis",
+		"tm:furycutter",
+		"tm:sunnyday",
+		"tm:frustration",
+		"tm:return",
+		"tm:leechlife",
+		"tm:substitute",
+		"tutor:honeclaws"
+	],
+	"abilities": [
+		"moxie",
+		"swarm",
+		"h:seedsower"
+	],
+	"baseScale": 1,
+	"hitbox": {
+		"width": 1.8,
+		"height": 1.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "2",
+		"entries": [
+			{
+				"item": "minecraft:apple",
+				"quantityRange": "1-2",
+				"percentage": 66
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": true,
+			"fly": {
+				"canFly": false
+			},          
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": true
+			}
+		},
+		"resting": {
+			"canSleep": true,
+			"willSleepOnBed": false,
+			"depth": "normal",
+			"light": "0-4"
+		}
+	}	
+}

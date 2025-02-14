@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Adds the leaked peanut pokemon to cobblemon!",
+    "pack_format": 15,
+    "supported_formats": [15]
+  }
+}

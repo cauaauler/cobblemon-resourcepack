@@ -1,0 +1,52 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "scuta-1",
+            "pokemon": "scuta",
+            "presets": ["water"],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "1-23",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "scuta-2",
+            "pokemon": "scuta",
+            "presets": ["water"],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "rare",
+            "level": "1-23",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_river"
+                ]
+            }
+        },
+        {
+            "id": "scuta-3",
+            "pokemon": "scuta",
+            "presets": ["water"],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-23",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_river"
+                ]
+            }
+        }
+    ]
+}

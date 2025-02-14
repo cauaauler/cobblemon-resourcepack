@@ -1,0 +1,149 @@
+{
+	"implemented": true,
+	"name": "blazheep",
+	"nationalPokedexNumber": 4,
+	"labels": ["custom", "duna_regional"],
+	"pokedex": [
+		"cobblemon.species.blazheep.desc"
+	],
+	"height": 7,
+	"weight": 130,
+	"shoulderMountable": false,
+	
+	"primaryType": "fire",
+	"baseStats": {
+		"hp": 45,
+		"attack": 62,
+		"defence": 49,
+		"special_attack": 51,
+		"special_defence": 49,
+		"speed": 62
+	},
+	"catchRate": 45,
+	"maleRation": 0.875,
+	"baseExperienceYield": 64,
+	"experienceGroup": "medium_slow",
+	"eggCycles": 20,
+	"eggGroups": [
+		"field",
+		"mineral"
+	],
+	"baseFriendship": 50,
+	"evYield": {
+		"hp": 0,
+		"attack": 0,
+		"defence": 1,
+		"special_attack": 0,
+		"special_defence": 1,
+		"speed": 0
+	},
+	
+	"moves": [
+		"1:tackle",
+		"1:smokescreen",
+		"4:ember",
+		"6:smog",
+		"7:mudslap",
+		"9:babydolleyes",
+		"12:magnitude",
+		"15:sunnyday",
+		"16:clearsmog",
+		"18:willowisp",
+		"20:amnesia",
+		"21:flamewheel",
+		"22:headbutt",
+		"24:flamethrower",
+		"25:sandstorm",
+		"28:bulkup",
+		"28:calmmind",
+		"27:irondefense",
+		"29:earthpower",
+		"30:ironhead",
+		"31:zenheadbutt",
+		"32:lavaplume",
+		"35:healbell",
+		"tm:highhorsepower",
+		"tm:steelbeam",
+		"tm:rockpolish",
+		"tm:rocktomb",
+		"tm:naturepower",
+		"tm:stealthrock",
+		"tm:avalanche",
+		"tm:rest",
+		"tm:bodypress",
+		"tm:payback",
+		"tm:strength",
+		"tm:rocksmash",
+		"tm:protect",
+		"tutor:blastburn",
+		"tutor:fissure",
+		"tutor:hornleech",
+		"tutor:faketears",
+		"tutor:powertrip",
+		"egg:yawn",
+		"egg:rototiller",
+		"egg:acidspray",
+		"egg:mist",
+		"egg:taunt"
+	],
+	"abilities": [
+		"blaze",
+		"h:flashfire"
+	],
+	
+	"evolutions": [
+		{
+			"id": "blazheep_vulamb",
+			"variant": "level_up",
+			"result": "vulamb",
+			"consumeHeldItem": false,
+			"learnableMoves": [
+				
+			],
+			"requirements": [
+				{
+					"variant": "level",
+					"minLevel": 16
+				}
+			]
+		}
+	],
+	
+	"baseScale": 1,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": 3,
+		"entries": [
+			{
+				"item": "minecraft:mutton",
+				"quantityRange": "1-2"
+			},
+			{
+				"item": "minecraft:magma_block",
+				"percentage": 20
+			},
+			{
+				"item": "cobblemon:charcoal_stick",
+				"percentage": 5
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"walk": {
+				"walkSpeed": 0.3
+			},
+			"resting": {
+				"canSleep": true,
+				"willSleepOnBed": true,
+				"depth": "normal",
+				"light": "0-4"
+			}
+		}
+	}
+}

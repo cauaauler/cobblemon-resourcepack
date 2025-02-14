@@ -1,0 +1,130 @@
+{
+  "target": "cobblemon:kirlia",
+  "features": ["cloudian"],
+  "forms": [
+    {
+      "name": "cloudian",
+      "aspects": ["cloudian"],
+      "nationalPokedexNumber": 281,
+      "primaryType": "Ghost",
+      "secondaryType": "Fire",
+      "abilities": [
+    "Synchronize",
+    "CursedBody",
+    "h:ShadowTag"
+      ],
+      "baseStats": {
+    "hp": 38,
+    "attack": 35,
+    "defence": 35,
+    "special_attack": 65,
+    "special_defence": 55,
+    "speed": 50
+      },
+      "behaviour": {
+        "resting": {
+          "canSleep": false,
+          "depth": "normal",
+          "light": "0-4",
+          "willSleepOnBed": false
+        },
+        "moving": {
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.3,
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false
+          },
+          "fly": {
+            "canFly": false,
+            "flySpeedHorizontal": 0.3
+          }
+        }
+      },
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "experienceGroup": "slow",
+      "shoulderMountable": false,
+      "baseExperienceYield": 97,
+      "eggCycles": 20,
+      "eggGroups": [
+        "human_like",
+        "amorphous"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "minecraft:raw_iron",
+            "quantityRange": "1-2",
+            "percentage": 22
+          },
+          {
+            "item": "minecraft:iron_nugget",
+            "quantityRange": "2-3",
+            "percentage": 8
+          }
+        ]
+      },
+      "moves": [
+    "1:Pound",
+    "1:Tackle",
+    "1:Growl",
+    "1:Sing",
+    "9:TakeDown",
+    "12:FirePunch",
+    "14:Disable",
+    "15:Hypnosis",
+    "17:ConfuseRay",
+    "18:Reflect",
+    "23:Encore",
+    "28:Moonlight",
+    "33:ShadowBall",
+    "43:WillOwisp"
+      ],
+      "labels": [
+        "custom"
+      ],
+      "pokedex": [
+        "cobblemon.species.sableye_cloud.desc1",
+        "cobblemon.species.sableye_alatian.desc2"
+      ],
+      "baseScale": 0.8,
+      "hitbox": {
+        "width": 0.5,
+        "height": 1.4,
+        "fixed": false
+      },
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 5,
+      "weight": 235,
+      "evolutions": [
+        {
+          "id": "kirlia_cloud_gardevoir",
+          "variant": "level_up",
+          "result": "gardevoir cloud",
+          "consumeHeldItem": true,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "32"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

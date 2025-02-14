@@ -1,0 +1,221 @@
+{
+  "implemented": true,
+  "name": "tentango",
+  "nationalPokedexNumber": 6608,
+  "primaryType": "water",
+  "secondaryType": "fairy",
+  "abilities": [
+    "pickup",
+    "suctioncups",
+    "h:gluttony"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 20,
+    "defence": 60,
+    "special_attack": 55,
+    "special_defence": 70,
+    "speed": 28
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.3,
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "water_2",
+    "fairy"
+  ],
+  "drops": {
+    "amount": 10,
+    "entries": [
+      {
+        "item": "minecraft:ink_sac",
+        "quantityRange": "1-2",
+        "percentage": 100
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "quantityRange": "1",
+        "percentage": 20
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "quantityRange": "1",
+        "percentage": 20
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "quantityRange": "1",
+        "percentage": 20
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "quantityRange": "1",
+        "percentage": 20
+      },
+      {
+        "item": "cobblemon:aspear_berry",
+        "quantityRange": "1",
+        "percentage": 20
+      },
+      {
+        "item": "cobblemon:leppa_berry",
+        "quantityRange": "1",
+        "percentage": 20
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "quantityRange": "1",
+        "percentage": 20
+      },
+      {
+        "item": "cobblemon:lum_berry",
+        "quantityRange": "1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:sitrus_berry",
+        "quantityRange": "1",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:bubble",
+    "1:charm",
+    "5:wrap",
+    "9:drainingkiss",
+    "12:pluck",
+    "15:substitute",
+    "18:curse",
+    "20:rest",
+    "24:bubblebeam",
+    "25:camouflage",
+    "28:dazzlinggleam",
+    "32:recycle",
+    "35:moonblast",
+    "37:reflect",
+    "37:lightscreen",
+    "38:craftyshield",
+    "40:batonpass",
+    "46:softboiled",
+    "50:topsyturvy",
+    "60:hydropump",
+    "tm:faketears",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:thief",
+    "tm:facade",
+    "tm:toxic",
+    "tm:swift",
+    "tm:storedpower",
+    "tm:fling",
+    "tm:endure",
+    "tm:hypnosis",
+    "tm:raindance",
+    "tm:dazzlinggleam",
+    "tm:surf",
+    "tm:sleeptalk",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:rest",
+    "tm:venoshock",
+    "tm:taunt",
+    "tm:snore",
+    "tm:skillswap",
+    "tm:substitute",
+    "tm:trick",
+    "tm:scald",
+    "tm:psychic",
+    "tm:gigadrain",
+    "tm:darkpulse",
+    "tm:calmmind",
+    "tm:helpinghand",
+    "tm:batonpass",
+    "tm:nastyplot",
+    "tm:trickroom",
+    "tm:terablast",
+    "tm:alluringvoice",
+    "tm:thunderwave",
+    "tm:knockoff",
+    "tm:triattack",
+    "tm:rapidspin",
+    "tm:healbell",
+    "tm:hydropump",
+    "egg:present",
+    "egg:mist",
+    "egg:octazooka",
+    "egg:octolock",
+    "egg:bodypress",
+    "egg:bulkup",
+    "egg:wideguard"
+  ],
+  "labels": [
+    "scrappedmons"
+  ],
+  "pokedex": [
+    "cobblemon.species.tentango.desc1"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 80,
+  "evolutions": [
+    {
+      "id": "tentango-umamirage-level_up",
+      "variant": "level_up",
+      "result": "umamirage",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "recycle"
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

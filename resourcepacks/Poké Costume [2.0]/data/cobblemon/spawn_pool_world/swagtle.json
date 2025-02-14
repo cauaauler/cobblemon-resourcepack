@@ -1,0 +1,59 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "swagtle-1",
+            "pokemon": "swagtle",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "15-48",
+            "weight": 3.8,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_deep"
+                ]
+            }
+        },
+        {
+            "id": "swagtle-2",
+            "pokemon": "swagtle",
+            "presets": [
+                "ocean_ruins"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "20-48",
+            "weight": 3.8,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_ocean"
+                ]
+            }
+        },
+		{
+            "id": "swagtle-3",
+            "pokemon": "swagtle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "20-48",
+            "weight": 4.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#minecraft:is_beach"
+                ]
+            }
+        }
+    ]
+}

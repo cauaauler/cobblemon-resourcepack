@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:jellynit",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:jellynit",
+      "model": "cobblemon:jellynit.geo",
+      "texture": "cobblemon:textures/pokemon/jellynit/jellynit.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/jellynit/jellynit_shiny.png"
+    }
+  ]
+}

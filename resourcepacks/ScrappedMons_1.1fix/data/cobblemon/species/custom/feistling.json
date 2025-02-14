@@ -1,0 +1,190 @@
+{
+  "implemented": true,
+  "name": "feistling",
+  "nationalPokedexNumber": 6606,
+  "primaryType": "rock",
+  "secondaryType": "fire",
+  "abilities": [
+    "flashfire",
+    "rockhead",
+    "h:speedboost"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 65,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.4,
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 30,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 100
+      },
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "quantityRange": "1-1",
+        "percentage": 5
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:leer",
+    "3:peck",
+    "5:ember",
+    "7:headbutt",
+    "9:scaryface",
+    "12:rockthrow",
+    "15:pursuit",
+    "20:flamecharge",
+    "24:brickbreak",
+    "27:aerialace",
+    "29:takedown",
+    "31:screech",
+    "33:headsmash",
+    "36:blazekick",
+    "39:closecombat",
+    "48:throatchop",
+    "52:flareblitz",
+    "tm:attract",
+    "tm:bide",
+    "tm:captivate",
+    "tm:confide",
+    "tm:curse",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:facade",
+    "tm:frustration",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:naturalgift",
+    "tm:protect",
+    "tm:rage",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:breakingswipe",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:drainpunch",
+    "tm:drillrun",
+    "tm:falseswipe",
+    "tm:firepunch",
+    "tm:flamecharge",
+    "tm:lowsweep",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:seismictoss",
+    "tm:zenheadbutt",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:steelwing",
+    "tm:swordsdance",
+    "tm:thief",
+    "tm:workup",
+    "egg:bravebird",
+    "egg:dragonrush",
+    "egg:dragondance",
+    "egg:ancientpower",
+    "egg:shadowclaw",
+    "egg:thrash",
+    "egg:metalclaw",
+    "egg:featherdance"
+  ],
+  "labels": [
+    "scrappedmons"
+  ],
+  "pokedex": [
+    "cobblemon.species.feistling.desc1"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.6,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 0,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 400,
+  "evolutions": [
+    {
+      "id": "feistling-cassowrath-level_up",
+      "variant": "level_up",
+      "result": "cassowrath",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

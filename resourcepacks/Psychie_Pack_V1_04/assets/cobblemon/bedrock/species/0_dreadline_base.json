@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:dreadline",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:dreadline",
+      "model": "cobblemon:dreadline.geo",
+      "texture": "cobblemon:textures/pokemon/dreadline/dreadline.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/dreadline/dreadline_shiny.png"
+    }
+  ]
+}

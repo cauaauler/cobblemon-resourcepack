@@ -1,0 +1,179 @@
+{
+  "implemented": true,
+  "name": "treashrub",
+  "nationalPokedexNumber": 3011,
+  "primaryType": "grass",
+  "secondaryType": "Dark",
+  "abilities": [
+    "Overgrow",
+    "h:SereneGrace"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 89,
+    "defence": 85,
+    "special_attack": 55,
+    "special_defence": 65,
+    "speed": 36
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "walk": {
+      "walkSpeed": 0.2
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+      "moves": [
+        "1:bind",
+        "1:scratch",
+        "6:leer",
+        "12:vinewhip",
+        "18:growth",
+        "24:furyswipes",
+        "30:scaryface",
+        "36:grassknot",
+        "42:bite",
+        "48:uturn",
+        "54:swagger",
+        "60:energyball",
+        "66:synthesis",
+        "72:hammerarm",
+        "78:thrash",
+        "84:powerwhip",
+        "90:junglehealing",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:assurance",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:brutalswing",
+        "tm:bulkup",
+        "tm:bulletseed",
+        "tm:closecombat",
+        "tm:crunch",
+        "tm:darkestlariat",
+        "tm:darkpulse",
+        "tm:dig",
+        "tm:drainpunch",
+        "tm:encore",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:fling",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:grassyterrain",
+        "tm:helpinghand",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:irontail",
+        "tm:leafstorm",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magicalleaf",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:mudshot",
+        "tm:nastyplot",
+        "tm:payback",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:rest",
+        "tm:revenge",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:scaryface",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:solarblade",
+        "tm:stompingtantrum",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:thief",
+        "tm:throatchop",
+        "tm:trailblaze",
+        "tm:uturn",
+        "tutor:energyball",
+        "tutor:grassyglide",
+        "tutor:hammerarm",
+        "tutor:junglehealing",
+        "tutor:lashout",
+        "tutor:powerwhip"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.treashrub.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "treashrub_venspire",
+      "variant": "level_up",
+      "result": "venspire",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "hornleech"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.2,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 970,
+  "aspects": [],
+  "cannotDynamax": false
+}

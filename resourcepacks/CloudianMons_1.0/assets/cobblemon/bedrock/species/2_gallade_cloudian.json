@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:gallade",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["cloudian"],
+      "poser": "cobblemon:gallade_cloudian",
+      "model": "cobblemon:gallade_cloudian.geo",
+      "texture": "cobblemon:textures/pokemon/gallade/gallade_cloudian.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "cloudian" ],
+      "texture": "cobblemon:textures/pokemon/gallade/gallade_cloudian_shiny.png"
+    }
+  ]
+}

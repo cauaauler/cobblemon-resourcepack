@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:mimikyu",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": [
+	    "hk"
+	  ],
+	  "model": "cobblemon:mimikyu_hk.geo",
+      "texture": "cobblemon:textures/pokemon/0778_mimikyu/mimikyu_hk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+		"hk"
+      ],
+      "texture": "cobblemon:textures/pokemon/0778_mimikyu/mimikyu_hk_shiny.png"
+    }
+  ]
+}

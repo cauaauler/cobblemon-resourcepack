@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:snijumrat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:snijumrat",
+      "model": "cobblemon:snijumrat.geo",
+      "texture": "cobblemon:textures/pokemon/snijumrat/snijumrat.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/snijumrat/snijumrat_shiny.png"
+    }
+  ]
+}

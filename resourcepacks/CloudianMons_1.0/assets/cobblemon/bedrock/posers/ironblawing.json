@@ -1,0 +1,77 @@
+{
+  "portraitScale": 1.22,
+  "portraitTranslation": [-0.32,1.62,0],
+  "profileScale": 0.51,
+  "profileTranslation": [-0.01,1,0],
+  "rootBone": "ironblawing",
+  "animations": {
+    "cry": "q.bedrock_stateful('ironblawing', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ironblawing', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ironblawing', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ironblawing', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ironblawing', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ironblawing', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ironblawing', 'blink')"
+      ]
+    },
+    "hover": {
+      "poseTypes": [
+        "HOVER"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ironblawing', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ironblawing', 'blink')"
+      ]
+    },
+    "fly": {
+      "poseTypes": [
+        "FLY"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ironblawing', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ironblawing', 'blink')"
+      ]
+    }
+  }
+}

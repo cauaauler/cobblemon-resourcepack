@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:lilligant",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lilligant2",
+      "model": "cobblemon:lilligant2.geo",
+      "texture": "cobblemon:textures/pokemon/lilligant/lilligant.png",
+      "layers": [{}]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lilligant/lilligant_shiny.png",
+      "layers": [{}]
+    }
+  ]
+}

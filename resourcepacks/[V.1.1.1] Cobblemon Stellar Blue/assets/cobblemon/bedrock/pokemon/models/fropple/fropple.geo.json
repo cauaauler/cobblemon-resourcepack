@@ -1,0 +1,116 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.fropple",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "fropple",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 2, -1], "size": [9, 8, 9], "uv": [0, 0]},
+						{"origin": [1, 7.75, -1.25], "size": [1, 1, 0], "uv": [0, 6]},
+						{"origin": [-1, 7.75, -1.25], "size": [1, 1, 0], "uv": [0, 5]},
+						{"origin": [4, 0.55, -1], "size": [2, 3, 2], "pivot": [5, 0.55, 0], "rotation": [-22.25015, -3.43206, -8.3249], "uv": [0, 17]},
+						{"origin": [-5, 0.55, -1], "size": [2, 3, 2], "pivot": [-4, 0.55, 0], "rotation": [-22.25015, 3.43206, 8.3249], "uv": [0, 0]},
+						{"origin": [-5, 0.5, 2.5], "size": [2, 3, 4], "pivot": [-4, 0.5, 5.5], "rotation": [0, 0, 10], "uv": [27, 0]},
+						{"origin": [3.95, 0.5, 2.5], "size": [2, 3, 4], "pivot": [4.95, 0.5, 5.5], "rotation": [0, 0, -10], "uv": [25, 17]},
+						{"origin": [4, 0, 3], "size": [2, 1, 3], "pivot": [5, 0, 5], "rotation": [0, -22.5, 0], "uv": [33, 14]},
+						{"origin": [-5, 0, 3], "size": [2, 1, 3], "pivot": [-4, 0, 5], "rotation": [0, 22.5, 0], "uv": [24, 32]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "fropple",
+					"pivot": [2.75, 8.5, -0.35],
+					"rotation": [0, 0, -8],
+					"cubes": [
+						{"origin": [1.75, 8.5, -1.35], "size": [3, 2, 2], "pivot": [2.75, 8.5, -0.35], "rotation": [0, 0, 22.5], "uv": [32, 34]},
+						{"origin": [2, 9, -1.35], "size": [3, 1, 0], "inflate": 0.01, "pivot": [3, 9, -0.35], "rotation": [0, 0, 22.5], "uv": [34, 28]},
+						{"origin": [1, 7.75, -1.01], "size": [4, 3, 2], "pivot": [3, 7.75, -0.05], "rotation": [0, 0, 22.5], "uv": [12, 32]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "fropple",
+					"pivot": [-2.65, 8.2, -0.3],
+					"rotation": [0, 0, 8],
+					"cubes": [
+						{"origin": [-3.65, 8.2, -1.3], "size": [3, 2, 2], "pivot": [-2.65, 8.2, -0.3], "rotation": [0, 0, -22.5], "uv": [34, 24]},
+						{"origin": [-3.9, 8.7, -1.3], "size": [3, 1, 0], "inflate": 0.01, "pivot": [-2.9, 8.7, -2.3], "rotation": [0, 0, -22.5], "uv": [0, 25]},
+						{"origin": [-3.95, 7.85, -1.01], "size": [4, 3, 2], "pivot": [-1.95, 7.85, -0.05], "rotation": [0, 0, -22.5], "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "stem",
+					"parent": "fropple",
+					"pivot": [1, 9, 4],
+					"cubes": [
+						{"origin": [0, 10, 3], "size": [1, 1, 1], "uv": [25, 17]},
+						{"origin": [-0.5, 11, 2.5], "size": [2, 2, 2], "uv": [0, 5]},
+						{"origin": [-0.9, 12.75, 2], "size": [3, 2, 3], "pivot": [0.1, 12.75, 3], "rotation": [0, 0, 21], "uv": [31, 29]}
+					]
+				},
+				{
+					"name": "leaf",
+					"parent": "stem",
+					"pivot": [-2.5, 13.75, 3],
+					"cubes": [
+						{"origin": [-4.27757, 13.04987, 3], "size": [4, 3, 0], "pivot": [-0.5, 14, 3], "rotation": [0, 0, 10.5], "uv": [0, 22]}
+					]
+				},
+				{
+					"name": "belly",
+					"parent": "fropple",
+					"pivot": [-1, 3.25, -0.35],
+					"cubes": [
+						{"origin": [-3.5, 1.75, -1.25], "size": [8, 6, 9], "uv": [0, 17]},
+						{"origin": [0, 3.25, -1.35], "size": [1, 2, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "mouth",
+					"parent": "fropple",
+					"pivot": [0.5, 6.75, -0.25],
+					"cubes": [
+						{"origin": [1.5, 6.75, -1.251], "size": [3, 1, 0], "uv": [36, 13]},
+						{"origin": [1.5, 7.25, -1.251], "size": [3, 1, 1], "inflate": 0.01, "uv": [27, 7]},
+						{"origin": [-1, 7.5, -1.251], "size": [3, 1, 2], "inflate": 0.01, "uv": [33, 18]},
+						{"origin": [-3.5, 7.25, -1.251], "size": [3, 1, 1], "inflate": 0.01, "uv": [25, 24]},
+						{"origin": [-3.5, 6.75, -1.251], "size": [3, 1, 0], "uv": [35, 3]},
+						{"origin": [-4, 7, -1.251], "size": [1, 1, 0], "uv": [6, 1]},
+						{"origin": [4, 7, -1.251], "size": [1, 1, 0], "uv": [6, 0]},
+						{"origin": [-1, 7, -1.251], "size": [3, 1, 0], "uv": [26, 36]}
+					]
+				},
+				{
+					"name": "hand_left",
+					"parent": "fropple",
+					"pivot": [-4, 0, -0.5],
+					"rotation": [0, -45, 0],
+					"cubes": [
+						{"origin": [-5, 0, -2.5], "size": [1, 1, 2], "pivot": [-4, 0, -1.5], "rotation": [0, 10, 0], "uv": [22, 36]},
+						{"origin": [-4, 0, -2.5], "size": [1, 1, 2], "uv": [36, 10]}
+					]
+				},
+				{
+					"name": "hand_right",
+					"parent": "fropple",
+					"pivot": [5, 0, -0.3],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{"origin": [5, 0, -2.05], "size": [1, 1, 2], "pivot": [6, 0, -1.05], "rotation": [0, -10, 0], "uv": [35, 0]},
+						{"origin": [4, 0, -2.25], "size": [1, 1, 2], "uv": [36, 7]}
+					]
+				}
+			]
+		}
+	]
+}

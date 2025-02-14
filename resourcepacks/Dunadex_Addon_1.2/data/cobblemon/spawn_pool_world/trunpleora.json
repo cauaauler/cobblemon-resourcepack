@@ -1,0 +1,33 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	
+	"spawns": [
+		{
+			"id": "trunpleora-1",
+			"pokemon": "trunpleora",
+			"presets": ["natural", "foliage"],
+			"type": "pokemon",
+			"context": "grounded",
+			"bucket": "ultra-rare",
+			"level": "32-52",
+			"weight": 0.1,
+			"condition": {
+				"minSkyLight": 8,
+                "maxSkyLight": 15,
+				"timeRange": "day",
+				"biomes": [
+					"#cobblemon:is_jungle",
+					"#cobblemon:is_forest"
+				]
+			},
+			"anticondition": {
+				"biomes": [
+					"#cobblemon:is_magical",
+					"#cobblemon:is_snowy"
+				]
+			}
+		}
+	]
+}

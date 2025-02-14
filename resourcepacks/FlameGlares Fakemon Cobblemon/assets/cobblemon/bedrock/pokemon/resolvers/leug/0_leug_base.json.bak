@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:leug",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:leug",
+     "model": "cobblemon:leug.geo.json",
+     "texture": "cobblemon:textures/pokemon/leug/leug.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/leug/leug_shiny.png"
+   }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "legendary:regirock_cave",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 457824363,
+    "spacing": 90,
+    "separation": 30
+  }
+}

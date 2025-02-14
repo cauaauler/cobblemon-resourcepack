@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:hacnea",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+		"carved-face-smug"
+	  ],
+      "poser": "cobblemon:hacnea_smug",
+      "model": "cobblemon:hacnea_smug.geo",
+      "texture": "cobblemon:textures/pokemon/hacnea/hacnea.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny", "carved-face-smug"
+      ],
+      "texture": "cobblemon:textures/pokemon/hacnea/hacnea_shiny.png"
+    }
+  ]
+}

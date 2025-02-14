@@ -1,0 +1,135 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.creeperator",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "creeperator",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "creeperator",
+					"pivot": [0, 20, -0.25]
+				},
+				{
+					"name": "torso",
+					"parent": "body",
+					"pivot": [0, 16.33333, -0.41667],
+					"cubes": [
+						{"origin": [-6, 16, -5.25], "size": [12, 9, 10], "uv": [0, 0]},
+						{"origin": [5, 19, -2.25], "size": [0, 13, 14], "uv": [28, 20]},
+						{"origin": [-5, 19, -2.25], "size": [0, 13, 14], "uv": [0, 20]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "torso",
+					"pivot": [0, 24.75, -0.5],
+					"cubes": [
+						{"origin": [-4, 25, -6.25], "size": [8, 8, 8], "uv": [36, 11]},
+						{"origin": [0, 26, -3.25], "size": [0, 15, 15], "uv": [0, 4]}
+					]
+				},
+				{
+					"name": "eyes",
+					"parent": "head",
+					"pivot": [0, 28, -6.35],
+					"cubes": [
+						{"origin": [-4, 28, -6.35], "size": [3, 3, 0], "uv": [0, 3]},
+						{"origin": [1, 28, -6.35], "size": [3, 3, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "core",
+					"parent": "torso",
+					"pivot": [0, 20.5, -5.35],
+					"cubes": [
+						{"origin": [-3.5, 18, -5.35], "size": [7, 5, 0], "uv": [30, 27]}
+					]
+				},
+				{
+					"name": "lowertorso",
+					"parent": "body",
+					"pivot": [0, 16.25, -0.25],
+					"cubes": [
+						{"origin": [-2.5, 8, -2.75], "size": [6, 9, 6], "pivot": [0, 12.5, 0.75], "rotation": [0, 45, 0], "uv": [26, 57]},
+						{"origin": [-3.5, 5, -3.75], "size": [8, 5, 8], "pivot": [0, 12.5, 0.75], "rotation": [0, 45, 0], "uv": [0, 47]}
+					]
+				},
+				{
+					"name": "leg1",
+					"parent": "lowertorso",
+					"pivot": [3.01561, 7.1, -1.22272],
+					"cubes": [
+						{"origin": [1.26561, 5.1, -16.97272], "size": [8, 4, 4], "pivot": [9.01561, 17.75, -8.97272], "rotation": [0, 90, 0], "uv": [64, 47]}
+					]
+				},
+				{
+					"name": "foot1",
+					"parent": "leg1",
+					"pivot": [3.01561, 7.1, -9.22272],
+					"cubes": [
+						{"origin": [9.26561, 4.1, -17.47272], "size": [11, 5, 5], "pivot": [9.01561, 17.75, -8.97272], "rotation": [0, 90, 0], "uv": [32, 47]}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "lowertorso",
+					"pivot": [-3.01561, 7.1, -1.22272],
+					"cubes": [
+						{"origin": [-9.26561, 5.1, -16.97272], "size": [8, 4, 4], "pivot": [-9.01561, 17.75, -8.97272], "rotation": [0, -90, 0], "uv": [0, 60]}
+					]
+				},
+				{
+					"name": "foot2",
+					"parent": "leg2",
+					"pivot": [-3.01561, 7.1, -9.22272],
+					"cubes": [
+						{"origin": [-20.26561, 4.1, -17.47272], "size": [11, 5, 5], "pivot": [-9.01561, 17.75, -8.97272], "rotation": [0, -90, 0], "uv": [32, 47], "mirror": true}
+					]
+				},
+				{
+					"name": "leg3",
+					"parent": "lowertorso",
+					"pivot": [2.83883, 7.1, 1.38173],
+					"cubes": [
+						{"origin": [1.33883, 5.1, 12.88173], "size": [8, 4, 4], "pivot": [8.83883, 6.75, 8.88173], "rotation": [0, -90, 0], "uv": [60, 10]}
+					]
+				},
+				{
+					"name": "foot3",
+					"parent": "leg3",
+					"pivot": [2.83883, 6.6, 9.38173],
+					"cubes": [
+						{"origin": [9.33883, 4.1, 12.38173], "size": [10, 5, 5], "pivot": [8.83883, 6.75, 8.88173], "rotation": [0, -90, 0], "uv": [56, 37]}
+					]
+				},
+				{
+					"name": "leg4",
+					"parent": "lowertorso",
+					"pivot": [-2.83883, 7.1, 1.38173],
+					"cubes": [
+						{"origin": [-9.33883, 5.1, 12.88173], "size": [8, 4, 4], "pivot": [-8.83883, 6.75, 8.88173], "rotation": [0, 90, 0], "uv": [50, 57]}
+					]
+				},
+				{
+					"name": "foot4",
+					"parent": "leg4",
+					"pivot": [-2.83883, 6.6, 9.38173],
+					"cubes": [
+						{"origin": [-19.33883, 4.1, 12.38173], "size": [10, 5, 5], "pivot": [-8.83883, 6.75, 8.88173], "rotation": [0, 90, 0], "uv": [56, 37], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

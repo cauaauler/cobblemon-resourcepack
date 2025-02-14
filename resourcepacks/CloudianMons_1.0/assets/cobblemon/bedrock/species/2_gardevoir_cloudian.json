@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:gardevoir",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["cloudian"],
+      "poser": "cobblemon:gardevoir_cloudian",
+      "model": "cobblemon:gardevoir_cloudian.geo",
+      "texture": "cobblemon:textures/pokemon/gardevoir/gardevoir_cloudian.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "cloudian" ],
+      "texture": "cobblemon:textures/pokemon/gardevoir/gardevoir_cloudian_shiny.png"
+    }
+  ]
+}

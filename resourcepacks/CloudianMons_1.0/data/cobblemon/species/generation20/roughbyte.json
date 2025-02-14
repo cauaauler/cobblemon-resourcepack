@@ -1,0 +1,126 @@
+{
+  "implemented": true,
+  "name": "roughbyte",
+  "nationalPokedexNumber": 3285,
+  "primaryType": "normal",
+ "secondaryType": "Ghost",
+  "abilities": [
+    "Protosynthesis"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 95,
+    "defence": 120,
+    "special_attack": 75,
+    "special_defence": 110,
+    "speed": 65
+  },
+  "catchRate": 45,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 285,
+  "experienceGroup": "slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:upgrade",
+        "percentage": 25.0
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "moves": [
+    "1:Conversion",
+    "1:WildCharge",
+    "1:VoltSwitch",
+    "10:DefenseCurl",
+    "15:ThunderShock",
+    "20:MagnetRise",
+    "25:RapidSpin",
+    "29:ShadowBall",
+    "30:Agility",
+    "35:TrickRoom",
+    "40:Conversion2",
+    "45:Discharge",
+    "50:LockOn",
+    "50:TriAttack",
+    "55:HyperBeam",
+    "60:MegaKick",
+    "tm:FoulPlay",
+    "tm:AerialAce",
+    "tm:BodySlam",
+    "tm:BrickBreak",
+    "tm:WillOWisp",
+    "tm:ConfuseRay",
+    "tm:Facade",
+    "tm:Endure",
+    "tm:DarkPulse",
+    "tm:Flamethrower",
+    "tm:DragonPulse",
+    "tm:GrassKnot",
+    "tm:HelpingHand",
+    "tm:IcyWind",
+    "tm:Imprison",
+    "tm:PhantomForce",
+    "tm:Protect",
+    "tm:RainDance",
+    "tm:ScaryFace",
+    "tm:BurningJealousy",
+    "tm:Substitute",
+    "tm:Spite",
+    "tm:Trick",
+    "tm:Thief",
+    "tm:Taunt",
+    "tm:Comeuppance",
+    "tm:TeraBlast",
+    "tm:UpperHand‎"
+  ],
+  "labels": [
+    "gen21",
+    "Paradox"
+  ],
+  "pokedex": [
+    "cobblemon.species.roughbyte.desc"
+  ],
+  "evolutions": [],
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 340,
+  "aspects": [],
+  "cannotDynamax": false
+}
+

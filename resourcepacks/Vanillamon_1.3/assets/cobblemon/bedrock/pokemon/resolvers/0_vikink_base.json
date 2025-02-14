@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:vikink",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:vikink",
+        "model": "cobblemon:vikink.geo",
+        "texture": "cobblemon:textures/pokemon/vikink/vikink.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/vikink/vikink_shiny.png"
+      }
+    ]
+  }
+  

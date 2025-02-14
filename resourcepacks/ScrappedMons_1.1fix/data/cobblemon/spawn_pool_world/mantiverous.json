@@ -1,0 +1,52 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mantiverous-1",
+            "pokemon": "mantiverous",
+            "presets": ["water"],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "30-53",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "mantiverous-2",
+            "pokemon": "mantiverous",
+            "presets": ["water"],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "rare",
+            "level": "30-53",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_river"
+                ]
+            }
+        },
+        {
+            "id": "mantiverous-3",
+            "pokemon": "mantiverous",
+            "presets": ["water"],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-53",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_river"
+                ]
+            }
+        }
+    ]
+}

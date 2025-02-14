@@ -1,0 +1,36 @@
+{
+  "portraitScale": 1.74,
+  "portraitTranslation": [-0.25,0.38,0],
+  "profileScale": 0.78,
+  "profileTranslation": [-0.01,0.62,0],
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('treashrub', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('treashrub', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('treashrub', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('treashrub', 'blink')"
+      ]
+    }
+  }
+}

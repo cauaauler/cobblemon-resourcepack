@@ -1,0 +1,125 @@
+{
+	"implemented": true,
+	"name": "leug",
+	"labels": [ "custom" ],
+	"pokedex": [
+		"cobblemon.species.leug.desc1",
+		"cobblemon.species.leug.desc2"
+	],
+	"height": 5,
+	"weight": 30,
+	"shoulderMountable": false,
+ 
+	"primaryType": "bug",
+	"secondaryType": "grass",
+	"baseStats": {
+		"hp": 110,
+		"attack": 75,
+		"defence": 35,
+		"special_attack": 30,
+		"special_defence": 30,
+		"speed": 100
+	},
+	"catchRate": 100,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 100,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 17,
+	"eggGroups": [
+		"bug",
+		"grass"
+	],
+	"baseFriendship": 50,
+		"evYield": {
+		"speed": 1
+	},
+	"moves": [
+		"egg:synthesis",
+		"egg:furycutter",
+		"egg:uturn",
+		"egg:leechlife",
+		"1:stringshot",
+		"1:strugglebug",
+		"1:scratch",
+		"1:absorb",
+		"6:bugbite",
+		"7:growth",
+		"8:bulletseed",
+		"12:razorleaf",
+		"14:furycutter",
+		"17:synthesis",
+		"18:uturn",
+		"22:leechlife",
+		"25:trailblaze",
+		"35:firstimpression",
+		"38:leafstorm",	
+		"44:swordsdance",
+		"tm:swordsdance",	
+		"tm:rest",
+		"tm:synthesis",
+		"tm:furycutter",
+		"tm:uturn",
+		"tm:sunnyday",
+		"tm:aerialace",
+		"tm:frustration",
+		"tm:return",
+		"tm:leechlife",
+		"tm:substitute",
+		"tutor:honeclaws"
+	],
+	"abilities": [
+		"chlorophyll",
+		"swarm",
+		"h:quickfeet"
+	],
+	"baseScale": 1,
+	"hitbox": {
+		"width": 1,
+		"height": 0.5,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "2",
+		"entries": [
+			{
+				"item": "minecraft:apple",
+				"quantityRange": "1-2",
+				"percentage": 66
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": true,
+			"fly": {
+				"canFly": false
+			},          
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": true
+			}
+		}
+		"resting": {
+			"canSleep": true,
+			"willSleepOnBed": true,
+			"depth": "normal",
+			"light": "0-4"
+		}
+	},
+	"evolutions": [
+	{
+	"id": "leug_woohorn_lvl",
+	"variant": "level_up",
+    "result": "woohorn mischief",
+    "consumeHeldItem": false,
+    "learnableMoves": [],
+    "requirements": [
+		{
+			"variant": "level",
+			"minLevel": 35
+		}
+    ]
+  }]
+  
+}

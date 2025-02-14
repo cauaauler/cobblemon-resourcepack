@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:feistling",
+  "speciesId": "cobblemon:feistling",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

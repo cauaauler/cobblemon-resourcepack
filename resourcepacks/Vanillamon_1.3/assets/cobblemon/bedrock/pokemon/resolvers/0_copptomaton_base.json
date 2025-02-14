@@ -1,0 +1,30 @@
+
+{
+    "species": "cobblemon:copptomaton",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:copptomaton",
+        "model": "cobblemon:copptomaton.geo",
+        "texture": "cobblemon:textures/pokemon/copptomaton/copptomaton.png",
+        "layers": [ {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/copptomaton/copptomaton_emissive.png",
+          "translucent": true
+        }]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/copptomaton/copptomaton_shiny.png",
+        "layers": [ {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/copptomaton/copptomaton_emissive_shiny.png",
+          "translucent": true
+        }]
+      }
+    ]
+  }
+  

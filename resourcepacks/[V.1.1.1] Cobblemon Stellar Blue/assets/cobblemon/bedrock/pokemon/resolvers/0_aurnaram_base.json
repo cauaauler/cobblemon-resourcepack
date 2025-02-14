@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:aurnaram",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:aurnaram",
+        "model": "cobblemon:aurnaram.geo",
+        "texture": "cobblemon:textures/pokemon/aurnaram/aurnaram.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/aurnaram/aurnaram_shiny.png"
+      }
+    ]
+   }

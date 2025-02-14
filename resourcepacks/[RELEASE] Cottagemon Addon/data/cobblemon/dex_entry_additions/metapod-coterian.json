@@ -1,0 +1,13 @@
+{
+    "entryId": "cobblemon:metapod",
+  	"variations": [
+    {
+      "displayName": "cobblemon.pokedex.variation.region_bias",
+      "icon": "cobblemon:textures/gui/pokedex/variation/globe.png",
+      "aspects": [
+        "region-bias-none",
+        "region_bias_cotere"
+      ]
+    }
+  ]
+}

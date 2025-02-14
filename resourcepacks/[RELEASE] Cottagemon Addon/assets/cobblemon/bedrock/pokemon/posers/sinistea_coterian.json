@@ -1,0 +1,39 @@
+{
+  "portraitScale": 2.15,
+  "portraitTranslation": [-0.05, -0.14, 0],
+  "profileScale": 1,
+  "profileTranslation": [0, 0.74, 0],
+  "rootBone": "sinistea_coterian",
+  "animations": {
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "FLOAT", "PORTRAIT", "PROFILE", "NONE"],
+      "animations": ["q.look('head')","q.bedrock('sinistea_coterian', 'ground_idle')"],
+     "quirks": [ "q.bedrock_quirk('sinistea_coterian', q.array('blink', 'idle_quirk'))"]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sinistea_coterian', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('sinistea_coterian', 'blink')"]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.bedrock('sinistea_coterian', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('sinistea_coterian', 'blink')"]
+    },
+    
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('sinistea_coterian', 'sleep')"]
+    }
+  }
+}

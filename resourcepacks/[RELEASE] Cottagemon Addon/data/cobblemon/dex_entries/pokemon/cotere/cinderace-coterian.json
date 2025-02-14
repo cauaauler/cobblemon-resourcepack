@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cinderace-coterian",
+  "speciesId": "cobblemon:cinderace",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Coterian",
+      "unlockForms": [
+        "Coterian"
+      ]
+    }
+  ],
+  "variations": []
+}

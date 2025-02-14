@@ -1,0 +1,51 @@
+{
+    "target": "cobblemon:caterpie",
+    "features": ["region_bias_cotere"],
+    "forms": [
+    {"implemented": true,
+      "name": "region_bias_cotere",
+      "maleRatio": 0.5,
+      "labels": [
+        "region_bias_cotere"
+      ],
+      "aspects": [
+        "region_bias_cotere"
+      ],
+      "evolutions": [
+        {
+          "id": "cotere_caterpie_metapod",
+          "variant": "level_up",
+          "result": "metapod region_bias_cotere=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "harden"
+          ],
+          "requirements": [
+            {
+              "variant": "biome",
+              "biomeCondition": "#minecraft:is_taiga",
+              "minLevel": 5
+            }
+          ]
+        },
+        {
+          "id": "coterian_caterpie_coterian_metapod",
+          "variant": "level_up",
+          "result": "metapod region_bias_cotere",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "harden"
+          ],
+          "requirements": [        
+            {
+            "variant": "level",
+            "minLevel": 5
+          }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+  

@@ -1,0 +1,56 @@
+
+{
+    "portraitScale": 1.85,
+    "portraitTranslation": [ 0, -0.8, 0 ],
+    "profileScale": 0.8,
+    "profileTranslation": [ 0, 0.4, 0 ],
+    "faint": "bedrock(stroddler, ground_faint)",
+    "poses": {
+    "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": [
+        "STAND",
+        "NONE",
+        "PROFILE"
+        ],
+        "animations": [
+        "bedrock(stroddler, ground_idle)"
+        ]
+    },
+    "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": [ "WALK" ],
+        "animations": [ "bedrock(stroddler, ground_walk)" ]
+    },
+    "shoulder_left": {
+      "poseName": "shoulder_left",
+      "transformTicks": 10,
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations":["bedrock(stroddler, left_shoulder)"]
+    },
+    "shoulder_right": {
+        "poseName": "shoulder_right",
+        "transformTicks": 10,
+        "poseTypes": ["SHOULDER_RIGHT"],
+        "animations":["bedrock(stroddler, right_shoulder)"]
+      },
+    "floating": {
+        "poseName": "floating",
+        "transformTicks": 10,
+        "poseTypes": [ "FLOAT" ],
+        "animations": [ "bedrock(stroddler, water_idle)" ]
+    },
+    "swimming": {
+        "poseName": "swimming",
+        "transformTicks": 10,
+        "poseTypes": [ 
+	"SWIM",
+	"PORTRAIT"
+	 ],
+        "animations": [ "bedrock(stroddler, water_swim)" ]
+        }
+    }
+  }
+    

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:scorbunny-coterian",
+  "speciesId": "cobblemon:scorbunny",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Coterian",
+      "unlockForms": [
+        "Coterian"
+      ]
+    }
+  ],
+  "variations": []
+}

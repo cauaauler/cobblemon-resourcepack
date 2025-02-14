@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:stellumbra",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:stellumbra",
+      "model": "cobblemon:stellumbra.geo",
+      "texture": "cobblemon:textures/pokemon/stellumbra/stellumbra.png",
+      "layers": [
+
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/stellumbra/stellumbra_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/stellumbra/stellumbra_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/stellumbra/stellumbra_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+ }

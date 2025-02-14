@@ -1,0 +1,32 @@
+{
+  "portraitScale": 1.4,
+  "portraitTranslation": [-0.7, -0.5, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0, 0.6, 0],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT", "HOVER"],
+      "animations": [
+        "bedrock(flapestry, ground_idle)"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK", "FLY"],
+      "animations": [
+        "bedrock(flapestry, ground_walk)"
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "bedrock(flapestry, sleep)"
+      ]
+    }
+  }
+}

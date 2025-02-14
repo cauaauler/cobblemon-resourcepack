@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cariolus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cariolus",
+      "model": "cobblemon:cariolus.geo",
+      "texture": "cobblemon:textures/pokemon/cariolus/cariolus.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/cariolus/cariolus_shiny.png"
+    }
+  ]
+}

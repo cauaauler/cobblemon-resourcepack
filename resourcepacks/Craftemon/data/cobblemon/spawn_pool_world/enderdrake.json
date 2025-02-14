@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "enderdrake-1",
+     "pokemon": "enderdrake",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "ultra-rare",
+     "level": "60-80",
+     "weight": 0.5,
+     "condition": {
+       "neededNearbyBlocks": [
+			"minecraft:end_rod"
+			],
+		"neededBaseBlocks": [
+			"minecraft:dragon_egg"
+		],
+		"biomes": [
+			"#minecraft:is_end"
+		]
+     }
+   }
+ ]
+}

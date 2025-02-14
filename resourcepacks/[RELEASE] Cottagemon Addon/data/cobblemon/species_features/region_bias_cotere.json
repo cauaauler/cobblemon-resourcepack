@@ -1,0 +1,6 @@
+{
+    "keys": ["region_bias_cotere"],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }

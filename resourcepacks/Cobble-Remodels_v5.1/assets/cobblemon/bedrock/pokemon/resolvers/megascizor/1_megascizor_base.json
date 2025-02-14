@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:megascizor",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megascizor",
+      "model": "cobblemon:megascizor2.geo",
+      "texture": "cobblemon:textures/pokemon/m_scizor/megascizor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/m_scizor/megascizor_shiny.png"
+    }
+  ]
+}

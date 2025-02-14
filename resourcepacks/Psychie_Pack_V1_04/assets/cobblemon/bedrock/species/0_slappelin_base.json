@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:slappelin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:slappelin",
+      "model": "cobblemon:slappelin.geo",
+      "texture": "cobblemon:textures/pokemon/slappelin/slappelin.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/slappelin/slappelin_shiny.png"
+    }
+  ]
+}

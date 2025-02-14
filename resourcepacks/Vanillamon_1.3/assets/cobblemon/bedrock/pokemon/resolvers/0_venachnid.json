@@ -1,0 +1,30 @@
+
+{
+    "species": "cobblemon:venachnid",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:venachnid",
+        "model": "cobblemon:venachnid.geo",
+        "texture": "cobblemon:textures/pokemon/venachnid/venachnid.png",
+        "layers": [{
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/venachnid/venachnid_emissive.png",
+          "translucent": true
+    }]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/venachnid/venachnid_shiny.png",
+        "layers": [{
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/venachnid/venachnid_emissive_shiny.png",
+          "translucent": true
+    }]
+      }
+    ]
+  }
+  

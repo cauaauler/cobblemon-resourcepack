@@ -1,0 +1,97 @@
+{
+  "implemented": true,
+  "name": "ironblawing",
+  "nationalPokedexNumber": 3170,
+  "primaryType": "fire",
+  "secondaryType": "dark",
+  "abilities": [
+    "QuarkDrive"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 130,
+    "defence": 90,
+    "special_attack": 85,
+    "special_defence": 80,
+    "speed": 110
+  },
+  "catchRate": 45,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "eggCycles": 40,
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
+  "moves": [
+    "1:FlameCharge",
+    "1:guozaizhiwu",
+    "1:WildCharge",
+    "1:SuckerPunch",
+    "15:Acrobatics",
+    "15:DualWingbeat",
+    "20:DragonClaw",
+    "25:DragonTail",
+    "33:PartingShot",
+    "39:BurnUp",
+    "41:FireSpin",
+    "46:BraveBird",
+    "46:TemperFlare",
+    "46:FlareBlitz",
+    "53:Crunch",
+    "55:SeismicToss",
+    "59:HeatCrash",
+    "62:JawLock",
+    "62:Flamethrower",
+    "80:RagingFury",
+    "tm:Burningjealousy",
+    "tm:FireFang",
+    "tm:ThunderFang",
+    "tm:Substitute",
+    "tm:Protect",
+    "tm:TeraBlast",
+    "tm:DarkPulse",
+    "tm:IronHead",
+    "tm:SmartStrike",
+    "tm:IronTail"
+  ],
+  "labels": [
+    "gen20",
+    "Paradox"
+  ],
+  "pokedex": [
+    "cobblemon.species.ironblawing.desc"
+  ],
+  "evolutions": [],
+  "baseScale": 1.3,
+  "hitbox": {
+    "width": 1.5,
+    "height": 2.5,
+    "fixed": false
+  },
+  "baseFriendship": 35,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 22,
+  "weight": 2100,
+  "aspects": [],
+  "cannotDynamax": false
+}

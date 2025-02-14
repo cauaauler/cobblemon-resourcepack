@@ -1,0 +1,25 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "fortraze-1",
+     "pokemon": "fortraze",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "uncommon",
+     "level": "5-40",
+     "weight": 8,
+     "condition": {
+	   "structures": [ 
+	    "minecraft:fortress"
+	 ],
+	 "neededBaseBlocks": [
+	 "minecraft:nether_bricks"
+	 ]
+     }
+   }
+ ]
+}

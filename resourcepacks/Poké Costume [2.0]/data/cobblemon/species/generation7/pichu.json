@@ -1,0 +1,158 @@
+{
+    "implemented": true,
+    "name": "pichu",
+    "nationalPokedexNumber": 172,
+    "primaryType": "electric",
+    
+    "abilities": [
+        "static",
+        
+        "h:lightningrod"
+    ],
+    "baseStats": {
+        "hp": 20,
+        "attack": 40,
+        "defence": 15,
+        "special_attack": 35,
+        "special_defence": 35,
+        "speed": 60
+    },
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "light": "0-4"
+        },
+        "moving": {
+            "canLook": false,
+            "walk": {
+                "canWalk": true,
+                "avoidsLand": false
+            },
+            "swim": {
+                "swimSpeed": 0.1,
+                "canSwimInWater": true,
+                "canBreatheUnderwater": false
+            }
+        }
+    },
+    "catchRate": 150,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+		  "forms": [
+    {
+      "name": "spiky",
+      "primaryType": "electric",
+      "abilities": [
+        "static",
+        
+        "h:lightningrod"
+      ],
+     "baseStats": {
+        "hp": 30,
+        "attack": 50,
+        "defence": 25,
+        "special_attack": 45,
+        "special_defence": 45,
+        "speed": 70
+    },
+		"catchRate": 20,
+		"maleRatio": 0.5,
+      "baseExperienceYield": 64,
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "erratic",
+		"eggCycles": 15,
+		"eggGroups": [
+        "undiscovered"       
+    ],
+    "moves": [
+        "1:tailwhip",
+        "1:thundershock",
+        "4:playnice",
+        "8:sweetkiss",
+        "12:nuzzle",
+        "16:nastyplot",
+        "20:charm"
+    ],
+      "labels": [
+        "gen7",
+        "spiky"
+      ],
+      "aspects": [
+        "spiky"
+      ],
+      "height": 16,
+      "weight": 730,    
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+  ],
+    "baseExperienceYield": 41,
+    "experienceGroup": "erratic",
+    "eggCycles": 25,
+    "eggGroups": [
+        "undiscovered"
+        
+    ],
+    
+    "moves": [
+        "1:tailwhip",
+        "1:thundershock",
+        "4:playnice",
+        "8:sweetkiss",
+        "12:nuzzle",
+        "16:nastyplot",
+        "20:charm"
+    ],
+    "labels": [
+        "gen7"
+    ],
+    "pokedex": [
+        "cobblemon.species.pichu.desc1",
+        "cobblemon.species.pichu.desc2"
+    ],
+    "evolutions": [
+        {
+            "id": "pichu_pikachu",
+            "variant": "level_up",
+            "result": "pikachu",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 1
+                },
+				{
+				"variant": "friendship",
+				"amount": 120
+				}
+            ]
+        }
+    ],
+    "baseScale": 0.4,
+    "hitbox": {
+        "width": 0.4,
+        "height": 1.0,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+    },
+    "height": 1,
+    "weight": 1
+}

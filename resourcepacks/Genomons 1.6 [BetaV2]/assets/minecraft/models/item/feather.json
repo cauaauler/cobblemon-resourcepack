@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/feather"
+  },
+	"overrides": 
+	[
+		{ "predicate": { "custom_model_data": 250}, "model": "genomons/rainbow_feather"},
+    { "predicate": { "custom_model_data": 251}, "model": "genomons/gs_ball"},
+    { "predicate": { "custom_model_data": 8003}, "model": "genomons/ultranecrozmium_z"}
+  ]
+}

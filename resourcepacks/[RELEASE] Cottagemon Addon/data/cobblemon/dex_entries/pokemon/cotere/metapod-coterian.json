@@ -1,0 +1,18 @@
+{
+    "id": "cobblemon:metapod-coterian",
+    "speciesId": "cobblemon:metapod",
+    "displayAspects": [],
+    "conditionAspects": [],
+	  "forms": [],
+	  "variations": [
+		{
+      "displayName": "cobblemon.pokedex.variation.region_bias",
+      "icon": "cobblemon:textures/gui/pokedex/variation/globe.png",
+      "aspects": [
+        "region-bias-none",
+        "region_bias_cotere"
+      ]
+    }
+  ]
+}
+  

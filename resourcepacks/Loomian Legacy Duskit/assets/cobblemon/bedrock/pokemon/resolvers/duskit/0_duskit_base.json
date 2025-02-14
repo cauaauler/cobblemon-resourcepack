@@ -1,0 +1,26 @@
+{
+  "species": "cobblemon:duskit",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:duskit",
+      "model": "cobblemon:duskit.geo",
+      "texture": "cobblemon:textures/pokemon/duskit/duskit.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/duskit/duskit_emissive.png",
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/duskit/duskit_shiny.png"
+    }
+  ]
+}

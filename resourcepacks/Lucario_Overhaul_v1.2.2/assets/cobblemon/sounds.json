@@ -1,0 +1,13 @@
+{
+	"pokemon.lucario.ambient": {
+    "sounds": [ "cobblemon:pokemon/lucario/lucario_ambient" ]
+  },
+  "pokemon.lucario.cry": {
+    "sounds": [ "cobblemon:pokemon/lucario/lucario_cry" ]
+  },
+	"pokemon.riolu.ambient": {
+    "sounds": [ "cobblemon:pokemon/riolu/riolu_ambient" ]
+  },
+  "pokemon.riolu.cry": {
+    "sounds": [ "cobblemon:pokemon/riolu/riolu_cry" ]
+}

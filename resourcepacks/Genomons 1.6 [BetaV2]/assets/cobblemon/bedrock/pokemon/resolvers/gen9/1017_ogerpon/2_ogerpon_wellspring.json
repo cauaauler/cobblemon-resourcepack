@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ogerpon",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["wellspring"],
+      "poser": "genomons:ogerpon",
+      "model": "genomons:ogerpon_wellspring.geo",
+      "texture": "genomons:textures/pokemon/1017_ogerpon/ogerpon_wellspring.png"
+    },
+    {
+      "aspects": [
+        "wellspring",
+        "shiny"
+      ],
+      "texture": "genomons:textures/pokemon/1017_ogerpon/ogerpon_wellspring_shiny.png"
+    }
+  ]
+}

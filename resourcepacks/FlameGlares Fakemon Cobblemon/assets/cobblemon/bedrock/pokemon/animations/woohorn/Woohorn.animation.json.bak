@@ -1,0 +1,72 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.Woohorn.ground_idle": {
+			"loop": true
+		},
+		"animation.Woohorn.ground_walk": {
+			"loop": true
+		},
+		"animation.Woohorn.water_idle": {
+			"loop": true
+		},
+		"animation.Woohorn.water_swim": {
+			"loop": true
+		},
+		"animation.Woohorn.air_idle": {
+			"loop": true
+		},
+		"animation.EscarabMed.air_fly": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"head": {
+					"rotation": [12.5, 0, 0]
+				},
+				"cuerpo": {
+					"rotation": [22.5, 0, 0],
+					"position": [0, 7, 0]
+				},
+				"corazaDer": {
+					"rotation": [87.5, -35, -42.5]
+				},
+				"corazaIz": {
+					"rotation": [87.5, 35, 42.5]
+				},
+				"PIzTr": {
+					"rotation": [-95, 0, 0]
+				},
+				"PIzFr": {
+					"rotation": [-70, 0, 0]
+				},
+				"bIz": {
+					"rotation": [32.5, 0, 0]
+				},
+				"bone5": {
+					"rotation": [-87.5, 0, 0]
+				},
+				"bone6": {
+					"rotation": [127.5, 0, 0]
+				},
+				"bone9": {
+					"rotation": [7.5, 0, 0]
+				},
+				"bone8": {
+					"rotation": [7.5, 0, 0]
+				}
+			}
+		},
+		"animation.Woohorn.sleep": {
+			"loop": true
+		},
+		"animation.Woohorn.faint": {
+			"loop": true
+		},
+		"animation.Woohorn.battle_idle": {
+			"loop": true
+		},
+		"animation.Woohorn.cry": {
+			"loop": true
+		}
+	}
+}

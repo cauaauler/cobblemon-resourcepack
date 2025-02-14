@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:pikachu",
+    "order": 4,
+    "variations": [
+      {
+        "aspects": ["coterian"],
+        "model": "cobblemon:pikachu_coterian.geo",
+        "texture": "cobblemon:textures/pokemon/0025_pikachu/pikachu_coterian.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny", "coterian"],
+        "texture": "cobblemon:textures/pokemon/0025_pikachu/pikachu_coterian_shiny.png"
+      }
+    ]
+  }
+  

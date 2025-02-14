@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:pikachu-coterian",
+    "speciesId": "cobblemon:pikachu",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Coterian",
+        "unlockForms": [
+          "Coterian"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

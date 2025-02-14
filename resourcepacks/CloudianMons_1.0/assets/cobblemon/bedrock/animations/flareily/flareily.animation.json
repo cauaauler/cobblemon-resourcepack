@@ -1,0 +1,11 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.flareily.ground_walk": {
+			"loop": true
+		},
+		"animation.flareily.ground_idle": {
+			"loop": true
+		}
+	}
+}

@@ -1,0 +1,94 @@
+{
+    "implemented": true,
+    "name": "squimpale",
+    "labels": [ "custom" ],
+    "pokedex": [
+      "cobblemon.species.squimpale.desc1"
+    ],
+    "height": 9.4,
+    "weight": 345,
+    "preEvolution":"vikink",
+    "shoulderMountable": false,
+    "shoulderEffects": [ "slow_fall" ],
+ "primaryType": "water",
+ "secondaryType":"steel",
+  "baseStats": {
+    "hp": 90,
+    "attack": 120,
+    "defence": 150,
+    "special_attack": 35,
+    "special_defence": 90,
+    "speed": 50
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 250,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "water_3",
+    "mineral"
+  ],
+  "baseFriendship": 70,
+  "evYield": {
+    "defence": 2,
+    "special_defence":1
+  },
+  "moves": [
+    "35:hydrocannon",
+    "38:whirlpool",
+    "42:metalwhip",
+    "47:steelbeam",
+    "53:dive",
+    "64:assurance",
+    "72:raindance",
+    "78:hypnosis",
+    "82:scald",
+    "90:kingsshield",
+    "100:armorcannon"
+  ],
+  "abilities": [
+    "h:damp",
+    "angershell",
+    "battlearmor"
+  ],
+  "baseScale": 2,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:ink_sac",
+        "quantityRange": "4-10",
+        "percentage": 75
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "quantityRange": "2-10",
+        "percentage": 20
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "fly": {
+        "canFly": false
+      },          
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "walk":{
+        "avoidsLand":true
+      }
+    }
+  }
+
+  
+  }

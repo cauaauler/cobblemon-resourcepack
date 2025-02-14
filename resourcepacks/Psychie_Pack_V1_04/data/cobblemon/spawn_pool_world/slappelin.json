@@ -1,0 +1,53 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "slappelin-1",
+      "pokemon": "slappelin",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "18-36",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "cobblemon:is_magical"
+        ]
+      }
+    },
+    {
+      "id": "slappelin-2",
+      "pokemon": "slappelin",
+      "presets": [
+        "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "18-36",
+      "weight": 5.0
+    },
+    {
+      "id": "slappelin-3",
+      "pokemon": "slappelin",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "18-38",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:cake"
+        ]
+      }
+    }
+  ]
+}

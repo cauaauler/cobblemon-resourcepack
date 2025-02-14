@@ -1,0 +1,167 @@
+{
+  "implemented": true,
+  "name": "tumbell",
+  "nationalPokedexNumber": 6604,
+  "primaryType": "ground",
+  "secondaryType": "grass",
+  "abilities": [
+    "runaway",
+    "shedskin",
+    "h:seedsower"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 35,
+    "defence": 70,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 40
+  },
+  "standingEyeHeight": 0.7,
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.2,
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "2:harden",
+    "5:absorb",
+    "8:rollout",
+    "12:megadrain",
+    "15:dig",
+    "20:leechseed",
+    "22:babydolleyes",
+    "26:gigadrain",
+    "32:mudbomb",
+    "35:takedown",
+    "38:growth",
+    "40:spikes",
+    "tm:takedown",
+    "tm:dig",
+    "tm:charm",
+    "tm:faketears",
+    "tm:protect",
+    "tm:facade",
+    "tm:swift",
+    "tm:magicalleaf",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:bulletseed",
+    "tm:zenheadbutt",
+    "tm:bodyslam",
+    "tm:sleeptalk",
+    "tm:seedbomb",
+    "tm:grassknot",
+    "tm:rest",
+    "tm:substitute",
+    "tm:gigadrain",
+    "tm:energyball",
+    "tm:helpinghand",
+    "tm:grassyterrain",
+    "tm:solarbeam",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:willowisp",
+    "tm:stealthrock",
+    "tm:bulldoze",
+    "tm:earthpower",
+    "tm:mudshot",
+    "tm:rocktomb",
+    "tm:stompingtantrum",
+    "tm:spikes",
+    "tm:ironhead",
+    "tm:curse",
+    "egg:curse",
+    "egg:knockoff",
+    "egg:spikes",
+    "egg:synthesis",
+    "egg:wideguard",
+    "egg:dragoncheer",
+    "egg:worryseed",
+    "egg:cottonguard"
+  ],
+  "labels": [
+    "scrappedmons"
+  ],
+  "pokedex": [
+    "cobblemon.species.tumbell.desc1"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.6,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 100,
+  "evolutions": [
+    {
+      "id": "tumbell-sproutopod-level_up",
+      "variant": "level_up",
+      "result": "sproutopod",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_floral"
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

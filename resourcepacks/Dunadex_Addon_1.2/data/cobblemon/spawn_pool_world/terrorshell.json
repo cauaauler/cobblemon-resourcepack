@@ -1,0 +1,30 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	
+	"spawns": [
+		{
+			"id": "terrorshell-1",
+			"pokemon": "terrorshell",
+			"presets": ["water"],
+			"type": "pokemon",
+			"context": "seafloor",
+			"bucket": "ultra-rare",
+			"level": "32-52",
+			"weight": 0.1,
+			"condition": {
+				"timeRange": "night",
+				"biomes": [
+					"#cobblemon:is_warm_ocean",
+					"#cobblemon:is_coast"
+				]
+			},
+			"anticondition": {
+				"biomes": [
+					"#cobblemon:is_frozen"
+				]
+			}
+		}
+	]
+}

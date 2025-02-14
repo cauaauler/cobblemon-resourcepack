@@ -1,0 +1,48 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "malamar-1",
+            "pokemon": "malamar",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "15-55",
+            "weight": 30.0,
+            "condition": {
+                "canSeeSky": false,
+                "maxY": 40,
+                "neededBaseBlocks": [
+                    "minecraft:stone_bricks"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:cracked_stone_bricks"
+                ],
+				                "biomes": [
+                    "#minecraft:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "minecraft:grass_block"
+                ]
+            }
+        },
+        {
+            "id": "malamar-2",
+            "pokemon": "malamar",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "15-55",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        }
+    ]
+}

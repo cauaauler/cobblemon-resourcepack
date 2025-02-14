@@ -1,0 +1,110 @@
+{
+  "head": "head",
+  "portraitScale": 2.65,
+  "portraitTranslation": [ -0.5, 0.2, 0 ],
+  "profileScale": 0.9,
+  "profileTranslation": [ 0, 0.4, 0 ],
+  "cry":  "bedrock(slowking_galar, cry)",
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": [ "STAND" ],
+      "isBattle": true,
+	  "isTouchingWater": false,
+      "animations": [
+        "look",
+        "bedrock(slowking_galar, battle_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(slowking_galar, blink1)"]
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+      "STAND",
+      "NONE",
+      "PORTRAIT",
+      "PROFILE"
+      ],
+      "isBattle": false,	  
+      "isTouchingWater": false,
+      "animations": [
+        "look",
+        "bedrock(slowking_galar, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(slowking_galar, blink1)"]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "isTouchingWater": false,
+      "animations": ["bedrock(slowking_galar, ground_walk)"],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(slowking_galar, blink1)"]
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [ "SLEEP" ],
+      "animations": [   
+        "bedrock(slowking_galar, sleep)" ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK","SWIM" ],
+      "animations": [   
+        "bedrock(slowking_galar, water_swim)" ],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(slowking_galar, blink1)"]
+        }
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": [ "STAND","FLOAT" ],
+      "animations": [   
+        "bedrock(slowking_galar, water_idle)" ],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(slowking_galar, blink1)"]
+        }
+      ]
+    }
+  }
+}

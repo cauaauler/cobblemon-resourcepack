@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:gammaduskit",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:gammaduskit",
+      "model": "cobblemon:duskit.geo",
+      "texture": "cobblemon:textures/pokemon/gammaduskit/gammaduskit.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/gammaduskit/gammaduskit_emissive.png",
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/gammaduskit/gammaduskit_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/gammaduskit/gammaduskit_shiny_emissive.png",
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    }
+  ]
+}

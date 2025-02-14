@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:ralts",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["cloudian"],
+      "poser": "cobblemon:ralts_cloudian",
+      "model": "cobblemon:ralts_cloudian.geo",
+      "texture": "cobblemon:textures/pokemon/ralts/ralts_cloudian.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "cloudian" ],
+      "texture": "cobblemon:textures/pokemon/ralts/ralts_cloudian_shiny.png"
+    }
+  ]
+}

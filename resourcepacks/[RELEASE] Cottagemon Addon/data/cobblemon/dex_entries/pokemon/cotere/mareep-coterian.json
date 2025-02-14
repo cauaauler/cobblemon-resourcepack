@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:mareep-coterian",
+    "speciesId": "cobblemon:mareep",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Coterian",
+        "unlockForms": [
+          "Coterian"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

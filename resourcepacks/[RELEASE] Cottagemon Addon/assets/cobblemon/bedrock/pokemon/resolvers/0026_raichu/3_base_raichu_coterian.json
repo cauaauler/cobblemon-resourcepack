@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:raichu",
+    "order": 3,
+    "variations": [
+      {
+        "aspects": ["coterian"],
+        "model": "cobblemon:raichu_coterian.geo",
+        "texture": "cobblemon:textures/pokemon/0026_raichu/raichu_coterian.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny", "coterian"],
+        "texture": "cobblemon:textures/pokemon/0026_raichu/raichu_coterian_shiny.png"
+      }
+    ]
+  }
+  

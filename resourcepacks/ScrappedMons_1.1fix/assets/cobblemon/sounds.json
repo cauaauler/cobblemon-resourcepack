@@ -1,0 +1,29 @@
+{
+    "pokemon.gorochu.cry": {
+       "sounds": [{ "name": "cobblemon:pokemon/gorochu_cry","volume": 0.5 } ]
+   },
+    "pokemon.scuta.cry": {
+       "sounds": [{ "name": "cobblemon:pokemon/scuta_cry","volume": 0.5 } ]
+   },
+   "pokemon.mantiverous.cry": {
+      "sounds": [{ "name": "cobblemon:pokemon/mantiverous_cry","volume": 0.5 } ]
+   },
+   "pokemon.tumbell.cry": {
+      "sounds": [{ "name": "cobblemon:pokemon/tumbell_cry","volume": 0.5 } ]
+   },
+   "pokemon.sproutopod.cry": {
+      "sounds": [{ "name": "cobblemon:pokemon/sproutopod_cry","volume": 0.5 } ]
+   },
+   "pokemon.feistling.cry": {
+      "sounds": [{ "name": "cobblemon:pokemon/feistling_cry","volume": 0.5 } ]
+   },
+   "pokemon.cassowrath.cry": {
+      "sounds": [{ "name": "cobblemon:pokemon/cassowrath_cry","volume": 0.5 } ]
+   },
+   "pokemon.tentango.cry": {
+      "sounds": [{ "name": "cobblemon:pokemon/tentango_cry","volume": 0.5 } ]
+   },
+   "pokemon.umamirage.cry": {
+      "sounds": [{ "name": "cobblemon:pokemon/umamirage_cry","volume": 0.5 } ]
+   }
+}

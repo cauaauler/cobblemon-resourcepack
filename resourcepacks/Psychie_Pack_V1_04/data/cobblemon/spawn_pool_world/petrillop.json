@@ -1,0 +1,42 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "petrillop-1",
+      "pokemon": "petrillop",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "10-28",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak"
+        ]
+      }
+    },
+    {
+      "id": "petrillop-2",
+      "pokemon": "petrillop",
+      "presets": [
+        "underground",
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "10-28",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_dripstone"
+        ]
+      }
+    }
+  ]
+}

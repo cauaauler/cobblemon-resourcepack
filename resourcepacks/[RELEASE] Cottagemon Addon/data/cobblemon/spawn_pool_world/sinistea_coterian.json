@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sinistea-coterian-1",
+            "pokemon": "sinistea coterian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "2-20",
+            "weight": 25.0,
+            "condition": {
+                "neededNearbyBlocks": [ "minecraft:campfire", "minecraft:soul_campfire" ],
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "sinistea-coterian-2",
+            "pokemon": "sinistea coterian premium_roast",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "2-20",
+            "weight": 0.25,
+            "condition": {
+                "neededNearbyBlocks": [ "minecraft:campfire", "minecraft:soul_campfire" ],
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        }
+    ]
+ }

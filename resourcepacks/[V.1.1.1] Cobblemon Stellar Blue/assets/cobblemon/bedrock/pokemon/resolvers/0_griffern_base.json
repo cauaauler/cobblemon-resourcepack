@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:griffern",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:griffern",
+        "model": "cobblemon:griffern.geo",
+        "texture": "cobblemon:textures/pokemon/griffern/griffern.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/griffern/tigriff_shiny.png"
+      }
+    ]
+   }

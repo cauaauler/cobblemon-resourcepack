@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:polteageist-coterian",
+    "speciesId": "cobblemon:polteageist",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Coterian",
+        "unlockForms": [
+          "Coterian"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

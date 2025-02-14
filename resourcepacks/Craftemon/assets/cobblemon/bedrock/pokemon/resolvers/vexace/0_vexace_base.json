@@ -1,0 +1,62 @@
+{
+ "species": "cobblemon:vexace",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:vexace",
+     "model": "cobblemon:vexace.geo",
+     "texture": "cobblemon:textures/pokemon/vexace/vexace.png",
+     "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/vexace/vexace_emissive.png",
+              "translucent": true
+			},
+				{
+          "name": "animation",
+		  "emissive": true,
+		  "translucent": true,
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/vexace/animation/vexace1.png",
+              "cobblemon:textures/pokemon/vexace/animation/vexace2.png",
+              "cobblemon:textures/pokemon/vexace/animation/vexace3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          }
+				}
+		]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/vexace/vexace_shiny.png",
+	  "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/vexace/vexace_shiny_emissive.png",
+              "translucent": true
+			},
+			{
+          "name": "animation",
+		  "emissive": true,
+		  "translucent": true,
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/vexace/animation/vexaceshiny1.png",
+              "cobblemon:textures/pokemon/vexace/animation/vexaceshiny2.png",
+              "cobblemon:textures/pokemon/vexace/animation/vexaceshiny3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          }
+				}
+		]
+   }
+ ]
+}

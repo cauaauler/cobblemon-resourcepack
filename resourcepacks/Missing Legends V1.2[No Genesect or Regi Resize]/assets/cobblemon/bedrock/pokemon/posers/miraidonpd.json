@@ -1,0 +1,140 @@
+{
+    "head": "head",
+    "portraitScale": 1,
+    "portraitTranslation": [ 0, 0.5, 0 ],
+    "profileScale": 1,
+    "profileTranslation": [ 0, 0.4, 0 ],
+    "faint": "bedrock(miraidonpd, faint)",
+    "poses": {
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": [
+          "STAND",
+          "NONE",
+          "PORTRAIT",
+          "PROFILE"
+        ],
+        "animations": [
+          "look",
+          "bedrock(miraidonpd, ground_idle)"
+        ],
+        "transformedParts": [
+          {
+            "part": "wing_r",
+            "position": [0, 0, 0],
+            "rotation": [0, 0, 0],
+            "isVisible": false
+          },
+          {
+            "part": "wing_l",
+            "position": [0, 0, 0],
+            "rotationrotation": [0, 0, 0],
+            "isVisible": false
+          }
+         ]
+      },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": [ "WALK" ],
+        "animations": [ "bedrock(miraidonpd, ground_walk)" ]
+      },
+      "hovering": {
+        "poseName": "hovering",
+        "transformTicks": 10,
+        "poseTypes": [
+          "HOVER"
+        ],
+        "animations": [
+          "bedrock(miraidonpd, air_idle)"
+        ],
+        "transformedParts": [
+          {
+            "part": "wing_r",
+            "position": [0, 0, 0],
+            "rotation": [0, 0, 0],
+            "isVisible": true
+          },
+          {
+            "part": "wing_l",
+            "position": [0, 0, 0],
+            "rotationrotation": [0, 0, 0],
+            "isVisible": true
+          }
+         ]
+    },
+    "flying": {
+      "poseName": "flying",
+      "transformTicks": 10,
+      "poseTypes": [
+        "FLY"
+      ],
+      "animations": [
+        "bedrock(miraidonpd, air_fly)"
+      ],
+      "transformedParts": [
+        {
+          "part": "wing_r",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0],
+          "isVisible": true
+        },
+        {
+          "part": "wing_l",
+          "position": [0, 0, 0],
+          "rotationrotation": [0, 0, 0],
+          "isVisible": true
+        }
+       ]
+   },
+   "swimming": {
+    "poseName": "swimming",
+    "transformTicks": 10,
+    "poseTypes": [
+      "SWIM"
+    ],
+    "animations": [
+      "bedrock(miraidonpd, water_swim)"
+    ],
+    "transformedParts": [
+      {
+        "part": "wing_r",
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "isVisible": false
+      },
+      {
+        "part": "wing_l",
+        "position": [0, 0, 0],
+        "rotationrotation": [0, 0, 0],
+        "isVisible": false
+      }
+     ]
+  },
+  "floating": {
+    "poseName": "floating",
+    "transformTicks": 10,
+    "poseTypes": [
+      "FLOAT"
+    ],
+    "animations": [
+      "bedrock(miraidonpd, water_idle)"
+    ],
+    "transformedParts": [
+      {
+        "part": "wing_r",
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "isVisible": false
+      },
+      {
+        "part": "wing_l",
+        "position": [0, 0, 0],
+        "rotationrotation": [0, 0, 0],
+        "isVisible": false
+      }
+     ]
+  }
+}
+}

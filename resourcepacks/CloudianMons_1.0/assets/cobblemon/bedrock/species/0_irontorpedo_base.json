@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:irontorpedo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:irontorpedo",
+      "model": "cobblemon:irontorpedo.geo",
+      "texture": "cobblemon:textures/pokemon/irontorpedo/irontorpedo.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/irontorpedo/irontorpedo_shiny.png"
+    }
+  ]
+}

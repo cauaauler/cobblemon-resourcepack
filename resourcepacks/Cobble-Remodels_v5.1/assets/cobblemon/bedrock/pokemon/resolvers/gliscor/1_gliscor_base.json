@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:gliscor",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:gliscor",
+      "model": "cobblemon:gliscor2.geo",
+      "texture": "cobblemon:textures/pokemon/0472_gliscor/gliscor.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0472_gliscor/gliscor_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0472_gliscor/gliscor_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0472_gliscor/gliscor_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

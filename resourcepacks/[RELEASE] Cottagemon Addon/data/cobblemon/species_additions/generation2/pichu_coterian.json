@@ -1,0 +1,19 @@
+{
+    "target": "cobblemon:pichu",
+    "evolutions": [
+        {
+          "id": "pichu_pikachu_cotere",
+          "variant": "level_up",
+          "result": "pikachu coterian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "friendship",
+              "amount": 160,
+              "biomeCondition": "#cobblemon:is_freezing"
+            }
+          ]
+        }
+      ]    
+   }

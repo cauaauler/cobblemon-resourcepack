@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:kirlia",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["cloudian"],
+      "poser": "cobblemon:kirlia_cloudian",
+      "model": "cobblemon:kirlia_cloudian.geo",
+      "texture": "cobblemon:textures/pokemon/kirlia/kirlia_cloudian.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "cloudian" ],
+      "texture": "cobblemon:textures/pokemon/kirlia/kirlia_cloudian_shiny.png"
+    }
+  ]
+}

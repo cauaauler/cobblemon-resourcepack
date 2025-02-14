@@ -1,0 +1,15 @@
+{
+	"id": "cobblemon:thermoat",
+	"speciesId": "cobblemon:thermoat",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": [
+				"Normal"
+			]
+		}
+	],
+	"variations": []
+}

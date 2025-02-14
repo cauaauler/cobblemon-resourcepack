@@ -1,0 +1,89 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.allayze",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "allayze",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "allayze",
+					"pivot": [0, 9, 0]
+				},
+				{
+					"name": "torso",
+					"parent": "body",
+					"pivot": [0, 11, 0.5],
+					"cubes": [
+						{"origin": [-2, 6, -1], "size": [4, 5, 3], "uv": [22, 20]}
+					]
+				},
+				{
+					"name": "arm1",
+					"parent": "torso",
+					"pivot": [2, 10, 0.5],
+					"cubes": [
+						{"origin": [2, 9, -0.5], "size": [5, 2, 2], "uv": [24, 4]}
+					]
+				},
+				{
+					"name": "arm2",
+					"parent": "torso",
+					"pivot": [-2, 10, 0.5],
+					"cubes": [
+						{"origin": [-7, 9, -0.5], "size": [5, 2, 2], "uv": [18, 0]}
+					]
+				},
+				{
+					"name": "wings",
+					"parent": "torso",
+					"pivot": [0, 10, 2]
+				},
+				{
+					"name": "wing1",
+					"parent": "wings",
+					"pivot": [1.5, 9.5, 2],
+					"cubes": [
+						{"origin": [1.5, 5, 2], "size": [0, 6, 11], "uv": [0, 18]}
+					]
+				},
+				{
+					"name": "wing2",
+					"parent": "wings",
+					"pivot": [-1.5, 9.5, 2],
+					"cubes": [
+						{"origin": [-1.5, 5, 2], "size": [0, 6, 11], "uv": [0, 12]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 10.95, 0.5],
+					"cubes": [
+						{"origin": [-3, 11, -3], "size": [6, 6, 6], "uv": [0, 0]},
+						{"origin": [0, 13, -2], "size": [0, 11, 12], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "eyes",
+					"parent": "head",
+					"pivot": [0, 12.5, -3.1],
+					"cubes": [
+						{"origin": [-2.5, 12.5, -3.1], "size": [2, 3, 0], "uv": [0, 3]},
+						{"origin": [0.5, 12.5, -3.1], "size": [2, 3, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

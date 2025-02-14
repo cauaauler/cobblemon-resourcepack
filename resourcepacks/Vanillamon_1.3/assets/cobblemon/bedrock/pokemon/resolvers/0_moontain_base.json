@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:moontain",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:moontain",
+        "model": "cobblemon:moontain.geo",
+        "texture": "cobblemon:textures/pokemon/moontain/moontain.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/moontain/moontain_shiny.png"
+      }
+    ]
+  }
+  

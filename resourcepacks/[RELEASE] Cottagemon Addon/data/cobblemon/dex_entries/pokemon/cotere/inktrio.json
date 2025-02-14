@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:inktrio",
+    "speciesId": "cobblemon:inktrio",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

@@ -1,0 +1,124 @@
+{
+	"implemented": true,
+	"name": "lurefin",
+	"nationalPokedexNumber": 22,
+	"labels": ["custom", "duna_regional"],
+	"pokedex": [
+		"cobblemon.species.lurefin.desc"
+	],
+	"height": 6,
+	"weight": 95,
+	"shoulderMountable": false,
+	
+	"primaryType": "water",
+	"baseStats": {
+		"hp": 60,
+		"attack": 45,
+		"defence": 67,
+		"special_attack": 35,
+		"special_defence": 63,
+		"speed": 50
+	},
+	"catchRate": 200,
+	"maleRation": 0.5,
+	"baseExperienceYield": 55,
+	"experienceGroup": "medium_fast",
+	"eggCycles": 20,
+	"eggGroups": [
+		"water_2"
+	],
+	"baseFriendship": 50,
+	"evYield": {
+		"hp": 0,
+		"attack": 1,
+		"defence": 0,
+		"special_attack": 0,
+		"special_defence": 0,
+		"speed": 0
+	},
+	
+	"moves": [
+		"1:scratch",
+		"1:splash",
+		"7:watergun",
+		"11:sharpen",
+		"13:falseswipe",
+		"15:pursuit",
+		"18:metalclaw",
+		"20:whirlpool",
+		"25:aquajet",
+		"28:soak",
+		"30:roleplay",
+		"30:substitute",
+		"32:bounce",
+		"35:fakeout",
+		"egg:constrict",
+		"egg:mist",
+		"egg:dragonclaw",
+		"tm:fling",
+		"tm:thief",
+		"tm:trick",
+		"tm:flipturn",
+		"tm:surf",
+		"tm:dive",
+		"tm:waterfall",
+		"tutor:needlearm",
+		"tutor:spark"
+	],
+	"abilities": [
+		"swiftswim",
+		"arenatrap",
+		"h:stormdrain"
+	],
+	
+	"evolutions": [
+		{
+			"id": "lurefin_angleel",
+			"variant": "level_up",
+			"result": "angleel",
+			"consumeHeldItem": false,
+			"learnableMoves": [
+				"aquatail"
+			],
+			"requirements": [
+				{
+					"variant": "level",
+					"minLevel": 33
+				}
+			]
+		}
+	],
+	
+	"baseScale": 0.8,
+	"hitbox": {
+		"width": 0.9,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": 2,
+		"entries": [
+			{
+				"item": "minecraft:cod"
+			},
+			{
+				"item": "cobblemon:pokerod_smithing_template",
+				"percentage": 0.1
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"walk": {
+				"avoidsLand": true
+			},
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": true,
+				"canWalkOnWater": true
+			}
+		}
+	}
+}

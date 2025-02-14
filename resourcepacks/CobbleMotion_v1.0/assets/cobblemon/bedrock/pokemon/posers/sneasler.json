@@ -1,0 +1,48 @@
+{
+	"head": "head",
+  "portraitScale": 1.7,
+  "portraitTranslation": [-0.22, 2.1, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1.02, -1.6],
+  "animations": {
+    "cry": "q.bedrock_stateful('sneasler', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+	  "q.look('head')",
+        "q.bedrock('sneasler', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('sneasler', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+	  "q.look('head')",
+        "q.bedrock('sneasler', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('sneasler', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sneasler', 'ground_walk')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sneasler', 'ground_walk')"
+      ]
+    }
+  }
+}

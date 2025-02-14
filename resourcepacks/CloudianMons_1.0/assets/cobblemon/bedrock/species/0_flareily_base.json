@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:flareily",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:flareily",
+      "model": "cobblemon:flareily.geo",
+      "texture": "cobblemon:textures/pokemon/flareily/flareily.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/flareily/flareily_shiny.png"
+    }
+  ]
+}

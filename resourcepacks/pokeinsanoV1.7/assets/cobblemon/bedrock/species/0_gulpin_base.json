@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:gulpin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:gulpin",
+      "model": "cobblemon:gulpin.geo",
+      "texture": "cobblemon:textures/pokemon/gulpin/gulpin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "poser": "cobblemon:gulpin",
+      "model": "cobblemon:gulpin.geo",
+      "texture": "cobblemon:textures/pokemon/gulpin/gulpin.png",
+      "layers": []
+    }
+  ]
+}

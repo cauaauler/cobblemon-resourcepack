@@ -1,0 +1,17 @@
+{
+    "pokemon.hacnea.cry": {
+        "sounds": [
+            "cobblemon:pokemon/hacnea/hacnea_cry"
+        ]
+    },
+    "pokemon.hacnealit.cry": {
+        "sounds": [
+            "cobblemon:pokemon/hacnea/hacnea_cry"
+        ]
+    },
+    "pokemon.jacturne.cry": {
+        "sounds": [
+            "cobblemon:pokemon/jacturne/jacturne_cry"
+        ]
+    }
+}

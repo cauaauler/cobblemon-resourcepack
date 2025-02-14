@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:learva",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:learva",
+			"model": "cobblemon:learva.geo",
+			"texture": "cobblemon:textures/pokemon/learva/learva.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/learva/learva_shiny.png"
+		}
+	]
+}

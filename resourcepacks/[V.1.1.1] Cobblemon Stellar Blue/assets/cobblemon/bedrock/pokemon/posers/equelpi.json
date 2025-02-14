@@ -1,0 +1,55 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.03, -0.72, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.5, 0],
+    "animations": {
+      "cry": "q.bedrock_stateful('equelpi', 'cry')"
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('equelpi', 'ground_idle')"
+        ],
+        "quirks": ["q.bedrock_quirk('equelpi', 'blink')"]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('equelpi', 'ground_idle')"
+        ],
+        "quirks": ["q.bedrock_quirk('equelpi', 'blink')"
+        
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK"],
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('equelpi', 'ground_walk')"
+        ],
+        "quirks": ["q.bedrock_quirk('equelpi', 'blink')"]
+      },
+      "float": {
+        "poseTypes": ["FLOAT"],
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('equelpi', 'water_idle')"
+        ],
+        "quirks": ["q.bedrock_quirk('equelpi', 'blink')"]
+      },
+      "swim": {
+        "poseTypes": ["SWIM"],
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('equelpi', 'water_swim')"
+        ],
+        "quirks": ["q.bedrock_quirk('equelpi', 'blink')"]
+      }
+    }
+   }

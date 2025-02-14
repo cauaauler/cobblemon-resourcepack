@@ -1,0 +1,34 @@
+{
+ "species": "cobblemon:hurrilay",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:hurrilay",
+     "model": "cobblemon:hurrilay.geo",
+     "texture": "cobblemon:textures/pokemon/hurrilay/hurrilay.png",
+     "layers": [
+      {
+        "name": "emissive",
+        "emissive": true,
+        "texture": "cobblemon:textures/pokemon/hurrilay/hurrilay_emissive.png",
+        "translucent": true
+}
+			]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/hurrilay/hurrilay_shiny.png",
+	 "layers": [
+    {
+      "name": "emissive",
+      "emissive": true,
+      "texture": "cobblemon:textures/pokemon/hurrilay/hurrilay_shiny_emissive.png",
+      "translucent": true
+}
+			]
+	}
+ ]
+}

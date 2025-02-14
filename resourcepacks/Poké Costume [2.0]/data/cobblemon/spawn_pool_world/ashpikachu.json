@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ashpikachu-1",
+            "pokemon": "ashpikachu",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "15-22",
+            "weight": 3.0,
+            "condition": {
+                "canSeeSky": true,
+				"biomes": [
+                    "#minecraft:is_forest"
+                ]
+            }
+        }
+    ]
+}

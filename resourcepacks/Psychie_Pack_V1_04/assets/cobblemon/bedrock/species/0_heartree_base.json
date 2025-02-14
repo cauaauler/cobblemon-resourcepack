@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:heartree",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:heartree",
+      "model": "cobblemon:heartree.geo",
+      "texture": "cobblemon:textures/pokemon/heartree/heartree.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/heartree/heartree_shiny.png"
+    }
+  ]
+}

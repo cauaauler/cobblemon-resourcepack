@@ -1,0 +1,35 @@
+{
+    "species": "cobblemon:phantasmau",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:phantasmau",
+        "model": "cobblemon:phantasmau.geo",
+        "texture": "cobblemon:textures/pokemon/phantasmau/phantasmau.png",
+        "layers": [
+          {
+                "name": "emissive",
+                "emissive": true,
+                "texture": "cobblemon:textures/pokemon/phantasmau/phantasmau_emissive.png",
+                "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/phantasmau/phantasmau_shiny.png",
+        "layers": [
+          {
+                "name": "emissive",
+                "emissive": true,
+                "texture": "cobblemon:textures/pokemon/phantasmau/phantasmau_emissive.png",
+                "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

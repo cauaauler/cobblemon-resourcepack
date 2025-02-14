@@ -1,0 +1,157 @@
+{
+    "target": "cobblemon:raboot",
+    "features": ["coterian"],
+  "forms":[
+        {
+            "implemented": true,
+            "name": "Coterian",
+            "preEvolution": "scorbunny",
+            "nationalPokedexNumber": 814,
+            "primaryType": "electric",
+            "abilities": [
+              "magician",
+              "h:static"
+            ],
+            "baseStats": {
+                "hp": 65,
+                "attack": 54,
+                "defence": 55,
+                "special_attack": 87,
+                "special_defence": 65,
+                "speed": 94            
+            },
+            "behaviour": {
+                "moving" : {
+                  "canLook": true,
+                    "walk": {
+                      "walkSpeed": 0.21
+                    }              
+            },
+            "resting": {
+              "canSleep": false,
+              "willSleepOnBed": true,
+              "depth": "normal",
+              "light": "2-15",
+              "times": "day"
+            }
+        },
+            "features": [
+            ],
+            "catchRate": 45,
+            "maleRatio": 0.875,
+            "shoulderMountable": false,
+            "baseExperienceYield": 147,
+            "experienceGroup": "medium_slow",
+            "eggCycles": 20,          
+            "eggGroups": [
+              "field",
+              "human_like"
+            ],
+            "moves": [
+                "1:growl",
+                "1:tackle",
+                "1:swift",
+                "5:thundershock",
+                "8:quickattack",
+                "12:doublekick",
+                "17:shockwave",
+                "20:agility",
+                "24:vacuumwave",
+                "28:aurasphere",
+                "32:bounce",
+                "36:risingvoltage",
+                "egg:highjumpkick",
+                "egg:sandattack",
+                "egg:suckerpunch",
+                "egg:superfang",
+                "tm:acrobatics",
+                "tm:agility",
+                "tm:allyswitch",
+                "tm:assurance",
+                "tm:attract",
+                "tm:batonpass",
+                "tm:blazekick",
+                "tm:bounce",
+                "tm:burningjealousy",
+                "tm:doubleedge",
+                "tm:electroball",
+                "tm:endure",
+                "tm:facade",
+                "tm:focusenergy",
+                "tm:gunkshot",
+                "tm:heatwave",
+                "tm:helpinghand",
+                "tm:lowkick",
+                "tm:lowsweep",
+                "tm:megakick",
+                "tm:mudshot",
+                "tm:overheat",
+                "tm:protect",
+                "tm:rest",
+                "tm:reversal",
+                "tm:round",
+                "tm:sleeptalk",
+                "tm:snore",
+                "tm:substitute",
+                "tm:superfang",
+                "tm:swift",
+                "tm:takedown",
+                "tm:taunt",
+                "tm:terablast",
+                "tm:trailblaze",
+                "tm:uturn",
+                "tm:workup",
+                "tm:stompingtantrum",
+                "tm:thunderbolt",
+                "tm:thunder",
+                "tm:electroweb",
+                "tm:electricterrain",
+                "tm:eerieimpulse",
+                "tutor:risingvoltage"
+            ],
+            "labels": [
+              "gen8",
+              "coterian"
+            ],
+            "pokedex": [
+              "cobblemon.species.raboot_coterian.desc"
+            ],
+            "aspects": [
+              "coterian"
+            ],
+            "evolutions": [
+              {
+                "id": "raboot_cinderace_coterean",
+                "variant": "level_up",
+                "result": "cinderace form=coterian",
+                "consumeHeldItem": false,
+                "learnableMoves": [],
+                "requirements": [
+                  {
+                    "variant": "level",
+                    "minLevel": 36
+                  }
+                ]
+              }
+            ],
+            "baseScale": 0.5,
+            "hitbox": {
+              "width": 0.7,
+              "height": 1.3,
+              "fixed": false
+            },
+            "baseFriendship": 50,
+            "evYield": {
+              "hp": 0,
+              "attack": 0,
+              "defence": 0,
+              "special_attack": 0,
+              "special_defence": 0,
+              "speed": 1
+            },
+            "height": 3,
+            "weight": 45,
+            "cannotDynamax": false
+          }
+  ]
+  }

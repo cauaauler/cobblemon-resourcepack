@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:quantom",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:quantom",
+        "model": "cobblemon:quantom.geo",
+        "texture": "cobblemon:textures/pokemon/quantom/quantom.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/quantom/quantom_shiny.png"
+      }
+    ]
+   }

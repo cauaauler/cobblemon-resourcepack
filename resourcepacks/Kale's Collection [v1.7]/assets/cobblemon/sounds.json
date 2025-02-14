@@ -1,0 +1,45 @@
+{
+    "pokemon.deoxys.cry": {
+    "sounds": [ "cobblemon:pokemon/deoxys/deoxys" ]
+  },
+
+    "pokemon.deoxysattack.cry": {
+    "sounds": [ "cobblemon:pokemon/deoxysattack/deoxys" ]
+  },
+
+    "pokemon.deoxysdefense.cry": {
+    "sounds": [ "cobblemon:pokemon/deoxysdefense/deoxys" ]
+  },
+
+    "pokemon.deoxysspeed.cry": {
+    "sounds": [ "cobblemon:pokemon/deoxysspeed/deoxys" ]
+  },
+
+    "pokemon.ironbundle.cry": {
+    "sounds": [ "cobblemon:pokemon/ironbundle/ironbundle" ]
+  },
+
+    "pokemon.slitherwing.cry": {
+    "sounds": [ "cobblemon:pokemon/slitherwing/slitherwing" ]
+  },
+
+    "pokemon.axew.cry": {
+    "sounds": [ "cobblemon:pokemon/axew/axew" ]
+  },
+
+    "pokemon.fraxure.cry": {
+    "sounds": [ "cobblemon:pokemon/fraxure/fraxure" ]
+  },
+
+   "pokemon.haxorus.cry": {
+    "sounds": [ "cobblemon:pokemon/haxorus/haxorus" ]
+  },
+
+  "pokemon.noibat.cry": {
+   "sounds": [ "cobblemon:pokemon/noibat/noibat" ]
+ },
+
+ "pokemon.noivern.cry": {
+  "sounds": [ "cobblemon:pokemon/noivern/noivern" ]
+}
+}

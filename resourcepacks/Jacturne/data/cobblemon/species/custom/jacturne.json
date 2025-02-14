@@ -1,0 +1,114 @@
+{
+  "implemented": true,
+  "name": "jacturne",
+  "primaryType": "grass",
+  "secondaryType": "fire",
+  "abilities": [
+    "sharpness",
+    "harvest"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 80,
+    "defence": 105,
+    "special_attack": 40,
+    "special_defence": 100,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+	  "sleepChance": "0.01",
+      "times": "day",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+		"walkSpeed": 0.22,
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 100
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 180,
+  "eggCycles": 25,
+  "eggGroups": [
+    "human_like",
+    "grass"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:carved_pumpkin",
+        "quantityRange": "1-1",
+        "percentage": 100
+      }
+    ]
+  },
+  "moves": [
+	"1:razorleaf",
+	"1:spikes",
+	"1:willowisp",
+	"1:spikyshield",
+	"1:naturalgift",
+	"1:growth",
+	"1:needlearm",
+	"8:scaryface",
+	"12:slash",
+	"15:firelash",
+	"18:painsplit",
+	"20:nightslash",
+	"22:shadowsneak",
+	"25:leafblade",
+    "28:taunt",
+	"32:destinybond",
+    "36:bitterblade",
+	"39:curse",
+	"43:foulplay",
+	"55:solarblade",
+	"60:lastrespects"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.jacturne.desc1",
+    "cobblemon.species.jacturne.desc2"
+  ],
+  "preEvolution": "hacnea",
+  "evolutions": [],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.6,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 790,
+  "cannotDynamax": false
+}

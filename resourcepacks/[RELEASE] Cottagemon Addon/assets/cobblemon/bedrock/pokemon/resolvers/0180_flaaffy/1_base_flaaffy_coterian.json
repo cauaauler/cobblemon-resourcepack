@@ -1,0 +1,24 @@
+{
+    "species": "cobblemon:flaaffy",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["coterian"],
+        "model": "cobblemon:flaaffy_coterian.geo",
+        "texture": "cobblemon:textures/pokemon/0180_flaaffy/flaaffy_coterian.png",
+        "layers": [       {
+          "name": "emissive",
+          "emissive": false
+        }]
+      },
+      {
+        "aspects": ["shiny", "coterian"],
+        "texture": "cobblemon:textures/pokemon/0180_flaaffy/flaaffy_coterian_shiny.png",
+        "layers": [        {
+          "name": "emissive",
+          "emissive": false
+        }]
+      }
+    ]
+  }
+  

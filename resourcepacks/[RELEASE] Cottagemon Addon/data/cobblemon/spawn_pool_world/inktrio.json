@@ -1,0 +1,72 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "inktrio-1",
+            "pokemon": "inktrio",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "26-44",
+            "weight": 1,
+            "weightMultiplier": {
+                "multiplier": 13.0,
+                "condition": {
+                    "neededNearbyBlocks": [ "minecraft:bookshelf" ]
+                }
+            },
+            "condition": {
+                "structures": [ "minecraft:mansion" ]
+                
+          }
+        },
+        {
+            "id": "inktrio-2",
+            "pokemon": "inktrio",
+            "presets": [
+                "stronghold"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "26-44",
+            "weight": 1,
+            "weightMultiplier": {
+                "multiplier": 13.0,
+                "condition": {
+                    "neededNearbyBlocks": [ "minecraft:bookshelf" ]
+                }
+            },
+            "condition": {
+                "structures": [ "minecraft:stronghold" ]
+                
+          }
+        },
+        {
+         "id": "inktrio-3",
+         "pokemon": "inktrio",
+         "presets": [
+             "end_city"
+         ],
+         "type": "pokemon",
+         "context": "grounded",
+         "bucket": "uncommon",
+         "level": "35-55",
+         "weight": 7.0,
+         "weightMultiplier": {
+             "multiplier": 4.0,
+             "condition": {
+                 "neededNearbyBlocks": [ "minecraft:brewing_stand" ]
+             }
+         },
+         "condition": {
+             "structures": [ "minecraft:end_city" ]     
+       }
+     }
+    ]
+ }

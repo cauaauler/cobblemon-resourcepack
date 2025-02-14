@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:numel-coterian",
+    "speciesId": "cobblemon:numel",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Coterian",
+        "unlockForms": [
+          "Coterian"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

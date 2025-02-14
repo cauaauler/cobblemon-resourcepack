@@ -1,0 +1,112 @@
+{
+	"implemented": true,
+	"name": "angleel",
+	"nationalPokedexNumber": 23,
+	"preEvolution": "lurefin",
+	"label": ["custom", "duna_regional"],
+	"pokedex": [
+		"cobblemon.species.angleel.desc"
+	],
+	"height": 22,
+	"weight": 2050,
+	"shoulderMountable": false,
+	
+	"primaryType": "water",
+	"baseStats": {
+		"hp": 90,
+		"attack": 70,
+		"defence": 90,
+		"special_attack": 55,
+		"special_defence": 85,
+		"speed": 70
+	},
+	"catchRate": 50,
+	"maleRation": 0.5,
+	"baseExperienceYield": 140,
+	"experienceGroup": "slow",
+	"eggCycles": 5,
+	"eggGroups": [
+		"water_2"
+	],
+	"baseFriendship": 50,
+	"evYield": {
+		"hp": 0,
+		"attack": 1,
+		"defence": 1,
+		"special_attack": 0,
+		"special_defence": 0,
+		"speed": 0
+	},
+	
+	"moves": [
+		"1:scratch",
+		"1:splash",
+		"7:watergun",
+		"11:sharpen",
+		"13:falseswipe",
+		"15:pursuit",
+		"18:metalclaw",
+		"20:whirlpool",
+		"25:aquajet",
+		"28:soak",
+		"30:roleplay",
+		"30:substitute",
+		"32:bounce",
+		"35:dragontail",
+		"37:fakeout",
+		"38:scald",
+		"40:highhorsepower",
+		"42:hydropump",
+		"egg:constrict",
+		"egg:mist",
+		"egg:dragonclaw",
+		"tm:fling",
+		"tm:thief",
+		"tm:trick",
+		"tm:flipturn",
+		"tm:surf",
+		"tm:dive",
+		"tm:waterfall",
+		"tutor:needlearm",
+		"tutor:spark",
+		"tutor:tailglow"
+	],
+	"abilities": [
+		"swiftswim",
+		"arenatrap",
+		"h:stormdrain"
+	],
+	
+	"baseScale": 1.35,
+	"hitbox": {
+		"width": 1.7,
+		"height": 1.45,
+		"fixed": false
+	},
+	"drops": {
+		"amount": 2,
+		"entries": [
+			{
+				"item": "minecraft:cod"
+			},
+			{
+				"item": "cobblemon:pokerod_smithing_template",
+				"percentage": 1
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": true,
+			"walk": {
+				"avoidsLand": true
+			},
+			"swim": {
+				"swimSpeed": 0.27,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": true,
+				"canWalkOnWater": true
+			}
+		}
+	}
+}

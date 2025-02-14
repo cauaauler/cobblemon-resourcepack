@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:turpinch",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:turpinch",
+      "model": "cobblemon:turpinch.geo",
+      "texture": "cobblemon:textures/pokemon/turpinch/turpinch.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/turpinch/turpinch.png"
+    }
+  ]
+}

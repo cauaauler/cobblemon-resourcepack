@@ -1,0 +1,43 @@
+{
+    "portraitScale": 2,
+    "portraitTranslation": [0.1, 1.2, 0],
+    "profileScale": 0.75,
+    "profileTranslation": [0, 0.68, 0],
+    "animations": {
+      "cry": "q.bedrock_stateful('aurnaram', 'cry')"
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('aurnaram', 'battle_idle')"
+        ],
+        "quirks": ["q.bedrock_quirk('aurnaram', 'blink')","q.bedrock_quirk('aurnaram', 'quirk', 10, 50, 1)"]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('aurnaram', 'ground_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('aurnaram', 'blink')","q.bedrock_quirk('aurnaram', 'quirk', 20, 60, 1)"
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK"],
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('aurnaram', 'ground_walk')"
+        ],
+        "quirks": ["q.bedrock_quirk('aurnaram', 'blink')"]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "animations": ["q.bedrock('aurnaram', 'sleep')"]
+      }
+      }
+    }

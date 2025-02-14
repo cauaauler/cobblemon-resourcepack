@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:cinderace",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["coterian"],
+        "poser": "cobblemon:cinderace_coterian",
+        "model": "cobblemon:cinderace_coterian.geo",
+        "texture": "cobblemon:textures/pokemon/0815_cinderace/cinderace_coterian.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny","coterian"
+        ],
+        "texture": "cobblemon:textures/pokemon/0815_cinderace/cinderace_coterian_shiny.png"
+      }
+    ]
+   }

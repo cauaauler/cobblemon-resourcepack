@@ -1,0 +1,126 @@
+{
+  "implemented": true,
+  "name": "qwilprism",
+  "nationalPokedexNumber": 2019,
+  "primaryType": "water",
+  "secondaryType": "rock",
+  "abilities": [
+    "intimidate",
+    "swiftswim",
+    "h:poisonheal"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 95,
+    "defence": 85,
+    "special_attack": 55,
+    "special_defence": 55,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "eggCycles": 30,
+  "eggGroups": [
+    "water_1",
+    "monster"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:prismarine_shard",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:poisonsting",
+    "1:tackle",
+    "4:harden",
+    "8:watergun",
+    "12:fellstinger",
+    "16:minimize",
+    "20:spikes",
+    "24:brine",
+    "28:revenge",
+    "32:pinmissile",
+    "36:toxicspikes",
+    "40:poisonjab",
+    "44:stockpile",
+    "44:spitup",
+    "48:takedown",
+    "52:toxic",
+    "56:aquatail",
+    "60:acupressure",
+    "66:destinybond",
+    "50:stealthrock",
+    "50:rockpolish",
+    "9:rockthrow",
+    "70:stoneedge"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.qwilprism.desc1",
+    "cobblemon.species.qwilprism.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.4,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 50,
+  "evolutions": [
+    {
+      "id": "qwilprism-elderqwil-item_interact",
+      "variant": "item_interact",
+      "result": "elderqwil",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "ancientpower"
+      ],
+      "requirements": [],
+      "requiredContext": "minecraft:heart_of_the_sea"
+    }
+  ]
+}

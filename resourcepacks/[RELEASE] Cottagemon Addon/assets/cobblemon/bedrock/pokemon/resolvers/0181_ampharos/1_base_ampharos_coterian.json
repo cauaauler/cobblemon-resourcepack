@@ -1,0 +1,25 @@
+{
+    "species": "cobblemon:ampharos",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["coterian"],
+        "model": "cobblemon:ampharos_coterian.geo",
+        "texture": "cobblemon:textures/pokemon/0181_ampharos/ampharos_coterian.png",
+        "layers": [        {
+          "name": "emissive",
+          "emissive": false
+        }
+]
+      },
+      {
+        "aspects": ["shiny", "coterian"],
+        "texture": "cobblemon:textures/pokemon/0181_ampharos/ampharos_coterian_shiny.png",
+        "layers": [        {
+          "name": "emissive",
+          "emissive": false
+        }]
+      }
+    ]
+  }
+  

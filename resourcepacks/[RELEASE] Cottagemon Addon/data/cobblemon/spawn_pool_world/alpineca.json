@@ -1,0 +1,62 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "alpineca-1",
+            "pokemon": "alpineca",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-46",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+					"isRaining": true
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+					"#cobblemon:is_glacial"
+                ]
+            }
+        },
+        {
+            "id": "alpineca-2",
+            "pokemon": "alpineca",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-46",
+            "weight": 0.6,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+					"isRaining": true
+                }
+            },
+            "condition": {
+				"labelMode": "ALL",
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_peak",
+					"#cobblemon:is_snowy"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+					"#cobblemon:is_glacial"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+  "pokemon.stellotl.cry": {
+    "sounds": [ "cobblemon:pokemon/stellotl/stellotl_cry" ]
+	},
+  "pokemon.stellumbra.cry": {
+    "sounds": [ "cobblemon:pokemon/stellumbra/stellumbra_cry" ]
+  },
+  "pokemon.equelpi.cry": {
+    "sounds": [ "cobblemon:pokemon/equelpi/equelpi_cry" ]
+	},
+  "pokemon.equiross.cry": {
+    "sounds": [ "cobblemon:pokemon/equiross/equiross_cry" ]
+	},
+  "pokemon.equirin.cry": {
+    "sounds": [ "cobblemon:pokemon/equirin/equirin_cry" ]
+	},
+  "pokemon.infastella.cry": {
+    "sounds": [ "cobblemon:pokemon/infastella/infastella_cry" ]
+  },
+  "pokemon.emberam.cry": {
+    "sounds": [ "cobblemon:pokemon/emberam/emberam_cry" ]
+  },
+  "pokemon.aurnaram.cry": {
+    "sounds": [ "cobblemon:pokemon/aurnaram/aurnaram_cry" ]
+  },
+  "pokemon.furnauries.cry": {
+    "sounds": [ "cobblemon:pokemon/furnauries/furnauries_cry" ]
+  },
+  "pokemon.tigriff.cry": {
+    "sounds": [ "cobblemon:pokemon/tigriff/tigriff_cry" ]
+  },
+  "pokemon.griffern.cry": {
+    "sounds": [ "cobblemon:pokemon/griffern/griffern_cry" ]
+  },
+  "pokemon.griffaera.cry": {
+    "sounds": [ "cobblemon:pokemon/griffaera/griffaera_cry" ]
+  },
+  "pokemon.quantom.cry": {
+    "sounds": [ "cobblemon:pokemon/quantom/quantom_cry" ]
+  },  
+  "pokemon.phantasmau.cry": {
+    "sounds": [ "cobblemon:pokemon/phantasmau/phantasmau_cry" ]
+  }
+}

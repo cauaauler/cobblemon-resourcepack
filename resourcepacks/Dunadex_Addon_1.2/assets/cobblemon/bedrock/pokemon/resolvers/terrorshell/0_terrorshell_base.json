@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:terrorshell",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:terrorshell",
+			"model": "cobblemon:terrorshell.geo",
+			"texture": "cobblemon:textures/pokemon/terrorshell/terrorshell.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/terrorshell/terrorshell_shiny.png"
+		}
+	]
+}

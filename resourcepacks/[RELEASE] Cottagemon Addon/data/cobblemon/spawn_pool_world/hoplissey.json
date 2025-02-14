@@ -1,0 +1,33 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "hoplissey-1",
+            "pokemon": "hoplissey",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "40-54",
+            "weight": 0.125,
+            "weightMultiplier": {
+                "multiplier": 1.25,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cherry_blossom",
+                    "#cobblemon:is_floral"
+                ]
+            }
+        }
+    ]
+}

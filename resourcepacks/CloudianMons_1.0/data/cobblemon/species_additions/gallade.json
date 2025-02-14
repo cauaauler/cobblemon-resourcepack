@@ -1,0 +1,148 @@
+{
+  "target": "cobblemon:Gallade",
+  "features": ["cloudian"],
+  "forms": [
+    {
+ "name": "cloudian",
+ "aspects": ["cloudian"],
+ "nationalPokedexNumber": 475,
+ "primaryType": "Ghost",
+ "secondaryType": "Fighting",
+  "abilities": [
+    "CursedBody",
+    "PoisonPoint",
+    "h:Guts"
+ ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 125,
+    "defence": 70,
+    "special_attack": 65,
+    "special_defence": 115,
+    "speed": 80
+ },
+ "behaviour": {
+   "resting": {
+     "canSleep": true,
+     "depth": "normal",
+     "light": "0-4",
+     "willSleepOnBed": true
+   },
+   "moving": {
+     "canLook": true,
+     "walk": {
+       "canWalk": true,
+       "avoidsLand": false
+     },
+     "swim": {
+       "swimSpeed": 0.3,
+       "canSwimInWater": false,
+       "canBreatheUnderwater": false
+     },
+     "fly": {
+       "canFly": false,
+       "flySpeedHorizontal": 0.3
+     }
+   }
+ },
+ "catchRate": 45,
+ "maleRatio": 0.5,
+ "experienceGroup": "slow",
+ "shoulderMountable": true,
+ "baseExperienceYield": 259,
+ "eggCycles": 20,
+ "eggGroups": [
+    "human_like",
+    "amorphous"
+ ],
+ "drops": {
+   "amount": 1,
+   "entries": [
+     {
+       "item": "cobblemon:spell_tag",
+       "quantityRange": "1-2",
+       "percentage": 4
+     }
+   ]
+  },
+  "moves": [
+    "1:Slash",
+    "1:NightSlash",
+    "1:SacredSword",
+    "1:FuryCutter",
+    "1:LeafBlade",
+    "1:CalmMind",
+    "1:Growl",
+    "1:Leer",
+    "8:Facade",
+    "10:Hypnosis",
+    "13:ConfuseRay",
+    "17:LowKick",
+    "21:Hex",
+    "24:ShadowClaw",
+    "28:FalseSwipe",
+    "36:SwordsDance",
+    "38:QuickGuard",
+    "44:Protect",
+    "44:BodySlam",
+    "44:NightShade",
+    "50:CloseCombat",
+    "55:DrainPunch",
+    "tm:FirePunch",
+    "tm:ThunderPunch",
+    "tm:Icepunch",
+    "tm:PoisonJab",
+    "tm:Taunt",
+    "tm:Metronome",
+    "tm:Imprison",
+    "tm:Substitute",
+    "tm:XScissor",
+    "tm:WillOWisp",
+    "tm:AuraSphere",
+    "tm:ShadowBall",
+    "tm:Encore",
+    "tm:HelpingHand",
+    "tm:StoneEdge",
+    "tm:KnockOff",
+    "tm:TeraBlast",
+    "tm:PainSplit",
+    "tm:Coaching",
+    "tm:TripleAxel",
+    "tm:ThroatChop",
+    "tm:UpperHand",
+    "tm:Poisonjab",
+    "tm:CrossPoison",
+    "tm:DireClaw",
+    "tm:Astonish",
+    "tm:RageFist"
+  ],
+  "labels": [
+         "cloud_regional"
+  ],
+  "pokedex": [
+    "cobblemon.species.gallade_cloud.desc1"
+ ],
+  "preEvolution": "kirlia",
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+ "baseFriendship": 35,
+ "evYield": {
+   "hp": 0,
+   "attack": 3,
+   "defence": 0,
+   "special_attack": 0,
+   "special_defence": 0,
+   "speed": 0
+ },
+  "height": 16,
+  "weight": 484,
+  "evolutions": [],
+  "cannotDynamax": false
+        }
+    ]
+} 
+

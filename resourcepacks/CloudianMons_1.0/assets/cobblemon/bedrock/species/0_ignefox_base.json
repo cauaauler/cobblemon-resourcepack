@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:ignefox",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ignefox",
+      "model": "cobblemon:ignefox.geo",
+      "texture": "cobblemon:textures/pokemon/ignefox/ignefox.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/ignefox/ignefox_shiny.png"
+    }
+  ]
+}

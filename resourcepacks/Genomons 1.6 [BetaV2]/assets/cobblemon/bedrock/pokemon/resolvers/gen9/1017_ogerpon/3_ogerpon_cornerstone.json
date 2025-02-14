@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ogerpon",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["cornerstone"],
+      "poser": "genomons:ogerpon",
+      "model": "genomons:ogerpon_cornerstone.geo",
+      "texture": "genomons:textures/pokemon/1017_ogerpon/ogerpon_cornerstone.png"
+    },
+    {
+      "aspects": [
+        "cornerstone",
+        "shiny"
+      ],
+      "texture": "genomons:textures/pokemon/1017_ogerpon/ogerpon_cornerstone_shiny.png"
+    }
+  ]
+}

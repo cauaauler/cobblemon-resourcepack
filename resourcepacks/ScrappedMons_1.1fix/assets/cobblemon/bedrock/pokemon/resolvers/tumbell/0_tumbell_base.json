@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:tumbell",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tumbell",
+      "model": "cobblemon:tumbell.geo",
+      "texture": "cobblemon:textures/pokemon/tumbell/tumbell.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/tumbell/tumbell_shiny.png"
+    }
+  ]
+}

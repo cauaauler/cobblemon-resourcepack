@@ -1,0 +1,120 @@
+{
+
+    "implemented": true,
+    "name": "stritan",
+    "labels": [ "custom" ],
+    "pokedex": [
+      "cobblemon.species.stritan.desc1"
+    ],
+    "height": 28,
+    "weight": 1260,
+    "shoulderMountable": false,
+    "shoulderEffects": [ "slow_fall" ],
+    
+  "primaryType": "fire",
+  "secondaryType":"rock",
+  "baseStats": {
+    "hp": 110,
+    "attack": 85,
+    "defence": 125,
+    "special_attack": 70,
+    "special_defence": 75,
+    "speed": 60
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 250,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "water_1",
+    "monster"
+  ],
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "defence": 2
+  },
+
+  "moves": [
+    "35:ancientpower",
+    "38:headsmash",
+    "42:lavaplume",
+    "47:firecracker",
+    "53:deepyawn",
+    "64:cinderbreath",
+    "72:magmastorm",
+    "78:overheat",
+    "82:eruption",
+    "90:megakick",
+    "100:dragonicflare",
+    "tm:cavein",
+    "tm:blastburn",
+    "tm:bodypress",
+    "tm:bulldoze",
+    "tm:coaching",
+    "tm:doublekick",
+    "tm:earthquake",
+    "tm:fierywrath",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:heatcrash",
+    "tm:inferno",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:protect",
+    "tm:rockslide",
+    "tm:rockthrow",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:scorchingsands",
+    "tm:sunnyday",
+    "tm:thunderouskick"
+  ],
+  "abilities": [
+    "desolateland",
+    "h:heavymetal",
+    "magmaarmor"
+  ],  
+  "baseScale": 1,
+  "hitbox": {
+    "width": 3,
+    "height": 5,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "3-8",
+        "percentage": 75
+      },
+      {
+        "item": "minecraft:basalt",
+        "quantityRange": "3-5",
+        "percentage": 60
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "fly": {
+        "canFly": false
+      },          
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false,
+        "avoidsWater":true,
+        "canWalkOnLava":true,
+        "hurtByLava":false
+      },
+      "walk":{
+        "avoidsLand":true
+      }
+    }
+  }
+
+}

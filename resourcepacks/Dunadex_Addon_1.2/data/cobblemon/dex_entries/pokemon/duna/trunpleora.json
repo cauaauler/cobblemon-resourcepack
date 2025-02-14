@@ -1,0 +1,15 @@
+{
+	"id": "cobblemon:trunpleora",
+	"speciesId": "cobblemon:trunpleora",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": [
+				"Normal"
+			]
+		}
+	],
+	"variations": []
+}

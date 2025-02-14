@@ -1,0 +1,72 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "inklett-1",
+           "pokemon": "inklett",
+           "presets": [
+               "mansion"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "uncommon",
+           "level": "2-35",
+           "weight": 7.0,
+		   "weightMultiplier": {
+			   "multiplier": 13.0,
+			   "condition": {
+				   "neededNearbyBlocks": [ "minecraft:bookshelf" ]
+			   }
+		   },
+           "condition": {
+			   "structures": [ "minecraft:mansion" ]
+			   
+         }
+       },
+	   {
+           "id": "inklett-2",
+           "pokemon": "inklett",
+           "presets": [
+               "stronghold"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "uncommon",
+           "level": "2-35",
+           "weight": 7.0,
+		   "weightMultiplier": {
+			   "multiplier": 13.0,
+			   "condition": {
+				   "neededNearbyBlocks": [ "minecraft:bookshelf" ]
+			   }
+		   },
+           "condition": {
+			   "structures": [ "minecraft:stronghold" ]
+			   
+         }
+       },
+	   {
+        "id": "inklett-3",
+        "pokemon": "inklett",
+        "presets": [
+            "end_city"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "uncommon",
+        "level": "35-45",
+        "weight": 7.0,
+        "weightMultiplier": {
+            "multiplier": 4.0,
+            "condition": {
+                "neededNearbyBlocks": [ "minecraft:brewing_stand" ]
+            }
+        },
+        "condition": {
+            "structures": [ "minecraft:end_city" ]     
+      }
+    }
+   ]
+}

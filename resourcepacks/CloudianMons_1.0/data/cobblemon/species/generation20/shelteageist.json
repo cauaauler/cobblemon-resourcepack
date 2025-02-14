@@ -1,0 +1,139 @@
+{
+  "name": "shelteageist",
+  "nationalPokedexNumber": 3023,
+  "primaryType": "grass",
+  "secondaryType": "Water",
+  "abilities": [
+    "Hospitality",
+    "h:Regenerator"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:damp_rock",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:mirror_herb",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 78,
+    "attack": 55,
+    "defence": 95,
+    "special_attack": 120,
+    "special_defence": 100,
+    "speed": 60
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "Grass",
+    "Water_1"
+  ],
+  "behaviour": {
+    "moving": {
+        "walk": {
+          "canWalk": true,
+          "avoidsLand": true
+        },
+        "swim": {
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+      }
+    },
+    "moving": {
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.6
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "moves": [
+    "1:Leafage",
+    "1:Absorb",
+    "1:Leer",
+    "1:WaterGun",
+    "6:Tackle",
+    "11:BubbleBeam",
+    "12:VineWhip",
+    "15:Absorb",
+    "18:Minimize	",
+    "24:Growth",
+    "30:TakeDown",
+    "35:HydroPump",
+    "36:LeechSeed",
+    "36:SeedBomb",
+    "41:MegaDrain",
+    "42:FlipTurn",
+    "48:WaterSpout",
+    "54:SelfDestruct",
+    "56:MatchaGotcha",
+    "egg:Toxic",
+    "egg:SkitterSmack",
+    "egg:Acid", 
+    "tm:BulletSeed",
+    "tm:WaterPulse",
+    "tm:LeafStorm",
+    "tm:SleepPowder",
+    "tm:BouncyBubble",
+    "tm:Scald",
+    "tm:Substitute",
+    "tm:Spore",
+    "tm:Recover",
+    "tm:Bide",
+    "tm:Brine",
+    "tm:AquaRing",
+    "tm:RazorShell",
+    "tm:TripleDive",
+    "tm:Spikes",
+    "tm:Encore",
+    "tm:ShadowBall",
+    "tm:HelpingHand",
+    "tm:Yawn",
+    "tm:FakeTears",
+    "tm:SignalBeam",
+    "tm:LeafBlade",
+    "tm:Acupressure",
+    "tm:TeraBlast",
+  ],
+  "labels": [
+    "gen21"
+  ],
+  "pokedex": [
+    "cobblemon.species.shelteageist.desc"
+  ],
+  "preEvolution": "snailistea",
+  "baseScale": 0.4,
+  "hitbox": {
+    "width": 1.3,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 3,
+  "aspects": [],
+  "cannotDynamax": false
+}

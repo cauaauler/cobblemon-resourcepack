@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:tentango",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tentango",
+      "model": "cobblemon:tentango.geo",
+      "texture": "cobblemon:textures/pokemon/tentango/tentango.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/tentango/tentango_shiny.png"
+    }
+  ]
+}

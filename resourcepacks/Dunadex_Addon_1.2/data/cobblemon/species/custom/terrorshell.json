@@ -1,0 +1,141 @@
+{
+	"implemented": true,
+	"name": "terrorshell",
+	"nationalPokedexNumber": 9,
+	"preEvolution": "tentail",
+	"labels": ["custom", "duna_regional"],
+	"pokedex": [
+		"cobblemon.species.terrorshell.desc"
+	],
+	"height": 15,
+	"weight": 450,
+	"shoulderMountable": false,
+	
+	"primaryType": "water",
+	"secondaryType": "dark",
+	"baseStats": {
+		"hp": 64,
+		"attack": 134,
+		"defence": 63,
+		"special_attack": 135,
+		"special_defence": 63,
+		"speed": 70
+	},
+	"catchRate": 45,
+	"maleRation": 0.875,
+	"baseExperienceYield": 263,
+	"experienceGroup": "medium_slow",
+	"eggCycles": 20,
+	"eggGroups": [
+		"water_1",
+		"fairy"
+	],
+	"baseFriendship": 50,
+	"evYield": {
+		"hp": 1,
+		"attack": 0,
+		"defence": 0,
+		"special_attack": 0,
+		"special_defence": 0,
+		"speed": 2
+	},
+	
+	"moves": [
+		"1:pound",
+		"1:tailwhip",
+		"3:wrap",
+		"4:bubble",
+		"6:babydolleyes",
+		"9:fairywind",
+		"10:swift",
+		"12:aquajet",
+		"15:hypnosis",
+		"17:nightmare",
+		"18:rest",
+		"18:jawlock",
+		"21:dazzlinggleam",
+		"21:acidarmor",
+		"24:poisonjab",
+		"25:crunch",
+		"27:slam",
+		"30:dreameater",
+		"33:moonblast",
+		"36:hydropump",
+		"40:darkpulse",
+		"46:liquidation",
+		"51:wavecrash",
+		"tm:sleeptalk",
+		"tm:irontail",
+		"tm:dig",
+		"tm:silverwind",
+		"tm:foulplay",
+		"tm:rocksmash",
+		"tm:substitute",
+		"tm:protect",
+		"tm:lightscreen",
+		"tm:reflect",
+		"tm:flash",
+		"tm:falseswipe",
+		"tm:flamethrower",
+		"tm:surf",
+		"tutor:partingshot",
+		"tutor:waterpledge",
+		"tutor:worryseed",
+		"tutor:pursuit",
+		"tutor:mirrorcoat",
+		"tutor:sweetkiss",
+		"tutor:batonpass",
+		"tutor:wakeupslap",
+		"egg:whirlpool",
+		"egg:octazooka",
+		"egg:powerwhip",
+		"egg:aurasphere",
+		"egg:willowisp"
+	],
+	"abilities": [
+		"torrent",
+		"h:pixilate"
+	],
+	
+	"baseScale": 1.4,
+	"hitbox": {
+		"width": 1.6,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": 3,
+		"entries": [
+			{
+				"item": "minecraft:nautilus_shell"
+			},
+			{
+				"item": "minecraft:sand",
+				"percentage": 60
+			},
+			{
+				"item": "cobblemon:mystic_water",
+				"percentage": 25
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"walk": {
+				"walkSpeed": 0.35
+			},
+			"resting": {
+				"canSleep": true,
+				"willSleepOnBed": true,
+				"depth": "normal",
+				"light": "0-4"
+			},
+			"swim": {
+				"swimSpeed": 0.3,
+				"canSwimInWater": false,
+				"canBreatheUnderwater": true
+			}
+		}
+	}
+}

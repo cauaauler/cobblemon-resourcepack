@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:gimmigold",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:gimmigold",
+      "model": "cobblemon:gimmigold.geo",
+      "texture": "cobblemon:textures/pokemon/gimmigold/gimmigold.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/gimmigold/gimmigold_shiny.png"
+    }
+  ]
+}

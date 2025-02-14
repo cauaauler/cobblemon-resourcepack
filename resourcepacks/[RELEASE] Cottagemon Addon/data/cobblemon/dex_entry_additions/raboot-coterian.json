@@ -1,0 +1,9 @@
+{
+    "entryId": "cobblemon:raboot",
+    "forms": [
+      {
+        "displayForm": "Coterian",
+        "unlockForms": ["Coterian"]
+      }
+    ]
+  }

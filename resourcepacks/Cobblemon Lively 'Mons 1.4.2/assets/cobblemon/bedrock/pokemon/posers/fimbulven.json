@@ -1,0 +1,95 @@
+{
+    "head": "head",
+    "portraitScale": 1.85,
+    "portraitTranslation": [ -0.2, 2, 0],
+    "profileScale": 0.5,
+    "profileTranslation": [ 0, 1, 0 ],
+    "animations": {
+      "cry": "q.bedrock_stateful('fimbulven', 'cry')",
+        "faint": "q.bedrock_primary('fimbulven', 'faint')",
+        "recoil": "q.bedrock_stateful('fimbulven', 'recoil')"
+    },
+
+    "poses": {
+      "battle-idle": {
+        "poseName": "battle-idle",
+        "transformTicks": 10,
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "isTouchingWater": false,
+        "animations": [ "look",
+        "bedrock(fimbulven, air_idle)"],
+        "quirks": [
+          {
+            "name": "blink",
+            "loopTimes": 1,
+            "minSecondsBetweenOccurrences": 8,
+            "maxSecondsBetweenOccurrences": 20,
+            "animations": ["bedrock(fimbulven, blink)"]
+          }
+        ]
+      },
+    "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": ["STAND",
+        "NONE",
+        "PROFILE"],
+        "animations": [
+        "look",
+        "bedrock(fimbulven, ground_idle)"],
+        "quirks": [
+            {
+              "name": "blink",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(fimbulven, blink)"]
+            }
+    ]
+    },
+    "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": [ "WALK" ],
+        "animations": [ 
+                      "look",
+                      "bedrock(fimbulven, air_fly)" ]
+    },
+	"hovering": {
+		"poseName": "hovering",
+		"transformTicks": 10,
+		"poseTypes": [ 
+    "HOVER",
+    "PORTRAIT" ],
+		"animations": [ 
+      "bedrock(fimbulven, air_idle)",
+      "look"
+    ],
+        "quirks": [
+            {
+              "name": "blink",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(fimbulven, blink)"]
+            }
+    ]
+	},
+	"flying": {
+		"poseName": "flying",
+		"transformTicks": 10,
+		"poseTypes": [ "FLY" ],
+		"animations": [ 
+                  "look",
+                  "bedrock(fimbulven, air_fly)" ]
+		},
+	
+    "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": [ "SLEEP" ],
+        "animations": [ "bedrock(fimbulven, sleep)"]
+    }
+  }
+}

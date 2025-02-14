@@ -1,0 +1,203 @@
+{
+  "implemented": true,
+  "name": "ignefox",
+  "nationalPokedexNumber": 3005,
+  "primaryType": "fire",
+  "secondaryType": "Fairy",
+  "abilities": [
+    "blaze",
+    "h:MagicBounce"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 76,
+    "special_attack": 80,
+    "special_defence": 74,
+    "speed": 70
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 143,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.4
+      }
+    }
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:stick"
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:tailwhip",
+    "1:Charm",
+    "5:ember",
+    "11:howl",
+    "14:flamecharge",
+    "16:DisarmingVoice",
+    "17:psybeam",
+    "20:firespin",
+    "25:FairyWind",
+    "25:luckychant",
+    "31:psyshock",
+    "35:flamethrower",
+    "38:willowisp",
+    "41:psychic",
+    "43:sunnyday",
+    "46:DazzlingGleam",
+    "48:Moonblast",
+    "49:psychic",
+    "52:sunnyday",
+    "56:magicroom",
+    "59:fireblast",
+    "tm:agility",
+    "tm:attract",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confide",
+    "tm:cut",
+    "tm:doubleteam",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:embargo",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepledge",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:foulplay",
+    "tm:frustration",
+    "tm:grassknot",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:overheat",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:secretpower",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:covet",
+    "tutor:firepledge",
+    "tutor:firepunch",
+    "tutor:foulplay",
+    "tutor:heatwave",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lowkick",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:recycle",
+    "tutor:shockwave",
+    "tutor:skillswap",
+    "tutor:snatch",
+    "tutor:snore",
+    "tutor:telekinesis",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt"
+  ],
+  "labels": [
+    "gen21"
+  ],
+  "pokedex": [
+    "cobblemon.species.ignefox.desc"
+  ],
+  "preEvolution": "flareily",
+  "evolutions": [
+    {
+      "id": "ignefox_lanternbrx",
+      "variant": "level_up",
+      "result": "lanternbrx",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "mysticalfire"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.65,
+  "hitbox": {
+    "width": 1,
+    "height": 2.25,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 145,
+  "aspects": [],
+  "cannotDynamax": false
+}

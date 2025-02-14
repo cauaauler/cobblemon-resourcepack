@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:protobi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:protobi",
+      "model": "cobblemon:protobi_fetus.geo",
+      "texture": "cobblemon:textures/fossils/protobi.png",
+      "layers": []
+    }
+  ]
+}

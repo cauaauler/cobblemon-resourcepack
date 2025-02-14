@@ -1,0 +1,60 @@
+{
+    "species": "cobblemon:fossoil",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:fossoil",
+        "model": "cobblemon:fossoil.geo",
+        "texture": "cobblemon:textures/pokemon/fossoil/fossoil.png",
+        "layers": [
+            {
+                "name": "animation",
+                "texture": {
+                  "frames": [
+                    "cobblemon:textures/pokemon/fossoil/animation/oil1.png",
+                    "cobblemon:textures/pokemon/fossoil/animation/oil2.png",
+                    "cobblemon:textures/pokemon/fossoil/animation/oil3.png",
+                    "cobblemon:textures/pokemon/fossoil/animation/oil2.png"
+                  ],
+                  "fps": 1,
+                  "loop": true
+                },
+                "emissive":false
+              },
+              {
+                "name": "emissive",
+                "emissive": true,
+                "texture": "cobblemon:textures/pokemon/fossoil/fossoil_emissive.png",
+                "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/fossoil/fossoil_shiny.png",
+        "layers":[
+        {
+            "name": "animation",
+            "texture": {
+              "frames": [
+                "cobblemon:textures/pokemon/fossoil/animation/oil_shiny1.png",
+                "cobblemon:textures/pokemon/fossoil/animation/oil_shiny2.png",
+                "cobblemon:textures/pokemon/fossoil/animation/oil_shiny3.png",
+                "cobblemon:textures/pokemon/fossoil/animation/oil_shiny2.png"
+              ],
+              "fps": 1,
+              "loop": true
+            },
+            "emissive":false
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/fossoil/fossoil_shiny_emissive.png",
+          "translucent": true
+    }
+    ]
+      }
+    ]
+  }

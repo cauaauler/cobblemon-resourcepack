@@ -1,0 +1,73 @@
+{
+    "head": "head",
+      "portraitScale": 1.8,
+      "portraitTranslation": [-0.1, -0.85, 0],
+      "profileScale": 0.8,
+      "profileTranslation": [0, 0.6, 0],
+      "animations": {
+        "cry": "q.bedrock_stateful('slimara', 'cry')",
+        "faint": "q.bedrock_primary('slimara', 'faint', q.curve('one'))",
+        "recoil": "q.bedrock_stateful('slimara', 'recoil')"
+      },
+      "poses":{
+        "battle-idle": {
+          "poseName": "battle-idle",
+          "transformTicks": 10,
+          "poseTypes": [
+          "STAND",
+          "PORTRAIT",
+          "PROFILE"
+        ],
+          "isBattle": true,
+          "isTouchingWater": false,
+          "animations": [
+            "look",
+            "bedrock(slimara, battle_idle)"],
+          "quirks": [
+            {
+              "name": "blink",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(slimara, blink)"]
+            }
+          ]
+        },
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+            "STAND",
+            "NONE"
+            ],
+            "animations": [
+              "look",
+            "bedrock(slimara, ground_idle)"
+            ],
+            "quirks": [
+              {
+                "name": "blink",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 8,
+                "maxSecondsBetweenOccurrences": 20,
+                "animations": ["bedrock(slimara, blink)"]
+              }
+                  ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [ "WALK" ],
+            "animations": [
+              "look",
+               "bedrock(slimara, ground_walk)" ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "transformTicks": 10,
+            "poseTypes": [ "SLEEP" ],
+            "animations": [
+              "bedrock(slimara, sleep)"]
+        }
+      }
+    }

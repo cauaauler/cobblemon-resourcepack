@@ -1,0 +1,188 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "hacnea-1",
+            "pokemon": "hacnea",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "6-14",
+            "weight": 7,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        },
+        {
+            "id": "hacnea-2",
+            "pokemon": "hacnea",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "9-17",
+            "weight": 16,
+            "condition": {
+                "canSeeSky": true,
+                "moonPhase": "0",
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        },
+        {
+            "id": "hacnea-3",
+            "pokemon": "hacnea",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-12",
+            "weight": 13,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "minecraft:farmland"
+                ]
+            }
+        },
+        {
+            "id": "hacnea-4",
+            "pokemon": "hacnea",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-12",
+            "weight": 26,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern"
+                ],
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "minecraft:farmland"
+                ]
+            }
+        },
+        {
+            "id": "hacnea-5",
+            "pokemon": "hacnea",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "9-16",
+            "weight": 26,
+            "condition": {
+                "canSeeSky": true,
+                "moonPhase": "0",
+                "neededNearbyBlocks": [
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "minecraft:farmland"
+                ]
+            }
+        },
+        {
+            "id": "hacnea-6",
+            "pokemon": "hacnea",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-18",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": true,
+                "moonPhase": "0",
+                "neededNearbyBlocks": [
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern"
+                ],
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "minecraft:farmland"
+                ]
+            }
+        },
+        {
+            "id": "hacnea-7",
+            "pokemon": "hacnea",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "7-15",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ]
+            }
+        },
+        {
+            "id": "hacnea-8",
+            "pokemon": "hacnea",
+            "presets": [
+                "pumpkin_patch"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "6-13",
+            "weight": 4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:plains"
+                ]
+            }
+        }
+    ]
+}

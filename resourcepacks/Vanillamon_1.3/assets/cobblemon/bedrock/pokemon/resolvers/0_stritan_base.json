@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:stritan",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:stritan",
+        "model": "cobblemon:stritan.geo",
+        "texture": "cobblemon:textures/pokemon/stritan/stritan.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/stritan/stritan_shiny.png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,77 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.1, -0.49, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.68, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('tigriff', 'cry')",
+    "status": "q.bedrock_stateful('tigriff', 'battle_cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "namedAnimations": { "cry" : "q.bedrock_statefully('tigriff', 'battle_cry', q.curve('one'))" },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tigriff', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('tigriff', 'blink')","q.bedrock_quirk('tigriff', 'quirk_battle_idle', 10, 40, 1)"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tigriff', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tigriff', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tigriff', 'ground_run')"
+      ],
+      "quirks": ["q.bedrock_quirk('tigriff', 'blink')"]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tigriff', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('tigriff', 'blink')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tigriff', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('tigriff', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tigriff', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('tigriff', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tigriff', 'ground_run')"
+      ],
+      "quirks": ["q.bedrock_quirk('tigriff', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('tigriff', 'sleep')"]
+    }
+  }
+ }

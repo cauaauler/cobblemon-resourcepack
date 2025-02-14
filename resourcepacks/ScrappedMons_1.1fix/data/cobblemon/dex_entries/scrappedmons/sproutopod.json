@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:sproutopod",
+  "speciesId": "cobblemon:sproutopod",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

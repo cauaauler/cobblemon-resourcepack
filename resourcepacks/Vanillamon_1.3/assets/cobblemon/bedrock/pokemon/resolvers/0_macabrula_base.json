@@ -1,0 +1,30 @@
+
+{
+    "species": "cobblemon:macabrula",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:macabrula",
+        "model": "cobblemon:macabrula.geo",
+        "texture": "cobblemon:textures/pokemon/macabrula/macabrula.png",
+        "layers": [{
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/macabrula/macabrula_emissive.png",
+          "translucent": true
+    }]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/macabrula/macabrula_shiny.png",
+        "layers": [{
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/macabrula/macabrula_emissive_shiny.png",
+          "translucent": true
+    }]
+      }
+    ]
+  }
+  

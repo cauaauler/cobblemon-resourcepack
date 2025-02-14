@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:scorbunny",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["coterian"],
+        "poser": "cobblemon:scorbunny_coterian",
+        "model": "cobblemon:scorbunny_coterian.geo",
+        "texture": "cobblemon:textures/pokemon/0813_scorbunny/scorbunny_coterian.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny","coterian"
+        ],
+        "texture": "cobblemon:textures/pokemon/0813_scorbunny/scorbunny_coterian_shiny.png"
+      }
+    ]
+   }

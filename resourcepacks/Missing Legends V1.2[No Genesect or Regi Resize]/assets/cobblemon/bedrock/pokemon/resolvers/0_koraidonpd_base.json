@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:koraidonpd",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:koraidonpd",
+        "model": "cobblemon:koraidonpd.geo",
+        "texture": "cobblemon:textures/pokemon/koraidonpd/koraidonpd.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/koraidonpd/koraidonpd_shiny.png"
+      }
+    ]
+   }

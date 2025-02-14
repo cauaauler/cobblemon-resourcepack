@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:pigtato",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:pigtato",
+        "model": "cobblemon:pigtato.geo",
+        "texture": "cobblemon:textures/pokemon/pigtato/pigtato.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/pigtato/pigtato_shiny.png"
+      }
+    ]
+  }
+  

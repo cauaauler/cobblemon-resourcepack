@@ -1,0 +1,166 @@
+{
+    "target": "cobblemon:cinderace",
+    "features": ["coterian"],
+  "forms":[
+        {
+            "implemented": true,
+            "name": "Coterian",
+            "nationalPokedexNumber": 815,
+            "primaryType": "electric",
+            "secondaryType": "fighting",
+            "abilities": [
+              "magician",
+              "h:electricsurge"
+            ],
+            "baseStats": {
+                "hp": 80,
+                "attack": 64,
+                "defence": 70,
+                "special_attack": 117,
+                "special_defence": 80,
+                "speed": 119         
+            },
+            "behaviour": {
+                "moving" : {
+                  "canLook": true,
+                    "walk": {
+                      "walkSpeed": 0.3
+                    }              
+            }
+        },
+            "features": [
+            ],
+            "catchRate": 45,
+            "maleRatio": 0.875,
+            "shoulderMountable": false,
+            "baseExperienceYield": 265,
+            "experienceGroup": "medium_slow",
+            "eggCycles": 20,          
+            "eggGroups": [
+              "field",
+              "human_like"
+            ],
+            "moves": [
+              "1:electroball",
+              "1:swift",
+              "1:thundershock",
+              "1:feint",
+              "1:growl",
+              "1:quickattack",
+              "1:tackle",
+              "1:thunderclap",
+              "12:doublekick",
+              "19:shockwave",
+              "24:agility",
+              "30:vacuumwave",
+              "38:aurasphere",
+              "46:bounce",
+              "54:risingvoltage",
+              "62:courtchange",
+              "66:psystrike",
+              "tm:acrobatics",
+              "tm:agility",
+              "tm:allyswitch",
+              "tm:assurance",
+              "tm:attract",
+              "tm:batonpass",
+              "tm:bounce",
+              "tm:bulkup",
+              "tm:burningjealousy",
+              "tm:coaching",
+              "tm:doubleedge",
+              "tm:electroball",
+              "tm:endure",
+              "tm:facade",
+              "tm:fling",
+              "tm:focusblast",
+              "tm:focusenergy",
+              "tm:hyperbeam",
+              "tm:helpinghand",
+              "tm:hyperbeam",
+              "tm:ironhead",
+              "tm:lowkick",
+              "tm:lowsweep",
+              "tm:megakick",
+              "tm:mudshot",
+              "tm:mudslap",
+              "tm:overheat",
+              "tm:protect",
+              "tm:rest",
+              "tm:revenge",
+              "tm:reversal",
+              "tm:round",
+              "tm:scorchingsands",
+              "tm:shadowball",
+              "tm:sleeptalk",
+              "tm:smackdown",
+              "tm:snarl",
+              "tm:snore",
+              "tm:substitute",
+              "tm:superfang",
+              "tm:swift",
+              "tm:swordsdance",
+              "tm:takedown",
+              "tm:taunt",
+              "tm:terablast",
+              "tm:trailblaze",
+              "tm:uturn",
+              "tm:weatherball",
+              "tm:workup",
+              "tm:zenheadbutt",
+              "tm:thunderbolt",
+              "tm:shockwave",
+              "tm:voltswitch",
+              "tm:electroweb",
+              "tm:thunder",
+              "tm:eerieimpulse",
+              "tm:electricterrain",
+              "tm:aurasphere",
+              "tm:calmmind",
+              "tm:nastyplot",
+              "tm:thunderwave",
+              "tm:flashcannon",
+              "tm:dazzlinggleam",
+              "tm:aurasphere",
+              "tm:vacuumwave",
+              "tm:darkpulse",
+              "tm:psyshock",
+              "tm:psychicnoise",
+              "tm:energyball",
+              "tutor:risingvoltage",
+              "tutor:coaching",
+              "tutor:terrainpulse",
+              "tutor:scorchingsands"          
+            ],
+            "labels": [
+              "gen8",
+              "coterian"
+            ],
+            "pokedex": [
+              "cobblemon.species.cinderace_coterian.desc"
+            ],
+            "aspects": [
+              "coterian"
+            ],
+            "preEvolution": "raboot",
+            "baseScale": 0.6,
+            "hitbox": {
+              "width": 0.9,
+              "height": 3,
+              "fixed": false
+            },
+            "baseFriendship": 50,
+            "evYield": {
+              "hp": 0,
+              "attack": 0,
+              "defence": 0,
+              "special_attack": 0,
+              "special_defence": 0,
+              "speed": 3
+            },
+            "height": 14,
+            "weight": 325,
+            "cannotDynamax": false
+          }
+  ]
+  }

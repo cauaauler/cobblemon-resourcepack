@@ -1,0 +1,22 @@
+{
+    "species": "cobblemon:mareep",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["coterian"],
+        "model": "cobblemon:mareep_coterian.geo",
+        "texture": "cobblemon:textures/pokemon/0179_mareep/mareep_coterian.png",
+        "layers": [          {"name": "emissive",
+        "emissive": false}]
+      },
+      {
+        "aspects": ["shiny", "coterian"],
+        "texture": "cobblemon:textures/pokemon/0179_mareep/mareep_coterian_shiny.png",
+        "layers": [        {
+          "name": "emissive",
+          "emissive": false
+        }]
+      }
+    ]
+  }
+  

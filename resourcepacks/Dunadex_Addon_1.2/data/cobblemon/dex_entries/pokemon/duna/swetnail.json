@@ -1,0 +1,15 @@
+{
+	"id": "cobblemon:swetnail",
+	"speciesId": "cobblemon:swetnail",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": [
+				"Normal"
+			]
+		}
+	],
+	"variations": []
+}

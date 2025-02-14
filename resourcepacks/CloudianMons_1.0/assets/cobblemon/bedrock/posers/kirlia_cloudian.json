@@ -1,0 +1,60 @@
+{
+  "head": "head",
+  "portraitScale": 2,
+  "portraitTranslation": [ 0, 0.3, 0 ],
+  "profileScale": 0.8,
+  "profileTranslation": [ 0, 0.6, 0 ],
+  "cry":  "bedrock(kirlia_cloudian, cry)",
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["bedrock(kirlia_cloudian, battle_idle)"],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(kirlia_cloudian, blink)"]
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "bedrock(kirlia_cloudian, ground_idle)"],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(kirlia_cloudian, blink)"]
+          }
+        ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ 
+        "bedrock(kirlia_cloudian, ground_walk)" ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(kirlia_cloudian, blink)"]
+        }
+      ]
+    },
+      "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": [
+          "SLEEP"
+        ],
+        "animations": [
+          "bedrock(kirlia_cloudian, sleep)"
+        ]
+     }
+  }
+}

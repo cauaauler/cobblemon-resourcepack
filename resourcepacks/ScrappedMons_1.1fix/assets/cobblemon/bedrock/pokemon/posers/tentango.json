@@ -1,0 +1,65 @@
+{
+  "portraitScale": 1.96,
+  "portraitTranslation": [ 0.04, -0.39, 0 ],
+  "profileScale": 1.0,
+  "profileTranslation": [ 0, 0.22, 0 ],
+  "animations": {
+    "faint": "q.bedrock_stateful('tentango', 'faint')",
+    "cry": "q.bedrock_stateful('tentango', 'cry')",
+    "physical": "q.bedrock_primary('tentango', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('tentango', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('tentango', 'status', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('tentango', 'recoil', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "PROFILE"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tentango', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('tentango', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tentango', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tentango', 'blink')",
+        "q.bedrock_quirk('tentango', 'ground_idle_quirk')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('tentango', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('tentango', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tentango', 'water_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('tentango', 'blink')",
+      "q.bedrock_quirk('tentango', 'water_idle_quirk')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tentango', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('tentango', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('tentango', 'sleep')"]
+    }
+  }
+ }

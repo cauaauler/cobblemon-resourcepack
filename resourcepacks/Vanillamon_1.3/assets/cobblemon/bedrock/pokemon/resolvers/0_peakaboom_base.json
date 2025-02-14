@@ -1,0 +1,30 @@
+
+{
+    "species": "cobblemon:peakaboom",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:peakaboom",
+        "model": "cobblemon:peakaboom.geo",
+        "texture": "cobblemon:textures/pokemon/peakaboom/peakaboom.png",
+        "layers": [{
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/peakaboom/peakaboom_emissive.png",
+          "translucent": true
+    }]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/peakaboom/peakaboom_shiny.png",
+        "layers": [{
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/peakaboom/peakaboom_emissive.png",
+          "translucent": true
+    }]
+      }
+    ]
+  }
+  

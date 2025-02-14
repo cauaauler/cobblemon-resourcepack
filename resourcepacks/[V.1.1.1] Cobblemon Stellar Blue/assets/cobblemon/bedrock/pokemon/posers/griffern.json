@@ -1,0 +1,76 @@
+{
+  "portraitScale": 2.0,
+  "portraitTranslation": [-0.1, -0.15, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.68, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('griffern', 'cry')",
+    "status": "q.bedrock_stateful('griffern', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('griffern', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('griffern', 'blink')","q.bedrock_quirk('griffern', 'quirk_battle_idle', 30, 50, 1)"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('griffern', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('griffern', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('griffern', 'ground_run')"
+      ],
+      "quirks": ["q.bedrock_quirk('griffern', 'blink')"]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('griffern', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('griffern', 'blink')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('griffern', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('griffern', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('griffern', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('griffern', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('griffern', 'ground_run')"
+      ],
+      "quirks": ["q.bedrock_quirk('griffern', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('griffern', 'sleep')"]
+    }
+  }
+ }

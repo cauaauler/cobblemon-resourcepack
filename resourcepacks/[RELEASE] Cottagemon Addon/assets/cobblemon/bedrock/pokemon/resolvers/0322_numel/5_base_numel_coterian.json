@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:numel",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": ["coterian"],
+      "poser": "cobblemon:numel",
+      "model": "cobblemon:numel_coterian.geo",
+      "texture": "cobblemon:textures/pokemon/0322_numel/numel_coterian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "coterian","shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0322_numel/numel_shiny_coterian.png"
+    }
+  ]
+}

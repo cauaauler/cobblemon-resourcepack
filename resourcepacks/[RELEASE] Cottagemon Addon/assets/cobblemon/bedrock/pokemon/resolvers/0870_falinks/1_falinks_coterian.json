@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:falinks",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["coterian"],
+      "poser": "cobblemon:falinks",
+      "model": "cobblemon:falinks_coterian.geo",
+      "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_coterian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "coterian","shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_coterian_shiny.png"
+    }
+  ]
+}

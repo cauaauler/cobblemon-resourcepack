@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:carquette",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:carquette",
+      "model": "cobblemon:carquette.geo",
+      "texture": "cobblemon:textures/pokemon/carquette/carquette.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/carquette/carquette_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/carquette/carquette_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/carquette/carquette_emissive_shiny.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

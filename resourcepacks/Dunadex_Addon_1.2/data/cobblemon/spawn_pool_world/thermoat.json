@@ -1,0 +1,27 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	
+	"spawns": [
+		{
+			"id": "thermoat-1",
+			"pokemon": "thermoat",
+			"presets": ["natural"],
+			"type": "pokemon",
+			"context": "grounded",
+			"bucket": "ultra-rare",
+			"level": "32-52",
+			"weight": 0.1,
+			"condition": {
+				"minSkyLight": 8,
+                "maxSkyLight": 15,
+				"isRaining": false,
+				"biomes": [
+					"#cobblemon:is_thermal",
+					"#cobblemon:is_volcano"
+				]
+			}
+		}
+	]
+}

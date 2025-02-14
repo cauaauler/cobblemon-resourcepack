@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:megagarchomp",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megagarchomp",
+      "model": "cobblemon:megagarchomp2.geo",
+      "texture": "cobblemon:textures/pokemon/m_garchomp/megagarchomp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/m_garchomp/megagarchomp_shiny.png"
+    }
+  ]
+}

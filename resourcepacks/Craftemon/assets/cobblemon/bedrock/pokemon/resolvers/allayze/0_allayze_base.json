@@ -1,0 +1,62 @@
+{
+ "species": "cobblemon:allayze",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:allayze",
+     "model": "cobblemon:allayze.geo",
+     "texture": "cobblemon:textures/pokemon/allayze/allayze.png",
+     "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/allayze/allayze_emissive.png",
+              "translucent": true
+			},
+				{
+          "name": "animation",
+		  "emissive": true,
+		  "translucent": true,
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/allayze/animation/allayze1.png",
+              "cobblemon:textures/pokemon/allayze/animation/allayze2.png",
+              "cobblemon:textures/pokemon/allayze/animation/allayze3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          }
+				}
+		]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/allayze/allayze_shiny.png",
+	  "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/allayze/allayze_shiny_emissive.png",
+              "translucent": true
+			},
+			{
+          "name": "animation",
+		  "emissive": true,
+		  "translucent": true,
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/allayze/animation/allayzeshiny1.png",
+              "cobblemon:textures/pokemon/allayze/animation/allayzeshiny2.png",
+              "cobblemon:textures/pokemon/allayze/animation/allayzeshiny3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          }
+				}
+		]
+   }
+ ]
+}

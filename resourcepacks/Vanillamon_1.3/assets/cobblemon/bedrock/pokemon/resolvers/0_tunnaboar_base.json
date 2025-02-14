@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:tunnaboar",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:tunnaboar",
+        "model": "cobblemon:tunnaboar.geo",
+        "texture": "cobblemon:textures/pokemon/tunnaboar/tunnaboar.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/tunnaboar/tunnaboar_shiny.png"
+      }
+    ]
+  }
+  

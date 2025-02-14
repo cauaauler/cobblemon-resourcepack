@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:butterfree",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["coterian"],
+      "model": "cobblemon:butterfree_coterian.geo",
+      "texture": "cobblemon:textures/pokemon/0012_butterfree/butterfree_coterian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "coterian","shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0012_butterfree/butterfree_coterian_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "chargingboom-1",
+     "pokemon": "chargingboom",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "ultra-rare",
+     "level": "35-50",
+     "weight": 5,
+     "condition": {
+       "canSeeSky": false,
+      "neededNearbyBlocks":[
+        
+			"minecraft:torchflower"
+
+      ]
+
+     }
+   }
+ ]
+}

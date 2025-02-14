@@ -1,0 +1,65 @@
+{
+  "portraitScale": 0.89,
+  "portraitTranslation": [ -0.03, 0.72, 0 ],
+  "profileScale": 0.4,
+  "profileTranslation": [ -0.07, 1.03, 0 ],
+  "animations": {
+    "faint": "q.bedrock_stateful('umamirage', 'faint')",
+    "cry": "q.bedrock_stateful('umamirage', 'cry')",
+    "physical": "q.bedrock_primary('umamirage', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('umamirage', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('umamirage', 'status', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('umamirage', 'recoil', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "PROFILE"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('umamirage', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('umamirage', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('umamirage', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('umamirage', 'blink')",
+        "q.bedrock_quirk('umamirage', 'ground_idle_quirk')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('umamirage', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('umamirage', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('umamirage', 'water_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('umamirage', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('umamirage', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('umamirage', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('umamirage', 'sleep')"]
+    }
+  }
+ }

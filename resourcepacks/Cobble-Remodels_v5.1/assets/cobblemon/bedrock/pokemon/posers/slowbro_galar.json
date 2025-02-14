@@ -1,0 +1,145 @@
+{
+  "head": "head",
+  "portraitScale": 2.65,
+  "portraitTranslation": [ -0.5, 0.2, 0 ],
+  "profileScale": 0.9,
+  "profileTranslation": [ 0, 0.4, 0 ],
+  "cry":  "bedrock(slowbro_galar, cry)",
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": [ "STAND" ],
+      "isBattle": true,
+	  "isTouchingWater": false,
+      "animations": [
+        "look",
+		"bedrock(slowbro_galar, battle_idle)"
+	  ],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(slowbro_galar, blink1)"]
+        },
+		{
+          "name": "bite",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 20,
+          "maxSecondsBetweenOccurrences": 40,
+          "animations": ["bedrock(slowbro_galar, bite_quirk)"]
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+      "STAND",
+      "NONE",
+      "PORTRAIT",
+      "PROFILE"
+      ],
+      "isBattle": false,	  
+      "isTouchingWater": false,
+      "animations": [
+        "look",
+        "bedrock(slowbro_galar, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(slowbro_galar, blink1)"]
+        },
+		{
+          "name": "bite",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 20,
+          "maxSecondsBetweenOccurrences": 40,
+          "animations": ["bedrock(slowbro_galar, bite_quirk)"]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "isTouchingWater": false,
+      "animations": [ "bedrock(slowbro_galar, ground_walk)" ],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(slowbro_galar, blink1)"]
+        },
+		{
+          "name": "bite",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 20,
+          "maxSecondsBetweenOccurrences": 40,
+          "animations": ["bedrock(slowbro_galar, bite_quirk)"]
+        }
+      ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK","SWIM" ],
+      "animations": [ "bedrock(slowbro_galar, water_swim, true)" ],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(slowbro_galar, blink1)"]
+        },
+		{
+          "name": "bite",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 20,
+          "maxSecondsBetweenOccurrences": 40,
+          "animations": ["bedrock(slowbro_galar, bite_quirk)"]
+        }
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": [ "STAND","FLOAT" ],
+      "animations": [ 
+      "look",
+	  "bedrock(slowbro_galar, water_idle, true)" 
+	  ],
+      "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 20,
+          "animations": ["bedrock(slowbro_galar, blink1)"]
+        },
+		{
+          "name": "bite",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 20,
+          "maxSecondsBetweenOccurrences": 40,
+          "animations": ["bedrock(slowbro_galar, bite_quirk)"]
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [ "SLEEP" ],
+      "animations": [ "bedrock(slowbro_galar, sleep)" ]
+    }
+  }
+}

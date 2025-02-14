@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:belliborb",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:belliborb",
+      "model": "cobblemon:belliborb.geo",
+      "texture": "cobblemon:textures/pokemon/belliborb/belliborb.png"
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/belliborb/belliborb_shiny.png"
+    }
+  ]
+}

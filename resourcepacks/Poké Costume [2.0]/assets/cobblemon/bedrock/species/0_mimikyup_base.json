@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mimikyup",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mimikyup",
+      "model": "cobblemon:mimikyup.geo",
+      "texture": "cobblemon:textures/pokemon/mimikyup/mimikyup.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+		"shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mimikyup/mimikyup.png"
+    }
+  ]
+}

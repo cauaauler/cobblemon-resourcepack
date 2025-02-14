@@ -1,0 +1,33 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:cotere",
+  "sortOrder": 12,
+  "entries": [
+    "cobblemon:scorbunny-coterian",
+        "cobblemon:raboot-coterian",
+        "cobblemon:cinderace-coterian",
+        "cobblemon:caterpie-coterian",
+        "cobblemon:metapod-coterian",
+        "cobblemon:butterfree-coterian",
+        "cobblemon:tadborb",
+        "cobblemon:belliborb",
+        "cobblemon:mareep-coterian",
+        "cobblemon:flaaffy-coterian",
+        "cobblemon:ampharos-coterian",
+        "cobblemon:pichu",
+        "cobblemon:pikachu-coterian",
+        "cobblemon:raichu-coterian",
+        "cobblemon:inklett",
+        "cobblemon:inktrio",
+        "cobblemon:sinistea-coterian",
+        "cobblemon:polteageist-coterian",
+		"cobblemon:woofloo",
+		"cobblemon:dubfool",
+        "cobblemon:falinks-coterian",
+		"cobblemon:numel-coterian",
+		"cobblemon:alpineca",
+        "cobblemon:hoppiny",
+        "cobblemon:hoppsey",
+        "cobblemon:hoplissey"
+  ]
+}

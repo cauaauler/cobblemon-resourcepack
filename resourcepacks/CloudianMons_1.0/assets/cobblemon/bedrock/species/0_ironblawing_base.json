@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:ironblawing",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ironblawing",
+      "model": "cobblemon:ironblawing.geo",
+      "texture": "cobblemon:textures/pokemon/ironblawing/ironblawing.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/ironblawing/ironblawing_shiny.png"
+    }
+  ]
+}

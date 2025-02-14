@@ -1,0 +1,21 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "leug-1",
+     "pokemon": "leug",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "uncommon",
+     "level": "6-17",
+     "weight": 10.0,
+     "condition": {
+       "canSeeSky": true,
+       "biomes": [ "#cobblemon:is_forest" ]
+     }
+   }
+ ]
+}

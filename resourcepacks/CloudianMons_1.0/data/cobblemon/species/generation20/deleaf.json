@@ -1,0 +1,170 @@
+{
+  "implemented": true,
+  "name": "deleaf",
+  "nationalPokedexNumber": 3001,
+  "primaryType": "grass",
+  "abilities": [
+    "Overgrow",
+    "h:SereneGrace"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 75
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+      "moves": [
+        "1:bind",
+        "1:scratch",
+        "6:leer",
+        "12:vinewhip",
+        "18:growth",
+        "24:furyswipes",
+        "30:scaryface",
+        "36:grassknot",
+        "42:bite",
+        "48:uturn",
+        "54:swagger",
+        "60:energyball",
+        "66:synthesis",
+        "72:hammerarm",
+        "78:thrash",
+        "84:powerwhip",
+        "90:junglehealing",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:assurance",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:brutalswing",
+        "tm:bulkup",
+        "tm:bulletseed",
+        "tm:closecombat",
+        "tm:crunch",
+        "tm:darkestlariat",
+        "tm:darkpulse",
+        "tm:dig",
+        "tm:drainpunch",
+        "tm:encore",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:fling",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:grassyterrain",
+        "tm:helpinghand",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:irontail",
+        "tm:leafstorm",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magicalleaf",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:mudshot",
+        "tm:nastyplot",
+        "tm:payback",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:rest",
+        "tm:revenge",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:scaryface",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:solarblade",
+        "tm:stompingtantrum",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:thief",
+        "tm:throatchop",
+        "tm:trailblaze",
+        "tm:uturn",
+        "tutor:energyball",
+        "tutor:grassyglide",
+        "tutor:hammerarm",
+        "tutor:junglehealing",
+        "tutor:lashout",
+        "tutor:powerwhip"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.deleaf.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deleaf_treashrub",
+      "variant": "level_up",
+      "result": "treashrub",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "hornleech"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 195,
+  "aspects": [],
+  "cannotDynamax": false
+}

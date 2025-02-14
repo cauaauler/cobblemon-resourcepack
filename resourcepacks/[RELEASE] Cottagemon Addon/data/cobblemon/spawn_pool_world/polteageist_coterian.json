@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "polteageist-coterian-1",
+            "pokemon": "polteageist coterian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-45",
+            "weight": 2.5,
+            "condition": {
+                "neededNearbyBlocks": [ "minecraft:campfire", "minecraft:soul_campfire" ],
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "polteageist-coterian-2",
+            "pokemon": "polteageist coterian premium_roast",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-45",
+            "weight": 0.025,
+            "condition": {
+                "neededNearbyBlocks": [ "minecraft:campfire", "minecraft:soul_campfire" ],
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        }
+    ]
+ }

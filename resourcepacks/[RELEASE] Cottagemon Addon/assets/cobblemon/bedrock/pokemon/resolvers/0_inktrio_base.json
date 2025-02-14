@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:inktrio",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:inktrio",
+      "model": "cobblemon:inktrio.geo",
+      "texture": "cobblemon:textures/pokemon/inktrio/inktrio.png"
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/inktrio/inktrio_shiny.png"
+    }
+  ]
+}

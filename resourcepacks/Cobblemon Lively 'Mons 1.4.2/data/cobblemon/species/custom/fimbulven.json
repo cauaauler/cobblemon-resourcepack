@@ -1,0 +1,165 @@
+{
+"implemented": true,
+"name": "fimbulven",
+"nationalPokedexNumber": 2018,
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.fimbulven.desc1"
+],
+"height": 18,
+"weight": 590,
+
+"preEvolution": "frostnatch",
+
+"shoulderMountable": false,
+"shoulderEffects": [ "slow_fall" ],
+
+
+"primaryType": "ice",
+  "secondaryType": "dark",
+  "baseStats": {
+    "hp": 125,
+    "attack": 60,
+    "defence": 70,
+    "special_attack": 110,
+    "special_defence": 65,
+    "speed": 90
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 180,
+  "experienceGroup": "slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "flying"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "speed": 1,
+    "special_attack": 2
+  },
+  "moves": [
+    "1:auroraveil",
+    "1:gust",
+    "1:powdersnow",
+    "4:taunt",
+    "8:pursuit",
+    "12:iceshard",
+    "18:aerialace",
+    "24:icywind",
+    "30:knockoff",
+    "36:darkpulse",
+    "39:icebeam",
+    "42:oblivionwing",
+    "46:frostbreath",
+    "52:blizzard",
+    "58:dracometeor",
+    "tm:blizzard",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:fly",
+    "tm:foulplay",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:heatwave",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:icywind",
+    "tm:auroraveil",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:scaryface",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:toxic",
+    "tutor:aircutter",
+    "tutor:captivate",
+    "tutor:defog",
+    "tutor:endure",
+    "tutor:mimic",
+    "tutor:naturalgift",
+    "tutor:ominouswind",
+    "tutor:secretpower",
+    "tutor:snore",
+    "tutor:steelwing",
+    "tutor:twister"
+  ],
+  "abilities": [
+    "slushrush",
+    "galewings",
+    "h:snowwarning"
+  ],
+
+
+  "baseScale": 1.8,
+"hitbox": {
+  "width": 1.15,
+  "height": 2.625,
+  "fixed": false
+},
+"drops": {
+"amount": "2",
+  "entries": [
+    {
+      "item": "minecraft:ice",
+      "quantityRange": "1-7",
+      "percentage": 100
+    },
+    {
+      "item": "minecraft:feather",
+      "quantityRange": "1-2",
+      "percentage": 100
+    }
+]
+},
+"behaviour": {
+  "moving": {
+    "canLook": true,
+    "fly": {
+      "canFly": true
+    },          
+    "swim": {
+      "swimSpeed": 0.1,
+      "canSwimInWater": true,
+      "canBreatheUnderwater": false
+    }
+  },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  }
+}

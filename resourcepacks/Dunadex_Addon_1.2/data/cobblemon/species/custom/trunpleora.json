@@ -1,0 +1,129 @@
+{
+	"implemented": true,
+	"name": "trunpleora",
+	"nationalPokedexNumber": 3,
+	"preEvolution": "milliflower",
+	"labels": ["custom", "duna_regional"],
+	"pokedex": [
+		"cobblemon.species.trunpleora.desc"
+	],
+	"height": 70,
+	"weight": 3200,
+	"shoulderMountable": false,
+	
+	"primaryType": "grass",
+	"secondaryType": "bug",
+	"baseStats": {
+		"hp": 91,
+		"attack": 89,
+		"defence": 110,
+		"special_attack": 80,
+		"special_defence": 115,
+		"speed": 40
+	},
+	"catchRate": 45,
+	"maleRation": 0.875,
+	"baseExperienceYield": 263,
+	"experienceGroup": "medium_slow",
+	"eggCycles": 20,
+	"eggGroups": [
+		"grass",
+		"bug"
+	],
+	"baseFriendship": 50,
+	"evYield": {
+		"hp": 0,
+		"attack": 1,
+		"defence": 0,
+		"special_attack": 2,
+		"special_defence": 0,
+		"speed": 0
+	},
+	
+	"moves": [
+		"1:tackle",
+		"1:stringshot",
+		"3:withdraw",
+		"4:leafage",
+		"6:growth",
+		"9:leechseed",
+		"10:lockon",
+		"12:bulletseed",
+		"15:pinmissile",
+		"17:bugbite",
+		"18:cottonspore",
+		"21:magnetbomb",
+		"21:bulkup",
+		"24:stickyweb",
+		"27:bodyslam",
+		"30:signalbeam",
+		"33:swordsdance",
+		"35:fireblast",
+		"40:woodhammer",
+		"45:solarbeam",
+		"50:gigaimpact",
+		"52:explosion",
+		"tm:magicalleaf",
+		"tm:megadrain",
+		"tm:uturn",
+		"tm:sludgebomb",
+		"tm:solarbeam",
+		"tm:substitute",
+		"tm:protect",
+		"tm:endure",
+		"tm:bugbuzz",
+		"tm:flash",
+		"tm:falseswipe",
+		"tm:energyball",
+		"tm:cut",
+		"tutor:grasspledge",
+		"tutor:worryseed",
+		"tutor:furycutter",
+		"tutor:rollout",
+		"tutor:explosion",
+		"tutor:aurorabeam",
+		"egg:agility",
+		"egg:silverwind",
+		"egg:skullbash",
+		"egg:petaldance",
+		"egg:toxic"
+	],
+	"abilities": [
+		"overgrow",
+		"h:analytic"
+	],
+	
+	"baseScale": 1.8,
+	"hitbox": {
+		"width": 1.8,
+		"height": 2.5,
+		"fixed": false
+	},
+	"drops": {
+		"amount": 2,
+		"entries": [
+			{
+				"item": "minecraft:moss_block",
+				"percentage": 60
+			},
+			{
+				"item": "cobblemon:miracle_seed",
+				"percentage": 25
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"walk": {
+				"walkSpeed": 0.22
+			},
+			"resting": {
+				"canSleep": true,
+				"willSleepOnBed": true,
+				"depth": "normal",
+				"light": "0-4"
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:alpineca",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:alpineca",
+      "model": "cobblemon:alpineca.geo",
+      "texture": "cobblemon:textures/pokemon/alpineca/alpineca.png"
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/alpineca/alpineca_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+    "implemented": true,
+    "name": "gimmigold",
+    "nationalPokedexNumber": 9999,
+    "primaryType": "ghost",
+    "secondaryType": "steel",
+    "abilities": [
+        "goodasgold"
+        
+        
+    ],
+    "baseStats": {
+        "hp": 87,
+        "attack": 60,
+        "defence": 95,
+        "special_attack": 133,
+        "special_defence": 91,
+        "speed": 84
+    },
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "light": "0-4"
+        },
+        "moving": {
+            "canLook": false,
+            "walk": {
+                "canWalk": true,
+                "avoidsLand": false
+            },
+            "swim": {
+                "swimSpeed": 0.1,
+                "canSwimInWater": true,
+                "canBreatheUnderwater": false
+            }
+        }
+    },
+    "catchRate": 45,
+    "maleRatio": -1,
+    "shoulderMountable": false,
+    
+    "baseExperienceYield": 168,
+    "experienceGroup": "slow",
+    "eggCycles": 50,
+    "eggGroups": [
+        "undiscovered"
+        
+    ],
+    "drops": {
+        "amount": "1",
+        "entries": [
+        {"item": "minecraft:gold_ingot", "quantityRange": "1-24", "percentage": 50}
+        ]
+    },
+    "moves": [
+        "1:astonish",
+        "1:tackle",
+        "7:nightshade",
+        "14:confuseray",
+        "21:substitute",
+        "28:metalsound",
+        "35:shadowball",
+        "42:recover",
+        "49:powergem",
+        "56:makeitrain",
+        "63:nastyplot",
+        "70:memento"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.gimmigold.desc1",
+        "cobblemon.species.gimmigold.desc2"
+    ],
+    
+    
+    "baseScale": 0.7,
+    "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 1,
+    "weight": 1
+}

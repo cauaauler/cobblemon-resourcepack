@@ -1,0 +1,64 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	
+	"spawns": [
+		{
+			"id": "lurefin-1",
+			"pokemon": "lurefin",
+			"presets": ["water"],
+			"type": "pokemon",
+			"context": "submerged",
+			"bucket": "common",
+			"level": "5-33",
+			"weight": 9,
+			"condition": {
+				"canSeeSky": true,
+				"biomes": [
+					"#cobblemon:is_freshwater"
+				],
+				"isRaining": false
+			}
+		},
+		{
+			"id": "lurefin-2",
+			"pokemon": "lurefin",
+			"presets": ["water"],
+			"type": "pokemon",
+			"context": "submerged",
+			"bucket": "uncommon",
+			"level": "5-33",
+			"weight": 6,
+			"condition": {
+				"canSeeSky": true,
+				"biomes": [
+					"#cobblemon:is_temperate"
+				],
+				"isRaining": false
+			},
+			"anticondition": {
+				"biomes": [
+					"#cobblemon:is_freshwater"
+				]
+			}
+		},
+		{
+			"id": "lurefin-3",
+			"pokemon": "lurefin",
+			"type": "pokemon",
+			"context": "fishing",
+			"bucket": "common",
+			"level": "5-33",
+			"weight": 8.0,
+			"condition": {
+				"canSeeSky": true,
+				"biomes": [
+					"#cobblemon:is_freshwater",
+					"#cobblemon:is_temperate"
+				],
+				"isRaining": false
+			}
+		}
+	]
+}

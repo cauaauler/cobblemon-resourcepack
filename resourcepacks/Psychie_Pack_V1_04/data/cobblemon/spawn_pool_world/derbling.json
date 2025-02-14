@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "derbling-1",
+      "pokemon": "derbling",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-32",
+      "weight": 5.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "minecraft:meadow",
+          "minecraft:plains",
+          "minecraft:savanna",
+          "minecraft:sunflower_plains",
+          "terralith:blooming_plateau"
+        ]
+      }
+    }
+  ]
+}

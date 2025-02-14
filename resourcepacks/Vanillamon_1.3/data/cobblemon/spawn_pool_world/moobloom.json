@@ -1,0 +1,21 @@
+
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "moobloom-1",
+        "pokemon": "moobloom",
+        "presets": [ "natural" ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "rare",
+        "level": "1-45",
+        "weight": 7.0,
+        "condition": {
+            "biomes":["#cobblemon:is_highlands"]
+        }
+      }
+    ]
+  }

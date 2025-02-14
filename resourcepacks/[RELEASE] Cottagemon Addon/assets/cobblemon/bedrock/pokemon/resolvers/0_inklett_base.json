@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:inklett",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:inklett",
+      "model": "cobblemon:inklett.geo",
+      "texture": "cobblemon:textures/pokemon/inklett/inklett.png"
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/inklett/inklett_shiny.png"
+    }
+  ]
+}

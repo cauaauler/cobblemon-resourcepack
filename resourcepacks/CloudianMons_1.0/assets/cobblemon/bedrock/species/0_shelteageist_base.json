@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:shelteageist",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:shelteageist",
+      "model": "cobblemon:shelteageist.geo",
+      "texture": "cobblemon:textures/pokemon/shelteageist/shelteageist.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/shelteageist/shelteageist_shiny.png"
+    }
+  ]
+}
