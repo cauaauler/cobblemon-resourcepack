@@ -1,0 +1,28 @@
+{
+    "implemented": true,
+    "target": "cobblemon:carkol",   
+    "shoulderMountable": false,
+    "baseScale": 1.2,
+    "hitbox": {
+      "width": 1.2,
+      "height": 1.2,
+      "fixed": false
+    },
+    "drops": {
+    "amount": "1",
+      "entries": [
+        {
+          "item": "minecraft:coal",
+          "percentage": 50
+        }
+      ]
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "depth": "normal",
+        "light": "0-4"
+      }
+    }
+   }

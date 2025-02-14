@@ -1,0 +1,137 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.rolycoly",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "rolycoly",
+					"pivot": [0, -0.4, 0]
+				},
+				{
+					"name": "allbody",
+					"parent": "rolycoly",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 177.5, 0]
+				},
+				{
+					"name": "legs",
+					"parent": "allbody",
+					"pivot": [0, 0, 0],
+					"rotation": [-10, 0, 0]
+				},
+				{
+					"name": "leg1",
+					"parent": "legs",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 2, -3], "size": [4, 2, 6], "inflate": -0.0001, "uv": [-1, 15]}
+					]
+				},
+				{
+					"name": "legparte",
+					"parent": "leg1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 0, -3], "size": [4, 2, 5], "inflate": -0.0001, "uv": [21, 15]}
+					]
+				},
+				{
+					"name": "torso",
+					"parent": "allbody",
+					"pivot": [0, 2, 0]
+				},
+				{
+					"name": "torsoparte",
+					"parent": "torso",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 2, -4], "size": [6, 6, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "torsomini",
+					"parent": "torso",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "torso",
+					"pivot": [0, 4, 0]
+				},
+				{
+					"name": "face",
+					"parent": "head",
+					"pivot": [0, 4, 0],
+					"cubes": [
+						{"origin": [-2, 3, 3], "size": [4, 4, 2], "uv": [21, 23]}
+					]
+				},
+				{
+					"name": "eyes",
+					"parent": "face",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 3, 5.1], "size": [4, 3, 0], "uv": [29, 10]}
+					]
+				},
+				{
+					"name": "cejas",
+					"parent": "head",
+					"pivot": [0, 4, 0]
+				},
+				{
+					"name": "ceja1",
+					"parent": "cejas",
+					"pivot": [0, 4, 0],
+					"cubes": [
+						{"origin": [0, 6, 5], "size": [2, 1, 0], "uv": [2, 2]}
+					]
+				},
+				{
+					"name": "ceja2",
+					"parent": "cejas",
+					"pivot": [0, 4, 0],
+					"cubes": [
+						{"origin": [-2, 6, 5], "size": [2, 1, 0], "uv": [3, 2], "mirror": true}
+					]
+				},
+				{
+					"name": "rocks",
+					"parent": "torso",
+					"pivot": [0, 4, 0],
+					"cubes": [
+						{"origin": [0, 5, 2], "size": [2, 4, 2], "pivot": [0, 5, 4], "rotation": [19.9727, 40.73565, 13.34199], "uv": [9, 24]},
+						{"origin": [-4, 4, 1], "size": [2, 2, 2], "pivot": [-3, 3, 2], "rotation": [-11.02705, 46.96776, -8.10692], "uv": [25, 30], "mirror": true},
+						{"origin": [-4, 4, -3], "size": [2, 2, 2], "pivot": [-3, 3, -2], "rotation": [3.69768, 47.44052, 2.72535], "uv": [18, 30], "mirror": true},
+						{"origin": [2, 4, -3], "size": [2, 2, 2], "pivot": [3, 3, -2], "rotation": [3.69768, -47.44052, -2.72535], "uv": [18, 30]},
+						{"origin": [2, 4, 1], "size": [2, 2, 2], "pivot": [3, 3, 2], "rotation": [-11.02705, -46.96776, 8.10692], "uv": [25, 30]}
+					]
+				},
+				{
+					"name": "rocksmini",
+					"parent": "rocks",
+					"pivot": [0, 5, 4],
+					"cubes": [
+						{"origin": [3, 6, -5], "size": [2, 2, 3], "pivot": [4, 1, 1], "rotation": [0, 0, -42.5], "uv": [28, -1]}
+					]
+				},
+				{
+					"name": "rockpart1",
+					"parent": "rocksmini",
+					"pivot": [0, 4, 0],
+					"cubes": [
+						{"origin": [-2, 5, -3], "size": [2, 4, 2], "pivot": [-1, 5, -1], "rotation": [19.27896, -38.3808, -12.25294], "uv": [0, 24]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+    "implemented": true,
+    "target": "cobblemon:skwovet",   
+    "shoulderMountable": true,
+    "baseScale": 0.7,
+    "hitbox": {
+      "width": 0.7,
+      "height": 0.7,
+      "fixed": false
+    },
+    "drops": {
+    "amount": "3",
+      "entries": [
+        {
+          "item": "minecraft:orange_berry",
+          "quantityRange": "50"
+        },
+        {
+          "item": "cobblemon:meloc_berry",
+          "percentage": 25
+        },
+        {
+          "item": "minecraft:thread",
+          "percentage": 25
+        }
+      ]
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "depth": "normal",
+        "light": "0-4"
+      }
+    }
+   }

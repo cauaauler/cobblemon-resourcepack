@@ -1,0 +1,48 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "spritzee-1",
+            "pokemon": "spritzee",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24",
+            "weight": 7.6,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_flower_forest"
+                    
+
+                ]
+            }
+        },
+        {
+            "id": "spritzee-2",
+            "pokemon": "spritzee",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27",
+            "weight": 7.6,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_forest"
+                    
+
+                ]
+            }
+        }
+    ]
+ 
+}

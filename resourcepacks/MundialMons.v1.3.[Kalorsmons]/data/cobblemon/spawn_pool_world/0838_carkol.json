@@ -1,0 +1,53 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "carkol-1",
+            "pokemon": "carkol",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15",
+            "weight": 8,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_mountain"
+
+                ]
+            }
+        },
+        {
+            "id": "carkol-2",
+            "pokemon": "carkol",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20",
+            "weight": 7.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld",
+                    "#cobblemon:is_cave"
+                ],
+                "minY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cave",
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        }
+    ]
+}
