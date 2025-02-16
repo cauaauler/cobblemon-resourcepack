@@ -1,0 +1,28 @@
+{
+  "species": "cobblemon:viforcer",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:viforcer",
+      "model": "cobblemon:viforcer.geo",
+      "texture": "cobblemon:textures/pokemon/viforcer/viforcer.png",
+ "layers": [ {
+              "name": "outer",
+              "texture": "cobblemon:textures/pokemon/viforcer/viforcer_emissive.png",
+              "translucent": true,
+               "emissive": true
+        }]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/viforcer/viforcer_shiny.png",
+ "layers": [ {
+              "name": "outer",
+              "texture": "cobblemon:textures/pokemon/viforcer/viforcer_emissive.png",
+              "translucent": true,
+               "emissive": true
+        }]
+    }
+  ]
+}

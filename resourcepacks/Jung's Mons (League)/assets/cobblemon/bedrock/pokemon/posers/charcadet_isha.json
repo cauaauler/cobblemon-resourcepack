@@ -1,0 +1,94 @@
+{
+  "head": "head",
+  "portraitScale": 1.8,
+  "portraitTranslation": [ -0.38, -0.23, 0 ],
+  "profileScale": 0.8,
+  "profileTranslation": [ 0, 0.65, 0 ],
+    "faint": "bedrock(charcadet_lol, faint)",
+    "cry":  "bedrock(charcadet_lol, cry)",
+    "poses": {
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "isBattle": false,
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "animations": ["look", "bedrock(charcadet_lol, ground_idle)"]
+      ,
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(charcadet_lol, blink)"]
+        }
+      ]
+    },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": ["WALK"],
+        "animations": ["bedrock(charcadet_lol, ground_walk)"],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(charcadet_lol, blink)"]
+          }
+        ]
+      },
+    "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": ["SLEEP"],
+        "animations": [
+          "bedrock(charcadet_lol, sleep)"
+        ]
+       },
+   "swimming": {
+     "poseName": "swimming",
+     "transformTicks": 10,
+     "poseTypes": [
+       "SWIM"
+     ],
+     "animations": [
+       "bedrock(charcadet_lol, ground_walk)"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(charcadet_lol, blink)"
+         ]
+       }
+     ]
+   },
+   "floating": {
+     "poseName": "floating",
+     "transformTicks": 10,
+     "poseTypes": [
+       "FLOAT"
+     ],
+     "animations": [
+       "bedrock(charcadet_lol, ground_idle)"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(charcadet_lol, blink)"
+         ]
+       }
+     ]
+   },
+   "battle-idle": {
+     "poseName": "battle-idle",
+     "transformTicks": 10,
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": ["bedrock(charcadet_lol, ground_idle)"],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(charcadet_lol, blink)"]
+       }
+     ]
+   }
+    }
+  }

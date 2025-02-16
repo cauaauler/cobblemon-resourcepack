@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:leliellegend",
+  "speciesId": "cobblemon:leliellegend",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

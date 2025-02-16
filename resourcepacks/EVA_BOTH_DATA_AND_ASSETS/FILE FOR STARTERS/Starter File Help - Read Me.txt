@@ -1,0 +1,1 @@
+You have to set the factor exportstarterconfig in .minecraft/config/cobblemon/main.json to true and insert the file in .minecraft/config/cobblemon

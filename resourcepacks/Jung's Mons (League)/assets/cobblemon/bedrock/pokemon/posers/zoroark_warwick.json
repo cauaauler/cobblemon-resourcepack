@@ -1,0 +1,85 @@
+{
+  "head": "head",
+  "portraitScale": 1.49,
+  "portraitTranslation": [ -0.25, 2.23, 0.0 ],
+  "profileScale": 0.44,
+  "profileTranslation": [ 0.0, 1.08, -6.0 ],
+    "cry":  "bedrock(zoroark_warwick, cry)",
+    "poses": {
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "isBattle": false,
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "animations": ["look", "bedrock(zoroark_warwick, ground_idle)"]
+      ,
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(zoroark_warwick, cry)"]
+        }
+      ]
+    },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": ["WALK"],
+        "animations": ["bedrock(zoroark_warwick, ground_walk)"],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(zoroark_warwick, cry)"]
+          }
+        ]
+      },
+   "swimming": {
+     "poseName": "swimming",
+     "transformTicks": 10,
+     "poseTypes": [
+       "SWIM"
+     ],
+     "animations": [
+       "bedrock(zoroark_warwick, ground_walk)"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(zoroark_warwick, cry)"
+         ]
+       }
+     ]
+   },
+   "floating": {
+     "poseName": "floating",
+     "transformTicks": 10,
+     "poseTypes": [
+       "FLOAT"
+     ],
+     "animations": [
+       "bedrock(zoroark_warwick, ground_idle)"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(zoroark_warwick, cry)"
+         ]
+       }
+     ]
+   },
+   "battle-idle": {
+     "poseName": "battle-idle",
+     "transformTicks": 10,
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": ["bedrock(zoroark_warwick, ground_idle)"],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(zoroark_warwick, cry)"]
+       }
+     ]
+   }
+    }
+  }

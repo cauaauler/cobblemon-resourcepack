@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tabris",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tabris",
+      "model": "cobblemon:tabris.geo",
+      "texture": "cobblemon:textures/pokemon/tabris/tabris.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/tabris/tabris_shiny.png"
+    }
+  ]
+}

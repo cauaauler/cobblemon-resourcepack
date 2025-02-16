@@ -1,0 +1,14 @@
+{
+    "pokemon.rockruff.cry": {
+        "sounds": ["cobblemon:pokemon/rockruff/rockruff_cry"]
+    },
+    "pokemon.lycanroc_midday.cry": {
+        "sounds": ["cobblemon:pokemon/lycanroc/lycanroc_midday_cry"]
+    },
+    "pokemon.lycanroc_dusk.cry": {
+        "sounds": ["cobblemon:pokemon/lycanroc/lycanroc_dusk_cry"]
+    },
+    "pokemon.lycanroc_midnight.cry": {
+        "sounds": ["cobblemon:pokemon/lycanroc/lycanroc_midnight_cry"]
+    }
+}

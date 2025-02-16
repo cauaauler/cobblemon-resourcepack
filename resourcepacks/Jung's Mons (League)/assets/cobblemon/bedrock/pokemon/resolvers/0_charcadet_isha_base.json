@@ -1,0 +1,26 @@
+{
+  "species": "cobblemon:charcadet_isha",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:charcadet_isha",
+      "model": "cobblemon:charcadet_isha.geo",
+      "texture": "cobblemon:textures/pokemon/charcadet_lol/charcadet_isha.png",
+ "layers": [{
+              "name": "outer",
+              "texture": "cobblemon:textures/pokemon/charcadet_lol/charcadet_isha_emissive.png",
+              "translucent": true
+        }]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/charcadet_lol/charcadet_isha_shiny.png",
+ "layers": [{
+              "name": "outer",
+              "texture": "cobblemon:textures/pokemon/charcadet_lol/charcadet_isha_shiny_emissive.png",
+              "translucent": true
+        }]
+    }
+  ]
+}

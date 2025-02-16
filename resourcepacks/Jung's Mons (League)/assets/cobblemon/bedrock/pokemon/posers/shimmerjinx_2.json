@@ -1,0 +1,94 @@
+{
+  "head": "head",
+  "portraitScale": 1.8,
+  "portraitTranslation": [ -0.25, 1.6, 0 ],
+  "profileScale": 0.52,
+  "profileTranslation": [ 0, 0.85, 0 ],
+    "faint": "bedrock(shimmerjinx, faint)",
+    "cry":  "bedrock(shimmerjinx, cry)",
+    "poses": {
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "isBattle": false,
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "animations": ["look", "bedrock(shimmerjinx, ground_idle)"]
+      ,
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(shimmerjinx, blink)"]
+        }
+      ]
+    },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": ["WALK"],
+        "animations": ["bedrock(shimmerjinx, ground_walk)"],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(shimmerjinx, blink)"]
+          }
+        ]
+      },
+    "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": ["SLEEP"],
+        "animations": [
+          "bedrock(shimmerjinx, sleep)"
+        ]
+       },
+   "swimming": {
+     "poseName": "swimming",
+     "transformTicks": 10,
+     "poseTypes": [
+       "SWIM"
+     ],
+     "animations": [
+       "bedrock(shimmerjinx, ground_walk)"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(shimmerjinx, blink)"
+         ]
+       }
+     ]
+   },
+   "floating": {
+     "poseName": "floating",
+     "transformTicks": 10,
+     "poseTypes": [
+       "FLOAT"
+     ],
+     "animations": [
+       "bedrock(shimmerjinx, ground_idle)"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(shimmerjinx, blink)"
+         ]
+       }
+     ]
+   },
+   "battle-idle": {
+     "poseName": "battle-idle",
+     "transformTicks": 10,
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": ["bedrock(shimmerjinx, battle_idle)"],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(shimmerjinx, blink)"]
+       }
+     ]
+   }
+    }
+  }

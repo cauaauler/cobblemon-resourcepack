@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:leliel",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:leliel",
+      "model": "cobblemon:leliel.geo",
+      "texture": "cobblemon:textures/pokemon/leliel/leliel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/leliel/leliel_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:neferkiti",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:neferkiti",
+      "model": "cobblemon:neferkiti.geo",
+      "texture": "cobblemon:textures/pokemon/neferkiti/neferkiti.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/neferkiti/neferkiti_shiny.png"
+    }
+  ]
+}

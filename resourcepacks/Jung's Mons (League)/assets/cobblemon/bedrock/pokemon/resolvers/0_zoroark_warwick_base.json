@@ -1,0 +1,28 @@
+{
+  "species": "cobblemon:zoroark_warwick",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:zoroark_warwick",
+      "model": "cobblemon:zoroark_warwick.geo",
+      "texture": "cobblemon:textures/pokemon/zoroark_warwick/warwick.png",
+ "layers": [ {
+              "name": "outer",
+              "texture": "cobblemon:textures/pokemon/zoroark_warwick/warwick_emissive.png",
+              "translucent": true,
+               "emissive": true
+        }]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/zoroark_warwick/warwick_shiny.png",
+ "layers": [ {
+              "name": "outer",
+              "texture": "cobblemon:textures/pokemon/zoroark_warwick/warwick_shiny_emissive.png",
+              "translucent": true,
+               "emissive": true
+        }]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+
+{
+  "portraitScale": 2.1,
+  "portraitTranslation": [ 0.1, -1.1, 0 ],
+  "profileScale": 1,
+  "profileTranslation": [ 0, 0.5, 0 ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "bedrock(lordhelix, ground_idle)"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ "bedrock(lordhelix, ground_walk)" ]
+    },
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 20,
+      "poseTypes": [ "STAND" ],
+      "isBattle": true,
+      "animations": [ "bedrock(lordhelix, battle_idle)" ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": [ "FLOAT" ],
+      "animations": [ "bedrock(lordhelix, water_idle)" ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": [ "SWIM" ],
+      "animations": [ "bedrock(lordhelix, water_swim)" ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [ "SLEEP" ],
+      "animations": [ "bedrock(lordhelix, sleep)" ]
+    }
+  }
+}

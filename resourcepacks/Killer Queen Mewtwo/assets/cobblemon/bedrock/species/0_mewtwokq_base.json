@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:mewtwokq",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mewtwokq",
+      "model": "cobblemon:mewtwokq.geo",
+      "texture": "cobblemon:textures/pokemon/mewtwokq/mewtwokq.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/mewtwokq/mewtwokq_shiny.png"
+    }
+  ]
+}

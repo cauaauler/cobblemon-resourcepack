@@ -1,0 +1,17 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:tokyo2",
+  "sortOrder": 15,
+  "entries": [
+    "cobblemon:dugtrio-tokyo2",
+    "cobblemon:wooper-tokyo2",
+    "cobblemon:piplup-tokyo2",
+    "cobblemon:leliel",
+    "cobblemon:leliellegend",
+    "cobblemon:ramiel",
+    "cobblemon:ramiellegend",
+    "cobblemon:sahaquiel",
+    "cobblemon:sahaquiellegend",
+    "cobblemon:tabris"
+  ]
+}

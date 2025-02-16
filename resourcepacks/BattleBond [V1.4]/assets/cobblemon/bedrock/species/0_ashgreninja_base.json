@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ashgreninja",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ashgreninja",
+      "model": "cobblemon:ashgreninja.geo",
+      "texture": "cobblemon:textures/pokemon/bb1_ashgreninja/ash_greninja.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bb1_ashgreninja/ash_greninja_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "neferkiti-1",
+            "pokemon": "neferkiti",
+            "presets": [
+                "natural",
+		"desert_pyramid"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "33-48",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+		"structures": [
+		    "minecraft:desert_well"
+		]
+            }
+        }
+    ]
+}

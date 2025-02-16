@@ -1,0 +1,6 @@
+{
+  "keys": ["tokyo2"],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}

@@ -1,0 +1,35 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mewtwokq-1",
+      "pokemon": "mewtwokq",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-70",
+      "weight": 1.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [ "minecraft:desert" ]
+      }
+    },
+    {
+      "id": "mewtwokq-2",
+      "pokemon": "mewtwokq",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-70",
+      "weight": 1.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ]
+      }
+    }
+  ]
+}

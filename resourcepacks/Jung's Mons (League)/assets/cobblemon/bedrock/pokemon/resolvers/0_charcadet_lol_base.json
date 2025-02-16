@@ -1,0 +1,26 @@
+{
+  "species": "cobblemon:charcadet_lol",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:charcadet_lol",
+      "model": "cobblemon:charcadet_lol.geo",
+      "texture": "cobblemon:textures/pokemon/charcadet_lol/charcadet_lol.png",
+ "layers": [{
+              "name": "outer",
+              "texture": "cobblemon:textures/pokemon/charcadet_lol/charcadet_lol_emissive.png",
+              "translucent": true
+        }]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/charcadet_lol/charcadet_lol_shiny.png",
+ "layers": [{
+              "name": "outer",
+              "texture": "cobblemon:textures/pokemon/charcadet_lol/charcadet_lol_emissive.png",
+              "translucent": true
+        }]
+    }
+  ]
+}

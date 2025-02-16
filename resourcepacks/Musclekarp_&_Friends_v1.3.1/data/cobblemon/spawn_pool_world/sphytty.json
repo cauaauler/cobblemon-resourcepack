@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sphytty-1",
+            "pokemon": "sphytty",
+            "presets": [
+                "natural",
+		"desert_pyramid"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-49",
+            "weight": 60.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+		"structures": [
+		    "minecraft:desert_well"
+		]
+            }
+        }
+    ]
+}

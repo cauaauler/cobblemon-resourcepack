@@ -1,0 +1,43 @@
+{
+  "head": "head",
+  "portraitScale": 1.8,
+  "portraitTranslation": [ -0.38, -0.5, 0 ],
+  "profileScale": 0.8,
+  "profileTranslation": [ 0, 0.65, 0 ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "FLOAT",
+        "PROFILE"
+      ],
+      "animations": [
+        "bedrock(pikachu_ow, ground_idle)"
+      ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(pikachu_ow, blink)"
+                    ]
+                },
+				                {
+                    "name": "blink2",
+                    "animations": [
+                        "bedrock(pikachu_ow, blink2)"
+                    ]
+                }
+            ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK",
+"PORTRAIT", "SWIM" ],
+      "animations": [ "bedrock(pikachu_ow, ground_walk)" ]
+    }
+  }
+}

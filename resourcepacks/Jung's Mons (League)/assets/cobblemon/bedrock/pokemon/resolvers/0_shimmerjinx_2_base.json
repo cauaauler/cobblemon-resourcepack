@@ -1,0 +1,28 @@
+{
+  "species": "cobblemon:shimmerjinx_2",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:shimmerjinx_2",
+      "model": "cobblemon:shimmerjinx_2.geo",
+      "texture": "cobblemon:textures/pokemon/shimmerjinx/shimmerjinx_2.png",
+ "layers": [ {
+              "name": "outer",
+              "texture": "cobblemon:textures/pokemon/shimmerjinx/shimmerjinx_2_emissive.png",
+              "translucent": true,
+               "emissive": true
+        }]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/shimmerjinx/shimmerjinx_2_shiny.png",
+ "layers": [ {
+              "name": "outer",
+              "texture": "cobblemon:textures/pokemon/shimmerjinx/shimmerjinx_2_shiny_emissive.png",
+              "translucent": true,
+               "emissive": true
+        }]
+    }
+  ]
+}

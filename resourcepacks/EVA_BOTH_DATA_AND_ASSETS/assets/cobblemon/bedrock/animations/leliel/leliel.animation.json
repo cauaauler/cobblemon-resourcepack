@@ -1,0 +1,86 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.leliel.ground_idle": {
+			"loop": true,
+			"animation_length": 30,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, -360, 0],
+						"30.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.leliel.ground_walk": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.0": {
+							"post": [0, 1, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		},
+		"animation.leliel.air_idle": {
+			"loop": true,
+			"animation_length": 30,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, -360, 0],
+						"30.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.leliel.air_fly": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.0": {
+							"post": [0, 1, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		},
+		"animation.leliel.faint": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 3,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"2.875": [0, 3, 0],
+						"3.0": [0, -19, 0]
+					}
+				}
+			}
+		}
+	}
+}

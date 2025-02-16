@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wooper-tokyo2",
+  "speciesId": "cobblemon:wooper",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Tokyo2",
+      "unlockForms": [
+        "Tokyo2"
+      ]
+    }
+  ],
+  "variations": []
+}

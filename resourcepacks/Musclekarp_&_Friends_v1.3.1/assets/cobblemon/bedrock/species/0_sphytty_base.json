@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:sphytty",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sphytty",
+      "model": "cobblemon:sphytty.geo",
+      "texture": "cobblemon:textures/pokemon/sphytty/sphytty.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/sphytty/sphytty_shiny.png"
+    }
+  ]
+}

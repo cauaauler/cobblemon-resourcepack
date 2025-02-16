@@ -1,0 +1,92 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 2000,
+    "name": "leliel",
+    "labels": [ 
+      "custom",
+      "ultra_beast",
+      "starter"
+    ],
+    "pokedex": [
+      "cobblemon.species.leliel.desc1",
+      "cobblemon.species.leliel.desc2"
+    ],
+    "height": 5,
+    "weight": 3000,
+    "primaryType": "fairy",
+    "secondaryType": "dark",
+    "baseStats": {
+      "hp": 50,
+      "attack": 80,
+      "defence": 120,
+      "special_attack": 120,
+      "special_defence": 100,
+      "speed": 60
+    },
+    "catchRate": 10,
+    "maleRatio": -1,
+    "baseExperienceYield": 270,
+    "experienceGroup": "fluctuating",
+    "eggCycles": 25,
+    "eggGroups": [
+      "undiscovered"
+    ],
+    "baseFriendship": 35,
+    "evYield": {
+      "hp": 2,
+      "special_attack": 1
+    },
+    "moves": [
+        "1:bite",
+        "1:endeavor",
+        "1:protect",
+        "1:recover",
+        "5:falsesurrender",
+        "10:charm",
+        "15:dazzlinggleam",
+        "20:drainingkiss",
+        "25:moonlight",
+        "30:flatter",
+        "35:assurance",
+        "40:painsplit",
+        "45:darkpulse",
+        "50:nastyplot",
+        "55:playrough",
+        "60:foulplay"
+      ],
+      "abilities": [
+        "bulletproof",
+        "h:cloudnine"
+      ],
+      
+      "baseScale": 1.1,
+      "hitbox": {
+        "width": 1,
+        "height": 0.7,
+        "fixed": false
+      },
+      "drops": {
+      "amount": "2",
+        "entries": [
+          {
+            "item": "minecraft:blackstone",
+            "quantityRange": "1-2",
+            "percentage": 66
+          }
+        ]
+      },
+      "shoulderMountable": true,
+      "behaviour": {
+        "moving": {
+          "canLook": false,
+          "fly": {
+            "canFly": true
+          },          
+          "swim": {
+            "swimSpeed": 0.2,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+          }
+        }
+      }
+    }

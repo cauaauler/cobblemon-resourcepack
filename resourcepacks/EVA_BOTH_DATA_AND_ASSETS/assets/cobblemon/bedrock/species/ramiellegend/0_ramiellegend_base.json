@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ramiellegend",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ramiellegend",
+      "model": "cobblemon:ramiellegend.geo",
+      "texture": "cobblemon:textures/pokemon/ramiellegend/ramiellegend.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ramiellegend/ramiellegend_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:musclekarp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:musclekarp",
+      "model": "cobblemon:musclekarp.geo",
+      "texture": "cobblemon:textures/pokemon/musclekarp/musclekarp.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/musclekarp/musclekarp_shiny.png"
+    }
+  ]
+}

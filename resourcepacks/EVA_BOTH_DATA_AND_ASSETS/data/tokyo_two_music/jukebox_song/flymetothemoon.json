@@ -1,0 +1,9 @@
+{
+    "comparator_output": 11,
+    "description": "Fly Me To The Moon",
+    "length_in_seconds": 258.7,
+    "sound_event": {
+        "sound_id": "tokyo_two_music:music_disc.flymetothemoon",
+        "range": 64.0
+    }
+}

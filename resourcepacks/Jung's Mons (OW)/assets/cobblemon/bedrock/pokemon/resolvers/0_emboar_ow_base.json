@@ -1,0 +1,28 @@
+{
+  "species": "cobblemon:emboar_ow",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:emboar_ow",
+      "model": "cobblemon:emboar_ow.geo",
+      "texture": "cobblemon:textures/pokemon/emboar_ow/emboar_ow.png",
+ "layers": [ {
+              "name": "outer",
+              "texture": "cobblemon:textures/pokemon/emboar_ow/emboar_ow_emissive.png",
+              "translucent": true,
+               "emissive": true
+        }]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/emboar_ow/emboar_ow_shiny.png",
+ "layers": [ {
+              "name": "outer",
+              "texture": "cobblemon:textures/pokemon/emboar_ow/emboar_ow_shiny_emissive.png",
+              "translucent": true,
+               "emissive": true
+        }]
+    }
+  ]
+}

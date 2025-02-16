@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:ashgreninjaincomplete",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ashgreninjaincomplete",
+      "model": "cobblemon:ashgreninjaincomplete.geo",
+      "texture": "cobblemon:textures/pokemon/bb3_ashgreninjaincomplete/ashgreninjaincomplete.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/bb3_ashgreninjaincomplete/ashgreninjaincomplete_translucent.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bb3_ashgreninjaincomplete/ashgreninjaincomplete_shiny.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/bb3_ashgreninjaincomplete/ashgreninjaincomplete_translucent.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

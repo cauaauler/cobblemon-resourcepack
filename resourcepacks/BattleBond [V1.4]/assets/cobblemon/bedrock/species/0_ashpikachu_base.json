@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ashpikachu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ashpikachu",
+      "model": "cobblemon:ashpikachu.geo",
+      "texture": "cobblemon:textures/pokemon/bb2_ashpikachu/ashpikachu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bb2_ashpikachu/ashpikachu_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "comparator_output": 11,
+    "description": "Hallelujah",
+    "length_in_seconds": 238.0,
+    "sound_event": {
+        "sound_id": "tokyo_two_music:music_disc.hallelujah",
+        "range": 64.0
+    }
+}

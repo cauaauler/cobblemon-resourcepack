@@ -1,0 +1,9 @@
+{
+  "entryId": "cobblemon:wooper",
+  "forms": [
+    {
+      "displayForm": "Tokyo2",
+      "unlockForms": ["Tokyo2"]
+    }
+  ]
+}

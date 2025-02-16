@@ -1,0 +1,86 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 2006,
+    "name": "tabris",
+    "labels": [ 
+      "custom",
+      "ultra_beast",
+      "mythical"
+    ],
+    "pokedex": [
+      "cobblemon.species.tabris.desc1",
+      "cobblemon.species.tabris.desc2"
+    ],
+    "height": 5,
+    "weight": 3000,
+    "primaryType": "fairy",
+    "baseStats": {
+      "hp": 120,
+      "attack": 80,
+      "defence": 140,
+      "special_attack": 120,
+      "special_defence": 140,
+      "speed": 80
+    },
+    "catchRate": 10,
+    "maleRatio": -1,
+    "baseExperienceYield": 270,
+    "experienceGroup": "fluctuating",
+    "eggCycles": 25,
+    "eggGroups": [
+      "undiscovered"
+    ],
+    "baseFriendship": 35,
+    "evYield": {
+      "hp": 2,
+      "special_attack": 1
+    },
+    "moves": [
+        "1:ancientpower",
+        "1:drainingkiss",
+        "5:alluringvoice",
+        "10:recover",
+        "15:falsesurrender",
+        "20:charm",
+        "25:dazzlinggleam",
+        "30:mistyterrain",
+        "35:moonlight",
+        "40:flatter",
+        "45:assurance",
+        "50:camouflage",
+        "55:recover",
+        "60:assist",
+        "65:playrough",
+        "70:foulplay",
+        "75:disable",
+        "80:doubleslap",
+        "85:explosion",
+        "90:slam",
+        "100:judgment"
+      ],
+      "abilities": [
+        "filter",
+        "h:wonderguard"
+      ],
+      
+      "baseScale": 1.1,
+      "hitbox": {
+        "width": 0.8,
+        "height": 0.8,
+        "fixed": false
+      },
+      "shoulderMountable": false,
+      "behaviour": {
+        "moving": {
+          "canLook": true,
+          "fly": {
+            "canFly": true
+          },          
+          "swim": {
+            "swimSpeed": 0.2,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+          }
+        }
+      }
+    }

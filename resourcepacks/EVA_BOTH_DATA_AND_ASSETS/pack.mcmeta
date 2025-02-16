@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "The Bounds Between One and Another are Failing.",
+    "supported_formats": {
+      "min_inclusive": 34,
+      "max_inclusive": 48
+    }
+  }
+}
