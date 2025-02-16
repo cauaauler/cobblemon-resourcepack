@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "tokyo_two_music:item/music_disc_reiiii"
-    }
-}
