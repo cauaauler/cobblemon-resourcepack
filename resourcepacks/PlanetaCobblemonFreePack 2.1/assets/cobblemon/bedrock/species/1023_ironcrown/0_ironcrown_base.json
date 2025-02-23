@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:ironcrown",
+  "order": 0,
+  "variations": [
+    {
+      "poser": "cobblemon:ironcrown",
+      "model": "cobblemon:ironcrown.geo",
+      "texture": "cobblemon:textures/pokemon/1023_ironcrown/ironcrown.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/1023_ironcrown/ironcrown_shiny.png"
+    }
+  ]
+}

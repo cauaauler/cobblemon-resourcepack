@@ -1,6 +1,0 @@
-{
-  "type": "flag",
-  "keys": ["magma"],
-  "default": false,
-  "isAspect": true
-}

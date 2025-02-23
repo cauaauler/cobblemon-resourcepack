@@ -1,0 +1,27 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [ -0.375, 2.75, 0 ],
+  "profileScale": 0.55,
+  "profileTranslation": [ 0, 1.05, 0 ],
+  "rootBone": "Dedenne",
+  "animations": {
+    "cry": "q.bedrock_stateful('dedenne', 'cry')",
+    "recoil": "q.bedrock_stateful('dedenne', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["HOVER", "STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dedenne', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": ["bedrock(dedenne, ground_walk)"]
+    }
+  }
+}

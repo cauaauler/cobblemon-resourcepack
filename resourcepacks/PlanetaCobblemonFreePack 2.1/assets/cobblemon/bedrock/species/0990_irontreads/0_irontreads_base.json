@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:irontreads",
+  "order": 0,
+  "variations": [
+    {
+      "poser": "cobblemon:irontreads",
+      "model": "cobblemon:irontreads.geo",
+      "texture": "cobblemon:textures/pokemon/0990_irontreads/irontreads.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0990_irontreads/irontreads_shiny.png"
+    }
+  ]
+}

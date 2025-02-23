@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:audino",
+  "order": 0,
+  "variations": [
+    {
+      "poser": "cobblemon:audino",
+      "model": "cobblemon:audino.geo",
+      "texture": "cobblemon:textures/pokemon/0531_audino/audino.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0531_audino/audino_shiny.png"
+    }
+  ]
+}

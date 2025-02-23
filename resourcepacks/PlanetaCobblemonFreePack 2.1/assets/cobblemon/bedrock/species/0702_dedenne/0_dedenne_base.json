@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:dedenne",
+  "order": 0,
+  "variations": [
+    {
+      "poser": "cobblemon:dedenne",
+      "model": "cobblemon:dedenne.geo",
+      "texture": "cobblemon:textures/pokemon/0702_dedenne/dedenne.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0702_dedenne/dedenne_shiny.png"
+    }
+  ]
+}
