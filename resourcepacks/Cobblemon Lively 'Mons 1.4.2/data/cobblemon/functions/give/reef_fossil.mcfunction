@@ -1,1 +1,0 @@
-loot give @s loot lively:fossils/reef_fossil

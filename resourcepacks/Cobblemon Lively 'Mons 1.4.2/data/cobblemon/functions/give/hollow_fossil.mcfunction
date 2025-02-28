@@ -1,1 +1,0 @@
-loot give @s loot lively:fossils/hollow_fossil
