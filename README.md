@@ -1,8 +1,8 @@
 there is a pokemon or something else that sometimes crash on jungle biomes, that happened only one time for me, idk what it could be
+some pokemon is crashing on the florest biome too
+
 
 lines that arent added yet
-
-dedenne
 
 burmy
 
@@ -15,8 +15,6 @@ blitze
 stunkfisk
 
 mienfoo
-
-terakion 
 
 coballion
 
@@ -48,19 +46,11 @@ bombirdier
 
 sandy shocks
 
-iron treads
-
-iron jugulis
-
 okidogi
 
 fezandipiti
 
 gouging fire
-
-iron boulder
-
-iron crown
 
 castform
 
