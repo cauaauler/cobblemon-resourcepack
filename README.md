@@ -12,8 +12,6 @@ elemental monkeys
 
 blitze
 
-stunkfisk
-
 mienfoo
 
 coballion
