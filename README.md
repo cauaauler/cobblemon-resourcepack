@@ -1,5 +1,6 @@
 there is a pokemon or something else that sometimes crash on jungle biomes, that happened only one time for me, idk what it could be
-some pokemon is crashing on the florest biome too
+some pokemon is crashing on the florest biome too, maybe some of the beach pokemon crash too, thats starting to look funny
+
 
 
 lines that arent added yet
