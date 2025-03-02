@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:griffaera",
+    "speciesId": "cobblemon:griffaera",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

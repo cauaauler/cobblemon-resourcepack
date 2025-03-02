@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": ["sunflora-variant"],
+  "default": "random",
+  "choices": [
+	"standard",
+	"classic",
+	"leucistic",
+	"blazing"
+  ],
+  "isAspect": true,
+  "aspectFormat": "sunflora-variant-{{choice}}"
+}

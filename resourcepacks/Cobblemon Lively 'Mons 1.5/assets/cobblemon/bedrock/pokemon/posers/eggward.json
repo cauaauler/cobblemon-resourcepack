@@ -1,0 +1,48 @@
+{
+    "portraitScale": 2,
+    "portraitTranslation": [ 0, -0.4, 0],
+    "profileScale": 0.9,
+    "profileTranslation": [ 0, 0.4, 0 ],
+    "animations": {
+      "cry": "q.bedrock_stateful('eggward', 'cry')",
+      "faint": "q.bedrock_primary('eggward', 'faint', q.curve('one'))",
+      "recoil": "q.bedrock_stateful('eggward', 'recoil')"
+    },
+    "poses": {
+    "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+        ],
+        "animations": [
+        "bedrock(eggward, ground_idle)"
+        ],
+        "quirks": [
+            {
+              "name": "blink",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(eggward, blink)"]
+            }
+    ]
+    },
+    "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": [ "WALK" ],
+        "animations": ["bedrock(eggward, ground_walk)" ]
+    },
+	
+    "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": [ "SLEEP" ],
+        "animations": [ "bedrock(eggward, sleep)"]
+    }
+  }
+}

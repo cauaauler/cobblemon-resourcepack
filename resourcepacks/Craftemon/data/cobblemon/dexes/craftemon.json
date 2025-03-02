@@ -1,0 +1,33 @@
+{
+    "type": "cobblemon:simple_pokedex_def",
+    "id": "cobblemon:craftemon",
+    "sortOrder": 68,
+    "entries": [
+      "cobblemon:creeplett",
+      "cobblemon:creeperator",
+      "cobblemon:endisite",
+      "cobblemon:enderran",
+      "cobblemon:lizkul",
+      "cobblemon:lizarrden",
+      "cobblemon:allayze",
+      "cobblemon:vexace",
+      "cobblemon:fortraze",
+      "cobblemon:hurrilay",
+      "cobblemon:qwilprism",
+      "cobblemon:elderqwil",
+      "cobblemon:shulkle",
+      "cobblemon:phantomare",
+      "cobblemon:patterler",
+      "cobblemon:strideler",
+      "cobblemon:weeplee",
+      "cobblemon:petrelly",
+      "cobblemon:chargingboom",
+      "cobblemon:ironhelper",
+      "cobblemon:ranabyss",
+      "cobblemon:witherich",
+      "cobblemon:enderdrake",
+      "cobblemon:retmatism",
+      "cobblemon:skybe",
+      "cobblemon:withrose"
+    ]
+  }

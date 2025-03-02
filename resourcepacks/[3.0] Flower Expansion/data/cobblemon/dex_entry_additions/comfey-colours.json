@@ -1,0 +1,22 @@
+{
+    "entryId": "cobblemon:comfey",
+  "variations": [
+    {
+      "displayName": "cobblemon.pokedex.variation.flower",
+      "icon": "cobblemon:textures/gui/pokedex/variation/flower.png",
+      "aspects": [
+		"comfey-flower-default",
+        "comfey-flower-red",
+        "comfey-flower-orange",
+        "comfey-flower-yellow",
+        "comfey-flower-green",
+        "comfey-flower-blue",
+        "comfey-flower-purple",
+		"comfey-flower-pink",
+		"comfey-flower-black",
+		"comfey-flower-white",
+		"comfey-flower-null"
+      ]
+    }
+  ]
+}

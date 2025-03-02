@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "creeperator",
+  "nationalPokedexNumber": 2002,
+  "primaryType": "grass",
+  "secondaryType": "electric",
+  "abilities": [
+    "scrappy",
+    "aftermath",
+    "h:angerpoint"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 110,
+    "special_defence": 100,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "5-15",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.2
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false,
+        "avoidsWater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 500,
+  "eggCycles": 29,
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:gunpowder",
+        "quantityRange": "2-6",
+        "percentage": 71
+      }
+    ]
+  },
+  "moves": [
+    "0:selfdestruct",
+    "0:leer",
+    "4:spore",
+    "8:thunderwave",
+    "12:spark",
+    "18:smokescreen",
+    "27:scaryface",
+    "30:electroball",
+    "33:razorleaf",
+    "40:thunderbolt",
+    "50:electricterrain",
+    "23:seedbomb",
+    "36:voltswitch",
+    "60:chloroblast",
+    "55:mistyexplosion",
+    "tm:icebeam",
+    "tm:petaldance",
+    "tm:sweetscent"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.creeperator.desc1",
+    "cobblemon.species.creeperator.desc2"
+  ],
+  "baseScale": 3,
+  "hitbox": {
+    "width": 1,
+    "height": 2.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 1100,
+  "evolutions": []
+}

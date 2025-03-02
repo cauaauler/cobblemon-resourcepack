@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:mariroyal",
+    "speciesId": "cobblemon:mariroyal",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

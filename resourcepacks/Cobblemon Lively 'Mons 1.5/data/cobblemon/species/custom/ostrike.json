@@ -1,0 +1,189 @@
+{
+    "implemented": true,
+"name": "ostrike",
+"nationalPokedexNumber": 2011,
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.ostrike.desc1"
+],
+"height": 18,
+"weight": 852,
+
+"preEvolution": "voltite",
+
+"shoulderMountable": false,
+"shoulderEffects": [ "slow_fall" ],
+
+
+"primaryType": "flying",
+"secondaryType": "electric",
+
+  "baseStats": {
+    "hp": 67,
+    "attack": 49,
+    "defence": 65,
+    "special_attack": 130,
+    "special_defence": 68,
+    "speed": 120
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 119,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 15,
+  "eggGroups": [
+    "flying"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "speed": 2,
+    "special_attack": 1
+  },
+  "moves": [
+
+    "1:tackle",
+    "1:sandattack",
+    "1:gust",
+    "5:quickattack",
+    "13:chargebeam",
+    "17:wingattack",
+    "21:discharge",
+    "25:electroball",
+    "29:thunderbolt",
+    "33:roost",
+    "37:tailwind",
+    "41:earthpower",
+    "45:airslash", 
+    "49:hurricane",
+    "53:iondeluge",
+    "56:hypervoice",
+    "61:risingvoltage",
+
+    "tm:iondeluge",
+    "tm:hypervoice",
+    "tm:risingvoltage",
+    "tm:chargebeam",
+    "tutor:iondeluge",
+    "tutor:hypervoice",
+    "tutor:risingvoltage",
+    "tm:electroball",
+    "tm:discharge",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:zapcannon",
+    "tutor:chargebeam",
+    "tutor:electroball",
+    "tutor:discharge",
+    "tutor:thunderbolt",
+    "tutor:thunder",
+    "tutor:zapcannon",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:drillpeck",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:fly",
+    "tm:playrough",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:heatwave",
+    "tm:rocktomb",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:volttackle",
+    "tm:protect",
+    "tm:astonish",
+    "tm:babydolleyes",
+    "tm:secretpower",
+    "tm:electroball",
+    "tm:sleeptalk",
+    "tm:fling",
+    "tm:snatch",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:uproar",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:explosion",
+    "tm:toxic",
+    "tutor:aircutter",
+    "tutor:captivate",
+    "tutor:defog",
+    "tutor:endure",
+    "tutor:mimic",
+    "tutor:naturalgift",
+    "tutor:uturn",
+    "tutor:secretpower",
+    "tutor:snore",
+    "tutor:steelwing",
+    "tutor:twister"
+  ],
+  "abilities": [
+    "speedboost",
+    "speedboost",
+    "h:speedboost"
+  ],
+
+  "baseScale": 1,
+"hitbox": {
+  "width": 0.6,
+  "height": 1.4,
+  "fixed": false
+},
+"drops": {
+"amount": "2",
+  "entries": [
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "minecraft:feather",
+      "quantityRange": "1-2",
+      "percentage": 100
+    }
+]
+},
+"behaviour": {
+  "moving": {
+    "canLook": true,
+    "fly": {
+      "canFly": false
+    },          
+    "walk": {
+      "canWalk": true,
+      "avoidsLand": false,
+      "walkSpeed":0.65
+    },
+    
+    "swim": {
+      "swimSpeed": 0.1,
+      "canSwimInWater": true,
+      "canBreatheUnderwater": false
+    }
+  },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  }
+}

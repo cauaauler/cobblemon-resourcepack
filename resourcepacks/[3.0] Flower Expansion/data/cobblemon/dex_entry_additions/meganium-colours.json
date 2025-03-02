@@ -1,0 +1,22 @@
+{
+    "entryId": "cobblemon:meganium",
+  "variations": [
+    {
+      "displayName": "cobblemon.pokedex.variation.flower",
+      "icon": "cobblemon:textures/gui/pokedex/variation/flower.png",
+      "aspects": [
+		"meganium-flower-none",
+        "meganium-flower-red",
+        "meganium-flower-orange",
+        "meganium-flower-yellow",
+        "meganium-flower-green",
+		"meganium-flower-cyan",
+        "meganium-flower-blue",
+        "meganium-flower-purple",
+		"meganium-flower-pink",
+		"meganium-flower-black",
+		"meganium-flower-white"
+      ]
+    }
+  ]
+}

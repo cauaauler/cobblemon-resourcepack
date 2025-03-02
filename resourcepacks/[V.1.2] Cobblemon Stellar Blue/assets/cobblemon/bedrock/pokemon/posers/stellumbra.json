@@ -1,0 +1,109 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [0, 0.1, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.9, 0],
+  "rootBone": "stellumbra",
+  "animations": {
+    "faint": "q.bedrock_primary('stellumbra', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('stellumbra', 'cry', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('stellumbra', 'recoil')",
+    "physical": "q.bedrock_primary('stellumbra', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('stellumbra', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('stellumbra', 'special', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellumbra', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellumbra', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellumbra', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('stellumbra', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellumbra', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellumbra', 'blink')"]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellumbra', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellumbra', 'blink')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellumbra', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellumbra', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellumbra', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellumbra', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellumbra', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellumbra', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('stellumbra', 'sleep')"]
+    },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellumbra', 'shoulder_left')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellumbra', 'blink')"],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [4, 12.05, 1.75],
+          "rotation": [0, 0, 13.5]
+        }]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellumbra', 'shoulder_right')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellumbra', 'blink')"],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [-4, 12.05, 1.75],
+          "rotation": [0, 0, -13.5]
+        }]
+    }
+  }
+ }

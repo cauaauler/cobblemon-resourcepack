@@ -1,0 +1,15 @@
+{
+    "entryId": "cobblemon:sunflora",
+  "variations": [
+    {
+      "displayName": "cobblemon.pokedex.variation.flower",
+      "icon": "cobblemon:textures/gui/pokedex/variation/flower.png",
+      "aspects": [
+		"sunflora-variant-standard",
+		"sunflora-variant-classic",
+		"sunflora-variant-leucistic",
+		"sunflora-variant-blazing"
+      ]
+    }
+  ]
+}

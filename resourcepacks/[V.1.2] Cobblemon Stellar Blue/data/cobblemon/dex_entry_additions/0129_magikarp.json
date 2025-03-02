@@ -1,0 +1,13 @@
+{
+    "entryId": "cobblemon:magikarp",
+    "variations": [
+      {
+        "displayName": "cobblemon.pokedex.variation.pattern",
+        "icon": "cobblemon:textures/gui/pokedex/variation/pattern.png",
+        "aspects": [
+          "magikarp-jump-starstruck"
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,79 @@
+{
+    "head": "head",
+      "portraitScale": 1.1,
+      "portraitTranslation": [ -1.2, 0.35, 0],
+      "profileScale": 0.45,
+      "profileTranslation": [ -0.2, 1, 0 ],
+      "animations": {
+    "cry": "q.bedrock_stateful('petrolisk', 'cry')",
+    "faint": "q.bedrock_primary('petrolisk', 'faint', q.curve('one'))"
+      },
+      "poses":{
+      "standing": {
+          "poseName": "standing",
+          "transformTicks": 10,
+          "poseTypes": [
+          "STAND",
+          "NONE",
+          "PROFILE"
+          ],
+          "animations": [
+            "look",
+          "bedrock(petrolisk, ground_idle)"
+          ],
+          "quirks": [
+            {
+              "name": "shifty",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(petrolisk, shifty)"]
+            }
+                ]
+      },
+      "walking": {
+          "poseName": "walking",
+          "transformTicks": 10,
+          "poseTypes": [ "WALK",
+          "PORTRAIT" ],
+          "animations": [
+            "look",
+             "bedrock(petrolisk, ground_walk)" ]
+      },
+      "floating": {
+		"poseName": "floating",
+		"transformTicks": 10,
+		"poseTypes": [ "FLOAT" ],
+		"animations": [ 
+      "look",  
+    "bedrock(petrolisk, ground_idle)" ],
+        "quirks": [
+            {
+              "name": "shifty",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(petrolisk, shifty)"]
+            }
+                ]
+	},
+	"swimming": {
+		"poseName": "swimming",
+		"transformTicks": 10,
+		"poseTypes": [ "SWIM" ],
+		"animations": [
+      "look",
+      "bedrock(petrolisk, ground_walk)" ]
+		},
+      
+      "sleeping": {
+          "poseName": "sleeping",
+          "transformTicks": 10,
+          "poseTypes": [ "SLEEP" ],
+          "animations": [
+            "bedrock(petrolisk, sleep)"]
+      }
+    }
+  }
+  
+  

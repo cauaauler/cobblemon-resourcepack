@@ -1,0 +1,17 @@
+{
+    "id": "cobblemon:stellumbra",
+    "speciesId": "cobblemon:stellumbra",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal",
+          "Awakened"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

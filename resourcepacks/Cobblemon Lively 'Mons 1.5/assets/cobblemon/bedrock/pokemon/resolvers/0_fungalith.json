@@ -1,0 +1,54 @@
+{
+    "species": "cobblemon:fungalith",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:fungalith",
+        "model": "cobblemon:fungalith.geo",
+        "texture": "cobblemon:textures/pokemon/fungalith/fungalith.png",
+        "layers": [
+            {
+                "name": "animation",
+                "texture": {
+                  "frames": [
+                    "cobblemon:textures/pokemon/fungalith/animation/sand1.png",
+                    "cobblemon:textures/pokemon/fungalith/animation/sand2.png",
+                    "cobblemon:textures/pokemon/fungalith/animation/sand3.png",
+                    "cobblemon:textures/pokemon/fungalith/animation/sand4.png",
+                    "cobblemon:textures/pokemon/fungalith/animation/sand5.png",
+                    "cobblemon:textures/pokemon/fungalith/animation/sand6.png",
+                    "cobblemon:textures/pokemon/fungalith/animation/sand7.png",
+                    "cobblemon:textures/pokemon/fungalith/animation/sand8.png"
+                  ],
+                  "fps": 8,
+                  "loop": true
+                }
+              }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/fungalith/fungalith_shiny.png",
+        "layers":[
+        {
+            "name": "animation",
+            "texture": {
+              "frames": [
+                "cobblemon:textures/pokemon/fungalith/animation/sand1_shiny.png",
+                "cobblemon:textures/pokemon/fungalith/animation/sand2_shiny.png",
+                "cobblemon:textures/pokemon/fungalith/animation/sand3_shiny.png",
+                "cobblemon:textures/pokemon/fungalith/animation/sand4_shiny.png",
+                "cobblemon:textures/pokemon/fungalith/animation/sand5_shiny.png",
+                "cobblemon:textures/pokemon/fungalith/animation/sand6_shiny.png",
+                "cobblemon:textures/pokemon/fungalith/animation/sand7_shiny.png",
+                "cobblemon:textures/pokemon/fungalith/animation/sand8_shiny.png"
+              ],
+              "fps": 8,
+              "loop": true
+            }
+        }
+    ]
+      }
+    ]
+  }

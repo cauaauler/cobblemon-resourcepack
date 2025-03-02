@@ -1,0 +1,6 @@
+{
+    "keys": ["awakened"],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }  

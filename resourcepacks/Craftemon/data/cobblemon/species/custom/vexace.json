@@ -1,0 +1,113 @@
+{
+  "implemented": true,
+  "name": "vexace",
+  "nationalPokedexNumber": 2009,
+  "primaryType": "fire",
+  "secondaryType": "ghost",
+  "abilities": [
+    "sharpness",
+    "prankster",
+    "h:sheerforce"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 120,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 70,
+    "speed": 110
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 150,
+  "eggCycles": 25,
+  "eggGroups": [
+    "field",
+    "human_like"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:lapis",
+        "quantityRange": "1-1",
+        "percentage": 28
+      }
+    ]
+  },
+  "moves": [
+    "0:scratch",
+    "0:leer",
+    "8:ember",
+    "10:smokescreen",
+    "15:flamecharge",
+    "22:willowisp",
+    "24:smog",
+    "28:flamewheel",
+    "32:incinerate",
+    "42:sunnyday",
+    "50:doubleedge",
+    "36:bitterblade",
+    "20:spectralthief",
+    "20:psychocut",
+    "45:sacredsword",
+    "30:knockoff",
+    "12:workup",
+    "60:swordsdance",
+    "80:frustration",
+    "34:shadowclaw",
+    "44:nightslash",
+    "30:shadowpunch"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.vexace.desc1",
+    "cobblemon.species.vexace.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.3,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 1,
+  "evolutions": []
+}

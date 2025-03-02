@@ -1,0 +1,13 @@
+{
+    "id": "cobblemon:endisite",
+    "speciesId": "cobblemon:endisite",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": []
+  }

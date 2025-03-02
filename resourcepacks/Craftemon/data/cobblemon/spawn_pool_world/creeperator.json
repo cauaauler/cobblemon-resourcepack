@@ -1,0 +1,82 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "creeperator-1",
+     "pokemon": "creeperator camo=summer",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "rare",
+     "level": "25-80",
+     "weight": 5.0,
+     "condition": {
+       "biomes": [ 
+        "#cobblemon:is_forest",
+        "#minecraft:is_jungle"
+        ],
+	   "minLight": 0,
+	   "maxlight": 8 
+     }
+   },
+   {
+    "id": "creeperator-spring-1",
+    "pokemon": "creeperator camo=spring",
+    "presets": [ "natural" ],
+    "type": "pokemon",
+    "context": "grounded",
+    "bucket": "rare",
+    "level": "5-40",
+    "weight": 8.0,
+    "condition": {
+      "biomes": [ 
+        "minecraft:cherry_grove",
+        "minecraft:flower_forest",
+        "minecraft:meadow",
+        "minecraft:sunflower_plains" 
+      ],
+    "minLight": 0,
+    "maxlight": 8 
+    }
+  },
+  {
+    "id": "creeperator-winter-1",
+    "pokemon": "creeperator camo=winter",
+    "presets": [ "natural" ],
+    "type": "pokemon",
+    "context": "grounded",
+    "bucket": "rare",
+    "level": "5-40",
+    "weight": 8.0,
+    "condition": {
+      "biomes": [ 
+        "minecraft:grove",
+        "minecraft:snowy_taiga"
+
+       ],
+    "minLight": 0,
+    "maxlight": 8 
+    }
+  },
+  {
+    "id": "creeperator-autumn-1",
+    "pokemon": "creeperator camo=autumn",
+    "presets": [ "natural" ],
+    "type": "pokemon",
+    "context": "grounded",
+    "bucket": "rare",
+    "level": "5-40",
+    "weight": 8.0,
+    "condition": {
+      "biomes": [ 
+        "minecraft:grove",
+        "minecraft:snowy_taiga"
+      ],
+    "minLight": 0,
+    "maxlight": 8 
+    }
+  }
+ ]
+}

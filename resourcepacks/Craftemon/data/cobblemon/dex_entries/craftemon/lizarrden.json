@@ -1,0 +1,13 @@
+{
+    "id": "cobblemon:lizarrden",
+    "speciesId": "cobblemon:lizarrden",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": []
+  }

@@ -1,0 +1,13 @@
+{
+    "id": "cobblemon:shulkle",
+    "speciesId": "cobblemon:shulkle",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": []
+  }

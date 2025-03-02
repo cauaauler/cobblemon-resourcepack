@@ -1,0 +1,13 @@
+{
+    "id": "cobblemon:patterler",
+    "speciesId": "cobblemon:patterler",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": []
+  }

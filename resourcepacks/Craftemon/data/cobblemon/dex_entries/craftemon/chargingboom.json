@@ -1,0 +1,13 @@
+{
+    "id": "cobblemon:chargingboom",
+    "speciesId": "cobblemon:chargingboom",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": []
+  }

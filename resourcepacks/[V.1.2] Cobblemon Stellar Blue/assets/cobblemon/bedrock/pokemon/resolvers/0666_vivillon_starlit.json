@@ -1,0 +1,15 @@
+{
+    "species": "cobblemon:vivillon",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [ "starlit" ],
+            "layers": [
+              {
+                "name": "wings",
+                "texture": "cobblemon:textures/pokemon/0666_vivillon/vivillon_wings_starlit.png"
+              }
+            ]
+        }
+    ]
+}

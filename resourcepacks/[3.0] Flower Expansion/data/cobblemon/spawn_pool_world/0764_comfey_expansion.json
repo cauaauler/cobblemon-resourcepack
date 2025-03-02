@@ -1,0 +1,235 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "comfey-red-1",
+            "pokemon": "comfey comfey-flower=red",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-49",
+            "weight": 14.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:red_flowers"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "comfey-orange-1",
+            "pokemon": "comfey comfey-flower=orange",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-49",
+            "weight": 14.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:orange_flowers"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "comfey-yellow-1",
+            "pokemon": "comfey comfey-flower=yellow",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-49",
+            "weight": 14.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:yellow_flowers"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "comfey-green-1",
+            "pokemon": "comfey comfey-flower=green",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-49",
+            "weight": 14.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:mangrove_propagule"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "comfey-blue-1",
+            "pokemon": "comfey comfey-flower=blue",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-49",
+            "weight": 14.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:blue_flowers"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "comfey-purple-1",
+            "pokemon": "comfey comfey-flower=purple",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-49",
+            "weight": 14.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:allium",
+					"biomesoplenty:lavender",
+					"biomesoplenty:tall_lavender",
+					"biomesoplenty:wildflower",
+					"biomesoplenty:violet"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "comfey-pink-1",
+            "pokemon": "comfey comfey-flower=pink",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-49",
+            "weight": 14.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:pink_flowers"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "comfey-white-1",
+            "pokemon": "comfey comfey-flower=white",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-49",
+            "weight": 14.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:white_flowers"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "comfey-black-1",
+            "pokemon": "comfey comfey-flower=black",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-49",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:wither_rose"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "comfey-null-1",
+            "pokemon": "comfey comfey-flower=null",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-49",
+            "weight": 14.0,
+            "condition": {
+                "biomes": [
+                    "biomesoplenty:end_corruption"
+                ]
+            }
+        }
+    ]
+}

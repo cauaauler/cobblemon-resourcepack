@@ -1,0 +1,24 @@
+{
+ "species": "cobblemon:strideler",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:strideler",
+     "model": "cobblemon:strideler.geo",
+     "texture": "cobblemon:textures/pokemon/strideler/strideler.png",
+     "layers": [
+		       
+		]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/strideler/strideler_shiny.png",
+	  "layers": [
+		      
+		]
+   }
+ ]
+}

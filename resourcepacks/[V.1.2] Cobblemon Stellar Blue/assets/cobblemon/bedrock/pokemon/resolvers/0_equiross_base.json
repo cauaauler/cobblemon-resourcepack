@@ -1,0 +1,35 @@
+{
+    "species": "cobblemon:equiross",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:equiross",
+        "model": "cobblemon:equiross.geo",
+        "texture": "cobblemon:textures/pokemon/equiross/equiross.png",
+        "layers": [
+          {
+                "name": "emissive",
+                "emissive": true,
+                "texture": "cobblemon:textures/pokemon/equiross/equiross_emissive.png",
+                "translucent": false
+          }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/equiross/equiross_shiny.png",
+        "layers": [
+          {
+                "name": "emissive",
+                "emissive": true,
+                "texture": "cobblemon:textures/pokemon/equiross/equiross_emissive.png",
+                "translucent": false
+          }
+        ]
+      }
+    ]
+  }
+  

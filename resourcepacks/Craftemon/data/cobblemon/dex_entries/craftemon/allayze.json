@@ -1,0 +1,13 @@
+{
+    "id": "cobblemon:allayze",
+    "speciesId": "cobblemon:allayze",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": []
+  }

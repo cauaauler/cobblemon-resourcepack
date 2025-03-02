@@ -1,0 +1,24 @@
+{
+ "species": "cobblemon:patterler",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:patterler",
+     "model": "cobblemon:patterler.geo",
+     "texture": "cobblemon:textures/pokemon/patterler/patterler.png",
+     "layers": [
+		       
+		]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/patterler/patterler_shiny.png",
+	  "layers": [
+		      
+		]
+   }
+ ]
+}

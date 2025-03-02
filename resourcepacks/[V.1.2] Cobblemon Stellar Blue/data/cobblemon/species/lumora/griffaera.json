@@ -1,0 +1,182 @@
+{
+    "implemented": true,
+    "name": "Griffaera",
+    "nationalPokedexNumber": 4003,
+    "primaryType": "grass",
+    "secondaryType": "fairy",
+    "abilities": [
+        "overgrow",
+        "h:windrider"
+    ],
+    "baseStats": {
+        "hp": 77,
+        "attack": 109,
+        "defence": 70,
+        "special_attack": 85,
+        "special_defence": 70,
+        "speed": 124
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 240,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "grass",
+        "monster"
+    ],
+    "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-4"
+        },
+        "moving": {
+            "fly": {
+              "canFly": true
+            },
+          "swim": {
+            "swimSpeed": 0.8,
+            "canSwimInWater": false,
+            "canBreatheUnderwater": true
+          }
+        }
+      },
+
+    "drops": {
+        "amount": "2",
+        "entries": [
+            {
+                "item": "minecraft:feather",
+                "quantityRange": "1-2",
+                "percentage": 33
+            },
+            {
+                "item": "cobblemon:fairy_feather",
+                "percentage": 100
+            },
+            {
+                "item": "cobblemon:quick_claw",
+                "percentage": 15
+            }
+        ]
+    },
+    "moves": [
+        "1:slash",
+        "1:scratch",
+        "1:growl",
+        "1:leafage",
+        "1:fellstinger",
+        "1:tailwind",
+        "1:spiritbreak",
+        "6:peck",
+        "10:aromatherapy",
+        "12:charm",
+        "15:trailblaze",
+        "20:furyswipes",
+        "26:leafblade",
+        "29:pluck",
+        "36:screech",
+        "41:petalblizzard",
+        "46:swordsdance",
+        "52:bravebird",
+        "59:junglehealing",
+        "66:springtidestorm",
+        "egg:ancientpower",
+        "egg:flowershield",
+        "egg:poisontail",
+        "egg:leechseed",
+        "egg:featherdance",
+        "tm:takedown",
+        "tm:protect",
+        "tm:rest",
+        "tm:sleeptalk",
+        "tm:terablast",
+        "tm:charm",
+        "tm:bravebird",
+        "tm:tailwind",
+        "tm:playrough",
+        "tm:energyball",
+        "tm:gigadrain",
+        "tm:seedbomb",
+        "tm:bulletseed",
+        "tm:uturn",
+        "tm:leechlife",
+        "tm:closecombat",
+        "tm:aerialace",
+        "tm:fly",
+        "tm:rocksmash",
+        "tm:cut",
+        "tm:grasspledge",
+        "tm:frenzyplant",
+        "tm:grassyterrain",
+        "tm:mistyterrain",
+        "tm:grassyglide",
+        "tm:helpinghand",
+        "tm:dig",
+        "tm:airslash",
+        "tm:hurricane",
+        "tm:roost",
+        "tm:solarbeam",
+        "tm:solarblade",
+        "tm:sunnyday",
+        "tm:dragonclaw",
+        "tm:magicalleaf",
+        "tm:irontail",
+        "tm:breakingswipe",
+        "tm:toxic",
+        "tm:gunkshot",
+        "tm:firefang",
+        "tm:thunderfang",
+        "tm:nastyplot",
+        "tm:swordsdance",
+        "tm:crunch",
+        "tm:knockoff",
+        "tm:return",
+        "tm:substitute",
+        "tm:doubleteam",
+        "tm:outrage",
+        "tm:petalblizzard",
+        "tm:powerwhip",
+        "tm:lunge",
+        "tm:naturalgift",
+        "tm:pluck",
+        "tm:pollenpuff",
+        "tm:retaliate",
+        "tm:skydrop",
+        "tm:shadowclaw",
+        "tm:snarl",
+        "tm:xscissor",
+        "tm:ancientpower",
+        "tm:falseswipe",
+        "tutor:dualwingbeat",
+        "tutor:tailwind",
+        "tutor:sweetscent"
+     
+    ],
+    "labels": [ "lumora"
+    ],
+    "pokedex": [
+        "cobblemon.species.griffaera.desc1"
+    ],
+    "evolutions": [
+  ],
+    "baseScale": 1.0,
+    "hitbox": {
+        "width": 1.5,
+        "height": 2.2,
+        "fixed": false
+    },
+    "standingEyeHeight": 0.7,
+    "baseFriendship": 70,
+    "evYield": {
+        "attack": 1,
+        "speed": 2
+    },
+    "height": 17,
+    "weight": 1270,
+    "preEvolution": "griffern"
+}

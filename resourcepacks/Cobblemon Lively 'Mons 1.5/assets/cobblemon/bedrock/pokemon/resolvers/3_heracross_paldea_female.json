@@ -1,0 +1,12 @@
+{
+  "species": "cobblemon:heracross",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "female", "paldean"
+      ],
+      "model": "cobblemon:heracrosspaldea_female.geo"
+    }
+  ]
+}

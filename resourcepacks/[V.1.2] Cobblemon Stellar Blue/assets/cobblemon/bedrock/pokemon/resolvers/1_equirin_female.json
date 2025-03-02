@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:equirin",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["female"],
+      "model": "cobblemon:equirin_female.geo"
+    }
+  ]
+}

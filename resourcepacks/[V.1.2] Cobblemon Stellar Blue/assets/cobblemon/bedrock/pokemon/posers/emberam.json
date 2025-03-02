@@ -1,0 +1,43 @@
+{
+    "portraitScale": 2.07,
+    "portraitTranslation": [-0.17, -0.28, 0],
+    "profileScale": 0.8,
+    "profileTranslation": [0, 0.55, 0],
+    "rootBone": "emberam",
+    "animations": {"cry": "q.bedrock_stateful('emberam', 'cry')"}
+,
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('emberam', 'battle_idle')"
+        ],
+        "quirks": ["q.bedrock_quirk('emberam', 'blink')","q.bedrock_quirk('emberam', 'battle_quirk', 10, 40, 2)"]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('emberam', 'ground_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('emberam', 'blink')"
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK"],
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('emberam', 'ground_walk')"
+        ],
+        "quirks": ["q.bedrock_quirk('emberam', 'blink')"]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "animations": ["q.bedrock('emberam', 'sleep')"]
+      }
+      }
+    }

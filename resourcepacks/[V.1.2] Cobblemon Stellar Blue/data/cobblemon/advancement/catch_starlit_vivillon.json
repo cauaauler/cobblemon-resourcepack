@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"id": "cobblemon:pokemon_model",
+	"components": {
+        "cobblemon:pokemon_item": {"species":"cobblemon:vivillon","aspects":["starlit"]}
+      }
+		},
+		"title": {
+			"translate": "advancements.cobblemon.catch_starlit_vivillon"
+		},
+		"description": {
+			"translate": "advancements.cobblemon.catch_starlit_vivillon.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "cobblemon:catch_all_vivillon",
+	"criteria": {
+		"starlit": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"pokemon": "cobblemon:vivillon",
+				"aspects": ["starlit"]
+			}
+		}
+	},
+	"requirements": [
+		["starlit"]
+	],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": false
+}

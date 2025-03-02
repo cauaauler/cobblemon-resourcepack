@@ -1,0 +1,285 @@
+
+{"implemented": true,
+"name": "stellumbra",
+"nationalPokedexNumber": 4400,
+"labels": [ "lumora","legendary" ],
+"pokedex": [
+  "cobblemon.species.stellumbra.desc1"
+],
+"height": 3,
+"weight": 9999,
+"preEvolution": "infastella",
+"forms": [
+  {
+    "name": "Awakened",
+    "primaryType": "psychic",
+    "secondaryType": "ghost",
+    "abilities": [
+      "shadowtag"
+    ],
+    "baseStats": {
+      "hp": 145,
+      "attack": 135,
+      "defence": 100,
+      "special_attack": 85,
+      "special_defence": 85,
+      "speed": 100
+    },
+    "catchRate": 3,
+    "maleRatio": -1,
+    "baseExperienceYield": 275,
+    "baseFriendship": 0,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 2,
+      "special_defence": 0,
+      "speed": 1
+    },
+    "experienceGroup": "slow",
+    "eggCycles": 120,
+    "eggGroups": [
+      "undiscovered"
+    ],
+    "labels": [
+      "lumora",
+      "legendary"
+    ],
+    "aspects": [
+      "awakened"
+    ],
+    "height": 29,
+    "weight": 9999,
+    "cannotDynamax": false,
+    "battleOnly": true,
+    "drops": {
+      "amount": 1,
+      "entries": [
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ]
+    }
+  }
+],
+"shoulderMountable": true,
+"shoulderEffects": [
+  {
+    "type": "potion_effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 0,
+    "ambient": true,
+    "showParticles": false,
+    "showIcon": false
+  }
+],
+
+"primaryType": "psychic",
+"secondaryType": "ghost",
+"baseStats": {
+  "hp": 120,
+  "attack": 110,
+  "defence": 90,
+  "special_attack": 75,
+  "special_defence": 75,
+  "speed": 100
+},
+"catchRate": 3,
+"maleRatio": -1,
+"baseExperienceYield": 275,
+"experienceGroup": "slow",
+"eggCycles": 120,
+"eggGroups": [
+  "undiscovered"
+],
+"baseFriendship": 0,
+"evYield": {
+  "attack": 2,
+  "speed": 1
+},
+"moves": [
+    "1:psychicfangs",
+    "1:dreameater",
+    "1:nastyplot",
+    "1:confusion",
+    "1:confuseray",
+    "1:swift",
+    "1:cometpunch",
+    "1:takeheart",
+    "7:dragonrage",
+    "14:astonish",
+    "17:meanlook",
+    "24:nightshade",
+    "31:barrier",
+    "34:phantomforce",
+    "41:slam",
+    "48:hypnosis",
+    "51:meteormash",
+    "58:shadowball",
+    "68:strangesteam",
+    "75:cosmicpower",
+    "82:recover",
+    "85:nightdaze",
+    "92:spectralthief",
+    "99:meteorbeam",
+    "100:boltstrike",
+    "tm:charm",
+    "tm:faketears",
+    "tm:agility",
+    "tm:protect",
+    "tm:waterpulse",
+    "tm:acrobatics",
+    "tm:psybeam",
+    "tm:confuseray",
+    "tm:hex",
+    "tm:facade",
+    "tm:poisontail",
+    "tm:aerialace",
+    "tm:swift",
+    "tm:leechlife",
+    "tm:storedpower",
+    "tm:fling",
+    "tm:dragontail",
+    "tm:venoshock",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:sandstorm",
+    "tm:snowscape",
+    "tm:psyshock",
+    "tm:zenheadbutt",
+    "tm:uturn",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:waterfall",
+    "tm:dragonclaw",
+    "tm:dazzlinggleam",
+    "tm:thunderwave",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:imprison",
+    "tm:skillswap",
+    "tm:ironhead",
+    "tm:dragondance",
+    "tm:powergem",
+    "tm:substitute",
+    "tm:trick",
+    "tm:liquidation",
+    "tm:aurasphere",
+    "tm:dragonpulse",
+    "tm:hypervoice",
+    "tm:energyball",
+    "tm:psychic",
+    "tm:encore",
+    "tm:surf",
+    "tm:flamethrower",
+    "tm:thunderbolt",
+    "tm:playrough",
+    "tm:amnesia",
+    "tm:calmmind",
+    "tm:nastyplot",
+    "tm:helpinghand",
+    "tm:batonpass",
+    "tm:icebeam",
+    "tm:fireblast",
+    "tm:hydropump",
+    "tm:blizzard",
+    "tm:wildcharge",
+    "tm:sludgebomb",
+    "tm:gigaimpact",
+    "tm:focusblast",
+    "tm:trickroom",
+    "tm:hyperbeam",
+    "tm:thunder",
+    "tm:solarbeam",
+    "tm:shadowball",
+    "tm:terablast",
+    "tm:screech",
+    "tm:safeguard",
+    "tm:snore",
+    "tm:taunt",
+    "tm:weatherball",
+    "tm:powerswap",
+    "tm:guardswap",
+    "tm:speedswap",
+    "tm:wonderroom",
+    "tm:magicroom",
+    "tm:tailslap",
+    "tm:firefang",
+    "tm:breakingswipe",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:frustration",
+    "tm:frustration",
+    "tm:doubleteam",
+    "tm:echoedvoice",
+    "tm:scald",
+    "tm:psychup",
+    "tm:frostbreath",
+    "tm:dreameater",
+    "tm:naturepower",
+    "tm:confide",
+    "tm:triattack",
+    "tm:irontail",
+    "tm:futuresight",
+    "tm:uproar",
+    "tm:cosmicpower",
+    "tm:muddywater",
+    "tm:powerwhip",
+    "tm:allyswitch",
+    "tm:lashout",
+    "tm:honeclaws",
+    "tm:defog",
+    "tm:meteorbeam",
+    "tm:psychicterrain",
+    "tutor:expandingforce",
+    "tutor:nightmare",
+    "tutor:poltergeist",
+    "tutor:nastyplot",
+    "tutor:nightshade",
+    "tutor:zenheadbutt"
+  ],
+  "abilities": [ 
+    "illusion"
+  ],
+
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.9,
+    "height": 0.9,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:amethyst_shard",
+        "quantityRange": "3-4",
+        "percentage": 66
+      }
+    ]
+  },
+  "behaviour": {
+    "resting": {
+     "canSleep": true,
+     "willSleepOnBed": false,
+     "depth": "normal",
+     "light": "0-4"
+   },
+    "moving": {  
+      "canLook": true,
+      "fly": {
+        "canFly": true
+      },          
+      "swim": {
+        "swimSpeed": 0.8,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+
+}

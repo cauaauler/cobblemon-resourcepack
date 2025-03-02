@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:fluffle",
+    "speciesId": "cobblemon:fluffle",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

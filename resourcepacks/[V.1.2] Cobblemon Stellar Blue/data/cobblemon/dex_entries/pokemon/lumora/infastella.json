@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:infastella",
+    "speciesId": "cobblemon:infastella",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

@@ -1,0 +1,116 @@
+{
+ "species": "cobblemon:creeperator",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:creeperator",
+     "model": "cobblemon:creeperator.geo",
+     "texture": "cobblemon:textures/pokemon/creeperator/creeperator.png",
+     "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/creeperator/creeperator_emissive.png",
+              "translucent": true
+			}
+		]
+   },
+   {
+    "aspects": ["camo-summer"],
+    "texture": "cobblemon:textures/pokemon/creeperator/creeperator.png",
+    "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/creeperator/creeperator_emissive.png",
+              "translucent": true
+			}
+		]
+   },
+   {
+     "aspects": ["camo-summer", "shiny"],
+     "texture": "cobblemon:textures/pokemon/creeperator/creeperator_shiny.png",
+	  "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/creeperator/creeperator_shiny_emissive.png",
+              "translucent": true
+			}
+		]
+   },
+   {
+    "aspects": ["camo-autumn"],
+    "texture": "cobblemon:textures/pokemon/creeperator/creeperator_autumn.png",
+    "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/creeperator/creeperator_emissive.png",
+              "translucent": true
+			}
+		]
+   },
+   {
+     "aspects": ["camo-autumn", "shiny"],
+     "texture": "cobblemon:textures/pokemon/creeperator/creeperator_autumn_shiny.png",
+	  "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/creeperator/creeperator_shiny_emissive.png",
+              "translucent": true
+			}
+		]
+   },
+   {
+    "aspects": ["camo-winter"],
+    "texture": "cobblemon:textures/pokemon/creeperator/creeperator_winter.png",
+    "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/creeperator/creeperator_emissive.png",
+              "translucent": true
+			}
+		]
+   },
+   {
+     "aspects": ["camo-winter", "shiny"],
+     "texture": "cobblemon:textures/pokemon/creeperator/creeperator_winter_shiny.png",
+	  "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/creeperator/creeperator_shiny_emissive.png",
+              "translucent": true
+			}
+		]
+   },
+   {
+    "aspects": ["camo-spring"],
+    "texture": "cobblemon:textures/pokemon/creeperator/creeperator_spring.png",
+    "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/creeperator/creeperator_emissive.png",
+              "translucent": true
+			}
+		]
+   },
+   {
+     "aspects": ["camo-spring", "shiny"],
+     "texture": "cobblemon:textures/pokemon/creeperator/creeperator_spring_shiny.png",
+	  "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/creeperator/creeperator_shiny_emissive.png",
+              "translucent": true
+			}
+		]
+   }
+ ]
+}

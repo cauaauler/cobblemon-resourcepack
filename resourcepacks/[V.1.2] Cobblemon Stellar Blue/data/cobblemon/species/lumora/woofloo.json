@@ -1,0 +1,130 @@
+{
+  "implemented": true,
+  "name": "woofloo",
+  "nationalPokedexNumber": 4029,
+  "primaryType": "dark",
+  "abilities": [
+	"steadfast",
+	"fluffy",
+	"h:guarddog"
+  ],
+  "baseStats": {
+    "hp": 42,
+    "attack": 55,
+	"defence": 40,
+	"special_attack": 45,
+	"special_defence": 40,
+	"speed": 48
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-3",
+      "willSleepOnBed": false
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 122,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 15,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:quick_claw",
+        "percentage": 2.5
+      },
+      {
+        "item": "minecraft:white_wool",
+        "quantityRange": "0-1"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+	  "1:leer",
+    "1:scratch",
+    "4:howl",
+	  "7:sandattack",
+    "8:copycat",
+    "12:bite",
+    "16:slash",
+    "21:mimic",
+    "25:takedown",
+	  "27:nightslash",
+    "28:crunch",
+	  "30:shadowsneak",
+    "32:reversal",
+    "36:snarl",
+    "40:doubleedge",
+    "egg:icefang",
+    "egg:firefang",
+    "egg:thunderfang",
+	  "egg:psychicfangs",
+    "tm:agility",
+    "tm:attract",
+	  "tm:bulldoze",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:facade",
+    "tm:payback",
+    "tm:protect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:sleeptalk",
+	  "tm:stealthrock",
+    "tm:snore",
+    "tm:substitute",
+	  "tm:hiddenpower",
+    "tm:takedown",
+	  "tm:terablast"
+  ],
+  "labels": [
+    "lumore","cotere"
+  ],
+  "pokedex": [
+    "cobblemon.species.woofloo.desc"
+  ],
+  "features": [
+    "sheared"
+  ],
+  "standingEyeHeight": 0.6,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 97,
+  "evolutions": [
+    {
+      "id": "woofloo_dubfool",
+      "variant": "level_up",
+      "result": "dubfool",
+      "consumeHeldItem": false,
+      "learnableMoves": ["retaliate"],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "species": "cobblemon:comfey",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": ["comfey-flower-default"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0764_comfey/comfey_flowers_default.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["comfey-flower-red"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0764_comfey/comfey_flowers_red.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["comfey-flower-orange"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0764_comfey/comfey_flowers_orange.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["comfey-flower-yellow"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0764_comfey/comfey_flowers_yellow.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["comfey-flower-green"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0764_comfey/comfey_flowers_green.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["comfey-flower-blue"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0764_comfey/comfey_flowers_blue.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["comfey-flower-purple"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0764_comfey/comfey_flowers_purple.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["comfey-flower-pink"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0764_comfey/comfey_flowers_pink.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["comfey-flower-black"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0764_comfey/comfey_flowers_black.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["comfey-flower-white"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0764_comfey/comfey_flowers_white.png"
+        }
+      ]
+	},
+    {
+      "aspects": ["comfey-flower-null"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0764_comfey/comfey_flowers_null.png"
+        }
+      ]
+	}
+  ]
+}

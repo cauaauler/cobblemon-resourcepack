@@ -1,0 +1,22 @@
+{
+    "target": "cobblemon:mightyena",
+  "evolutions": [
+      {
+        "id": "mightyena_lupayena_lvl",
+        "variant": "level_up",
+        "result": "lupayena",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 35
+          },
+          {
+            "variant": "properties",
+            "target": "gender=female"  
+          }
+        ]
+      }
+    ]
+  }

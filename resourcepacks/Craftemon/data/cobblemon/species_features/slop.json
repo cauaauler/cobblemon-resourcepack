@@ -1,0 +1,11 @@
+{
+  "type": "choice",
+  "keys": ["slop"],
+  "default": "random",
+  "choices":[
+    "swamp",
+    "magma"
+  ],
+  "isAspect": true,
+  "aspectFormat": "slop-{{choice}}"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "cobblemon:creeplett",
+    "speciesId": "cobblemon:creeplett",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": [
+      {
+      "displayName": "cobblemon.pokedex.variation.camo",
+      "icon": "cobblemon:textures/gui/pokedex/variation/camo.png",
+      "aspects": [
+        "camo-summer",
+        "camo-winter",
+        "camo-spring",
+        "camo-autumn"
+      ]
+    }
+   ]
+  }

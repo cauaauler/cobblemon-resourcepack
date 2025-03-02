@@ -1,0 +1,50 @@
+{
+    "portraitScale": 0.4,
+    "portraitTranslation": [-0.2, 3, 0],
+    "profileScale": 0.18,
+    "profileTranslation": [0, 1.5, 0],
+    "animations": {
+      "faint": "q.bedrock_primary('branchief', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('branchief', 'cry')",
+      "recoil": "q.bedrock_stateful('branchief', 'recoil')"
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "namedAnimations": {
+        },
+        "animations": ["q.bedrock('branchief', 'battle_idle')"],
+        "quirks": [
+          "q.bedrock_quirk('branchief', 'blink1')",
+          "q.bedrock_quirk('branchief', 'blink2')",
+          "q.bedrock_quirk('branchief', 'blink3')"
+        ]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": ["q.bedrock('branchief', 'ground_idle')"],
+        "quirks": [
+          "q.bedrock_quirk('branchief', 'blink1')",
+          "q.bedrock_quirk('branchief', 'blink2')",
+          "q.bedrock_quirk('branchief', 'blink3')"
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK"],
+        "animations": ["q.bedrock('branchief', 'ground_walk')"],
+        "quirks": [
+          "q.bedrock_quirk('branchief', 'blink1')",
+          "q.bedrock_quirk('branchief', 'blink2')",
+          "q.bedrock_quirk('branchief', 'blink3')"
+        ]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "animations": ["q.bedrock('branchief', 'sleep')"],
+        "quirks": [
+        ]
+      }
+    }
+  }  

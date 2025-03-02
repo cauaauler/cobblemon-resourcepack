@@ -1,0 +1,139 @@
+{
+  "implemented": true,
+  "name": "Emberam",
+  "nationalPokedexNumber": 4004,
+  "primaryType": "fire",
+  "abilities": [
+    "blaze",
+    "h:sturdy"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.88,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:gold_nugget",
+        "quantityRange": "3-4",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:ember",
+    "6:harden",
+    "10:headbutt",
+    "12:detect",
+    "15:flamecharge",
+    "19:smartstrike",
+    "24:flamethrower",
+    "26:doubleedge",
+    "32:irondefense",
+    "35:flareblitz",
+    "tm:takedown",
+    "tm:flamethrower",
+    "tm:irondefense",
+    "tm:fireblast",
+    "tm:sunnyday",
+    "tm:firepledge",
+    "tm:mudshot",
+    "tm:sleeptalk",
+    "tm:rest",
+    "tm:protect",
+    "tm:fling",
+    "tm:return",
+    "tm:frustration",
+    "tm:superpower",
+    "tm:substitute",
+    "tm:terablast",
+    "tutor:rocksmash",
+    "tutor:doubleedge",
+    "egg:doubleedge",
+    "egg:counter",
+    "egg:meteormash",
+    "egg:wideguard"
+  ],
+  "labels": [
+    "lumora"
+  ],
+  "pokedex": [
+    "cobblemon.species.emberam.desc1"
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 57,
+  "evolutions": [
+    {
+      "id": "emberam-aurnaram-level_up",
+      "variant": "level_up",
+      "result": "aurnaram",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "takedown"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

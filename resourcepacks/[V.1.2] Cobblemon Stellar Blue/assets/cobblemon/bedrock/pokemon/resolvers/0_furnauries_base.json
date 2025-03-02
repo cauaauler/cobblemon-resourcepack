@@ -1,0 +1,30 @@
+{
+    "species": "cobblemon:furnauries",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:furnauries",
+        "model": "cobblemon:furnauries.geo",
+        "texture": "cobblemon:textures/pokemon/furnauries/furnauries.png",
+        "layers": [          {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/furnauries/furnauries_emissive.png",
+          "translucent": true
+    }]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/furnauries/furnauries_shiny.png",
+        "layers": [          {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/furnauries/furnauries__shiny_emissive.png",
+          "translucent": true
+    }]
+      }
+    ]
+   }

@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": ["camo"],
+  "default": "random",
+  "choices":[
+    "autumn",
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "isAspect": true,
+  "aspectFormat": "camo-{{choice}}"
+}

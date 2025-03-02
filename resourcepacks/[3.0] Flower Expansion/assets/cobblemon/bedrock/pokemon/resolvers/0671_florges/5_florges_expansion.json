@@ -1,0 +1,47 @@
+{
+  "species": "cobblemon:florges",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": ["flower-expansion-purple"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0671_florges/florges_flower_purple.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["flower-expansion-black"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0671_florges/florges_flower_black.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["flower-expansion-green"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0671_florges/florges_flower_green.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["flower-expansion-cyan"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0671_florges/florges_flower_cyan.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["flower-expansion-brown"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0671_florges/florges_flower_brown.png"
+        }
+      ]
+    }
+  ]
+}
+

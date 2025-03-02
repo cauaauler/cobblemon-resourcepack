@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:aurnaram",
+    "speciesId": "cobblemon:aurnaram",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

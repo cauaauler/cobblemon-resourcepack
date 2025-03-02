@@ -1,0 +1,78 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [0.05, 0.4, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.74, 0],
+  "rootBone": "stellotl",
+  "animations": {
+    "faint": "q.bedrock_primary('stellotl', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('stellotl', 'cry')",
+    "recoil": "q.bedrock_stateful('stellotl', 'recoil', q.curve('symmetrical_wide'))",
+    "physical": "q.bedrock_primary('stellotl', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('stellotl', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('stellotl', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND","HOVER","FLOAT"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellotl', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellotl', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE","HOVER","FLOAT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellotl', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('stellotl', 'blink')",
+        "q.bedrock_quirk('stellotl', 'quirk')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK","FLY","SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellotl', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellotl', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('stellotl', 'sleep')"]
+    },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellotl', 'shoulder_left')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellotl', 'blink')"],
+      "transformedParts": [
+        {
+          "part": "stellotlbody",
+          "position": [4, 12.05, 1.75],
+          "rotation": [0, 0, 13.5]
+        }]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stellotl', 'shoulder_right')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellotl', 'blink')"],
+      "transformedParts": [
+         {
+           "part": "stellotlbody",
+           "position": [-4, 12.05, 1.75],
+           "rotation": [0, 0, -13.5]
+         }]
+    }
+  }
+ }

@@ -1,0 +1,72 @@
+{
+ "species": "cobblemon:petrelly",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:petrelly",
+     "model": "cobblemon:petrelly.geo",
+     "texture": "cobblemon:textures/pokemon/petrelly/petrelly.png",
+     "layers": [
+      {
+        "name": "transparent",
+        "texture": "cobblemon:textures/pokemon/petrelly/petrelly_slime.png",
+        "translucent": true
+      }
+		]
+   },
+   {
+    "aspects": ["slop-swamp"],
+    "poser": "cobblemon:petrelly",
+    "model": "cobblemon:petrelly.geo",
+    "texture": "cobblemon:textures/pokemon/petrelly/petrelly.png",
+    "layers": [
+     {
+     "name": "transparent",
+     "texture": "cobblemon:textures/pokemon/petrelly/petrelly_slime.png",
+     "translucent": true
+   }
+           
+   ]
+  },
+   {
+     "aspects": [ "shiny", "slop-swamp" ],
+     "texture": "cobblemon:textures/pokemon/petrelly/petrelly_shiny.png",
+	  "layers": [
+      {
+      "name": "transparent",
+      "texture": "cobblemon:textures/pokemon/petrelly/petrelly_slime_shiny.png",
+      "translucent": true
+    }
+		        
+		]
+   },
+   {
+    "aspects": ["slop-magma"],
+    "poser": "cobblemon:petrelly",
+    "model": "cobblemon:petrelly.geo",
+    "texture": "cobblemon:textures/pokemon/petrelly/petrelly_magma.png",
+    "layers": [
+     {
+     "name": "transparent",
+     "texture": "cobblemon:textures/pokemon/petrelly/petrelly_magma_slime.png",
+     "translucent": true
+   }
+           
+   ]
+  },
+   {
+     "aspects": [ "shiny", "slop-magma" ],
+     "texture": "cobblemon:textures/pokemon/petrelly/petrelly_shiny_magma.png",
+	  "layers": [
+      {
+      "name": "transparent",
+      "texture": "cobblemon:textures/pokemon/petrelly/petrelly_magma_slime_shiny.png",
+      "translucent": true
+    }
+		        
+		]
+   }
+ 
+ ]
+}

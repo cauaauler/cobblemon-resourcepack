@@ -1,0 +1,27 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "retmatism-1",
+     "pokemon": "retmatism",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "ultra-rare",
+     "level": "60-75",
+     "weight": 5,
+     "condition": {
+		"maxLight": 8,
+		"biomes": [
+			"minecraft:plains"
+		],
+    "neededNearbyBlocks": [
+      "minecraft:netherite_block"
+
+    ]
+     }
+   }
+ ]
+}

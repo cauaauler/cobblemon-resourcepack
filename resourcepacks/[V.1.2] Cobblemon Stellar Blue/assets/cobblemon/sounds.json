@@ -1,0 +1,56 @@
+{
+  "pokemon.stellotl.cry": {
+    "sounds": [ "cobblemon:pokemon/stellotl/stellotl_cry" ]
+	},
+  "pokemon.stellotlawakened.cry": {
+    "sounds": [ { "name": "cobblemon:pokemon/stellotl/stellotl_awakened_cry", "volume": 0.8 } ]
+	},
+  "pokemon.stellumbra.cry": {
+    "sounds": [ "cobblemon:pokemon/stellumbra/stellumbra_cry" ]
+  },
+  "pokemon.equelpi.cry": {
+    "sounds": [ "cobblemon:pokemon/equelpi/equelpi_cry" ]
+	},
+  "pokemon.equiross.cry": {
+    "sounds": [ { "name": "cobblemon:pokemon/equiross/equiross_cry", "volume": 1.2 } ]
+	},
+  "pokemon.equirin.cry": {
+    "sounds": [ "cobblemon:pokemon/equirin/equirin_cry" ]
+	},
+  "pokemon.infastella.cry": {
+    "sounds": [ "cobblemon:pokemon/infastella/infastella_cry" ]
+  },
+  "pokemon.emberam.cry": {
+    "sounds": [ "cobblemon:pokemon/emberam/emberam_cry" ]
+  },
+  "pokemon.aurnaram.cry": {
+    "sounds": [ { "name": "cobblemon:pokemon/aurnaram/aurnaram_cry", "volume": 1.2 } ]
+  },
+  "pokemon.furnauries.cry": {
+    "sounds": [ "cobblemon:pokemon/furnauries/furnauries_cry" ]
+  },
+  "pokemon.tigriff.cry": {
+    "sounds": [ "cobblemon:pokemon/tigriff/tigriff_cry" ]
+  },
+  "pokemon.griffern.cry": {
+    "sounds": [ { "name": "cobblemon:pokemon/griffern/griffern_cry", "volume": 1.2 } ]
+  },
+  "pokemon.griffaera.cry": {
+    "sounds": [ "cobblemon:pokemon/griffaera/griffaera_cry" ]
+  },
+  "pokemon.quantom.cry": {
+    "sounds": [ "cobblemon:pokemon/quantom/quantom_cry" ]
+  },  
+  "pokemon.phantasmau.cry": {
+    "sounds": [ "cobblemon:pokemon/phantasmau/phantasmau_cry" ]
+  },
+  "pokemon.fluffle.cry": {
+    "sounds": [ "cobblemon:pokemon/fluffle/fluffle_cry" ]
+  },
+  "pokemon.woofloo.cry": {
+    "sounds": [ "cobblemon:pokemon/woofloo/woofloo_cry" ]
+  },
+  "pokemon.dubfool.cry": {
+    "sounds": [ "cobblemon:pokemon/dubfool/dubfool_cry" ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "id": "cobblemon:fortraze",
+    "speciesId": "cobblemon:fortraze",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": []
+  }

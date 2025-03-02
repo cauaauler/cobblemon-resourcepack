@@ -1,0 +1,14 @@
+{
+    "species": "cobblemon:gyarados",
+    "order": 3,
+    "variations": [
+      {
+        "aspects": ["magikarp-jump-starstruck"],
+        "texture": "cobblemon:textures/pokemon/0130_gyarados/gyarados_starstruck.png"
+      },
+      {
+        "aspects": ["magikarp-jump-starstruck","shiny"],
+        "texture": "cobblemon:textures/pokemon/0130_gyarados/gyarados_starstruck_shiny.png"
+      }
+    ]
+}  

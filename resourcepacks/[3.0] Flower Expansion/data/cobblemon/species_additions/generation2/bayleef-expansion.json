@@ -1,0 +1,465 @@
+{
+	"target": "cobblemon:bayleef",
+  "evolutions": [
+    {
+      "id": "bayleef_meganium_red_poppy",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=red",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:poppy"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_red_tulip",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=red",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:red_tulip"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_red_rose",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=red",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:rose_bush"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_orange_tulip",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=orange",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:orange_tulip"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_orange_torchflower",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=orange",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:torchflower"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_yellow_dandelion",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=yellow",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:dandelion"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_yellow_sunflower",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=yellow",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:sunflower"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_green_mangrove_propagule",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=green",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:mangrove_propagule"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_cyan_blue_orchid",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=cyan",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:blue_orchid"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_cyan_pitcher_plant",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=cyan",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:pitcher_plant"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_blue_cornflower",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=blue",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:cornflower"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_purple_allium",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=purple",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:allium"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_purple_lilac",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=purple",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:lilac"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_pink_pink_petals",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=pink",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:pink_petals"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_pink_cherry_leaves",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=pink",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:cherry_leaves"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_pink_spore_blossom",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=pink",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:spore_blossom"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_pink_tulip",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=pink",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:pink_tulip"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_pink_peony",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=pink",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:peony"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_white_tulip",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=white",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:white_tulip"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_white_azure_bluet",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=white",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:azure_bluet"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_white_oxeye_daisy",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=white",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:oxeye_daisy"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_white_lily_of_the_valley",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=white",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:lily_of_the_valley"
+        }
+      ]
+    },
+    {
+      "id": "bayleef_meganium_black_wither_rose",
+      "variant": "level_up",
+      "result": "meganium meganium-flower=black",
+      "consumeHeldItem": false,
+      "permanent": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+	    	{
+	    		"variant": "held_item",
+	    		"itemCondition": "minecraft:wither_rose"
+        }
+      ]
+    }
+  ]
+}

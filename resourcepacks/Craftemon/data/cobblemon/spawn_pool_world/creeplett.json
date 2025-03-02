@@ -1,0 +1,82 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "creeplett-summer-1",
+     "pokemon": "creeplett camo=summer",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "uncommon",
+     "level": "5-40",
+     "weight": 8.0,
+     "condition": {
+       "biomes": [ 
+        "#cobblemon:is_forest",
+        "#minecraft:is_jungle" 
+      ],
+	   "minLight": 0,
+	   "maxlight": 8 
+     }
+   },
+   {
+    "id": "creeplett-spring-1",
+    "pokemon": "creeplett camo=spring",
+    "presets": [ "natural" ],
+    "type": "pokemon",
+    "context": "grounded",
+    "bucket": "uncommon",
+    "level": "5-40",
+    "weight": 8.0,
+    "condition": {
+      "biomes": [ 
+        "minecraft:cherry_grove",
+        "minecraft:flower_forest",
+        "minecraft:meadow",
+        "minecraft:sunflower_plains" 
+      ],
+    "minLight": 0,
+    "maxlight": 8 
+    }
+  },
+  {
+    "id": "creeplett-winter-1",
+    "pokemon": "creeplett camo=winter",
+    "presets": [ "natural" ],
+    "type": "pokemon",
+    "context": "grounded",
+    "bucket": "uncommon",
+    "level": "5-40",
+    "weight": 8.0,
+    "condition": {
+      "biomes": [ 
+        "minecraft:grove",
+        "minecraft:snowy_taiga"
+
+       ],
+    "minLight": 0,
+    "maxlight": 8 
+    }
+  },
+  {
+    "id": "creeplett-autumn-1",
+    "pokemon": "creeplett camo=autumn",
+    "presets": [ "natural" ],
+    "type": "pokemon",
+    "context": "grounded",
+    "bucket": "uncommon",
+    "level": "5-40",
+    "weight": 8.0,
+    "condition": {
+      "biomes": [ 
+        "minecraft:grove",
+        "minecraft:snowy_taiga"
+      ],
+    "minLight": 0,
+    "maxlight": 8 
+    }
+  }
+ ]
+}

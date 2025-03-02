@@ -1,0 +1,161 @@
+{
+    "target": "cobblemon:gimmighoul",
+    "evolutions": [
+        {
+            "id": "gimmighoul_bronzombro",
+            "variant": "level_up",
+            "result": "bronzombro",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+              {
+                "variant": "properties",
+                "target": "gimmighoul gimmighoul_coins>98"
+              }
+            ]
+          },
+          {
+            "id": "gimmighoul_bronzombro_netherite_1",
+            "variant": "level_up",
+            "result": "bronzombro netherite_coating=stage1",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+              {
+                "variant": "properties",
+                "target": "gimmighoul gimmighoul_coins>98"
+              },
+              {
+                "variant": "property_range",
+                "range": "32-63",
+                "feature": "gimmighoul_netherite"
+              }
+            ]
+          },
+          {
+            "id": "gimmighoul_bronzombro_netherite_2",
+            "variant": "level_up",
+            "result": "bronzombro netherite_coating=stage2",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+              {
+                "variant": "properties",
+                "target": "gimmighoul gimmighoul_coins>98"
+              },
+              {
+                "variant": "property_range",
+                "range": "64-95",
+                "feature": "gimmighoul_netherite"
+              }
+            ]
+          },
+          {
+            "id": "gimmighoul_bronzombro_netherite_3",
+            "variant": "level_up",
+            "result": "bronzombro netherite_coating=stage3",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+              {
+                "variant": "properties",
+                "target": "gimmighoul gimmighoul_coins>98"
+              },
+              {
+                "variant": "property_range",
+                "range": "96-127",
+                "feature": "gimmighoul_netherite"
+              }
+            ]
+          },
+          {
+            "id": "gimmighoul_bronzombro_netherite_4",
+            "variant": "level_up",
+            "result": "bronzombro netherite_coating=stage4",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+              {
+                "variant": "properties",
+                "target": "gimmighoul gimmighoul_coins>98"
+              },
+              {
+                "variant": "property_range",
+                "range": "128-159",
+                "feature": "gimmighoul_netherite"
+              }
+            ]
+          },
+          {
+            "id": "gimmighoul_bronzombro_netherite_5",
+            "variant": "level_up",
+            "result": "bronzombro netherite_coating=stage5",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+              {
+                "variant": "properties",
+                "target": "gimmighoul gimmighoul_coins>98"
+              },
+              {
+                "variant": "property_range",
+                "range": "160-191",
+                "feature": "gimmighoul_netherite"
+              }
+            ]
+          },
+          {
+            "id": "gimmighoul_bronzombro_netherite_6",
+            "variant": "level_up",
+            "result": "bronzombro netherite_coating=stage6",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+              {
+                "variant": "properties",
+                "target": "gimmighoul gimmighoul_coins>98"
+              },
+              {
+                "variant": "property_range",
+                "range": "192-223",
+                "feature": "gimmighoul_netherite"
+              }
+            ]
+          },
+          {
+            "id": "gimmighoul_bronzombro_netherite_7",
+            "variant": "level_up",
+            "result": "bronzombro netherite_coating=stage7",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+              {
+                "variant": "properties",
+                "target": "gimmighoul gimmighoul_coins>98"
+              },
+              {
+                "variant": "property_range",
+                "range": "224-255",
+                "feature": "gimmighoul_netherite"
+              }
+            ]
+          },
+          {
+            "id": "gimmighoul_bronzombro_netherite_8",
+            "variant": "level_up",
+            "result": "bronzombro netherite_coating=full",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+              {
+                "variant": "properties",
+                "target": "gimmighoul gimmighoul_coins>98"
+              },
+              {
+                "variant": "properties",
+                "target": "gimmighoul gimmighoul_netherite=256"
+              }
+            ]
+          }
+    ]
+}

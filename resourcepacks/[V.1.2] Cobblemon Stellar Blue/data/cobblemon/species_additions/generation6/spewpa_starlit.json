@@ -1,0 +1,25 @@
+{
+    "target": "cobblemon:spewpa",
+    "evolutions": [
+        {
+            "id": "spewpa_vivillon_starlit",
+            "variant": "item_interact",
+            "result": "vivillon starlit",
+            "consumeHeldItem": false,
+            "requiredContext": "minecraft:nether_star",
+            "learnableMoves": [
+                "dazzlinggleam"
+            ],
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 12
+                },
+                {
+                    "variant": "time_range",
+                    "range": "midnight"
+                }
+            ]
+        }
+    ]
+}

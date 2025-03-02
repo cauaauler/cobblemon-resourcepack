@@ -1,0 +1,42 @@
+{
+  "species": "cobblemon:stellotl",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["awakened"],
+      "poser": "cobblemon:stellotl_awakened",
+      "model": "cobblemon:stellotl_awakened.geo",
+      "texture": "cobblemon:textures/pokemon/stellotl/stellotl_awakened.png",
+      "layers": [
+        {
+          "name": "animation",
+          "emissive": false
+        },
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/stellotl/stellotl_awakened_emissive.png",
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny","awakened"
+      ],
+      "texture": "cobblemon:textures/pokemon/stellotl/stellotl_awakened_shiny.png",
+      "layers": [
+        {
+          "name": "animation",
+          "emissive": false
+        },
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/stellotl/stellotl_awakened_emissive.png",
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    }
+  ]
+ }

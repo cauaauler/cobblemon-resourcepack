@@ -1,0 +1,22 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "lizarrden-1",
+     "pokemon": "lizarrden",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "ultra-rare",
+     "level": "30-80",
+     "weight": 0.1,
+     "condition": {
+       "canSeeSky": false,
+       "biomes": [ "minecraft:deep_dark" ]
+	  
+     }
+   }
+ ]
+}

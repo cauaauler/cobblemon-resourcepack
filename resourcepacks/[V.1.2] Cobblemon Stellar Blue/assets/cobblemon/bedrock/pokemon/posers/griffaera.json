@@ -1,0 +1,78 @@
+{
+  "portraitScale": 1.61,
+  "portraitTranslation": [-0.52, 1.23, 0],
+  "profileScale": 0.62,
+  "profileTranslation": [0, 0.8, 0],
+  "rootBone": "griffaera",
+  "animations": {
+    "cry": "q.bedrock_stateful('griffaera', 'cry')",
+    "status": "q.bedrock_stateful('griffaera', 'cry', q.curve('symmetrical_wide'))",
+    "faint": "q.bedrock_primary('griffaera', 'faint')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head', 1, 1, 20, -15, 40, -40)",
+        "q.bedrock('griffaera', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('griffaera', 'blink')","q.bedrock_quirk('griffaera', 'battle_quirk', 10, 40, 1)"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('griffaera', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('griffaera', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('griffaera', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('griffaera', 'blink')"]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head', 1, 1, 20, -15, 40, -40)",
+        "q.bedrock('griffaera', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('griffaera', 'blink')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head', 1, 1, 20, -15, 40, -40)",
+        "q.bedrock('griffaera', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('griffaera', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('griffaera', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('griffaera', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('griffaera', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('griffaera', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('griffaera', 'sleep')"]
+    }
+  }
+ }

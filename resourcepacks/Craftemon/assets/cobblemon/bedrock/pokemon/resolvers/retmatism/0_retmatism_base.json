@@ -1,0 +1,35 @@
+{
+ "species": "cobblemon:retmatism",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:retmatism",
+     "model": "cobblemon:retmatism.geo",
+     "texture": "cobblemon:textures/pokemon/retmatism/retmatism.png",
+     "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/retmatism/retmatism_emissive.png",
+              "translucent": true
+			}
+		]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/retmatism/retmatism_shiny.png",
+	  "layers": [
+		        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/retmatism/retmatism_shiny_emissive.png",
+              "translucent": true
+			}
+			
+		]
+   }
+ ]
+}

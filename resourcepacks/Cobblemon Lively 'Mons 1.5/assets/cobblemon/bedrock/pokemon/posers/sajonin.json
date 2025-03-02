@@ -1,0 +1,52 @@
+{
+    "portraitScale": 2.06,
+    "portraitTranslation": [-0.2, 2, 0],
+    "profileScale": 0.6,
+    "profileTranslation": [0, 0.86, 0],
+    "animations": {
+      "faint": "q.bedrock_primary('sajonin', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('sajonin', 'cry')",
+      "recoil": "q.bedrock_stateful('sajonin', 'recoil')"
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "namedAnimations": {
+        },
+        "animations": ["q.look('head_ai')", "q.bedrock('sajonin', 'battle_idle')"],
+        "quirks": [
+          "q.bedrock_quirk('sajonin', 'blink')",
+          "q.bedrock_quirk('sajonin', 'quirk')",
+          "q.bedrock_quirk('sajonin', 'quirk2')",
+          "q.bedrock_quirk('sajonin', 'quirk3')"
+        ]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": ["q.look('head_ai')", "q.bedrock('sajonin', 'ground_idle')"],
+        "quirks": [
+          "q.bedrock_quirk('sajonin', 'blink')",
+          "q.bedrock_quirk('sajonin', 'quirk')",
+          "q.bedrock_quirk('sajonin', 'quirk2')",
+          "q.bedrock_quirk('sajonin', 'quirk3')"
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK"],
+        "animations": ["q.look('head_ai')", "q.bedrock('sajonin', 'ground_walk')"],
+        "quirks": [
+          "q.bedrock_quirk('sajonin', 'blink')",
+          "q.bedrock_quirk('sajonin', 'quirk')",
+          "q.bedrock_quirk('sajonin', 'quirk2')"
+        ]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "animations": ["q.bedrock('sajonin', 'sleep')"],
+        "quirks": [
+        ]
+      }
+    }
+  }  

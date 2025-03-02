@@ -1,0 +1,25 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "lizkul-1",
+     "pokemon": "lizkul",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "uncommon",
+     "level": "5-40",
+     "weight": 4,
+     "condition": {
+       "canSeeSky": false,
+       "biomes": [ "minecraft:deep_dark" ],
+	   "maxY": 32,
+	   "neededNearbyBlocks": [
+				"minecraft:sculk"
+				]
+     }
+   }
+ ]
+}

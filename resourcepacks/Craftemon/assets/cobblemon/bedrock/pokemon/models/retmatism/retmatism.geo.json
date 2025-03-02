@@ -1,0 +1,96 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.retmatism",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "retmatism",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "retmatism",
+					"pivot": [0, 10, 0]
+				},
+				{
+					"name": "group",
+					"parent": "head",
+					"pivot": [0, 10, 0]
+				},
+				{
+					"name": "retinazer",
+					"parent": "group",
+					"pivot": [-6, 16, -3.9],
+					"cubes": [
+						{"origin": [-11, 11, -9], "size": [10, 10, 10], "uv": [0, 0]},
+						{"origin": [-9, 13, -11], "size": [6, 6, 2], "uv": [48, 56]},
+						{"origin": [-8, 14, -12], "size": [4, 4, 1], "uv": [0, 0]},
+						{"origin": [-7, 15, -16], "size": [2, 2, 4], "uv": [0, 59]},
+						{"origin": [-7.5, 14.5, -19], "size": [3, 3, 3], "uv": [9, 57]}
+					]
+				},
+				{
+					"name": "gunk2",
+					"parent": "retinazer",
+					"pivot": [-6, 16, 1],
+					"cubes": [
+						{"origin": [-2, 12, 1], "size": [0, 8, 10], "uv": [42, 11]},
+						{"origin": [-10, 12, 1], "size": [0, 8, 10], "uv": [42, 3]},
+						{"origin": [-10, 12, 1], "size": [8, 0, 10], "uv": [0, 30]},
+						{"origin": [-10, 20, 1], "size": [8, 0, 10], "uv": [16, 20]},
+						{"origin": [-9, 18, 1], "size": [6, 0, 7], "uv": [13, 49]},
+						{"origin": [-9, 14, 1], "size": [6, 0, 7], "uv": [47, 36]},
+						{"origin": [-3, 14, 1], "size": [0, 4, 7], "uv": [34, 49]},
+						{"origin": [-9, 14, 1], "size": [0, 4, 7], "uv": [20, 49]}
+					]
+				},
+				{
+					"name": "spazmatism",
+					"parent": "group",
+					"pivot": [7, 11, -6.11111],
+					"cubes": [
+						{"origin": [2, 6, -5], "size": [10, 10, 4], "uv": [26, 30]},
+						{"origin": [2, 13, -11], "size": [10, 3, 6], "uv": [40, 4]},
+						{"origin": [2, 12, -11], "size": [10, 1, 0], "uv": [46, 1]},
+						{"origin": [12, 12, -11], "size": [0, 1, 6], "uv": [0, 51]},
+						{"origin": [2, 12, -11], "size": [0, 1, 6], "uv": [42, 23]}
+					]
+				},
+				{
+					"name": "gunk",
+					"parent": "spazmatism",
+					"pivot": [7, 11, -1],
+					"cubes": [
+						{"origin": [4, 9, -1], "size": [0, 4, 7], "uv": [46, 45]},
+						{"origin": [11, 7, -1], "size": [0, 8, 10], "uv": [0, 39]},
+						{"origin": [3, 7, -1], "size": [0, 8, 10], "uv": [32, 34]},
+						{"origin": [3, 7, -1], "size": [8, 0, 10], "uv": [20, 0]},
+						{"origin": [3, 15, -1], "size": [8, 0, 10], "uv": [0, 20]},
+						{"origin": [4, 13, -1], "size": [6, 0, 7], "uv": [47, 29]},
+						{"origin": [4, 9, -1], "size": [6, 0, 7], "uv": [45, 44]},
+						{"origin": [10, 9, -1], "size": [0, 4, 7], "uv": [32, 45]}
+					]
+				},
+				{
+					"name": "lowerjaw",
+					"parent": "spazmatism",
+					"pivot": [7, 7.25, -5],
+					"cubes": [
+						{"origin": [2, 9, -11], "size": [10, 1, 0], "uv": [46, 0]},
+						{"origin": [2, 9, -11], "size": [0, 1, 6], "uv": [52, 45]},
+						{"origin": [12, 9, -11], "size": [0, 1, 6], "uv": [0, 52]},
+						{"origin": [2, 6, -11], "size": [10, 3, 6], "uv": [0, 40]}
+					]
+				}
+			]
+		}
+	]
+}

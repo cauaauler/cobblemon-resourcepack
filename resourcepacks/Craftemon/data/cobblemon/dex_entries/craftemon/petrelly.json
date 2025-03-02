@@ -1,0 +1,23 @@
+{
+    "id": "cobblemon:petrelly",
+    "speciesId": "cobblemon:petrelly",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": [
+      {
+        "displayName": "cobblemon.pokedex.variation.slop",
+        "icon": "cobblemon:textures/gui/pokedex/variation/slop.png",
+        "aspects": [
+          "slop-swamp",
+          "slop-magma"
+        ]
+      }
+    
+  ]
+  }

@@ -1,0 +1,13 @@
+{
+    "id": "cobblemon:enderran",
+    "speciesId": "cobblemon:enderran",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": []
+  }

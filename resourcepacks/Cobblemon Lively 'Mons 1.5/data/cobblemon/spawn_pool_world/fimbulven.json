@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "fimbulven-1",
+      "pokemon": "fimbulven",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "32-51",
+      "weight": 0.1,
+      "weightMultiplier": {
+        "multiplier": 4.0,
+        "condition": {
+            "timeRange": "night",
+            "biomes": ["#cobblemon:is_freezing"]
+        }
+      },
+      "condition": {
+        "canSeeSky": true,
+        "biomes": ["#cobblemon:is_taiga"]
+      }
+    }
+  ]
+}

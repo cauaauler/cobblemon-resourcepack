@@ -1,0 +1,33 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "fungalith-1",
+            "pokemon": "fungalith",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "22-47",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 0.5,
+                "condition": {
+                    "minSkyLight": 0,
+                    "maxSkyLight": 7
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ],
+                "timeRange": "night"
+            }
+        }
+    ]
+}

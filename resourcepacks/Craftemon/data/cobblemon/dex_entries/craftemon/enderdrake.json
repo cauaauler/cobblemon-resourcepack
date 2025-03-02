@@ -1,0 +1,13 @@
+{
+    "id": "cobblemon:enderdrake",
+    "speciesId": "cobblemon:enderdrake",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": []
+  }

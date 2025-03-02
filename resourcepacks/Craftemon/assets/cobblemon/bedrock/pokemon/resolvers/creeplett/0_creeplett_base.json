@@ -1,0 +1,116 @@
+{
+ "species": "cobblemon:creeplett",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:creeplett",
+     "model": "cobblemon:creeplett.geo",
+     "texture": "cobblemon:textures/pokemon/creeplett/creeplett.png",
+     "layers": [
+            {
+               "name": "emissive",
+               "emissive": true,
+               "texture": "cobblemon:textures/pokemon/creeplett/creeplett_emissive.png",
+               "translucent": true
+       }
+     ]
+   },
+     {
+    "aspects": ["camo-summer"],
+    "texture": "cobblemon:textures/pokemon/creeplett/creeplett.png",
+    "layers": [
+	         {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/creeplett/creeplett_emissive.png",
+              "translucent": true
+			}
+		]
+  },
+  {
+   "aspects": ["camo-summer", "shiny"],
+   "texture": "cobblemon:textures/pokemon/creeplett/creeplett_shiny.png",
+   "layers": [
+          {
+             "name": "emissive",
+             "emissive": true,
+             "texture": "cobblemon:textures/pokemon/creeplett/creeplett_shiny_emissive.png",
+             "translucent": true
+     }
+   ]
+ },
+  {
+   "aspects": ["camo-autumn"],
+   "texture": "cobblemon:textures/pokemon/creeplett/creeplett_autumn.png",
+   "layers": [
+          {
+             "name": "emissive",
+             "emissive": true,
+             "texture": "cobblemon:textures/pokemon/creeplett/creeplett_emissive.png",
+             "translucent": true
+     }
+   ]
+ },
+ {
+  "aspects": ["camo-autumn", "shiny"],
+  "texture": "cobblemon:textures/pokemon/creeplett/creeplett_autumn_shiny.png",
+  "layers": [
+         {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/creeplett/creeplett_shiny_emissive.png",
+            "translucent": true
+    }
+  ]
+},
+{
+ "aspects": ["camo-winter"],
+ "texture": "cobblemon:textures/pokemon/creeplett/creeplett_winter.png",
+ "layers": [
+        {
+           "name": "emissive",
+           "emissive": true,
+           "texture": "cobblemon:textures/pokemon/creeplett/creeplett_emissive.png",
+           "translucent": true
+   }
+ ]
+},
+{
+"aspects": ["camo-winter", "shiny"],
+"texture": "cobblemon:textures/pokemon/creeplett/creeplett_winter_shiny.png",
+"layers": [
+       {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/creeplett/creeplett_shiny_emissive.png",
+          "translucent": true
+  }
+]
+},
+{
+ "aspects": ["camo-spring"],
+ "texture": "cobblemon:textures/pokemon/creeplett/creeplett_spring.png",
+ "layers": [
+        {
+           "name": "emissive",
+           "emissive": true,
+           "texture": "cobblemon:textures/pokemon/creeplett/creeplett_emissive.png",
+           "translucent": true
+   }
+ ]
+},
+{
+"aspects": ["camo-spring", "shiny"],
+"texture": "cobblemon:textures/pokemon/creeplett/creeplett_spring_shiny.png",
+"layers": [
+       {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/creeplett/creeplett_shiny_emissive.png",
+          "translucent": true
+  }
+]
+}
+ ]
+}

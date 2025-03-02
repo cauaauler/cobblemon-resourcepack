@@ -1,0 +1,20 @@
+{
+  "type": "choice",
+  "keys": ["meganium-flower"],
+  "default": "none",
+  "choices": [
+	"none",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+	"cyan",
+    "blue",
+    "purple",
+	"pink",
+	"black",
+	"white"
+  ],
+  "isAspect": true,
+  "aspectFormat": "meganium-flower-{{choice}}"
+}

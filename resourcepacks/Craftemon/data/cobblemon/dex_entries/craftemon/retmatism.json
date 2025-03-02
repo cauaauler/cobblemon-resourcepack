@@ -1,0 +1,13 @@
+{
+    "id": "cobblemon:retmatism",
+    "speciesId": "cobblemon:retmatism",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": []
+  }

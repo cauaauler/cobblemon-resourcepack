@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:furnauries",
+    "speciesId": "cobblemon:furnauries",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

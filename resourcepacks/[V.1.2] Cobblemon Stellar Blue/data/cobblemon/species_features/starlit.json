@@ -1,0 +1,9 @@
+{
+  "type": "flag",
+  "keys": ["starlit"],
+  "default": false,
+  "choices": [
+    "starlit"
+  ],
+  "isAspect": true
+}

@@ -1,0 +1,54 @@
+{
+  "portraitScale": 1.58,
+  "portraitTranslation": [-0.8, 3.42, 0],
+  "profileScale": 0.4,
+  "profileTranslation": [0.03, 1.27, -6.0],
+  "rootBone": "stellotl_awakened",
+  "animations": {
+    "cry": "q.bedrock_stateful('stellotl_awakened', 'cry')",
+    "special": "q.bedrock_primary('stellotl_awakened', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('stellotl_awakened', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head', 1, 1, 20, -20, 40, -40)",
+        "q.bedrock('stellotl_awakened', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellotl_awakened', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head', 1, 1, 20, -20, 40, -40)",
+        "q.bedrock('stellotl_awakened', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('stellotl_awakened', 'blink')"
+      ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER","FLOAT", "PROFILE"],
+      "animations": [
+        "q.look('head', 1, 1, 20, -20, 40, -40)",
+        "q.bedrock('stellotl_awakened', 'air_idle')"
+      ],
+      "quirks": [ "q.bedrock_quirk('stellotl_awakened','blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK","FLY","SWIM"],
+      "animations": [
+        "q.look('head', 1, 1, 20, -20, 40, -40)",
+        "q.bedrock('stellotl_awakened', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('stellotl_awakened', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('stellotl_awakened', 'sleep')"]
+    }
+  }
+ }

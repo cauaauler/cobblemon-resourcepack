@@ -1,0 +1,47 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.petrelly",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "petrelly",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "petrelly",
+					"pivot": [0, 6.05, 0]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 6.15, 0],
+					"cubes": [
+						{"origin": [-5, 1.15, -5], "size": [10, 10, 10], "inflate": -1, "uv": [0, 24]}
+					]
+				},
+				{
+					"name": "slime",
+					"parent": "body",
+					"pivot": [0, 6.15, 0],
+					"cubes": [
+						{"origin": [-6, 0.15, -6], "size": [0, 12, 12], "uv": [24, 32]},
+						{"origin": [6, 0.15, -6], "size": [0, 12, 12], "uv": [0, 32]},
+						{"origin": [-6, 0.15, 6], "size": [12, 12, 0], "uv": [36, 12]},
+						{"origin": [-6, 0.15, -6], "size": [12, 12, 0], "uv": [36, 0]},
+						{"origin": [-6, 0.15, -6], "size": [12, 0, 12], "uv": [0, 12]},
+						{"origin": [-6, 12.15, -6], "size": [12, 0, 12], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

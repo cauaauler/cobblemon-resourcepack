@@ -1,0 +1,57 @@
+{
+  "portraitScale": 2.85,
+  "portraitTranslation": [-0.56, -1.15, 0],
+  "profileScale": 1,
+  "profileTranslation": [0, 0.23, 0],
+  "rootBone": "woofloo",
+  "animations": {
+    "cry": "q.bedrock_stateful('woofloo', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('woofloo', 'battle_idle')"
+      ],
+      "quirks": [
+	  "q.bedrock_quirk('woofloo', 'blink')",
+	  "q.bedrock_quirk('woofloo', q.array('ear_quirk_left', 'ear_quirk_right'), 5, 30, 1)"
+	  ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('woofloo', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('woofloo', 'blink')",
+        "q.bedrock_quirk('woofloo', 'grass_eat', 30, 120, 1)",
+		"q.bedrock_quirk('woofloo', q.array('ear_quirk_left', 'ear_quirk_right'), 5, 30, 1)"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('woofloo', 'ground_walk')"
+      ],
+      "quirks": [
+	  "q.bedrock_quirk('woofloo', 'blink')",
+	  "q.bedrock_quirk('woofloo', q.array('ear_quirk_left', 'ear_quirk_right'), 5, 30, 1)"
+	  ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+	  "q.bedrock('woofloo', 'sleep')"
+      ],
+      "quirks": [
+		"q.bedrock_quirk('woofloo', q.array('ear_quirk_left', 'ear_quirk_right'), 5, 30, 1)"
+      ]
+    }
+  }
+ }

@@ -1,0 +1,14 @@
+{
+  "type": "choice",
+  "keys": ["flower-expansion"],
+  "default": "none",
+  "choices": [
+	"purple",
+	"black",
+	"green",
+	"cyan",
+	"brown"
+  ],
+  "isAspect": true,
+  "aspectFormat": "flower-expansion-{{choice}}"
+}

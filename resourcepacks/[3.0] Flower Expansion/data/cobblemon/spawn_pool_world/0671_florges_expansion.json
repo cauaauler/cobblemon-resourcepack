@@ -1,0 +1,164 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "florges-purple-1",
+            "pokemon": "florges flower-expansion=purple",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-55",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:allium",
+					"biomesoplenty:lavender",
+					"biomesoplenty:tall_lavender",
+					"biomesoplenty:wildflower",
+					"biomesoplenty:violet"
+                ]
+            }
+        },
+        {
+            "id": "florges-purple-2",
+            "pokemon": "florges flower-expansion=purple",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-55",
+            "weight": 0.5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:chorus_flower"
+                ]
+            }
+        },
+        {
+            "id": "florges-black-1",
+            "pokemon": "florges flower-expansion=black",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-55",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:wither_rose"
+                ]
+            }
+        },
+        {
+            "id": "florges-green-1",
+            "pokemon": "florges flower-expansion=green",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-55",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:mangrove_propagule"
+                ]
+            }
+        },
+        {
+            "id": "florges-cyan-1",
+            "pokemon": "florges flower-expansion=cyan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-55",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:blue_orchid",
+					"minecraft:pitcher_plant",
+					"biomesoplenty:blue_hydrangea",
+					"biomesoplenty:icy_iris"
+                ]
+            }
+        },
+        {
+            "id": "florges-brown-1",
+            "pokemon": "florges flower-expansion=brown",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-55",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:dead_bush",
+					"minecraft:cocoa",
+					"biomesoplenty:tundra_shrub",
+					"biomesoplenty:wilted_lily"
+                ]
+            }
+        }
+    ]
+}

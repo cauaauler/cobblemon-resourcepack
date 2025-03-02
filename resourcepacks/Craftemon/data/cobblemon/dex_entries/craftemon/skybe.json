@@ -1,0 +1,13 @@
+{
+    "id": "cobblemon:skybe",
+    "speciesId": "cobblemon:skybe",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": []
+  }

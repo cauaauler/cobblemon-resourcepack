@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:tigriff",
+    "speciesId": "cobblemon:tigriff",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

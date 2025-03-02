@@ -1,0 +1,17 @@
+{
+    "id": "cobblemon:stellotl",
+    "speciesId": "cobblemon:stellotl",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal",
+          "Awakened"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

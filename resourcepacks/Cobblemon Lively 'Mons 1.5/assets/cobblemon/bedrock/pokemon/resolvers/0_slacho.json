@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:slacho",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:slacho",
+        "model": "cobblemon:slacho.geo",
+        "texture": "cobblemon:textures/pokemon/slacho/slacho.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/slacho/slacho_emissive.png",
+            "translucent": true
+      }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/slacho/slacho_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/slacho/slacho_emissive_shiny.png",
+            "translucent": true
+      }
+        ]
+      }
+    ]
+  }

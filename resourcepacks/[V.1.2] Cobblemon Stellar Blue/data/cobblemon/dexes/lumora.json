@@ -1,0 +1,31 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:lumora",
+  "sortOrder": 11,
+  "entries": [
+	"cobblemon:tigriff",
+	"cobblemon:griffern",
+	"cobblemon:griffaera",
+	"cobblemon:emberam",
+	"cobblemon:aurnaram",
+	"cobblemon:furnauries",
+	"cobblemon:equelpi",
+	"cobblemon:equiross",
+	"cobblemon:equirin",
+	"cobblemon:quantom",
+	"cobblemon:phantasmau",
+	"cobblemon:azurill",
+	"cobblemon:marill",
+	"cobblemon:azumarill",
+	"cobblemon:mariroyal",
+	"cobblemon:fluffle",
+	"cobblemon:woofloo",
+	"cobblemon:dubfool",
+	"cobblemon:gimmighoul",
+	"cobblemon:gholdengo",
+	"cobblemon:bronzombro",
+	"cobblemon:infastella",
+	"cobblemon:stellotl",
+	"cobblemon:stellumbra"
+  ]
+}

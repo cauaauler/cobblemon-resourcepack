@@ -1,0 +1,102 @@
+{
+    "head": "head",
+      "portraitScale": 1.55,
+      "portraitTranslation": [-1.1, 1.375, 0],
+      "profileScale": 0.325,
+      "profileTranslation": [0, 1.3, -5],
+      "animations": {
+        "cry": "q.bedrock_stateful('spinarift', 'cry')",
+        "faint": "q.bedrock_primary('spinarift', 'faint', q.curve('one'))",
+        "recoil": "q.bedrock_stateful('spinarift', 'recoil')"
+      },
+      "poses":{
+
+        "battle-idle": {
+          "poseName": "battle-idle",
+          "transformTicks": 10,
+          "poseTypes": [
+          "STAND",
+          "PROFILE"
+        ],
+          "isBattle": true,
+          "isTouchingWater": false,
+          "animations": [
+            "look",
+            "bedrock(spinarift, battle_idle)"],
+          "quirks": [
+            {
+              "name": "blink",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(spinarift, blink)"]
+            },
+            {
+                "name": "quirk1",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 17,
+                "maxSecondsBetweenOccurrences": 37,
+                "animations": ["bedrock(spinarift, quirk1)"]
+              },
+              {
+                "name": "quirk2",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 17,
+                "maxSecondsBetweenOccurrences": 37,
+                "animations": ["bedrock(spinarift, quirk2)"]
+              }
+          ]
+        },
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+            "STAND",
+            "PORTRAIT",
+            "NONE"
+            ],
+            "animations": [
+              "look",
+            "bedrock(spinarift, ground_idle)"
+            ],
+            "quirks": [
+              {
+                "name": "blink",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 8,
+                "maxSecondsBetweenOccurrences": 20,
+                "animations": ["bedrock(spinarift, blink)"]
+              },
+              {
+                "name": "quirk1",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 17,
+                "maxSecondsBetweenOccurrences": 37,
+                "animations": ["bedrock(spinarift, quirk1)"]
+              },
+              {
+                "name": "quirk2",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 17,
+                "maxSecondsBetweenOccurrences": 37,
+                "animations": ["bedrock(spinarift, quirk2)"]
+              }
+                  ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [ "WALK" ],
+            "animations": [
+              "look",
+               "bedrock(spinarift, ground_walk)" ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "transformTicks": 10,
+            "poseTypes": [ "SLEEP" ],
+            "animations": [
+              "bedrock(spinarift, sleep)"]
+        }
+      }
+    }

@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:equiross",
+    "speciesId": "cobblemon:equiross",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

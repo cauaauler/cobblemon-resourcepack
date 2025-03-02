@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "equirin-1",
+            "pokemon": "equirin",
+            "presets": [
+                "freshwater",
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "ultra-rare",
+            "level": "36-52",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": true,
+                "isRaining": true
+            }
+        }
+    ]
+ }

@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:equelpi",
+    "speciesId": "cobblemon:equelpi",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

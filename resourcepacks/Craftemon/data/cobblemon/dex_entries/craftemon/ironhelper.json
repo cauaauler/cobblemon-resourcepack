@@ -1,0 +1,13 @@
+{
+    "id": "cobblemon:ironhelper",
+    "speciesId": "cobblemon:ironhelper",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": []
+  }

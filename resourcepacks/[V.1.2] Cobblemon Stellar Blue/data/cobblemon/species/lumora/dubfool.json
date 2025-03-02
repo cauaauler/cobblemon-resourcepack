@@ -1,0 +1,121 @@
+{
+  "implemented": true,
+  "name": "dubfool",
+  "nationalPokedexNumber": 4030,
+  "primaryType": "dark",
+  "abilities": [
+	"steadfast",
+	"fluffy",
+	"h:guarddog"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 100,
+	"defence": 80,
+	"special_attack": 90,
+	"special_defence": 60,
+	"speed": 88
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-3",
+      "willSleepOnBed": false
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 15,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:quick_claw",
+        "percentage": 5
+      },
+      {
+        "item": "minecraft:white_wool",
+        "quantityRange": "1-3"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+	  "1:retaliate",
+	  "1:leer",
+    "1:scratch",
+    "1:howl",
+	  "1:sandattack",
+    "1:copycat",
+    "5:bite",
+    "10:slash",
+	  "12:nightslash",
+    "15:mimic",
+    "25:takedown",
+    "28:crunch",
+    "32:reversal",
+	  "34:shadowsneak",
+    "36:snarl",
+    "40:doubleedge",
+	  "44:suckerpunch",
+	  "50:substitute",
+    "egg:icefang",
+    "egg:firefang",
+    "egg:thunderfang",
+	  "egg:psychicfangs",
+    "tm:agility",
+    "tm:attract",
+    "tm:endure",
+	  "tm:bulldoze",
+    "tm:doubleedge",
+    "tm:facade",
+	  "tm:knockoff",
+	  "tm:playrough",
+	  "tm:dig",
+	  "tm:metalclaw",
+    "tm:payback",
+    "tm:protect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:sleeptalk",
+	  "tm:stealthrock",
+    "tm:snore",
+    "tm:substitute",
+    "tm:takedown",
+	  "tm:hiddenpower",
+	  "tm:terablast"
+  ],
+  "labels": [
+    "lumora","cotere"
+  ],
+  "pokedex": [
+    "cobblemon.species.dubfool.desc"
+  ],
+  "preEvolution": "woofloo",
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1,
+    "height": 1.3,
+    "fixed": false
+  },
+
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 500,
+  "evolutions": []
+}

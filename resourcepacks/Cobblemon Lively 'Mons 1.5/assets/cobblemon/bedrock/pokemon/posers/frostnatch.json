@@ -1,0 +1,55 @@
+{
+    "head": "head",
+    "portraitScale": 3,
+    "portraitTranslation": [ -0.18, -2.4, 0],
+    "profileScale": 1.5,
+    "profileTranslation": [ 0, -0.4, 0 ],
+    "animations": {
+    "cry": "q.bedrock_stateful('frostnatch', 'cry')",
+    "faint": "q.bedrock_primary('frostnatch', 'faint', q.curve('one'))"
+    },
+    "poses": {
+    "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+        ],
+        "animations": [
+        "look",
+        "bedrock(frostnatch, ground_idle)"
+        ]
+    },
+    "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": [ "WALK" ],
+        "animations": [ "look",
+         "bedrock(frostnatch, ground_walk)" ]
+    },
+    "floating": {
+        "poseName": "floating",
+        "transformTicks": 10,
+        "poseTypes": [ "FLOAT" ],
+        "animations": [  "look",
+        "bedrock(frostnatch, water_idle)" ]
+    },
+    "swimming": {
+        "poseName": "swimming",
+        "transformTicks": 10,
+        "poseTypes": [ "SWIM" ],
+        "animations": [ "look", 
+        "bedrock(frostnatch, water_swim)" ]
+        },
+	
+    "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": [ "SLEEP" ],
+        "animations": [ "bedrock(frostnatch, sleep)"]
+    }
+  }
+}

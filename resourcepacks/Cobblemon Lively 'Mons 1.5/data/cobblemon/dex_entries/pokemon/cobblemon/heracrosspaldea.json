@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:heracrosspaldea",
+    "speciesId": "cobblemon:heracross",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Paldea",
+        "unlockForms": [
+          "Paldea"
+        ]
+      }
+    ],
+    "variations": []
+  }

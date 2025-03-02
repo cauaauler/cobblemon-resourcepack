@@ -1,0 +1,101 @@
+{
+  "implemented": true,
+  "name": "witherich",
+  "nationalPokedexNumber": 2016,
+  "primaryType": "dark",
+  "secondaryType": "ghost",
+  "abilities": [
+    "pressure",
+    "intimidate",
+    "h:skilllink"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 90,
+    "defence": 110,
+    "special_attack": 130,
+    "special_defence": 80,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 5,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "eggCycles": 25,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:rockthrow",
+    "1:screech",
+    "8:protect",
+    "12:bite",
+    "18:barbbarrage",
+    "22:nastyplot",
+    "28:toxicspikes",
+    "30:crunch",
+    "35:darkpulse",
+    "40:iciclespear",
+    "42:shadowball",
+    "50:ominouswind",
+    "55:tailwind",
+    "80:dracometeor",
+    "25:fireblast",
+    "48:hydropump",
+    "10:toxic"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.witherich.desc1",
+    "cobblemon.species.witherich.desc2"
+  ],
+  "baseScale": 2,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.8,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 90,
+  "evolutions": []
+}

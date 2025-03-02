@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:equirin",
+    "speciesId": "cobblemon:equirin",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

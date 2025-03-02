@@ -1,0 +1,13 @@
+{
+    "id": "cobblemon:ranabyss",
+    "speciesId": "cobblemon:ranabyss",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+      }
+    ],
+    "variations": []
+  }

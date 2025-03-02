@@ -1,0 +1,30 @@
+{
+    "species": "cobblemon:sunflora",
+    "order": 5,
+    "variations": [
+      {
+        "aspects": [ "sunflora-variant-classic" ],
+        "texture": "cobblemon:textures/pokemon/0192_sunflora/sunflora_classic.png"
+      },
+      {
+        "aspects": [ "sunflora-variant-classic", "shiny" ],
+        "texture": "cobblemon:textures/pokemon/0192_sunflora/sunflora_classic_shiny.png"
+      },
+      {
+        "aspects": [ "sunflora-variant-leucistic" ],
+        "texture": "cobblemon:textures/pokemon/0192_sunflora/sunflora_leucistic.png"
+      },
+      {
+        "aspects": [ "sunflora-variant-leucistic", "shiny" ],
+        "texture": "cobblemon:textures/pokemon/0192_sunflora/sunflora_leucistic_shiny.png"
+      },
+      {
+        "aspects": [ "sunflora-variant-blazing" ],
+        "texture": "cobblemon:textures/pokemon/0192_sunflora/sunflora_blazing.png"
+      },
+      {
+        "aspects": [ "sunflora-variant-blazing", "shiny" ],
+        "texture": "cobblemon:textures/pokemon/0192_sunflora/sunflora_blazing_shiny.png"
+      }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "portraitScale": 1.59,
+    "portraitTranslation": [-0.2, 1.87, 0],
+    "profileScale": 0.55,
+    "profileTranslation": [0, 0.95, 0],
+    "animations": {
+      "faint": "q.bedrock_primary('canjitsu', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('canjitsu', 'cry')",
+      "recoil": "q.bedrock_stateful('canjitsu', 'recoil')"
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "namedAnimations": {
+        },
+        "animations": ["q.look('head')", "q.bedrock('canjitsu', 'battle_idle')"],
+        "quirks": [
+          "q.bedrock_quirk('canjitsu', 'blink')"
+        ]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": ["q.look('head')", "q.bedrock('canjitsu', 'ground_idle')"],
+        "quirks": [
+          "q.bedrock_quirk('canjitsu', 'blink')"
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK"],
+        "animations": ["q.look('head')", "q.bedrock('canjitsu', 'ground_walk')"],
+        "quirks": [
+          "q.bedrock_quirk('canjitsu', 'blink')"
+        ]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "animations": ["q.bedrock('canjitsu', 'sleep')"],
+        "quirks": [
+        ]
+      }
+    }
+  }  
