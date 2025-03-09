@@ -1,6 +1,6 @@
 some pokemons on the jungle, plains and beach crash the game, idk what mob is
 
-
+adicionar o rotom apliance
 
 lines that arent added yet
 
@@ -25,8 +25,6 @@ oricorio
 oranguru
 
 passimian
-
-type null
 
 drampa
 
