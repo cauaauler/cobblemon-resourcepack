@@ -1,5 +1,8 @@
 some pokemons on the jungle, plains and beach crash the game, idk what mob is
 
+ i think beach is working now
+
+
 adicionar o rotom apliance
 
 lines that arent added yet
