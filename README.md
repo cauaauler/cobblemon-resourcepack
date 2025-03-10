@@ -1,4 +1,4 @@
-some pokemons on the jungle, plains and beach crash the game, idk what mob is
+some pokemons on the jungle, plains crash the game, idk what mob is
 
  i think beach is working now
 
