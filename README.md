@@ -1,8 +1,6 @@
 some pokemons on the jungle, plains crash the game, idk what mob is
 
 
-adicionar o rotom apliance
-
 lines that arent added yet
 
 burmy
