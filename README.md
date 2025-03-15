@@ -1,3 +1,5 @@
+Lembrar de desabilitar o vsync, isso trava tudo
+
 lines that arent added yet
 
 burmy
