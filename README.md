@@ -2,6 +2,9 @@ Lembrar de desabilitar o vsync, isso trava tudo
 atualizar o grown and gather
 mudar o mod de montar nos pokemons
 
+tem uns pokemons bugados
+
+
 
 lines that arent added yet
 
