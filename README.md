@@ -2,11 +2,6 @@ Lembrar de desabilitar o vsync, isso trava tudo
 atualizar o grown and gather
 mudar o mod de montar nos pokemons
 
-tem uns pokemons bugados
-
-fim de semana testo essa jossa, agora acho que vai rodar
-
-
 lines that arent added yet
 
 burmy
