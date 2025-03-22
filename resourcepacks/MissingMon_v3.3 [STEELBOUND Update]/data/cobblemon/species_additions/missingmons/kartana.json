@@ -1,9 +1,0 @@
-{
-    "target": "cobblemon:kartana",
-  "baseScale": 0.3,
-  "hitbox": {
-    "width": 1,
-    "height": 1.9,
-    "fixed": false
-  }
-}
