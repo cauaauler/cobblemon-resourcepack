@@ -1,5 +1,3 @@
-lembrar de colocar o modpack aqui também
-
 
 lines that arent added yet
 
