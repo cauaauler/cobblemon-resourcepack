@@ -1,6 +1,0 @@
-{
-  "keys": ["three-segment"],
-  "type": "flag",
-  "isAspect": true,
-  "default": false
-}
