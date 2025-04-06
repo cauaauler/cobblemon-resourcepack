@@ -6,10 +6,6 @@ lines that arent added yet
 
 burmy
 
-cherubi
-
-elemental monkeys
-
 blitze
 
 mienfoo
